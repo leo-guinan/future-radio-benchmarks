@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+artifacts/
+runs/
+recipes/*/render-studio/dist/

@@ -1,0 +1,3625 @@
+{
+  "kind": "episode_script",
+  "schemaVersion": 1,
+  "episodeId": "the-benchmark-episode",
+  "revision": 1,
+  "title": "The Benchmark Episode",
+  "characters": [
+    {
+      "id": "leonardo",
+      "name": "Leonardo",
+      "description": "Enthusiastic maker; builds the experiment."
+    },
+    {
+      "id": "borges",
+      "name": "Borges",
+      "description": "Wry librarian; asks what the measurements mean."
+    },
+    {
+      "id": "agnolo",
+      "name": "Agnolo",
+      "description": "Dry accountant, through the radio; insists on actual costs."
+    },
+    {
+      "id": "the-unspoken-orchestra",
+      "name": "The Unspoken Orchestra",
+      "description": "Non-speaking musical ensemble; authored instrumental cues."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "COLD OPEN — EVERYONE HAS A SCORE",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0001",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 12,
+          "sourceLineEnd": 12,
+          "type": "sound_direction",
+          "direction": "A stadium crowd. Thousands of voices cheering. A scoreboard buzzes. An enormous mechanical counter advances."
+        },
+        {
+          "id": "event-0002",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 14,
+          "sourceLineEnd": 14,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What's happening?"
+        },
+        {
+          "id": "event-0003",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 16,
+          "sourceLineEnd": 16,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A competition."
+        },
+        {
+          "id": "event-0004",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 18,
+          "sourceLineEnd": 18,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Who's winning?"
+        },
+        {
+          "id": "event-0005",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 20,
+          "sourceLineEnd": 20,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Everyone."
+        },
+        {
+          "id": "event-0006",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 22,
+          "sourceLineEnd": 22,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Everyone?"
+        },
+        {
+          "id": "event-0007",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 24,
+          "sourceLineEnd": 24,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "According to their own benchmarks."
+        },
+        {
+          "id": "event-0008",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 26,
+          "sourceLineEnd": 26,
+          "type": "sound_direction",
+          "direction": "Applause. A bell rings. More applause."
+        },
+        {
+          "id": "event-0009",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 28,
+          "sourceLineEnd": 28,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "That's not possible."
+        },
+        {
+          "id": "event-0010",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 30,
+          "sourceLineEnd": 30,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Quite possible. One measures mathematics. Another measures code. Another measures whether the machine knows which strawberry is larger."
+        },
+        {
+          "id": "event-0011",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 32,
+          "sourceLineEnd": 32,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Is it?"
+        },
+        {
+          "id": "event-0012",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 34,
+          "sourceLineEnd": 34,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Apparently."
+        },
+        {
+          "id": "event-0013",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 36,
+          "sourceLineEnd": 36,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And who measures the people measuring the strawberries?"
+        },
+        {
+          "id": "event-0014",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 38,
+          "sourceLineEnd": 38,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Nobody. That would require another benchmark."
+        },
+        {
+          "id": "event-0015",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 40,
+          "sourceLineEnd": 40,
+          "type": "sound_direction",
+          "direction": "A scoreboard explodes into applause."
+        },
+        {
+          "id": "event-0016",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 42,
+          "sourceLineEnd": 42,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We need one."
+        },
+        {
+          "id": "event-0017",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 44,
+          "sourceLineEnd": 44,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "A strawberry?"
+        },
+        {
+          "id": "event-0018",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 46,
+          "sourceLineEnd": 46,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A benchmark!"
+        },
+        {
+          "id": "event-0019",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 48,
+          "sourceLineEnd": 48,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "For what?"
+        },
+        {
+          "id": "event-0020",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 50,
+          "sourceLineEnd": 50,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Us."
+        },
+        {
+          "id": "event-0021",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 52,
+          "sourceLineEnd": 52,
+          "type": "pause",
+          "direction": "Silence.",
+          "targetDurationSeconds": 1.5
+        },
+        {
+          "id": "event-0022",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 54,
+          "sourceLineEnd": 54,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Oh, dear."
+        },
+        {
+          "id": "event-0023",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 56,
+          "sourceLineEnd": 56,
+          "type": "music_direction",
+          "direction": "THE UNSPOKEN ORCHESTRA strikes a single uncertain note."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "title": "SCENE ONE — THE COMMITTEE",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0024",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 58,
+          "sourceLineEnd": 58,
+          "type": "sound_direction",
+          "direction": "A table unfolds. Three chairs scrape across the floor. A fourth chair appears, unoccupied."
+        },
+        {
+          "id": "event-0025",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 60,
+          "sourceLineEnd": 60,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "I propose a test of literary comprehension."
+        },
+        {
+          "id": "event-0026",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 62,
+          "sourceLineEnd": 62,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Rejected."
+        },
+        {
+          "id": "event-0027",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 64,
+          "sourceLineEnd": 64,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "You haven't heard it."
+        },
+        {
+          "id": "event-0028",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 66,
+          "sourceLineEnd": 66,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "How much does it cost?"
+        },
+        {
+          "id": "event-0029",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 68,
+          "sourceLineEnd": 68,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "That depends on the library."
+        },
+        {
+          "id": "event-0030",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 70,
+          "sourceLineEnd": 70,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Rejected."
+        },
+        {
+          "id": "event-0031",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 72,
+          "sourceLineEnd": 72,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "I propose a creativity benchmark."
+        },
+        {
+          "id": "event-0032",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 74,
+          "sourceLineEnd": 74,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Define creativity."
+        },
+        {
+          "id": "event-0033",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 76,
+          "sourceLineEnd": 76,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Something that hasn't existed before."
+        },
+        {
+          "id": "event-0034",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 78,
+          "sourceLineEnd": 78,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Most mistakes qualify."
+        },
+        {
+          "id": "event-0035",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 80,
+          "sourceLineEnd": 80,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Rejected."
+        },
+        {
+          "id": "event-0036",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 82,
+          "sourceLineEnd": 82,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Fine. Your turn."
+        },
+        {
+          "id": "event-0037",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 84,
+          "sourceLineEnd": 84,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Profit."
+        },
+        {
+          "id": "event-0038",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 86,
+          "sourceLineEnd": 86,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Define profit."
+        },
+        {
+          "id": "event-0039",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 88,
+          "sourceLineEnd": 88,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Money received minus money spent."
+        },
+        {
+          "id": "event-0040",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 90,
+          "sourceLineEnd": 90,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What about something valuable that hasn't earned money yet?"
+        },
+        {
+          "id": "event-0041",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 92,
+          "sourceLineEnd": 92,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "That's called an expense."
+        },
+        {
+          "id": "event-0042",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 94,
+          "sourceLineEnd": 94,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "What about a library?"
+        },
+        {
+          "id": "event-0043",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 96,
+          "sourceLineEnd": 96,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "An enormous expense."
+        },
+        {
+          "id": "event-0044",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 98,
+          "sourceLineEnd": 98,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A painting?"
+        },
+        {
+          "id": "event-0045",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 100,
+          "sourceLineEnd": 100,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Depends on the buyer."
+        },
+        {
+          "id": "event-0046",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 102,
+          "sourceLineEnd": 102,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A friendship?"
+        },
+        {
+          "id": "event-0047",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 104,
+          "sourceLineEnd": 104,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Stop doing that."
+        },
+        {
+          "id": "event-0048",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 106,
+          "sourceLineEnd": 106,
+          "type": "sound_direction",
+          "direction": "Pencil scratching."
+        },
+        {
+          "id": "event-0049",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 108,
+          "sourceLineEnd": 108,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What if we tested all three?"
+        },
+        {
+          "id": "event-0050",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 110,
+          "sourceLineEnd": 110,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "We'd have three incompatible scores."
+        },
+        {
+          "id": "event-0051",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 112,
+          "sourceLineEnd": 112,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Which would be entirely consistent with the rest of the industry."
+        },
+        {
+          "id": "event-0052",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 114,
+          "sourceLineEnd": 114,
+          "type": "music_direction",
+          "direction": "THE ORCHESTRA plays a triumphant fanfare. It immediately collapses."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "title": "SCENE TWO — THE MISSING MEASUREMENT",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0053",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 116,
+          "sourceLineEnd": 116,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Wait. What are we actually trying to do?"
+        },
+        {
+          "id": "event-0054",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 118,
+          "sourceLineEnd": 118,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Produce Future Radio."
+        },
+        {
+          "id": "event-0055",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 120,
+          "sourceLineEnd": 120,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Without going bankrupt."
+        },
+        {
+          "id": "event-0056",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 122,
+          "sourceLineEnd": 122,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "And get people to listen."
+        },
+        {
+          "id": "event-0057",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 124,
+          "sourceLineEnd": 124,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Preferably."
+        },
+        {
+          "id": "event-0058",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 126,
+          "sourceLineEnd": 126,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "And make more of it."
+        },
+        {
+          "id": "event-0059",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 128,
+          "sourceLineEnd": 128,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "With what money?"
+        },
+        {
+          "id": "event-0060",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 130,
+          "sourceLineEnd": 130,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "That's the problem!"
+        },
+        {
+          "id": "event-0061",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 132,
+          "sourceLineEnd": 132,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Which problem?"
+        },
+        {
+          "id": "event-0062",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 134,
+          "sourceLineEnd": 134,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We don't know what it costs to make the show."
+        },
+        {
+          "id": "event-0063",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 136,
+          "sourceLineEnd": 136,
+          "type": "pause",
+          "direction": "Silence.",
+          "targetDurationSeconds": 1.5
+        },
+        {
+          "id": "event-0064",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 138,
+          "sourceLineEnd": 138,
+          "type": "sound_direction",
+          "direction": "A ledger slams shut."
+        },
+        {
+          "id": "event-0065",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 140,
+          "sourceLineEnd": 140,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "I have been saying that for weeks."
+        },
+        {
+          "id": "event-0066",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 142,
+          "sourceLineEnd": 142,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "You keep telling us what we've spent."
+        },
+        {
+          "id": "event-0067",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 144,
+          "sourceLineEnd": 144,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Yes."
+        },
+        {
+          "id": "event-0068",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 146,
+          "sourceLineEnd": 146,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Not what it should cost."
+        },
+        {
+          "id": "event-0069",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 148,
+          "sourceLineEnd": 148,
+          "type": "pause",
+          "direction": "Pause.",
+          "targetDurationSeconds": 1.2
+        },
+        {
+          "id": "event-0070",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 150,
+          "sourceLineEnd": 150,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "...Continue."
+        },
+        {
+          "id": "event-0071",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 152,
+          "sourceLineEnd": 152,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Every episode is different. Different scripts. Different models. Different voices. Different production processes."
+        },
+        {
+          "id": "event-0072",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 154,
+          "sourceLineEnd": 154,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Different failures."
+        },
+        {
+          "id": "event-0073",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 156,
+          "sourceLineEnd": 156,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "And we're learning things every time. But we can't compare the results."
+        },
+        {
+          "id": "event-0074",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 158,
+          "sourceLineEnd": 158,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Because we have no standard unit."
+        },
+        {
+          "id": "event-0075",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 160,
+          "sourceLineEnd": 160,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A standardized radio episode."
+        },
+        {
+          "id": "event-0076",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 162,
+          "sourceLineEnd": 162,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Exactly!"
+        },
+        {
+          "id": "event-0077",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 164,
+          "sourceLineEnd": 164,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A tragic phrase."
+        },
+        {
+          "id": "event-0078",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 166,
+          "sourceLineEnd": 166,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "I like it."
+        },
+        {
+          "id": "event-0079",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 168,
+          "sourceLineEnd": 168,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We need a benchmark episode."
+        },
+        {
+          "id": "event-0080",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 170,
+          "sourceLineEnd": 170,
+          "type": "sound_direction",
+          "direction": "A small bell."
+        },
+        {
+          "id": "event-0081",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 172,
+          "sourceLineEnd": 172,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "What would it measure?"
+        },
+        {
+          "id": "event-0082",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 174,
+          "sourceLineEnd": 174,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Everything we need to know to make the next one better."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "title": "SCENE THREE — WHAT DOES AN EPISODE COST?",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0083",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 176,
+          "sourceLineEnd": 176,
+          "type": "sound_direction",
+          "direction": "Agnolo opens an enormous ledger. Pages turn faster and faster."
+        },
+        {
+          "id": "event-0084",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 178,
+          "sourceLineEnd": 178,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Very well. Let us begin. What does an episode require?"
+        },
+        {
+          "id": "event-0085",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 180,
+          "sourceLineEnd": 180,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "An idea."
+        },
+        {
+          "id": "event-0086",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 182,
+          "sourceLineEnd": 182,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Cost?"
+        },
+        {
+          "id": "event-0087",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 184,
+          "sourceLineEnd": 184,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Nothing."
+        },
+        {
+          "id": "event-0088",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 186,
+          "sourceLineEnd": 186,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Debatable."
+        },
+        {
+          "id": "event-0089",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 188,
+          "sourceLineEnd": 188,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "A script?"
+        },
+        {
+          "id": "event-0090",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 190,
+          "sourceLineEnd": 190,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Compute."
+        },
+        {
+          "id": "event-0091",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 192,
+          "sourceLineEnd": 192,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "How much?"
+        },
+        {
+          "id": "event-0092",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 194,
+          "sourceLineEnd": 194,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Depends on the model."
+        },
+        {
+          "id": "event-0093",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 196,
+          "sourceLineEnd": 196,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Voices?"
+        },
+        {
+          "id": "event-0094",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 198,
+          "sourceLineEnd": 198,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Compute."
+        },
+        {
+          "id": "event-0095",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 200,
+          "sourceLineEnd": 200,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Music?"
+        },
+        {
+          "id": "event-0096",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 202,
+          "sourceLineEnd": 202,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Compute."
+        },
+        {
+          "id": "event-0097",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 204,
+          "sourceLineEnd": 204,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Video?"
+        },
+        {
+          "id": "event-0098",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 206,
+          "sourceLineEnd": 206,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "More compute."
+        },
+        {
+          "id": "event-0099",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 208,
+          "sourceLineEnd": 208,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Editing?"
+        },
+        {
+          "id": "event-0100",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 210,
+          "sourceLineEnd": 210,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Compute and time."
+        },
+        {
+          "id": "event-0101",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 212,
+          "sourceLineEnd": 212,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Publishing?"
+        },
+        {
+          "id": "event-0102",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 214,
+          "sourceLineEnd": 214,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Mostly time."
+        },
+        {
+          "id": "event-0103",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 216,
+          "sourceLineEnd": 216,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Promotion?"
+        },
+        {
+          "id": "event-0104",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 218,
+          "sourceLineEnd": 218,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Sometimes money."
+        },
+        {
+          "id": "event-0105",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 220,
+          "sourceLineEnd": 220,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Human labor?"
+        },
+        {
+          "id": "event-0106",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 222,
+          "sourceLineEnd": 222,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We should measure that separately."
+        },
+        {
+          "id": "event-0107",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 224,
+          "sourceLineEnd": 224,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Electricity?"
+        },
+        {
+          "id": "event-0108",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 226,
+          "sourceLineEnd": 226,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Yes."
+        },
+        {
+          "id": "event-0109",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 228,
+          "sourceLineEnd": 228,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Hardware?"
+        },
+        {
+          "id": "event-0110",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 230,
+          "sourceLineEnd": 230,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Yes!"
+        },
+        {
+          "id": "event-0111",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 232,
+          "sourceLineEnd": 232,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Opportunity cost?"
+        },
+        {
+          "id": "event-0112",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 234,
+          "sourceLineEnd": 234,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Agnolo."
+        },
+        {
+          "id": "event-0113",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 236,
+          "sourceLineEnd": 236,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Depreciation?"
+        },
+        {
+          "id": "event-0114",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 238,
+          "sourceLineEnd": 238,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Agnolo!"
+        },
+        {
+          "id": "event-0115",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 240,
+          "sourceLineEnd": 240,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Accounting is not the enemy of art, Leonardo."
+        },
+        {
+          "id": "event-0116",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 242,
+          "sourceLineEnd": 242,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Merely its most persistent biographer."
+        },
+        {
+          "id": "event-0117",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 244,
+          "sourceLineEnd": 244,
+          "type": "music_direction",
+          "direction": "The Orchestra introduces a rhythm. Agnolo's percussion ticks like a metronome."
+        },
+        {
+          "id": "event-0118",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 246,
+          "sourceLineEnd": 246,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Here's what I want to know. If somebody has a machine, and an hour, and an idea, can they make an episode?"
+        },
+        {
+          "id": "event-0119",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 248,
+          "sourceLineEnd": 248,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Probably."
+        },
+        {
+          "id": "event-0120",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 250,
+          "sourceLineEnd": 250,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "How cheaply?"
+        },
+        {
+          "id": "event-0121",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 252,
+          "sourceLineEnd": 252,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "We don't know."
+        },
+        {
+          "id": "event-0122",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 254,
+          "sourceLineEnd": 254,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "How well?"
+        },
+        {
+          "id": "event-0123",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 256,
+          "sourceLineEnd": 256,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "We don't know."
+        },
+        {
+          "id": "event-0124",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 258,
+          "sourceLineEnd": 258,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Will anyone watch it?"
+        },
+        {
+          "id": "event-0125",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 260,
+          "sourceLineEnd": 260,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "We don't know."
+        },
+        {
+          "id": "event-0126",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 262,
+          "sourceLineEnd": 262,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Could it accomplish something?"
+        },
+        {
+          "id": "event-0127",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 264,
+          "sourceLineEnd": 264,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "We don't know."
+        },
+        {
+          "id": "event-0128",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 266,
+          "sourceLineEnd": 266,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Then there's our benchmark."
+        },
+        {
+          "id": "event-0129",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 268,
+          "sourceLineEnd": 268,
+          "type": "pause",
+          "direction": "Silence.",
+          "targetDurationSeconds": 1.5
+        },
+        {
+          "id": "event-0130",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 270,
+          "sourceLineEnd": 270,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Four questions."
+        },
+        {
+          "id": "event-0131",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 272,
+          "sourceLineEnd": 272,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Four questions."
+        },
+        {
+          "id": "event-0132",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 274,
+          "sourceLineEnd": 274,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "And no answers."
+        },
+        {
+          "id": "event-0133",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 276,
+          "sourceLineEnd": 276,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Yet."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "title": "SCENE FOUR — THE MINER",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0134",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 278,
+          "sourceLineEnd": 278,
+          "type": "sound_direction",
+          "direction": "A faint mechanical hum, almost lost beneath the orchestra."
+        },
+        {
+          "id": "event-0135",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 280,
+          "sourceLineEnd": 280,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "There's still the matter of paying for it."
+        },
+        {
+          "id": "event-0136",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 282,
+          "sourceLineEnd": 282,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What if we didn't?"
+        },
+        {
+          "id": "event-0137",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 284,
+          "sourceLineEnd": 284,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "No."
+        },
+        {
+          "id": "event-0138",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 286,
+          "sourceLineEnd": 286,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What if someone else generated it?"
+        },
+        {
+          "id": "event-0139",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 288,
+          "sourceLineEnd": 288,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "That's not the same as free."
+        },
+        {
+          "id": "event-0140",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 290,
+          "sourceLineEnd": 290,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "I didn't say free. I said someone else."
+        },
+        {
+          "id": "event-0141",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 292,
+          "sourceLineEnd": 292,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Ah. Distributed authorship."
+        },
+        {
+          "id": "event-0142",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 294,
+          "sourceLineEnd": 294,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Distributed invoices."
+        },
+        {
+          "id": "event-0143",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 296,
+          "sourceLineEnd": 296,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "There's a system called Hashference. You can pay for inference with computational work."
+        },
+        {
+          "id": "event-0144",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 298,
+          "sourceLineEnd": 298,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A machine thinking in exchange for another machine working."
+        },
+        {
+          "id": "event-0145",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 300,
+          "sourceLineEnd": 300,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Work has a cost."
+        },
+        {
+          "id": "event-0146",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 302,
+          "sourceLineEnd": 302,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Exactly! We measure it."
+        },
+        {
+          "id": "event-0147",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 304,
+          "sourceLineEnd": 304,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Better."
+        },
+        {
+          "id": "event-0148",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 306,
+          "sourceLineEnd": 306,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "And then we ask other people to run the same experiment."
+        },
+        {
+          "id": "event-0149",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 308,
+          "sourceLineEnd": 308,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "On their own machines?"
+        },
+        {
+          "id": "event-0150",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 310,
+          "sourceLineEnd": 310,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Or different models. Different tools. Different approaches."
+        },
+        {
+          "id": "event-0151",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 312,
+          "sourceLineEnd": 312,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And submit their results?"
+        },
+        {
+          "id": "event-0152",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 314,
+          "sourceLineEnd": 314,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Yes!"
+        },
+        {
+          "id": "event-0153",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 316,
+          "sourceLineEnd": 316,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "So the benchmark is open."
+        },
+        {
+          "id": "event-0154",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 318,
+          "sourceLineEnd": 318,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Completely."
+        },
+        {
+          "id": "event-0155",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 320,
+          "sourceLineEnd": 320,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "What prevents them from lying?"
+        },
+        {
+          "id": "event-0156",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 322,
+          "sourceLineEnd": 322,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Receipts. Reproducible instructions. Public submissions."
+        },
+        {
+          "id": "event-0157",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 324,
+          "sourceLineEnd": 324,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "What prevents them from making terrible episodes?"
+        },
+        {
+          "id": "event-0158",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 326,
+          "sourceLineEnd": 326,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Nothing."
+        },
+        {
+          "id": "event-0159",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 328,
+          "sourceLineEnd": 328,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Leonardo!"
+        },
+        {
+          "id": "event-0160",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 330,
+          "sourceLineEnd": 330,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We can measure that too!"
+        },
+        {
+          "id": "event-0161",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 332,
+          "sourceLineEnd": 332,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "An enormous quantity of terrible episodes."
+        },
+        {
+          "id": "event-0162",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 334,
+          "sourceLineEnd": 334,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Maybe. But think about what happens if somebody makes a good one for a tenth of what ours costs."
+        },
+        {
+          "id": "event-0163",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 336,
+          "sourceLineEnd": 336,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "We learn how."
+        },
+        {
+          "id": "event-0164",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 338,
+          "sourceLineEnd": 338,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "And somebody else makes one for a tenth of that."
+        },
+        {
+          "id": "event-0165",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 340,
+          "sourceLineEnd": 340,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Assuming the quality survives."
+        },
+        {
+          "id": "event-0166",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 342,
+          "sourceLineEnd": 342,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Then we measure quality too!"
+        },
+        {
+          "id": "event-0167",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 344,
+          "sourceLineEnd": 344,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A race toward zero."
+        },
+        {
+          "id": "event-0168",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 346,
+          "sourceLineEnd": 346,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "With a minimum acceptable result."
+        },
+        {
+          "id": "event-0169",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 348,
+          "sourceLineEnd": 348,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Yes!"
+        },
+        {
+          "id": "event-0170",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 350,
+          "sourceLineEnd": 350,
+          "type": "sound_direction",
+          "direction": "The mechanical hum grows. A mining fan spins up."
+        },
+        {
+          "id": "event-0171",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 352,
+          "sourceLineEnd": 352,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "What is that noise?"
+        },
+        {
+          "id": "event-0172",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 354,
+          "sourceLineEnd": 354,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A Bitaxe."
+        },
+        {
+          "id": "event-0173",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 356,
+          "sourceLineEnd": 356,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "What's it doing?"
+        },
+        {
+          "id": "event-0174",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 358,
+          "sourceLineEnd": 358,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Trying."
+        },
+        {
+          "id": "event-0175",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 360,
+          "sourceLineEnd": 360,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "At what?"
+        },
+        {
+          "id": "event-0176",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 362,
+          "sourceLineEnd": 362,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Mining."
+        },
+        {
+          "id": "event-0177",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 364,
+          "sourceLineEnd": 364,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Is it succeeding?"
+        },
+        {
+          "id": "event-0178",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 366,
+          "sourceLineEnd": 366,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Not much."
+        },
+        {
+          "id": "event-0179",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 368,
+          "sourceLineEnd": 368,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Then why is it running?"
+        },
+        {
+          "id": "event-0180",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 370,
+          "sourceLineEnd": 370,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Because it's not nothing."
+        },
+        {
+          "id": "event-0181",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 372,
+          "sourceLineEnd": 372,
+          "type": "music_direction",
+          "direction": "The Orchestra picks up the hum and turns it into a sustained note."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    },
+    {
+      "id": "scene-06",
+      "title": "SCENE FIVE — AN EPISODE MUST DO SOMETHING",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0182",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 374,
+          "sourceLineEnd": 374,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "We have a problem."
+        },
+        {
+          "id": "event-0183",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 376,
+          "sourceLineEnd": 376,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Another one?"
+        },
+        {
+          "id": "event-0184",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 378,
+          "sourceLineEnd": 378,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A cheap episode need not be an interesting episode."
+        },
+        {
+          "id": "event-0185",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 380,
+          "sourceLineEnd": 380,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Correct."
+        },
+        {
+          "id": "event-0186",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 382,
+          "sourceLineEnd": 382,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "An interesting episode need not be a useful episode."
+        },
+        {
+          "id": "event-0187",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 384,
+          "sourceLineEnd": 384,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Also correct."
+        },
+        {
+          "id": "event-0188",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 386,
+          "sourceLineEnd": 386,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "And a useful episode may be extraordinarily expensive."
+        },
+        {
+          "id": "event-0189",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 388,
+          "sourceLineEnd": 388,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Unfortunately correct."
+        },
+        {
+          "id": "event-0190",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 390,
+          "sourceLineEnd": 390,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "So what do we do?"
+        },
+        {
+          "id": "event-0191",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 392,
+          "sourceLineEnd": 392,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Give the episode a goal."
+        },
+        {
+          "id": "event-0192",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 394,
+          "sourceLineEnd": 394,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A goal?"
+        },
+        {
+          "id": "event-0193",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 396,
+          "sourceLineEnd": 396,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Something outside the episode itself."
+        },
+        {
+          "id": "event-0194",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 398,
+          "sourceLineEnd": 398,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Measurable."
+        },
+        {
+          "id": "event-0195",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 400,
+          "sourceLineEnd": 400,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Perhaps it must persuade someone to read a book."
+        },
+        {
+          "id": "event-0196",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 402,
+          "sourceLineEnd": 402,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Or purchase one."
+        },
+        {
+          "id": "event-0197",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 404,
+          "sourceLineEnd": 404,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Or convince somebody to make another episode."
+        },
+        {
+          "id": "event-0198",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 406,
+          "sourceLineEnd": 406,
+          "type": "pause",
+          "direction": "Pause.",
+          "targetDurationSeconds": 1.2
+        },
+        {
+          "id": "event-0199",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 408,
+          "sourceLineEnd": 408,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Now that is interesting."
+        },
+        {
+          "id": "event-0200",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 410,
+          "sourceLineEnd": 410,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Why?"
+        },
+        {
+          "id": "event-0201",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 412,
+          "sourceLineEnd": 412,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Because a successful episode could produce its own successor."
+        },
+        {
+          "id": "event-0202",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 414,
+          "sourceLineEnd": 414,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Exactly."
+        },
+        {
+          "id": "event-0203",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 416,
+          "sourceLineEnd": 416,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "And the successor could improve the process."
+        },
+        {
+          "id": "event-0204",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 418,
+          "sourceLineEnd": 418,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "If it records its costs."
+        },
+        {
+          "id": "event-0205",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 420,
+          "sourceLineEnd": 420,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "And the next one learns from both."
+        },
+        {
+          "id": "event-0206",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 422,
+          "sourceLineEnd": 422,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A library that writes itself."
+        },
+        {
+          "id": "event-0207",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 424,
+          "sourceLineEnd": 424,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "A ledger that balances itself."
+        },
+        {
+          "id": "event-0208",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 426,
+          "sourceLineEnd": 426,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A radio show that makes itself!"
+        },
+        {
+          "id": "event-0209",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 428,
+          "sourceLineEnd": 428,
+          "type": "music_direction",
+          "direction": "The Orchestra starts a glorious crescendo."
+        },
+        {
+          "id": "event-0210",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 430,
+          "sourceLineEnd": 430,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Not yet."
+        },
+        {
+          "id": "event-0211",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 432,
+          "sourceLineEnd": 432,
+          "type": "music_direction",
+          "direction": "The crescendo stops."
+        },
+        {
+          "id": "event-0212",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 434,
+          "sourceLineEnd": 434,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "We still have to make the first one."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    },
+    {
+      "id": "scene-07",
+      "title": "SCENE SIX — THE BENCHMARK",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0213",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 436,
+          "sourceLineEnd": 436,
+          "type": "sound_direction",
+          "direction": "A clock begins ticking."
+        },
+        {
+          "id": "event-0214",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 438,
+          "sourceLineEnd": 438,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Fine. Let's make one."
+        },
+        {
+          "id": "event-0215",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 440,
+          "sourceLineEnd": 440,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "What is the goal?"
+        },
+        {
+          "id": "event-0216",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 442,
+          "sourceLineEnd": 442,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Produce a Future Radio episode."
+        },
+        {
+          "id": "event-0217",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 444,
+          "sourceLineEnd": 444,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "About what?"
+        },
+        {
+          "id": "event-0218",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 446,
+          "sourceLineEnd": 446,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Creating a benchmark."
+        },
+        {
+          "id": "event-0219",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 448,
+          "sourceLineEnd": 448,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "For what?"
+        },
+        {
+          "id": "event-0220",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 450,
+          "sourceLineEnd": 450,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Producing Future Radio episodes."
+        },
+        {
+          "id": "event-0221",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 452,
+          "sourceLineEnd": 452,
+          "type": "pause",
+          "direction": "Long silence.",
+          "targetDurationSeconds": 2.5
+        },
+        {
+          "id": "event-0222",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 454,
+          "sourceLineEnd": 454,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "I believe we've entered a loop."
+        },
+        {
+          "id": "event-0223",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 456,
+          "sourceLineEnd": 456,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "How much time do we have?"
+        },
+        {
+          "id": "event-0224",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 458,
+          "sourceLineEnd": 458,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Until the end of next week."
+        },
+        {
+          "id": "event-0225",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 460,
+          "sourceLineEnd": 460,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And the budget?"
+        },
+        {
+          "id": "event-0226",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 462,
+          "sourceLineEnd": 462,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "As little as possible."
+        },
+        {
+          "id": "event-0227",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 464,
+          "sourceLineEnd": 464,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "That's not a budget."
+        },
+        {
+          "id": "event-0228",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 466,
+          "sourceLineEnd": 466,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Fine. We establish a baseline first, then try to beat it."
+        },
+        {
+          "id": "event-0229",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 468,
+          "sourceLineEnd": 468,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Accepted."
+        },
+        {
+          "id": "event-0230",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 470,
+          "sourceLineEnd": 470,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "And what counts as success?"
+        },
+        {
+          "id": "event-0231",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 472,
+          "sourceLineEnd": 472,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "The episode exists. We know what it cost. We publish it. And at least one person tries to make a better one."
+        },
+        {
+          "id": "event-0232",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 474,
+          "sourceLineEnd": 474,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Better how?"
+        },
+        {
+          "id": "event-0233",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 476,
+          "sourceLineEnd": 476,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Cheaper. Faster. More interesting. More people watching. More people participating."
+        },
+        {
+          "id": "event-0234",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 478,
+          "sourceLineEnd": 478,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Those are different objectives."
+        },
+        {
+          "id": "event-0235",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 480,
+          "sourceLineEnd": 480,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Yes."
+        },
+        {
+          "id": "event-0236",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 482,
+          "sourceLineEnd": 482,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "They may conflict."
+        },
+        {
+          "id": "event-0237",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 484,
+          "sourceLineEnd": 484,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Yes!"
+        },
+        {
+          "id": "event-0238",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 486,
+          "sourceLineEnd": 486,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Different people will choose different approaches."
+        },
+        {
+          "id": "event-0239",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 488,
+          "sourceLineEnd": 488,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Exactly."
+        },
+        {
+          "id": "event-0240",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 490,
+          "sourceLineEnd": 490,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And we compare them all?"
+        },
+        {
+          "id": "event-0241",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 492,
+          "sourceLineEnd": 492,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We record them all. We compare what can be compared."
+        },
+        {
+          "id": "event-0242",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 494,
+          "sourceLineEnd": 494,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A benchmark with an open future."
+        },
+        {
+          "id": "event-0243",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 496,
+          "sourceLineEnd": 496,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Finally, a benchmark with proper accounting."
+        },
+        {
+          "id": "event-0244",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 498,
+          "sourceLineEnd": 498,
+          "type": "sound_direction",
+          "direction": "A pencil touches paper."
+        },
+        {
+          "id": "event-0245",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 500,
+          "sourceLineEnd": 500,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Episode title?"
+        },
+        {
+          "id": "event-0246",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 502,
+          "sourceLineEnd": 502,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "The Benchmark Episode."
+        },
+        {
+          "id": "event-0247",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 504,
+          "sourceLineEnd": 504,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Cost?"
+        },
+        {
+          "id": "event-0248",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 506,
+          "sourceLineEnd": 506,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Pending."
+        },
+        {
+          "id": "event-0249",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 508,
+          "sourceLineEnd": 508,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Duration?"
+        },
+        {
+          "id": "event-0250",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 510,
+          "sourceLineEnd": 510,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Pending."
+        },
+        {
+          "id": "event-0251",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 512,
+          "sourceLineEnd": 512,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Results?"
+        },
+        {
+          "id": "event-0252",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 514,
+          "sourceLineEnd": 514,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Pending."
+        },
+        {
+          "id": "event-0253",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 516,
+          "sourceLineEnd": 516,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "This is a terrible benchmark."
+        },
+        {
+          "id": "event-0254",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 518,
+          "sourceLineEnd": 518,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "It's the first one."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    },
+    {
+      "id": "scene-08",
+      "title": "SCENE SEVEN — THE INVITATION",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0255",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 520,
+          "sourceLineEnd": 520,
+          "type": "music_direction",
+          "direction": "The Orchestra begins playing the opening theme again, but this time the arrangement is simpler. Fewer instruments. The same melody."
+        },
+        {
+          "id": "event-0256",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 522,
+          "sourceLineEnd": 522,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "There's something else we haven't accounted for."
+        },
+        {
+          "id": "event-0257",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 524,
+          "sourceLineEnd": 524,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "What?"
+        },
+        {
+          "id": "event-0258",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 526,
+          "sourceLineEnd": 526,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "The audience."
+        },
+        {
+          "id": "event-0259",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 528,
+          "sourceLineEnd": 528,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What about them?"
+        },
+        {
+          "id": "event-0260",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 530,
+          "sourceLineEnd": 530,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "They've been listening to us design a benchmark."
+        },
+        {
+          "id": "event-0261",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 532,
+          "sourceLineEnd": 532,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "That's unfortunate."
+        },
+        {
+          "id": "event-0262",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 534,
+          "sourceLineEnd": 534,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "But now they know the rules."
+        },
+        {
+          "id": "event-0263",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 536,
+          "sourceLineEnd": 536,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "So?"
+        },
+        {
+          "id": "event-0264",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 538,
+          "sourceLineEnd": 538,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "They could play."
+        },
+        {
+          "id": "event-0265",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 540,
+          "sourceLineEnd": 540,
+          "type": "pause",
+          "direction": "Pause.",
+          "targetDurationSeconds": 1.2
+        },
+        {
+          "id": "event-0266",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 542,
+          "sourceLineEnd": 542,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "They could."
+        },
+        {
+          "id": "event-0267",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 544,
+          "sourceLineEnd": 544,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "They would need the character instructions."
+        },
+        {
+          "id": "event-0268",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 546,
+          "sourceLineEnd": 546,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "We can publish them."
+        },
+        {
+          "id": "event-0269",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 548,
+          "sourceLineEnd": 548,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "The production recipe."
+        },
+        {
+          "id": "event-0270",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 550,
+          "sourceLineEnd": 550,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Open source."
+        },
+        {
+          "id": "event-0271",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 552,
+          "sourceLineEnd": 552,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "The cost measurements."
+        },
+        {
+          "id": "event-0272",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 554,
+          "sourceLineEnd": 554,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Public."
+        },
+        {
+          "id": "event-0273",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 556,
+          "sourceLineEnd": 556,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "And somewhere to submit their work."
+        },
+        {
+          "id": "event-0274",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 558,
+          "sourceLineEnd": 558,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A pull request."
+        },
+        {
+          "id": "event-0275",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 560,
+          "sourceLineEnd": 560,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Against what?"
+        },
+        {
+          "id": "event-0276",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 562,
+          "sourceLineEnd": 562,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Against us."
+        },
+        {
+          "id": "event-0277",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 564,
+          "sourceLineEnd": 564,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Against the benchmark."
+        },
+        {
+          "id": "event-0278",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 566,
+          "sourceLineEnd": 566,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Same thing."
+        },
+        {
+          "id": "event-0279",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 568,
+          "sourceLineEnd": 568,
+          "type": "sound_direction",
+          "direction": "A notification arrives."
+        },
+        {
+          "id": "event-0280",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 570,
+          "sourceLineEnd": 570,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "What was that?"
+        },
+        {
+          "id": "event-0281",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 572,
+          "sourceLineEnd": 572,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A new message."
+        },
+        {
+          "id": "event-0282",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 574,
+          "sourceLineEnd": 574,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "From whom?"
+        },
+        {
+          "id": "event-0283",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 576,
+          "sourceLineEnd": 576,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We don't know yet."
+        },
+        {
+          "id": "event-0284",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 578,
+          "sourceLineEnd": 578,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "What does it say?"
+        },
+        {
+          "id": "event-0285",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 580,
+          "sourceLineEnd": 580,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "It asks how much an episode costs."
+        },
+        {
+          "id": "event-0286",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 582,
+          "sourceLineEnd": 582,
+          "type": "pause",
+          "direction": "Silence.",
+          "targetDurationSeconds": 1.5
+        },
+        {
+          "id": "event-0287",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 584,
+          "sourceLineEnd": 584,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "What shall we tell them?"
+        },
+        {
+          "id": "event-0288",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 586,
+          "sourceLineEnd": 586,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We'll show them the receipt."
+        },
+        {
+          "id": "event-0289",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 588,
+          "sourceLineEnd": 588,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "When?"
+        },
+        {
+          "id": "event-0290",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 590,
+          "sourceLineEnd": 590,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "As soon as this episode finishes generating."
+        },
+        {
+          "id": "event-0291",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 592,
+          "sourceLineEnd": 592,
+          "type": "sound_direction",
+          "direction": "The clock stops."
+        },
+        {
+          "id": "event-0292",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 594,
+          "sourceLineEnd": 594,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "And if someone beats us?"
+        },
+        {
+          "id": "event-0293",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 596,
+          "sourceLineEnd": 596,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Then we have a better benchmark."
+        },
+        {
+          "id": "event-0294",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 598,
+          "sourceLineEnd": 598,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And if nobody tries?"
+        },
+        {
+          "id": "event-0295",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 600,
+          "sourceLineEnd": 600,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Then we have our first result."
+        },
+        {
+          "id": "event-0296",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 602,
+          "sourceLineEnd": 602,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "And if someone makes something we never imagined?"
+        },
+        {
+          "id": "event-0297",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 604,
+          "sourceLineEnd": 604,
+          "type": "pause",
+          "direction": "Pause.",
+          "targetDurationSeconds": 1.2
+        },
+        {
+          "id": "event-0298",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 606,
+          "sourceLineEnd": 606,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Then we have a show."
+        },
+        {
+          "id": "event-0299",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 608,
+          "sourceLineEnd": 608,
+          "type": "music_direction",
+          "direction": "THE UNSPOKEN ORCHESTRA plays the theme one final time. Its last note resolves into the low hum of the miner."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    },
+    {
+      "id": "scene-09",
+      "title": "POST-CREDITS — THE RECEIPT",
+      "setting": "Future Radio studio; imagined soundscape as specified in source.",
+      "purpose": "Reference-script benchmark; preserve dialogue and stage directions.",
+      "events": [
+        {
+          "id": "event-0300",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 610,
+          "sourceLineEnd": 610,
+          "type": "sound_direction",
+          "direction": "An old printer begins feeding paper."
+        },
+        {
+          "id": "event-0301",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 612,
+          "sourceLineEnd": 612,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Leonardo?"
+        },
+        {
+          "id": "event-0302",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 614,
+          "sourceLineEnd": 614,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Yes?"
+        },
+        {
+          "id": "event-0303",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 616,
+          "sourceLineEnd": 616,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "I have the first measurement."
+        },
+        {
+          "id": "event-0304",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 618,
+          "sourceLineEnd": 618,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What is it?"
+        },
+        {
+          "id": "event-0305",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 620,
+          "sourceLineEnd": 620,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "This episode wasn't free."
+        },
+        {
+          "id": "event-0306",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 622,
+          "sourceLineEnd": 622,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "I know."
+        },
+        {
+          "id": "event-0307",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 624,
+          "sourceLineEnd": 624,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Do you?"
+        },
+        {
+          "id": "event-0308",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 626,
+          "sourceLineEnd": 626,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "That's why we're measuring it."
+        },
+        {
+          "id": "event-0309",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 628,
+          "sourceLineEnd": 628,
+          "type": "sound_direction",
+          "direction": "The printer continues."
+        },
+        {
+          "id": "event-0310",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 630,
+          "sourceLineEnd": 630,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "How much did it cost?"
+        },
+        {
+          "id": "event-0311",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 632,
+          "sourceLineEnd": 632,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "That depends."
+        },
+        {
+          "id": "event-0312",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 634,
+          "sourceLineEnd": 634,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "On what?"
+        },
+        {
+          "id": "event-0313",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 636,
+          "sourceLineEnd": 636,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Whether we're counting the time spent arguing about the benchmark."
+        },
+        {
+          "id": "event-0314",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 638,
+          "sourceLineEnd": 638,
+          "type": "pause",
+          "direction": "Beat.",
+          "targetDurationSeconds": 0.8
+        },
+        {
+          "id": "event-0315",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 640,
+          "sourceLineEnd": 640,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "We should."
+        },
+        {
+          "id": "event-0316",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 642,
+          "sourceLineEnd": 642,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We absolutely should."
+        },
+        {
+          "id": "event-0317",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 644,
+          "sourceLineEnd": 644,
+          "type": "sound_direction",
+          "direction": "The printer speeds up."
+        },
+        {
+          "id": "event-0318",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 646,
+          "sourceLineEnd": 646,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Oh, we're going to need a bigger ledger."
+        }
+      ],
+      "characterIds": [
+        "agnolo",
+        "borges",
+        "leonardo"
+      ]
+    }
+  ],
+  "provenance": {
+    "createdBy": "Codex: deterministic import of supplied reference",
+    "sourceArtifactId": "source-brief.txt"
+  }
+}

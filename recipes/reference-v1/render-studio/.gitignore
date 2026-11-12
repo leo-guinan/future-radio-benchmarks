@@ -1,0 +1,6 @@
+dist/
+stills/
+out/
+__pycache__/
+*.pyc
+raw/

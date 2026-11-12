@@ -1,0 +1,243 @@
+{
+  "title": "The Benchmark Episode sound bible",
+  "sourceScriptSha256": "88deb545eeb28fcc4844c4cc3e74a219d1595425ededf11cefab35f939f721da",
+  "dialogue": "Nine immutable multi-speaker scene takes; all source lines retained.",
+  "agnoloTreatment": "Third-order bandpass 320–3600 Hz; 90% filtered, 10% dry; short boundary ramps.",
+  "orchestra": "Original D4 F4 A4 G4 D4 motif; bell, reed and bowed harmonics; simpler reprise and final low hum.",
+  "effects": "Deterministic local synthesis, seed 481700. Crowd is stylized noise/claps approximation, not thousands of recorded voices.",
+  "cues": [
+    {
+      "sourceEventId": "event-0001",
+      "sceneId": "scene-01",
+      "direction": "A stadium crowd. Thousands of voices cheering. A scoreboard buzzes. An enormous mechanical counter advances.",
+      "start": 0.5,
+      "duration": 4.5,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0008",
+      "sceneId": "scene-01",
+      "direction": "Applause. A bell rings. More applause.",
+      "start": 13.48,
+      "duration": 1.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0015",
+      "sceneId": "scene-01",
+      "direction": "A scoreboard explodes into applause.",
+      "start": 35.72,
+      "duration": 1.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0023",
+      "sceneId": "scene-01",
+      "direction": "THE UNSPOKEN ORCHESTRA strikes a single uncertain note.",
+      "start": 44.98,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0024",
+      "sceneId": "scene-02",
+      "direction": "A table unfolds. Three chairs scrape across the floor. A fourth chair appears, unoccupied.",
+      "start": 48.38,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0048",
+      "sceneId": "scene-02",
+      "direction": "Pencil scratching.",
+      "start": 94.17999999999999,
+      "duration": 1.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0052",
+      "sceneId": "scene-02",
+      "direction": "THE ORCHESTRA plays a triumphant fanfare. It immediately collapses.",
+      "start": 103.78,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0064",
+      "sceneId": "scene-03",
+      "direction": "A ledger slams shut.",
+      "start": 126.68,
+      "duration": 1.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0080",
+      "sceneId": "scene-03",
+      "direction": "A small bell.",
+      "start": 161.96,
+      "duration": 1.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0083",
+      "sceneId": "scene-04",
+      "direction": "Agnolo opens an enormous ledger. Pages turn faster and faster.",
+      "start": 168.92,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0117",
+      "sceneId": "scene-04",
+      "direction": "The Orchestra introduces a rhythm. Agnolo's percussion ticks like a metronome.",
+      "start": 214.64,
+      "duration": 3.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0134",
+      "sceneId": "scene-05",
+      "direction": "A faint mechanical hum, almost lost beneath the orchestra.",
+      "start": 245.33999999999997,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0170",
+      "sceneId": "scene-05",
+      "direction": "The mechanical hum grows. A mining fan spins up.",
+      "start": 332.09999999999997,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0181",
+      "sceneId": "scene-05",
+      "direction": "The Orchestra picks up the hum and turns it into a sustained note.",
+      "start": 346.69999999999993,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0209",
+      "sceneId": "scene-06",
+      "direction": "The Orchestra starts a glorious crescendo.",
+      "start": 410.09999999999997,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0211",
+      "sceneId": "scene-06",
+      "direction": "The crescendo stops.",
+      "start": 413.17999999999995,
+      "duration": 0.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0213",
+      "sceneId": "scene-07",
+      "direction": "A clock begins ticking.",
+      "start": 416.49999999999994,
+      "duration": 1.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0244",
+      "sceneId": "scene-07",
+      "direction": "A pencil touches paper.",
+      "start": 485.23999999999995,
+      "duration": 1.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0255",
+      "sceneId": "scene-08",
+      "direction": "The Orchestra begins playing the opening theme again, but this time the arrangement is simpler. Fewer instruments. The same melody.",
+      "start": 499.3999999999999,
+      "duration": 3.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0279",
+      "sceneId": "scene-08",
+      "direction": "A notification arrives.",
+      "start": 538.4399999999999,
+      "duration": 1.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0291",
+      "sceneId": "scene-08",
+      "direction": "The clock stops.",
+      "start": 555.9399999999999,
+      "duration": 0.35,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0299",
+      "sceneId": "scene-08",
+      "direction": "THE UNSPOKEN ORCHESTRA plays the theme one final time. Its last note resolves into the low hum of the miner.",
+      "start": 569.9699999999999,
+      "duration": 5.5,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0300",
+      "sceneId": "scene-09",
+      "direction": "An old printer begins feeding paper.",
+      "start": 576.67,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0309",
+      "sceneId": "scene-09",
+      "direction": "The printer continues.",
+      "start": 589.11,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    },
+    {
+      "sourceEventId": "event-0317",
+      "sceneId": "scene-09",
+      "direction": "The printer speeds up.",
+      "start": 602.83,
+      "duration": 2.2,
+      "method": "original deterministic procedural synthesis",
+      "seed": 481700
+    }
+  ],
+  "target": {
+    "integratedLufs": -16,
+    "truePeakDbtp": -1.5,
+    "loudnessRange": 11
+  },
+  "mixRecipe": "build_episode.py",
+  "videoAudio": "Same standalone radio master; no separate drawing Foley.",
+  "humanListeningReview": "pending"
+}

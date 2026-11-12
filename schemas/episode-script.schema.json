@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future-radio.local/schemas/episode-script.schema.json",
+  "title": "Future Radio Episode Script",
+  "description": "Canonical, versioned narrative source for an episode. Audio and video are separate artifacts linked to its stable scene and event IDs.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "schemaVersion",
+    "episodeId",
+    "revision",
+    "title",
+    "characters",
+    "scenes"
+  ],
+  "properties": {
+    "kind": { "const": "episode_script" },
+    "schemaVersion": { "const": 1 },
+    "episodeId": { "type": "string", "minLength": 1 },
+    "revision": { "type": "integer", "minimum": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "sourceIdeaArtifactId": { "type": "string", "minLength": 1 },
+    "briefArtifactId": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string" },
+    "unresolvedQuestions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "characters": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/character" }
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/scene" }
+    },
+    "provenance": { "$ref": "#/$defs/provenance" }
+  },
+  "$defs": {
+    "character": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "characterBibleArtifactId": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" }
+      }
+    },
+    "scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "setting", "purpose", "events"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "setting": { "type": "string", "minLength": 1 },
+        "purpose": { "type": "string", "minLength": 1 },
+        "characterIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "targetDurationSeconds": { "type": "number", "exclusiveMinimum": 0 },
+        "events": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/event" }
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "type": {
+          "enum": [
+            "dialogue",
+            "action",
+            "sound_direction",
+            "music_direction",
+            "transition",
+            "pause"
+          ]
+        },
+        "characterId": { "type": "string", "minLength": 1 },
+        "participantCharacterIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "text": { "type": "string", "minLength": 1 },
+        "direction": { "type": "string", "minLength": 1 },
+        "targetDurationSeconds": { "type": "number", "exclusiveMinimum": 0 },
+        "sourceLineStart": { "type": "integer", "minimum": 1 },
+        "sourceLineEnd": { "type": "integer", "minimum": 1 },
+        "sourceRefs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "dialogue" } }, "required": ["type"] },
+          "then": { "required": ["characterId", "text"] }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": ["action", "sound_direction", "music_direction", "transition"]
+              }
+            },
+            "required": ["type"]
+          },
+          "then": { "required": ["direction"] }
+        }
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "createdBy": { "type": "string", "minLength": 1 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "modelProvider": { "type": "string", "minLength": 1 },
+        "modelId": { "type": "string", "minLength": 1 },
+        "promptArtifactId": { "type": "string", "minLength": 1 },
+        "sourceArtifactId": { "type": "string", "minLength": 1 },
+        "parentScriptArtifactId": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "body": {
+    "inputs": [
+      {
+        "text": "I propose a test of literary comprehension.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Rejected.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "You haven't heard it.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "How much does it cost?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "That depends on the library.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Rejected.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "I propose a creativity benchmark.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Define creativity.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Something that hasn't existed before.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Most mistakes qualify.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Rejected.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Fine. Your turn.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Profit.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Define profit.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Money received minus money spent.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "What about something valuable that hasn't earned money yet?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "That's called an expense.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "What about a library?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "An enormous expense.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "A painting?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Depends on the buyer.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "A friendship?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Stop doing that.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "What if we tested all three?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "We'd have three incompatible scores.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Which would be entirely consistent with the rest of the industry.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      }
+    ],
+    "model_id": "eleven_v4",
+    "seed": 543927128,
+    "apply_text_normalization": "auto"
+  },
+  "requestSha256": "13742a4670f5048805c94b74345b108678187c55cd69720c8b32bdeaf31918c4",
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "submittedAt": "2026-11-12T18:05:06.834677+00:00"
+}

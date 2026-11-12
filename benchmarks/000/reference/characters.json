@@ -1,0 +1,22 @@
+[
+  {
+    "id": "leonardo",
+    "name": "Leonardo",
+    "description": "Enthusiastic maker; builds the experiment."
+  },
+  {
+    "id": "borges",
+    "name": "Borges",
+    "description": "Wry librarian; asks what the measurements mean."
+  },
+  {
+    "id": "agnolo",
+    "name": "Agnolo",
+    "description": "Dry accountant, through the radio; insists on actual costs."
+  },
+  {
+    "id": "the-unspoken-orchestra",
+    "name": "The Unspoken Orchestra",
+    "description": "Non-speaking musical ensemble; authored instrumental cues."
+  }
+]

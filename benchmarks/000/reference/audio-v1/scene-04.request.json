@@ -1,0 +1,204 @@
+{
+  "body": {
+    "inputs": [
+      {
+        "text": "Very well. Let us begin. What does an episode require?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "An idea.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Cost?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Nothing.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Debatable.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "A script?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Compute.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "How much?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Depends on the model.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Voices?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Compute.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Music?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Compute.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Video?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "More compute.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Editing?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Compute and time.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Publishing?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Mostly time.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Promotion?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Sometimes money.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Human labor?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "We should measure that separately.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Electricity?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Yes.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Hardware?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Yes!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Opportunity cost?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Agnolo.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Depreciation?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Agnolo!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Accounting is not the enemy of art, Leonardo.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Merely its most persistent biographer.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Here's what I want to know. If somebody has a machine, and an hour, and an idea, can they make an episode?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Probably.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "How cheaply?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "We don't know.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "How well?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "We don't know.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Will anyone watch it?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "We don't know.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Could it accomplish something?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "We don't know.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Then there's our benchmark.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Four questions.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Four questions.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "And no answers.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Yet.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      }
+    ],
+    "model_id": "eleven_v4",
+    "seed": 4134899519,
+    "apply_text_normalization": "auto"
+  },
+  "requestSha256": "fb13cc966df869cf56eb67eaf6c2d75d892c3cb6feda0f7572ff9517c5bf87ed",
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "submittedAt": "2026-11-12T18:05:37.257215+00:00"
+}

@@ -1,0 +1,4659 @@
+[
+  {
+    "id": "e1",
+    "t": -1,
+    "dur": 0,
+    "op": "FRAME",
+    "actor": "—",
+    "target": "desk",
+    "frame": "studio",
+    "args": {
+      "id": "desk",
+      "name": "desk",
+      "x": 420,
+      "y": 300,
+      "w": 450,
+      "h": 260,
+      "lw": 450,
+      "lh": 260,
+      "surface": true,
+      "z": "front",
+      "border": false,
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "set",
+    "cost": "—",
+    "out": "The desk, as a surface other things can stand on."
+  },
+  {
+    "id": "e2",
+    "t": -1,
+    "dur": 0,
+    "op": "INSCRIBE",
+    "actor": "—",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "id": "leonardo",
+      "tpl": "leonardo",
+      "name": "Leonardo",
+      "at": [
+        520,
+        418
+      ],
+      "scale": 1,
+      "pencil": true,
+      "caps": [
+        "INSCRIBE",
+        "ALTER",
+        "ANIMATE",
+        "FRAME",
+        "EQUIP",
+        "UNEQUIP",
+        "COMMAND",
+        "REVISE",
+        "COMPOSE"
+      ]
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "set",
+    "cost": "—",
+    "out": "Leonardo, at his desk."
+  },
+  {
+    "id": "e3",
+    "t": -1,
+    "dur": 0,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "wake",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "set",
+    "cost": "—",
+    "out": "Awake."
+  },
+  {
+    "id": "e4",
+    "t": -1,
+    "dur": 0,
+    "op": "INSCRIBE",
+    "actor": "—",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "id": "borges",
+      "tpl": "borges",
+      "name": "Borges",
+      "at": [
+        745,
+        418
+      ],
+      "scale": 0.94,
+      "pencil": true,
+      "caps": [
+        "INSCRIBE",
+        "ALTER",
+        "ANIMATE",
+        "FRAME",
+        "EQUIP",
+        "UNEQUIP",
+        "COMMAND",
+        "REVISE",
+        "COMPOSE"
+      ]
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "set",
+    "cost": null,
+    "out": "Borges is seated in the studio."
+  },
+  {
+    "id": "e5",
+    "t": -1,
+    "dur": 0,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "wake",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "set",
+    "cost": null,
+    "out": "Borges is awake."
+  },
+  {
+    "id": "e6",
+    "t": 0.5,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-0",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-0",
+      "name": "COLD OPEN — EVERYONE HAS A SCORE",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs COLD OPEN — EVERYONE HAS A SCORE."
+  },
+  {
+    "id": "e7",
+    "t": 2.4,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-0",
+    "frame": "benchmark-panel-0",
+    "args": {
+      "id": "benchmark-drawing-0",
+      "tpl": "benchmark-board-0",
+      "name": "COLD OPEN — EVERYONE HAS A SCORE",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e24",
+    "t": 5,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0002",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0002."
+  },
+  {
+    "id": "e25",
+    "t": 6.28,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0003",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0003."
+  },
+  {
+    "id": "e26",
+    "t": 7.72,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0004",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0004."
+  },
+  {
+    "id": "e27",
+    "t": 8.84,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        320
+      ],
+      "sourceEventId": "event-0005",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0005."
+  },
+  {
+    "id": "e28",
+    "t": 10.04,
+    "dur": 0.44,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0006",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0006."
+  },
+  {
+    "id": "e29",
+    "t": 10.92,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        352
+      ],
+      "sourceEventId": "event-0007",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0007."
+  },
+  {
+    "id": "e30",
+    "t": 16.2,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0010",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0010."
+  },
+  {
+    "id": "e31",
+    "t": 26.84,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0011",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0011."
+  },
+  {
+    "id": "e32",
+    "t": 27.64,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        320
+      ],
+      "sourceEventId": "event-0012",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0012."
+  },
+  {
+    "id": "e33",
+    "t": 31.96,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        352
+      ],
+      "sourceEventId": "event-0014",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0014."
+  },
+  {
+    "id": "e34",
+    "t": 36.92,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0016",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0016."
+  },
+  {
+    "id": "e35",
+    "t": 39.16,
+    "dur": 0.68,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0018",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0018."
+  },
+  {
+    "id": "e36",
+    "t": 41.48,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0020",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0020."
+  },
+  {
+    "id": "e37",
+    "t": 43.78,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        352
+      ],
+      "sourceEventId": "event-0022",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0022."
+  },
+  {
+    "id": "e8",
+    "t": 48.38,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-1",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-1",
+      "name": "SCENE ONE — THE COMMITTEE",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs SCENE ONE — THE COMMITTEE."
+  },
+  {
+    "id": "e9",
+    "t": 50.28,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-1",
+    "frame": "benchmark-panel-1",
+    "args": {
+      "id": "benchmark-drawing-1",
+      "tpl": "benchmark-board-1",
+      "name": "SCENE ONE — THE COMMITTEE",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e38",
+    "t": 55.38,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0027",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0027."
+  },
+  {
+    "id": "e39",
+    "t": 58.42,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0029",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0029."
+  },
+  {
+    "id": "e40",
+    "t": 61.62,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0031",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0031."
+  },
+  {
+    "id": "e41",
+    "t": 66.34,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0033",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0033."
+  },
+  {
+    "id": "e42",
+    "t": 68.82,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        320
+      ],
+      "sourceEventId": "event-0034",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0034."
+  },
+  {
+    "id": "e43",
+    "t": 72.18,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0036",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0036."
+  },
+  {
+    "id": "e44",
+    "t": 74.98,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0038",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0038."
+  },
+  {
+    "id": "e45",
+    "t": 79.54,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0040",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0040."
+  },
+  {
+    "id": "e46",
+    "t": 85.06,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        352
+      ],
+      "sourceEventId": "event-0042",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0042."
+  },
+  {
+    "id": "e47",
+    "t": 88.98,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0044",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0044."
+  },
+  {
+    "id": "e48",
+    "t": 91.3,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        320
+      ],
+      "sourceEventId": "event-0046",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0046."
+  },
+  {
+    "id": "e49",
+    "t": 95.38,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0049",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0049."
+  },
+  {
+    "id": "e50",
+    "t": 100.02,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0051",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0051."
+  },
+  {
+    "id": "e10",
+    "t": 107.18,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-2",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-2",
+      "name": "SCENE TWO — THE MISSING MEASUREMENT",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs SCENE TWO — THE MISSING MEASUREMENT."
+  },
+  {
+    "id": "e11",
+    "t": 109.08,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-2",
+    "frame": "benchmark-panel-2",
+    "args": {
+      "id": "benchmark-drawing-2",
+      "tpl": "benchmark-board-2",
+      "name": "SCENE TWO — THE MISSING MEASUREMENT",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e51",
+    "t": 114.22,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0056",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0056."
+  },
+  {
+    "id": "e52",
+    "t": 115.98,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0057",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0057."
+  },
+  {
+    "id": "e53",
+    "t": 117.1,
+    "dur": 0.68,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0058",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0058."
+  },
+  {
+    "id": "e54",
+    "t": 119.82,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0060",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0060."
+  },
+  {
+    "id": "e55",
+    "t": 121.26,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0061",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0061."
+  },
+  {
+    "id": "e56",
+    "t": 122.46,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0062",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0062."
+  },
+  {
+    "id": "e57",
+    "t": 130.12,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0066",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0066."
+  },
+  {
+    "id": "e58",
+    "t": 133,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0068",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0068."
+  },
+  {
+    "id": "e59",
+    "t": 136.68,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0071",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0071."
+  },
+  {
+    "id": "e60",
+    "t": 144.28,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0072",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0072."
+  },
+  {
+    "id": "e61",
+    "t": 145.88,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0073",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0073."
+  },
+  {
+    "id": "e62",
+    "t": 152.76,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        320
+      ],
+      "sourceEventId": "event-0075",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0075."
+  },
+  {
+    "id": "e63",
+    "t": 155.64,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0076",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0076."
+  },
+  {
+    "id": "e64",
+    "t": 156.76,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        352
+      ],
+      "sourceEventId": "event-0077",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0077."
+  },
+  {
+    "id": "e65",
+    "t": 159.64,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0079",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0079."
+  },
+  {
+    "id": "e66",
+    "t": 163.16,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0081",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0081."
+  },
+  {
+    "id": "e67",
+    "t": 164.68,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0082",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0082."
+  },
+  {
+    "id": "e12",
+    "t": 168.92,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-3",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-3",
+      "name": "SCENE THREE — WHAT DOES AN EPISODE COST?",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs SCENE THREE — WHAT DOES AN EPISODE COST?."
+  },
+  {
+    "id": "e13",
+    "t": 170.82,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-3",
+    "frame": "benchmark-panel-3",
+    "args": {
+      "id": "benchmark-drawing-3",
+      "tpl": "benchmark-board-3",
+      "name": "SCENE THREE — WHAT DOES AN EPISODE COST?",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e68",
+    "t": 175.6,
+    "dur": 0.52,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0085",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0085."
+  },
+  {
+    "id": "e69",
+    "t": 177.52,
+    "dur": 0.44,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0087",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0087."
+  },
+  {
+    "id": "e70",
+    "t": 178.4,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0088",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0088."
+  },
+  {
+    "id": "e71",
+    "t": 180.4,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0090",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0090."
+  },
+  {
+    "id": "e72",
+    "t": 182.24,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0092",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0092."
+  },
+  {
+    "id": "e73",
+    "t": 184.56,
+    "dur": 0.52,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0094",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0094."
+  },
+  {
+    "id": "e74",
+    "t": 186.4,
+    "dur": 0.52,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0096",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0096."
+  },
+  {
+    "id": "e75",
+    "t": 188.24,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0098",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0098."
+  },
+  {
+    "id": "e76",
+    "t": 190.32,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0100",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0100."
+  },
+  {
+    "id": "e77",
+    "t": 192.88,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0102",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0102."
+  },
+  {
+    "id": "e78",
+    "t": 195.04,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0104",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0104."
+  },
+  {
+    "id": "e79",
+    "t": 197.6,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0106",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0106."
+  },
+  {
+    "id": "e80",
+    "t": 200.56,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0108",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0108."
+  },
+  {
+    "id": "e81",
+    "t": 202.32,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0110",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0110."
+  },
+  {
+    "id": "e82",
+    "t": 204.48,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0112",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0112."
+  },
+  {
+    "id": "e83",
+    "t": 206.64,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0114",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0114."
+  },
+  {
+    "id": "e84",
+    "t": 211.04,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0116",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0116."
+  },
+  {
+    "id": "e85",
+    "t": 217.84,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0118",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0118."
+  },
+  {
+    "id": "e86",
+    "t": 225.68,
+    "dur": 0.52,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0120",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0120."
+  },
+  {
+    "id": "e87",
+    "t": 227.68,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0122",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0122."
+  },
+  {
+    "id": "e88",
+    "t": 228.64,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0123",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0123."
+  },
+  {
+    "id": "e89",
+    "t": 229.84,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0124",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0124."
+  },
+  {
+    "id": "e90",
+    "t": 231.28,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0125",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0125."
+  },
+  {
+    "id": "e91",
+    "t": 232.56,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0126",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0126."
+  },
+  {
+    "id": "e92",
+    "t": 235.28,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0128",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0128."
+  },
+  {
+    "id": "e93",
+    "t": 238.78,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0130",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0130."
+  },
+  {
+    "id": "e94",
+    "t": 240.38,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0131",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0131."
+  },
+  {
+    "id": "e95",
+    "t": 241.66,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0132",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0132."
+  },
+  {
+    "id": "e96",
+    "t": 243.42,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0133",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0133."
+  },
+  {
+    "id": "e14",
+    "t": 245.34,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-4",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-4",
+      "name": "SCENE FOUR — THE MINER",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs SCENE FOUR — THE MINER."
+  },
+  {
+    "id": "e15",
+    "t": 247.24,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-4",
+    "frame": "benchmark-panel-4",
+    "args": {
+      "id": "benchmark-drawing-4",
+      "tpl": "benchmark-board-4",
+      "name": "SCENE FOUR — THE MINER",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e97",
+    "t": 250.02,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0136",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0136."
+  },
+  {
+    "id": "e98",
+    "t": 252.18,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0138",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0138."
+  },
+  {
+    "id": "e99",
+    "t": 256.42,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0140",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0140."
+  },
+  {
+    "id": "e100",
+    "t": 260.02,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0141",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0141."
+  },
+  {
+    "id": "e101",
+    "t": 265.14,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0143",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0143."
+  },
+  {
+    "id": "e102",
+    "t": 270.58,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0144",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0144."
+  },
+  {
+    "id": "e103",
+    "t": 276.9,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0146",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0146."
+  },
+  {
+    "id": "e104",
+    "t": 279.78,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0148",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0148."
+  },
+  {
+    "id": "e105",
+    "t": 283.3,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0149",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0149."
+  },
+  {
+    "id": "e106",
+    "t": 284.98,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0150",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0150."
+  },
+  {
+    "id": "e107",
+    "t": 290.5,
+    "dur": 0.44,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0152",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0152."
+  },
+  {
+    "id": "e108",
+    "t": 291.38,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0153",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0153."
+  },
+  {
+    "id": "e109",
+    "t": 294.02,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0154",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0154."
+  },
+  {
+    "id": "e110",
+    "t": 296.98,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0156",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0156."
+  },
+  {
+    "id": "e111",
+    "t": 301.3,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0157",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0157."
+  },
+  {
+    "id": "e112",
+    "t": 304.98,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0158",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0158."
+  },
+  {
+    "id": "e113",
+    "t": 306.82,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0160",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0160."
+  },
+  {
+    "id": "e114",
+    "t": 308.34,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0161",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0161."
+  },
+  {
+    "id": "e115",
+    "t": 312.1,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0162",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0162."
+  },
+  {
+    "id": "e116",
+    "t": 319.54,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0164",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0164."
+  },
+  {
+    "id": "e117",
+    "t": 324.5,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0166",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0166."
+  },
+  {
+    "id": "e118",
+    "t": 326.58,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0167",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0167."
+  },
+  {
+    "id": "e119",
+    "t": 331.14,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0169",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0169."
+  },
+  {
+    "id": "e120",
+    "t": 334.3,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        320
+      ],
+      "sourceEventId": "event-0171",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0171."
+  },
+  {
+    "id": "e121",
+    "t": 335.9,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0172",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0172."
+  },
+  {
+    "id": "e122",
+    "t": 338.14,
+    "dur": 0.44,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0174",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0174."
+  },
+  {
+    "id": "e123",
+    "t": 339.02,
+    "dur": 0.52,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0175",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0175."
+  },
+  {
+    "id": "e124",
+    "t": 340.06,
+    "dur": 0.44,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0176",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0176."
+  },
+  {
+    "id": "e125",
+    "t": 342.22,
+    "dur": 0.52,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0178",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0178."
+  },
+  {
+    "id": "e126",
+    "t": 344.7,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0180",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0180."
+  },
+  {
+    "id": "e16",
+    "t": 350.1,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-5",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-5",
+      "name": "SCENE FIVE — AN EPISODE MUST DO SOMETHING",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs SCENE FIVE — AN EPISODE MUST DO SOMETHING."
+  },
+  {
+    "id": "e17",
+    "t": 352,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-5",
+    "frame": "benchmark-panel-5",
+    "args": {
+      "id": "benchmark-drawing-5",
+      "tpl": "benchmark-board-5",
+      "name": "SCENE FIVE — AN EPISODE MUST DO SOMETHING",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e127",
+    "t": 357.86,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        352
+      ],
+      "sourceEventId": "event-0186",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0186."
+  },
+  {
+    "id": "e128",
+    "t": 363.3,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0188",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0188."
+  },
+  {
+    "id": "e129",
+    "t": 369.86,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0190",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0190."
+  },
+  {
+    "id": "e130",
+    "t": 371.46,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0191",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0191."
+  },
+  {
+    "id": "e131",
+    "t": 373.7,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0192",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0192."
+  },
+  {
+    "id": "e132",
+    "t": 374.82,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0193",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0193."
+  },
+  {
+    "id": "e133",
+    "t": 378.98,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0195",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0195."
+  },
+  {
+    "id": "e134",
+    "t": 383.38,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0197",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0197."
+  },
+  {
+    "id": "e135",
+    "t": 387.38,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        352
+      ],
+      "sourceEventId": "event-0199",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0199."
+  },
+  {
+    "id": "e136",
+    "t": 390.34,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0201",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0201."
+  },
+  {
+    "id": "e137",
+    "t": 394.5,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0202",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0202."
+  },
+  {
+    "id": "e138",
+    "t": 395.62,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        320
+      ],
+      "sourceEventId": "event-0203",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0203."
+  },
+  {
+    "id": "e139",
+    "t": 400.42,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0205",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0205."
+  },
+  {
+    "id": "e140",
+    "t": 402.66,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0206",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0206."
+  },
+  {
+    "id": "e141",
+    "t": 407.62,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0208",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0208."
+  },
+  {
+    "id": "e18",
+    "t": 416.5,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-6",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-6",
+      "name": "SCENE SIX — THE BENCHMARK",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs SCENE SIX — THE BENCHMARK."
+  },
+  {
+    "id": "e19",
+    "t": 418.4,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-6",
+    "frame": "benchmark-panel-6",
+    "args": {
+      "id": "benchmark-drawing-6",
+      "tpl": "benchmark-board-6",
+      "name": "SCENE SIX — THE BENCHMARK",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e142",
+    "t": 420.9,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0216",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0216."
+  },
+  {
+    "id": "e143",
+    "t": 423.3,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0217",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0217."
+  },
+  {
+    "id": "e144",
+    "t": 424.5,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0218",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0218."
+  },
+  {
+    "id": "e145",
+    "t": 426.34,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0219",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0219."
+  },
+  {
+    "id": "e146",
+    "t": 427.3,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0220",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0220."
+  },
+  {
+    "id": "e147",
+    "t": 432.28,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0222",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0222."
+  },
+  {
+    "id": "e148",
+    "t": 436.12,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0224",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0224."
+  },
+  {
+    "id": "e149",
+    "t": 439,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0226",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0226."
+  },
+  {
+    "id": "e150",
+    "t": 442.36,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        320
+      ],
+      "sourceEventId": "event-0228",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0228."
+  },
+  {
+    "id": "e151",
+    "t": 447.64,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0230",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0230."
+  },
+  {
+    "id": "e152",
+    "t": 450.12,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0231",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0231."
+  },
+  {
+    "id": "e153",
+    "t": 457.24,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0232",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0232."
+  },
+  {
+    "id": "e154",
+    "t": 458.52,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0233",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0233."
+  },
+  {
+    "id": "e155",
+    "t": 466.36,
+    "dur": 0.36,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0235",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0235."
+  },
+  {
+    "id": "e156",
+    "t": 468.52,
+    "dur": 0.44,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0237",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0237."
+  },
+  {
+    "id": "e157",
+    "t": 469.4,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0238",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0238."
+  },
+  {
+    "id": "e158",
+    "t": 472.6,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0239",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0239."
+  },
+  {
+    "id": "e159",
+    "t": 475.16,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0241",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0241."
+  },
+  {
+    "id": "e160",
+    "t": 478.76,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0242",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0242."
+  },
+  {
+    "id": "e161",
+    "t": 486.44,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        336
+      ],
+      "sourceEventId": "event-0245",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0245."
+  },
+  {
+    "id": "e162",
+    "t": 487.64,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        352
+      ],
+      "sourceEventId": "event-0246",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0246."
+  },
+  {
+    "id": "e163",
+    "t": 490.28,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0248",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0248."
+  },
+  {
+    "id": "e164",
+    "t": 491.96,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0250",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0250."
+  },
+  {
+    "id": "e165",
+    "t": 493.64,
+    "dur": 0.44,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0252",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0252."
+  },
+  {
+    "id": "e166",
+    "t": 496.68,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0254",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0254."
+  },
+  {
+    "id": "e20",
+    "t": 499.4,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-7",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-7",
+      "name": "SCENE SEVEN — THE INVITATION",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs SCENE SEVEN — THE INVITATION."
+  },
+  {
+    "id": "e21",
+    "t": 501.3,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-7",
+    "frame": "benchmark-panel-7",
+    "args": {
+      "id": "benchmark-drawing-7",
+      "tpl": "benchmark-board-7",
+      "name": "SCENE SEVEN — THE INVITATION",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e167",
+    "t": 506.68,
+    "dur": 0.68,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0258",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0258."
+  },
+  {
+    "id": "e168",
+    "t": 508.04,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0259",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0259."
+  },
+  {
+    "id": "e169",
+    "t": 509.32,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0260",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0260."
+  },
+  {
+    "id": "e170",
+    "t": 514.04,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0262",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0262."
+  },
+  {
+    "id": "e171",
+    "t": 516.36,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0263",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0263."
+  },
+  {
+    "id": "e172",
+    "t": 517.16,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0264",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0264."
+  },
+  {
+    "id": "e173",
+    "t": 519.64,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0266",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0266."
+  },
+  {
+    "id": "e174",
+    "t": 522.92,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        810,
+        336
+      ],
+      "sourceEventId": "event-0268",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0268."
+  },
+  {
+    "id": "e175",
+    "t": 525.88,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0270",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0270."
+  },
+  {
+    "id": "e176",
+    "t": 528.52,
+    "dur": 0.4,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0272",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0272."
+  },
+  {
+    "id": "e177",
+    "t": 529.32,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0273",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0273."
+  },
+  {
+    "id": "e178",
+    "t": 531.8,
+    "dur": 0.68,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0274",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0274."
+  },
+  {
+    "id": "e179",
+    "t": 534.28,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0276",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0276."
+  },
+  {
+    "id": "e180",
+    "t": 535.56,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0277",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0277."
+  },
+  {
+    "id": "e181",
+    "t": 537.48,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0278",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0278."
+  },
+  {
+    "id": "e182",
+    "t": 540.6,
+    "dur": 0.64,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0281",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0281."
+  },
+  {
+    "id": "e183",
+    "t": 541.88,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0282",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0282."
+  },
+  {
+    "id": "e184",
+    "t": 542.84,
+    "dur": 0.6,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0283",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0283."
+  },
+  {
+    "id": "e185",
+    "t": 545.24,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0285",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0285."
+  },
+  {
+    "id": "e186",
+    "t": 549.46,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0287",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0287."
+  },
+  {
+    "id": "e187",
+    "t": 550.9,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0288",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0288."
+  },
+  {
+    "id": "e188",
+    "t": 553.22,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0290",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0290."
+  },
+  {
+    "id": "e189",
+    "t": 556.29,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0292",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0292."
+  },
+  {
+    "id": "e190",
+    "t": 558.21,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0293",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0293."
+  },
+  {
+    "id": "e191",
+    "t": 561.81,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0295",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0295."
+  },
+  {
+    "id": "e192",
+    "t": 563.81,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        352
+      ],
+      "sourceEventId": "event-0296",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0296."
+  },
+  {
+    "id": "e193",
+    "t": 568.37,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0298",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0298."
+  },
+  {
+    "id": "e22",
+    "t": 576.67,
+    "dur": 1.2,
+    "op": "FRAME",
+    "actor": "leonardo",
+    "target": "benchmark-panel-8",
+    "frame": "studio",
+    "args": {
+      "id": "benchmark-panel-8",
+      "name": "POST-CREDITS — THE RECEIPT",
+      "x": 392,
+      "y": 26,
+      "w": 496,
+      "h": 190,
+      "lw": 480,
+      "lh": 184,
+      "border": "single",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "Leonardo constructs POST-CREDITS — THE RECEIPT."
+  },
+  {
+    "id": "e23",
+    "t": 578.57,
+    "dur": 1.4,
+    "op": "INSCRIBE",
+    "actor": "leonardo",
+    "target": "benchmark-drawing-8",
+    "frame": "benchmark-panel-8",
+    "args": {
+      "id": "benchmark-drawing-8",
+      "tpl": "benchmark-board-8",
+      "name": "POST-CREDITS — THE RECEIPT",
+      "at": [
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "The shared drawing makes the scene visible."
+  },
+  {
+    "id": "e194",
+    "t": 582.47,
+    "dur": 0.48,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        336
+      ],
+      "sourceEventId": "event-0304",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0304."
+  },
+  {
+    "id": "e195",
+    "t": 585.51,
+    "dur": 0.52,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        320
+      ],
+      "sourceEventId": "event-0306",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0306."
+  },
+  {
+    "id": "e196",
+    "t": 587.43,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0308",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0308."
+  },
+  {
+    "id": "e197",
+    "t": 591.31,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        320
+      ],
+      "sourceEventId": "event-0310",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0310."
+  },
+  {
+    "id": "e198",
+    "t": 594.59,
+    "dur": 0.44,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        605,
+        352
+      ],
+      "sourceEventId": "event-0312",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0312."
+  },
+  {
+    "id": "e199",
+    "t": 599.79,
+    "dur": 0.56,
+    "op": "ANIMATE",
+    "actor": "borges",
+    "target": "borges",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        830,
+        336
+      ],
+      "sourceEventId": "event-0315",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "borges speaks event-0315."
+  },
+  {
+    "id": "e200",
+    "t": 600.91,
+    "dur": 0.7,
+    "op": "ANIMATE",
+    "actor": "leonardo",
+    "target": "leonardo",
+    "frame": "studio",
+    "args": {
+      "behavior": "speak",
+      "point": [
+        585,
+        352
+      ],
+      "sourceEventId": "event-0316",
+      "tpl": null
+    },
+    "result": "ok",
+    "reason": null,
+    "prov": "script-v1",
+    "cost": null,
+    "out": "leonardo speaks event-0316."
+  }
+]

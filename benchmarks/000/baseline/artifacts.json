@@ -1,0 +1,62 @@
+{
+  "benchmark": "000",
+  "releaseTag": "benchmark-000-v1",
+  "assets": [
+    {
+      "name": "cached-inputs-and-recipe.zip",
+      "path": "artifacts/000/cached-inputs-and-recipe.zip",
+      "bytes": 10254505,
+      "sha256": "dd1a007e151922f722b79f061740f8f2f39bba7e89528110211e9d4a82758724",
+      "storage": "GitHub release asset; local artifacts directory ignored by Git"
+    },
+    {
+      "name": "captions.srt",
+      "path": "artifacts/000/captions.srt",
+      "bytes": 19575,
+      "sha256": "e2827c3289a5471f42f2f44a18a76b56a1b91e3abf746e470676ca7f3323b630",
+      "storage": "GitHub release asset; local artifacts directory ignored by Git"
+    },
+    {
+      "name": "chapters.json",
+      "path": "artifacts/000/chapters.json",
+      "bytes": 1212,
+      "sha256": "9cf1d93ea6d2d4586ca22f856c6e134d90ba6099ddfc92984ca7a3273e055a7f",
+      "storage": "GitHub release asset; local artifacts directory ignored by Git"
+    },
+    {
+      "name": "contact.png",
+      "path": "artifacts/000/contact.png",
+      "bytes": 1390015,
+      "sha256": "8a93d9dd839466a4244f9e6943dff7d0b2ee5d7803229a6782ce23636ecb6d36",
+      "storage": "GitHub release asset; local artifacts directory ignored by Git"
+    },
+    {
+      "name": "script.md",
+      "path": "artifacts/000/script.md",
+      "bytes": 12076,
+      "sha256": "88deb545eeb28fcc4844c4cc3e74a219d1595425ededf11cefab35f939f721da",
+      "storage": "GitHub release asset; local artifacts directory ignored by Git"
+    },
+    {
+      "name": "the-benchmark-episode.mp3",
+      "path": "artifacts/000/the-benchmark-episode.mp3",
+      "bytes": 14625504,
+      "sha256": "0cf49db88fa25bff846de3a29a50d454a15b620a7c701393087b97fb93f7cf30",
+      "storage": "GitHub release asset; local artifacts directory ignored by Git"
+    },
+    {
+      "name": "the-benchmark-episode.mp4",
+      "path": "artifacts/000/the-benchmark-episode.mp4",
+      "bytes": 44626195,
+      "sha256": "218c1f0317a75cdd2afe16635ad071c8b8ea50136838d91ba0a230d6a094be38",
+      "storage": "GitHub release asset; local artifacts directory ignored by Git"
+    },
+    {
+      "name": "the-benchmark-episode.wav",
+      "path": "artifacts/000/the-benchmark-episode.wav",
+      "bytes": 116983848,
+      "sha256": "705af54a42e8f395ead95a7bf2828adc346430ea2e9960292b805963c6c28ca0",
+      "storage": "GitHub release asset; local artifacts directory ignored by Git"
+    }
+  ]
+}

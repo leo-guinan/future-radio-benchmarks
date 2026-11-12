@@ -1,0 +1,200 @@
+{
+  "results": [
+    {
+      "name": "Leonardo constructs the quill with his pencil",
+      "pass": true,
+      "detail": "INSCRIBE by leonardo: 15 pencil strokes, pencil on the wall in 13 of 19 samples; the result is an instrument (\u201cquill\u201d), dormant until awakened"
+    },
+    {
+      "name": "The quill becomes an independently animated instrument",
+      "pass": true,
+      "detail": "awakened at 0:15.1; the quill issues 18 events of its own (0 denied); it writes while Leonardo\u2019s pencil rests in 38 of 38 samples; lifecycle constructed \u2192 activated \u2192 commanded \u2192 executing \u2192 completed"
+    },
+    {
+      "name": "Leonardo gives the quill a semantic instruction",
+      "pass": true,
+      "detail": "COMMAND leonardo \u2192 quill-1: to DHH, intent \u201cTell him what we\u2019re making. Ask if he\u2019ll help us make more of it.\u201d, 3 facts, constraints [beautiful, honest, one page, legible calligraphy], output in paper-1, approval required. Without a recipient it is denied: incomplete command (missing recipient)"
+    },
+    {
+      "name": "The exact sponsorship letter appears in readable calligraphy",
+      "pass": true,
+      "detail": "9 written lines; joined, they equal the commanded text character for character (line breaks aside). Every character has a glyph, every stroke is inside the page, x-height 12.0 px in a 1280\u00d7720 close-up"
+    },
+    {
+      "name": "Quill movement stays aligned with the forming letters",
+      "pass": true,
+      "detail": "331 writing samples, max nib-to-ink gap 2.1e-12 px; quill tip never jumps (max 8.15 px per 1/240 s, at 0:47.5)"
+    },
+    {
+      "name": "The text survives independently of the rendering",
+      "pass": true,
+      "detail": "exported 144 KB of JSON without drawing a frame: exact text, 231 vector strokes, recipient, purpose, authorizing character, 5 history entries tied to scene-log events"
+    },
+    {
+      "name": "The quill writes another recipient without behavior changes",
+      "pass": true,
+      "detail": "the same 19-event sequence as a rewrite to DHH; the envelope now reads \u201cAda\u201d"
+    },
+    {
+      "name": "A finished letter can be reviewed, revised and saved",
+      "pass": true,
+      "detail": "reviewed by leonardo at 1:11.6; a revision is written as v2 on a fresh sheet in 20 events, v1 kept; the saved draft carries both versions"
+    },
+    {
+      "name": "The animation replays deterministically",
+      "pass": true,
+      "detail": "34 events; reseeding gives an identical log; schedule-order and time-order replays match, 0 capability mismatches; frame hash 627379246/627379246"
+    },
+    {
+      "name": "Nothing is sent without separate, explicit authorization",
+      "pass": true,
+      "detail": "no DISPATCH in the log; the letter is DRAFTED and prepared, external delivery: not sent. A DISPATCH by Leonardo or by the quill is denied (external delivery needs separate, explicit human authorization, and nothing in the scene can grant it). The radio signal is logged as an observation with reply:false; a signal claiming to be a reply is denied (nothing was sent, so no signal can be a reply)."
+    },
+    {
+      "name": "Runs 75 to 90 seconds",
+      "pass": true,
+      "detail": "88 s including the end card; the letter is written from 0:31.0 to 1:03.7"
+    },
+    {
+      "name": "Existing nested-frame and costume demos still work",
+      "pass": true,
+      "detail": "22 of 22 earlier acceptance and renderer tests pass"
+    },
+    {
+      "name": "Writing sounds like a nib on paper, not spray",
+      "pass": true,
+      "detail": "spectral flatness 0.081 vs 0.998 for noise; nib in contact -38.7 dBFS, lifted between words and lines -75.3 dBFS; loudness follows the strokes (envelope modulation 0.75; steady noise like a spray: 0.02); 73 nib-contact ticks for 73 strokes \u00b7 source: recorded"
+    },
+    {
+      "name": "Viewer instruction creates a real nested desk frame, not decorative strokes",
+      "pass": true,
+      "detail": "FRAME F4-7 in desk; INSCRIBE leonardo-3-8 in F4-7; ANIMATE leonardo-3-8 in F4-7"
+    },
+    {
+      "name": "A new Leonardo is registered as a separate controllable actor",
+      "pass": true,
+      "detail": "Little Leonardo 2 (leonardo-2-2) in F3-1"
+    },
+    {
+      "name": "The actor renders within the correct nested coordinate system",
+      "pass": true,
+      "detail": "path studio \u203a desk \u203a F3-1, feet at 483.0,422.0"
+    },
+    {
+      "name": "Moving the desk moves its child frame and contents consistently",
+      "pass": true,
+      "detail": "frame moved 60.00, character moved 60.00"
+    },
+    {
+      "name": "The nested actor can execute an independent instruction",
+      "pass": true,
+      "detail": "INSCRIBE star-7 by leonardo-2-2 in F3-1: ok"
+    },
+    {
+      "name": "Character templates are reused without sharing mutable state",
+      "pass": true,
+      "detail": "shared template, separate caps: mini 9 / Little Leonardo 2 2"
+    },
+    {
+      "name": "An outfit can be drawn as a persistent object",
+      "pass": true,
+      "detail": "Animator outfit by leonardo"
+    },
+    {
+      "name": "EQUIP changes both appearance and capability bindings",
+      "pass": true,
+      "detail": "[EQUIP UNEQUIP] \u2192 [INSCRIBE ALTER ANIMATE FRAME EQUIP UNEQUIP], role Animator"
+    },
+    {
+      "name": "UNEQUIP reverses outfit effects without deleting the outfit",
+      "pass": true,
+      "detail": "caps back to [EQUIP UNEQUIP], outfit on hook-4"
+    },
+    {
+      "name": "A restricted action fails cleanly before equipping and succeeds after",
+      "pass": true,
+      "detail": "denied: missing capability ANIMATE; then ok at 57.5s"
+    },
+    {
+      "name": "The bell\u2019s sound crosses the frame boundary without promoting the bell",
+      "pass": true,
+      "detail": "source in studio \u203a desk \u203a F3-1; Leonardo turns: true"
+    },
+    {
+      "name": "The scene replays from its log to an identical final state",
+      "pass": true,
+      "detail": "28 events; schedule-order and time-order replays match; 0 result mismatches"
+    },
+    {
+      "name": "The original F1 log remains compatible",
+      "pass": true,
+      "detail": "10 v1 events, all applied"
+    },
+    {
+      "name": "Pencil tip moves continuously (main)",
+      "pass": true,
+      "detail": "max step 4.86 px at 240 Hz (1166 px/s) \u00b7 leonardo @ 2.09s"
+    },
+    {
+      "name": "Line emerges directly beneath the tip (main)",
+      "pass": true,
+      "detail": "308 contact samples, max tip-to-line gap 1.6e-12 px"
+    },
+    {
+      "name": "Pencil tip moves continuously (diag)",
+      "pass": true,
+      "detail": "max step 7.59 px at 240 Hz (1822 px/s) \u00b7 leonardo @ 5.55s"
+    },
+    {
+      "name": "Line emerges directly beneath the tip (diag)",
+      "pass": true,
+      "detail": "169 contact samples, max tip-to-line gap 2.3e-13 px"
+    },
+    {
+      "name": "No jump at stroke boundaries (diagnostic)",
+      "pass": true,
+      "detail": "max movement across a contact edge in 1/240 s: 0.36 px over 24 edges"
+    },
+    {
+      "name": "Identical result at 30, 60 and 144 fps",
+      "pass": true,
+      "detail": "final state and tip samples identical (60 fps run uses irregular frame times)"
+    },
+    {
+      "name": "Rendering is deterministic for a given time",
+      "pass": true,
+      "detail": "pixel hash 123737840 / 123737840"
+    },
+    {
+      "name": "Every stroke gets a pencil-down and a pencil-up",
+      "pass": true,
+      "detail": "12 strokes, 12 downs, 12 ups, 0 corner ticks"
+    },
+    {
+      "name": "World observations keep their own timing",
+      "pass": true,
+      "detail": "ring visible at 22.60s, heard in the studio at 23.50s"
+    },
+    {
+      "name": "Pencil texture, not broadband hiss",
+      "pass": true,
+      "detail": "spectral flatness 0.013 during the long line vs 0.976 for white noise \u00b7 source: recorded"
+    },
+    {
+      "name": "Silent when the pencil is off the paper",
+      "pass": true,
+      "detail": "in contact -28.1 dBFS, lifted -180.0 dBFS"
+    },
+    {
+      "name": "Short marks sound different from long strokes",
+      "pass": true,
+      "detail": "long line sustained 97% of the time, marks 59% with 4 transients"
+    },
+    {
+      "name": "Contact sounds at stroke starts and ends",
+      "pass": true,
+      "detail": "12 pencil-down and 12 pencil-up grains scheduled"
+    }
+  ],
+  "errors": []
+}

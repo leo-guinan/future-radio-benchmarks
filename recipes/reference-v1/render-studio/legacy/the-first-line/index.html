@@ -1,0 +1,569 @@
+<title>The First Line</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a screening-room bay. Stage on top, transport under it, then the working panels:
+   scene log (left) beside object states and capability tests (right). Single dark theme by choice. */
+:root{
+  color-scheme:dark;
+  --bay:#14120f; --panel:#1b1814; --raise:#24201b; --line:#352f28;
+  --ink:#ece5d6; --mute:#a0978a; --faint:#6f685e;
+  --amber:#e7a23c; --copper:#c47744;
+  --op-INSCRIBE:#d9d1c1; --op-ALTER:#9db4cc; --op-ANIMATE:#e7a23c; --op-FRAME:#8cc29e;
+  --op-PROMOTE:#d98a55; --op-PROPAGATE:#f0d36a; --op-COMPOSE:#c49ad6; --op-ACCOUNT:#7cc6c1;
+  --f-display:"Shantell Sans","Comic Neue",ui-rounded,system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bay);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px;display:grid;gap:22px}
+header{display:grid;gap:6px;max-width:72ch}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+h1{font-family:var(--f-display);font-weight:600;font-size:clamp(30px,4.4vw,46px);line-height:1.05;margin:0;text-wrap:balance}
+header p{margin:0;color:var(--mute)}
+header p b{color:var(--ink);font-weight:500}
+
+.stage{position:relative;width:100%;aspect-ratio:16/9;max-width:100%;background:#000;border-radius:6px;overflow:hidden;box-shadow:0 0 0 1px var(--line),0 24px 60px -30px #000}
+.stage canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.sub{position:absolute;left:0;right:0;bottom:5.5%;display:flex;justify-content:center;pointer-events:none;padding-inline:8%}
+.sub span{font-family:var(--f-display);font-size:clamp(14px,2.1vw,24px);line-height:1.3;color:#f6efe0;background:rgba(14,12,10,.72);padding:.25em .7em;border-radius:4px;text-align:center}
+.sub span:empty{display:none}
+.sub i{font-style:normal;font-family:var(--f-mono);font-size:.62em;letter-spacing:.1em;color:var(--amber);margin-right:.6em;vertical-align:.15em}
+.poster{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(transparent 40%,rgba(10,8,6,.55));border:0;cursor:pointer;color:var(--ink);font:inherit}
+.poster span{font-family:var(--f-display);font-size:clamp(16px,2.2vw,22px);background:var(--amber);color:#1a1307;padding:.55em 1.1em;border-radius:999px;font-weight:600;box-shadow:0 10px 30px -10px #000}
+.poster:focus-visible span{outline:3px solid var(--ink);outline-offset:3px}
+
+.transport{display:grid;grid-template-columns:auto auto 1fr auto auto;align-items:center;gap:12px}
+.btn{font:500 13px var(--f-mono);color:var(--ink);background:var(--raise);border:1px solid var(--line);border-radius:5px;padding:7px 11px;cursor:pointer;white-space:nowrap}
+.btn:hover{border-color:var(--faint)}
+.btn:focus-visible,.ev:focus-visible,.seek:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.btn[aria-pressed="true"]{border-color:var(--amber);color:var(--amber)}
+.time{font:500 13px var(--f-mono);color:var(--mute);font-variant-numeric:tabular-nums;min-width:92px}
+.scrub{position:relative;height:34px;min-width:0}
+.ticks{position:absolute;left:0;right:0;top:2px;height:12px;pointer-events:none}
+.ticks b{position:absolute;top:0;width:2px;height:12px;border-radius:1px;opacity:.85}
+.scrub input{position:absolute;left:0;right:0;bottom:0;width:100%;margin:0;accent-color:var(--amber)}
+@media (max-width:640px){.transport{grid-template-columns:auto auto 1fr}.transport .opt{display:none}}
+
+.panels{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:900px){.panels{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;min-width:0}
+.panel h2{font:600 12px var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--mute);margin:0;padding:12px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:center}
+.panel h2 .btn{padding:4px 8px;font-size:11px;letter-spacing:0;text-transform:none}
+.side{display:grid;gap:18px;min-width:0}
+
+.log{max-height:560px;overflow:auto;padding:6px}
+.ev{display:grid;grid-template-columns:44px 92px minmax(0,1fr);gap:4px 10px;width:100%;text-align:left;background:none;border:0;border-radius:5px;padding:8px;color:var(--ink);font:inherit;cursor:pointer;opacity:.5}
+.ev.past{opacity:.82}
+.ev.on{opacity:1;background:var(--raise)}
+.ev:hover{opacity:1}
+.ev .t{font:12px var(--f-mono);color:var(--mute);font-variant-numeric:tabular-nums;padding-top:2px}
+.chip{font:500 11px var(--f-mono);letter-spacing:.05em;align-self:start;justify-self:start;padding:2px 6px;border-radius:3px;color:#17130e;margin-top:1px}
+.ev .who{font-size:13.5px}
+.ev .who em{font-style:normal;color:var(--mute)}
+.ev .out{grid-column:3;color:var(--mute);font-size:13.5px}
+.ev.fail .out{text-decoration:line-through;text-decoration-color:var(--faint)}
+.ev dl{grid-column:2/4;display:none;grid-template-columns:auto minmax(0,1fr);gap:2px 12px;margin:6px 0 2px;font:12px var(--f-mono);color:var(--mute)}
+.ev.on dl{display:grid}
+.ev dt{color:var(--faint)}
+.ev dd{margin:0;color:var(--ink);overflow-wrap:anywhere}
+
+.objs{padding:6px 10px 10px}
+.obj{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center;padding:7px 4px;border-bottom:1px solid var(--line)}
+.obj:last-child{border-bottom:0}
+.obj .nm{font-size:13.5px}
+.obj .nt{grid-column:1/3;font:11.5px var(--f-mono);color:var(--faint)}
+.obj.none{opacity:.38}
+.pips{display:flex;gap:3px}
+.pips span{font:500 10.5px var(--f-mono);width:26px;text-align:center;padding:2px 0;border-radius:3px;border:1px solid var(--line);color:var(--faint)}
+.pips span.cur{background:var(--amber);border-color:var(--amber);color:#1a1307}
+.legend{font:11.5px var(--f-mono);color:var(--faint);padding:0 14px 12px;display:flex;flex-wrap:wrap;gap:4px 12px}
+
+.tests{padding:6px 10px 10px;display:grid}
+.test{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;padding:9px 4px;border-bottom:1px solid var(--line)}
+.test:last-child{border-bottom:0}
+.test .nm{font-weight:600;font-size:14px}
+.test .st{font:500 11px var(--f-mono);letter-spacing:.05em;padding:2px 7px;border-radius:3px;border:1px solid var(--line);color:var(--faint);align-self:start}
+.test.ok .st{border-color:var(--op-FRAME);color:var(--op-FRAME)}
+.test p{grid-column:1/3;margin:0;font-size:13px;color:var(--mute)}
+.seek{grid-column:1/3;justify-self:start;font:12px var(--f-mono);color:var(--amber);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+
+.ops{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.op{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:10px 12px;display:grid;gap:3px}
+.op .chip{font-size:11px}
+.op p{margin:0;font-size:13px;color:var(--mute)}
+.export .stage{position:fixed;left:0;top:0;width:1280px;height:720px;border-radius:0;z-index:50;box-shadow:none}
+.note{font-size:13px;color:var(--faint);max-width:80ch;margin:0}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Future Radio · Visual Grammar v0.1 · cold open prototype</div>
+    <h1>The First Line</h1>
+    <p>Leonardo begins as a drawing, discovers he can draw, and builds the studio around himself. <b>Every frame is rendered from the scene log below</b>: each stroke, behavior and boundary crossing is a recorded capability invocation, so the scene can be scrubbed, rewound and inspected.</p>
+  </header>
+
+  <div class="stage" id="stage">
+    <canvas id="cv" aria-label="Animated cold open: Leonardo draws the Future Radio studio around himself"></canvas>
+    <div class="sub" aria-live="polite"><span id="sub"></span></div>
+    <button class="poster" id="poster" type="button"><span>▶ Play from the first line</span></button>
+  </div>
+
+  <div class="transport">
+    <button class="btn" id="play" type="button">Play</button>
+    <span class="time" id="time">0:00 / 1:51</span>
+    <div class="scrub"><div class="ticks" id="ticks"></div><input id="scrub" type="range" min="0" max="111.2" step="0.01" value="0" aria-label="Scene time"></div>
+    <button class="btn opt" id="speed" type="button" aria-label="Playback speed">1×</button>
+    <button class="btn" id="sound" type="button" aria-pressed="true">Sound on</button>
+  </div>
+
+  <div class="panels">
+    <section class="panel">
+      <h2><span>Scene log · capability invocations</span><button class="btn" id="copy" type="button">Copy as JSON</button></h2>
+      <div class="log" id="log"></div>
+    </section>
+    <div class="side">
+      <section class="panel">
+        <h2><span>Objects · state of existence</span></h2>
+        <div class="objs" id="objs"></div>
+        <div class="legend"><span>I representation</span><span>II construction</span><span>III agency</span><span>IV emergence</span><span>V integration</span></div>
+      </section>
+      <section class="panel">
+        <h2><span>What this scene tests</span></h2>
+        <div class="tests" id="tests"></div>
+      </section>
+    </div>
+  </div>
+
+  <section class="ops" id="ops" aria-label="The seven operations"></section>
+  <p class="note">Prototype renderer: hand-coded canvas strokes with deterministic wobble and synthesized pencil, static and ring sounds. Dialogue is voiced with the Infinite Overture voices for Leonardo and Borges; Agnolo and the caller use stand-in voices. The scene log is the part meant to carry over into a production pipeline; the renderer exists to prove the log is sufficient to produce the scene.</p>
+</div>
+
+<script>
+(()=>{
+const W=1280,H=720,T_END=111.2;
+// real time -> scene time. Two stretches make room for the recorded lines.
+const WARP=[[0,0],[82,82],[86.6,85.8],[91.2,90.4],[101.0,97.8],[111.2,108]];
+const warp=r=>{for(let i=1;i<WARP.length;i++)if(r<=WARP[i][0]){const a=WARP[i-1],b=WARP[i];return a[1]+(r-a[0])*(b[1]-a[1])/(b[0]-a[0])}return 108};
+const unwarp=s=>{for(let i=1;i<WARP.length;i++)if(s<=WARP[i][1]){const a=WARP[i-1],b=WARP[i];return a[0]+(s-a[1])*(b[0]-a[0])/(b[1]-a[1])}return T_END};
+let RT=0;
+const lerp=(a,b,t)=>a+(b-a)*t, clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
+const smooth=(a,b,t)=>{const x=clamp((t-a)/(b-a));return x*x*(3-2*x)};
+const lp=(a,b,k)=>[lerp(a[0],b[0],k),lerp(a[1],b[1],k)];
+let seed=7;const rnd=()=>{seed=(seed*16807)%2147483647;return seed/2147483647};
+
+/* ---------- geometry ---------- */
+function Lp(x1,y1,x2,y2,n=6){const p=[];for(let i=0;i<=n;i++)p.push([lerp(x1,x2,i/n),lerp(y1,y2,i/n)]);return p}
+function El(cx,cy,rx,ry,a0=0,a1=Math.PI*2,n=24){const p=[];for(let i=0;i<=n;i++){const a=lerp(a0,a1,i/n);p.push([cx+Math.cos(a)*rx,cy+Math.sin(a)*ry])}return p}
+function Ci(cx,cy,r,n=20){return El(cx,cy,r,r,-Math.PI/2,Math.PI*1.5,n)}
+function RR(x,y,w,h,r){const p=[];
+  const seg=(x1,y1,x2,y2)=>{for(let i=0;i<6;i++)p.push([lerp(x1,x2,i/6),lerp(y1,y2,i/6)])};
+  const arc=(cx,cy,a0)=>{for(let i=0;i<5;i++){const a=a0+i/5*Math.PI/2;p.push([cx+Math.cos(a)*r,cy+Math.sin(a)*r])}};
+  seg(x+r,y,x+w-r,y);arc(x+w-r,y+r,-Math.PI/2);seg(x+w,y+r,x+w,y+h-r);arc(x+w-r,y+h-r,0);
+  seg(x+w-r,y+h,x+r,y+h);arc(x+r,y+h-r,Math.PI/2);seg(x,y+h-r,x,y+r);arc(x+r,y+r,Math.PI);p.push([x+r,y]);return p}
+function Qb(a,b,c,n=12){const p=[];for(let i=0;i<=n;i++){const t=i/n;p.push([(1-t)*(1-t)*a[0]+2*(1-t)*t*b[0]+t*t*c[0],(1-t)*(1-t)*a[1]+2*(1-t)*t*b[1]+t*t*c[1]])}return p}
+function Poly(pts,n=5){const p=[];for(let i=0;i<pts.length-1;i++)for(let k=0;k<n;k++)p.push(lp(pts[i],pts[i+1],k/n));p.push(pts[pts.length-1]);return p}
+const uv0=(x,y)=>[(x-300)/680,(y-70)/510];
+const uv1=(x,y)=>[(x-380)/520,(y-20)/370];
+const conv=(strokes,f)=>strokes.map(s=>s.map(p=>f(p[0],p[1])));
+
+/* ---------- world frames ---------- */
+let E=0,Q=null;
+const emergence=t=>ease(clamp((t-52)/8));
+function pageQuad(e){const k=Math.sin(Math.PI*e)*70;
+  return [[lerp(300,380,e)+k,lerp(70,20,e)+k*.35],[lerp(980,900,e)-k,lerp(70,20,e)+k*.35],[lerp(980,900,e),lerp(580,390,e)],[lerp(300,380,e),lerp(580,390,e)]]}
+function bil(q,u,v){const a=lp(q[0],q[1],u),b=lp(q[3],q[2],u);return lp(a,b,v)}
+function floorGeom(e){return{top:lerp(580,390,e),bot:760,bl:lerp(300,380,e),br:lerp(980,900,e),fl:lerp(300,-260,e),fr:lerp(980,1540,e)}}
+function floorMap(xf,s,e){const g=floorGeom(e);const y=lerp(g.top,g.bot,s);return[lerp(lerp(g.bl,g.fl,s),lerp(g.br,g.fr,s),xf),y]}
+
+/* ---------- drawings: every stroke in the scene ---------- */
+const DR={},ORDER=[];
+function dw(id,o){o.id=id;DR[id]=o;ORDER.push(o);return o}
+dw('leoBody',{space:'stage',by:'none',obj:'leonardo',t0:2.6,t1:7.4,timing:[[2.6,0],[3.8,.05],[7.4,1]],strokes:[
+  RR(560,250,80,62,12),Lp(600,250,600,230,3),Ci(600,224,5,12),Ci(583,279,7,14),Ci(617,279,7,14),Lp(589,297,611,297,3),
+  Lp(594,312,594,322,2),Lp(606,312,606,322,2),RR(566,322,72,96,8),Ci(602,356,11,16),Lp(602,356,608,349,2),Lp(574,394,630,394,6),
+  Ci(570,343,4,10),Ci(636,343,4,10),Lp(420,437,640,437,12),Lp(420,437,420,446,2)]});
+dw('leoArmL',{space:'stage',by:'none',obj:'leonardo',t0:7.4,t1:8.0,until:90.2,strokes:[Lp(568,346,551,392,5),Lp(551,392,549,418,4)]});
+dw('mark1',{space:'page',by:'leo',t0:9.6,t1:10.0,strokes:conv([Qb([678,447],[686,453],[694,450],6)],uv0)});
+dw('mark2',{space:'page',by:'leo',t0:11.6,t1:12.0,strokes:conv([Qb([682,459],[692,452],[703,460],6)],uv0)});
+dw('fingers',{space:'stage',by:'leo',obj:'leonardo',t0:13.0,t1:17.0,until:90.2,strokes:[Ci(548,428,8,16),
+  Qb([542,434],[540,441],[539,448],5),Qb([546,436],[545,443],[545,450],5),Qb([550,436],[551,443],[551,450],5),Qb([554,434],[556,441],[557,447],5),Qb([555,425],[562,428],[562,436],5)],
+  xf:(p,t)=>{if(t<18||t>19.4||p[1]<434)return p;const f=Math.max(0,Math.sin((t-18)/1.4*Math.PI*3));return[p[0]+f*2,434+(p[1]-434)*(1-.5*f)]}});
+dw('deskExt',{space:'stage',by:'leo',obj:'desk',t0:21.0,t1:23.0,strokes:[Lp(640,437,870,437,16),Lp(870,437,870,446,2),Lp(870,446,420,446,20)]});
+dw('mic',{space:'stage',by:'leo',obj:'mic',t0:23.2,t1:27.0,strokes:[El(725,436,20,4,0,Math.PI*2,20),Lp(725,432,725,374,6),RR(711,330,28,44,13),
+  Lp(715,342,735,342,4),Lp(714,350,736,350,4),Lp(715,358,735,358,4),Qb([745,436],[760,446],[778,440])]});
+dw('switch',{space:'stage',by:'leo',obj:'mic',t0:28.0,t1:28.5,strokes:[RR(737,355,8,10,2),Lp(739,362,744,357,2)]});
+const grille=[];for(let x=836;x<=866;x+=6)grille.push(Lp(x,390,x,424,4));
+dw('radio',{space:'stage',by:'leo',obj:'radio',t0:30.5,t1:33.8,strokes:[RR(790,377,86,60,6),Ci(812,406,12,18),Lp(812,406,819,398,2),...grille,Lp(864,377,884,338,6),Ci(885,334,3,8),Qb([778,440],[786,446],[790,428])]});
+dw('edge',{space:'stage',by:'leo',t0:40.0,t1:43.0,timing:[[40,0],[41,.772],[42.4,.786],[43,1]],fade:[52,56],strokes:[Lp(700,449,700,616,30)]});
+dw('board0',{space:'floor',by:'leo',obj:'floor',s:.2,t0:43.0,t1:45.0,strokes:[Lp(.588,.2,1,.2,12),Lp(.588,.2,0,.2,14)]});
+dw('board1',{space:'floor',by:'leo',obj:'floor',s:.45,t0:48.0,t1:49.3,strokes:[Lp(0,.45,1,.45,20)]});
+dw('board2',{space:'floor',by:'leo',obj:'floor',s:.7,t0:49.3,t1:50.6,strokes:[Lp(1,.7,0,.7,20)]});
+dw('board3',{space:'floor',by:'leo',obj:'floor',s:.03,t0:50.6,t1:51.8,strokes:[Lp(0,.03,1,.03,20)]});
+dw('lamp',{space:'stage',by:'leo',obj:'lamp',t0:59.5,t1:61.8,strokes:[Lp(600,-30,600,124,10),Poly([[580,124],[620,124],[642,156],[558,156],[580,124]]),El(600,156,9,7,0,Math.PI,10)]});
+dw('window',{space:'page',by:'leo',t0:69.8,t1:71.6,strokes:conv([RR(410,70,112,130,3),Lp(466,70,466,200,8),Lp(410,135,522,135,8),Lp(400,204,532,204,10)],uv1)});
+dw('cloud',{space:'page',by:'leo',t0:72.0,t1:73.4,clip:'window',strokes:conv([El(432,100,9,8,Math.PI,Math.PI*2,8),El(447,94,11,11,Math.PI,Math.PI*2,10),El(462,100,8,7,Math.PI,Math.PI*2,8),Lp(470,100,424,100,6)],uv1),
+  drift:t=>t<73.4?0:(((t-73.4)*.006)%.3)});
+dw('phoneBody',{space:'stage',by:'leo',obj:'phone',t0:87.0,t1:88.8,strokes:[RR(440,412,62,25,6),Ci(471,424,6,12),Qb([440,428],[424,440],[434,448])]});
+dw('phoneHandset',{space:'stage',by:'leo',obj:'phone',t0:88.8,t1:89.6,until:90.2,strokes:[RR(442,401,58,10,5)]});
+// the record: the original drawing, kept on the page
+const ghostStrokes=[...DR.leoBody.strokes,...DR.leoArmL.strokes,Lp(638,346,668,384,4),Lp(668,384,692,405,4),Lp(676,436,692,405,4)];
+dw('record',{space:'page',by:'none',t0:52,t1:52,strokes:conv(ghostStrokes,uv0),isGhost:true});
+
+// measure each drawing once
+const measure={stage:p=>p,page:p=>[p[0]*520,p[1]*370],floor:p=>[p[0]*680,p[1]*180]};
+seed=11;
+for(const d of ORDER){d.cum=[];d.wob=[];d.total=0;
+  for(const s of d.strokes){const c=[0];const w=[];let L=0;
+    for(let i=0;i<s.length;i++){w.push([rnd()-.5,rnd()-.5]);if(i){const a=measure[d.space](s[i-1]),b=measure[d.space](s[i]);L+=Math.hypot(b[0]-a[0],b[1]-a[1]);c.push(L)}}
+    d.cum.push(c);d.wob.push(w);d.total+=L}}
+const LEO=ORDER.filter(d=>d.by==='leo');
+
+function progress(d,t){const k=d.timing||[[d.t0,0],[d.t1,1]];
+  if(t<=k[0][0])return 0;if(t>=k[k.length-1][0])return 1;
+  for(let i=1;i<k.length;i++)if(t<=k[i][0])return lerp(k[i-1][1],k[i][1],(t-k[i-1][0])/(k[i][0]-k[i-1][0]));return 1}
+function mapper(d,t,off){
+  if(d.space==='stage')return p=>{if(d.xf)p=d.xf(p,t);return off?[p[0]+off[0],p[1]+off[1]]:p};
+  if(d.space==='page'){const du=d.drift?d.drift(t):0;return p=>bil(Q,p[0]+du,p[1])}
+  return p=>floorMap(p[0],p[1],E)}
+let VIB=0,vibSeed=1;
+function traced(d,t,prog,off){if(prog<=0)return[];const map=mapper(d,t,off);let remain=prog*d.total;const out=[];
+  for(let si=0;si<d.strokes.length&&remain>0;si++){const s=d.strokes[si],c=d.cum[si],w=d.wob[si],L=c[c.length-1];const pl=[];
+    for(let i=0;i<s.length;i++){let q;if(c[i]<=remain)q=s[i];else{const k=(remain-c[i-1])/Math.max(1e-6,c[i]-c[i-1]);q=lp(s[i-1],s[i],k)}
+      const m=map(q);const j=VIB?VIB*((Math.sin(i*12.9898+si*78.233+vibSeed)*43758.5453)%1):0;
+      pl.push([m[0]+w[i][0]*.9+j,m[1]+w[i][1]*.9-j]);if(c[i]>remain)break}
+    out.push(pl);remain-=L}
+  return out}
+function tipOf(d,t){const pl=traced(d,t,Math.max(.001,progress(d,t)));const last=pl[pl.length-1];return last[last.length-1]}
+
+/* ---------- canvas ---------- */
+const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
+let DPR=1,SC=1;
+function resize(){DPR=Math.min(2,window.devicePixelRatio||1);const r=cv.getBoundingClientRect();cv.width=Math.round(r.width*DPR);cv.height=Math.round(r.height*DPR);SC=cv.width/W;dirty=true}
+const PAPER='#efe6d3',GRAPH='rgba(46,42,38,.9)';
+// paper grain tile
+const grain=document.createElement('canvas');grain.width=grain.height=200;{const g=grain.getContext('2d');seed=3;for(let i=0;i<2600;i++){g.fillStyle=`rgba(${rnd()<.5?90:255},${rnd()<.5?70:240},50,${rnd()*.07})`;g.fillRect(rnd()*200,rnd()*200,1+rnd()*1.5,1+rnd()*1.5)}}
+let grainPat=null;
+function pathOf(pl){ctx.beginPath();for(const s of pl){if(!s.length)continue;ctx.moveTo(s[0][0],s[0][1]);for(let i=1;i<s.length;i++)ctx.lineTo(s[i][0],s[i][1])}}
+function ink(pl,a=1,w=1.7,halo=true){if(!pl.length)return;ctx.lineCap='round';ctx.lineJoin='round';pathOf(pl);
+  if(halo){ctx.globalAlpha=a*.85;ctx.strokeStyle=PAPER;ctx.lineWidth=w+1.8;ctx.stroke()}
+  ctx.globalAlpha=a;ctx.strokeStyle=GRAPH;ctx.lineWidth=w;ctx.stroke();
+  ctx.globalAlpha=a*.3;ctx.lineWidth=w*.6;ctx.save();ctx.translate(.6,.4);ctx.stroke();ctx.restore();ctx.globalAlpha=1}
+function drawD(id,t,a=1,opt={}){const d=DR[id];if(d.until&&t>=d.until)return;let al=a;if(d.fade)al*=1-smooth(d.fade[0],d.fade[1],t);if(al<=0)return;
+  const pr=opt.full?1:progress(d,t);if(pr<=0)return;
+  if(opt.depth&&E>0&&pr>=1){ink(traced(d,t,pr,[5*E,-4*E]),al*.28*E,1.4,false)}
+  ink(traced(d,t,pr),al,opt.w||1.7,!opt.nohalo)}
+function fillPoly(pts,color,a){if(a<=0)return;ctx.globalAlpha=a;ctx.fillStyle=color;ctx.beginPath();pts.forEach((p,i)=>i?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]));ctx.closePath();ctx.fill();ctx.globalAlpha=1}
+function glow(x,y,r,col,a){if(a<=0)return;const g=ctx.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,col.replace('A',a));g.addColorStop(1,col.replace('A',0));ctx.fillStyle=g;ctx.fillRect(x-r,y-r,r*2,r*2)}
+
+/* ---------- direction: camera, looks, dialogue ---------- */
+const CAM=[[0,2.6,600,282],[3.0,2.6,600,282],[12,1.12,615,350],[20,1.12,615,350],[23.5,1.0,640,330],[36.5,1.0,640,330],[39.5,.95,700,360],[41,1.0,680,440],[46,1.0,680,440],[48,.95,640,380],[52,.95,640,380],[63,.84,640,370],[98.6,.84,640,370],[103,1.25,770,200],[108,1.25,770,200]];
+function cam(t){for(let i=1;i<CAM.length;i++)if(t<=CAM[i][0]){const a=CAM[i-1],b=CAM[i],k=ease(clamp((t-a[0])/(b[0]-a[0])));return[lerp(a[1],b[1],k),lerp(a[2],b[2],k),lerp(a[3],b[3],k)]}const l=CAM[CAM.length-1];return[l[1],l[2],l[3]]}
+const SUBS=[[10.2,11.7,'LEONARDO','Oh.'],[12.2,14.6,'LEONARDO','Well, that\u2019s interesting.'],[19.8,21.95,'LEONARDO','Right. We\u2019re going to need a few things.'],
+ [29.3,30.1,'LEONARDO','Hello?'],[30.3,32.4,'LEONARDO','Oh, that\u2019s wonderful.'],[45.4,46.45,'LEONARDO','Ah.'],
+ [62.8,63.75,'BORGES · V.O.','Leonardo?'],[63.9,65.7,'LEONARDO','Borges! Can you hear me?'],[65.8,70.2,'BORGES · V.O.','Yes. Although I appear to have misplaced the station.'],
+ [70.3,71.75,'LEONARDO','I\u2019ve nearly finished it.'],[74.0,76.15,'AGNOLO · V.O.','Leonardo, I have a question.'],[76.3,77.35,'LEONARDO','Go ahead.'],
+ [77.5,79.0,'AGNOLO · V.O.','How much did the room cost?'],[79.1,80.6,'LEONARDO','One pencil.'],[80.8,83.0,'AGNOLO · V.O.','And how much did the pencil cost?'],
+ [83.3,86.2,'LEONARDO','That\u2019s an excellent question.'],[91.3,93.6,'LEONARDO','Future Radio. You\u2019re on the air.'],[93.8,96.15,'CALLER · V.O.','Hello. I\u2019d like to request a song.'],
+ [96.3,98.1,'LEONARDO','Of course. Which one?'],[98.25,100.95,'CALLER · V.O.','Well, it hasn\u2019t been written yet.'],[103.6,105.4,'LEONARDO','I think we can help with that.']];
+SUBS.forEach((c,i)=>c.push('vo/p'+String(i+1).padStart(2,'0')+'.mp3'));
+const subAt=t=>SUBS.find(s=>t>=s[0]&&t<s[1]);
+const GEST=[{t0:9.0,t1:9.4,pt:[679,439],jit:2.5},{t0:27.3,t1:27.8,pt:[729,352]}];
+const REST=[676,436];
+function leoTip(t){
+  for(const d of LEO)if(t>=d.t0&&t<=d.t1){let p=tipOf(d,t);if(d.id==='edge'&&t>41&&t<42.4)p=[p[0]+Math.sin(t*90)*1.2,p[1]+Math.cos(t*70)*.8];return{p,active:true,d}}
+  for(const g of GEST)if(t>=g.t0&&t<=g.t1){const j=g.jit?Math.sin(t*60)*g.jit:0;return{p:[g.pt[0]+j,g.pt[1]],active:false}}
+  let prev=null,next=null;
+  for(const d of LEO){if(d.t1<=t&&(!prev||d.t1>prev.t))prev={t:d.t1,p:()=>tipOf(d,d.t1)};if(d.t0>=t&&(!next||d.t0<next.t))next={t:d.t0,p:()=>tipOf(d,d.t0+.001)}}
+  for(const g of GEST){if(g.t1<=t&&(!prev||g.t1>prev.t))prev={t:g.t1,p:()=>g.pt};if(g.t0>=t&&(!next||g.t0<next.t))next={t:g.t0,p:()=>g.pt}}
+  let p=REST;
+  if(prev&&t-prev.t<.5)p=lp(prev.p(),REST,ease((t-prev.t)/.5));
+  if(next&&next.t-t<.5)p=lp(p,next.p(),ease(1-(next.t-t)/.5));
+  return{p,active:false}}
+const LOOKS=[[36.8,40,[960,470]],[44.9,45.6,[700,640]],[45.6,47,'hand'],[56,59.4,[600,40]],[62.8,68.3,[830,405]],[74,78.7,[830,405]],[78.8,79.8,'hand'],[80,81.8,[830,405]],[82,83.5,'ghost'],[83.5,85.4,[640,330]],[85.8,87,[471,420]],[97.8,98.6,'hand'],[98.6,104,[820,170]]];
+
+/* ---------- ledger (Agnolo's ACCOUNT) ---------- */
+function graphiteAt(t){let L=0,n=0;for(const d of LEO){const p=progress(d,t);L+=p*d.total;if(p>=1)n+=d.strokes.length}return{mm:Math.round(L/12),strokes:n}}
+const PENCIL0=42;
+
+/* ---------- render ---------- */
+function render(real){
+  RT=real;const t=warp(real);
+  E=emergence(t);Q=pageQuad(E);
+  VIB=(t>34&&t<37.5)?1.6*Math.sin(Math.PI*(t-34)/3.5):0;vibSeed=Math.floor(t*30);
+  ctx.setTransform(1,0,0,1,0,0);
+  const bg=[lerp(38,46,E),lerp(34,40,E),lerp(28,33,E)];ctx.fillStyle=`rgb(${bg.map(Math.round)})`;ctx.fillRect(0,0,cv.width,cv.height);
+  const [z,cx,cy]=cam(t);ctx.setTransform(SC*z,0,0,SC*z,SC*(W/2-cx*z),SC*(H/2-cy*z));
+  if(!grainPat)grainPat=ctx.createPattern(grain,'repeat');
+  const lampOn=smooth(62.2,62.6,t);
+  const g=floorGeom(E);
+
+  // room lines (the room is still being drawn)
+  if(E>0){ctx.globalAlpha=.45*E;ctx.strokeStyle=PAPER;ctx.lineWidth=1.2;ctx.beginPath();
+    ctx.moveTo(Q[0][0],Q[0][1]);ctx.lineTo(lerp(Q[0][0],-500,E),-400);ctx.moveTo(Q[1][0],Q[1][1]);ctx.lineTo(lerp(Q[1][0],1780,E),-400);ctx.stroke();ctx.globalAlpha=1}
+
+  // floor: plank bands appear as boards are drawn; full floor arrives with emergence
+  const fpoly=[[g.bl,g.top],[g.br,g.top],[g.fr,g.bot],[g.fl,g.bot]];
+  fillPoly(fpoly,'#ddd0b8',.92*smooth(.15,.6,E));
+  for(const id of['board0','board1','board2','board3']){const d=DR[id];const pr=progress(d,t);if(pr<=0)continue;
+    const pts=traced(d,t,pr).flat();let lo=1e9,hi=-1e9;
+    // revealed x extent in floor coords: recompute from stroke parameters
+    const xs=[];let remain=pr*d.total;d.strokes.forEach((s,si)=>{if(remain<=0)return;const L=d.cum[si][d.cum[si].length-1];const k=clamp(remain/L);xs.push(s[0][0],lerp(s[0][0],s[s.length-1][0],k));remain-=L});
+    lo=Math.min(...xs);hi=Math.max(...xs);const s0=Math.max(0,d.s-.11),s1=d.s+.11;
+    fillPoly([floorMap(lo,s0,E),floorMap(hi,s0,E),floorMap(hi,s1,E),floorMap(lo,s1,E)],'#ddd0b8',.92*(1-smooth(.15,.6,E)));
+    ctx.save();ctx.globalAlpha=(1-smooth(.15,.6,E))*.6;ctx.fillStyle=grainPat;ctx.beginPath();[floorMap(lo,s0,E),floorMap(hi,s0,E),floorMap(hi,s1,E),floorMap(lo,s1,E)].forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.fill();ctx.restore()}
+  if(E>0){ctx.globalAlpha=.35*E;ctx.strokeStyle=GRAPH;ctx.lineWidth=1;ctx.beginPath();for(let k=1;k<8;k++){const a=floorMap(k/8,0,E),b=floorMap(k/8,1,E);ctx.moveTo(...a);ctx.lineTo(...b)}ctx.stroke();ctx.globalAlpha=1}
+  for(const id of['board0','board1','board2','board3'])drawD(id,t);
+
+  // the page (later: the wall)
+  ctx.save();ctx.shadowColor='rgba(0,0,0,.55)';ctx.shadowBlur=30*SC;fillPoly(Q,PAPER,1);ctx.restore();
+  ctx.save();ctx.beginPath();Q.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.closePath();ctx.clip();ctx.fillStyle=grainPat;ctx.fillRect(0,-100,1400,800);ctx.restore();
+  // record of the original drawing, retained on the page
+  const ga=smooth(52,58,t)*.5;if(ga>0)drawD('record',t,ga,{full:true,nohalo:true,w:1.4});
+  drawD('mark1',t);drawD('mark2',t);drawD('window',t);
+  if(progress(DR.window,t)>=1||t>72){const wq=[uv1(410,70),uv1(522,70),uv1(522,200),uv1(410,200)].map(p=>bil(Q,p[0],p[1]));
+    ctx.save();ctx.beginPath();wq.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.closePath();ctx.clip();drawD('cloud',t,1,{nohalo:true});ctx.restore()}
+
+  // the real shadow (evidence crossing the boundary)
+  if(t>36.5){const len=240*ease(clamp((t-36.5)/3));const a=.6*(1-smooth(52,56,t));
+    if(a>0){ctx.save();ctx.filter=`blur(${6}px)`;fillPoly([[792,437],[876,437],[876+len,437+len*.12],[792+len*.75,437+len*.12]],'#0a0806',a);ctx.restore()}}
+  // lamp shadows
+  if(lampOn>0){ctx.save();ctx.filter='blur(10px)';ctx.globalAlpha=.35*lampOn;ctx.fillStyle='#0a0806';
+    ctx.beginPath();ctx.ellipse(645,575,250,16,0,0,Math.PI*2);ctx.fill();
+    ctx.globalAlpha=.25*lampOn;for(const [x,y,r] of[[728,438,24],[838,438,46],[471,438,34]]){ctx.beginPath();ctx.ellipse(x+6,y,r,3.5,0,0,Math.PI*2);ctx.fill()}ctx.restore()}
+
+  // Leonardo
+  const tin='#b3babd';
+  fillPoly(RR(560,250,80,62,12),tin,E*.9);fillPoly(RR(566,322,72,96,8),tin,E*.9);fillPoly(Ci(602,356,11,16),'#c47744',E*.9);
+  const bodyA=1;drawD('leoBody',t,bodyA,{depth:true});drawD('leoArmL',t,1,{depth:true});
+  if(t>7.6&&t<90.2){const a=smooth(7.6,8.2,t)*(1-progress(DR.fingers,t));if(a>0){ctx.save();ctx.setLineDash([2.5,3]);ctx.globalAlpha=a*.85;ctx.strokeStyle=GRAPH;ctx.lineWidth=1.2;ctx.beginPath();ctx.arc(548,428,9,0,Math.PI*2);ctx.stroke();ctx.restore()}}
+  drawD('fingers',t,1,{depth:true});
+  // eyes
+  if(t>6){const tip=leoTip(t);let look=null;for(const L of LOOKS)if(t>=L[0]&&t<L[1])look=L[2];
+    if(look==='hand')look=handPos(t,tip.p);else if(look==='ghost')look=bil(Q,...uv0(600,282));
+    if(!look)look=tip.active?tip.p:[600,330];
+    const blink=t>9&&((t+1.3)%4.3)<.13;
+    for(const ex of[583,617]){if(blink){ctx.strokeStyle=GRAPH;ctx.lineWidth=1.6;ctx.beginPath();ctx.moveTo(ex-6,279);ctx.lineTo(ex+6,279);ctx.stroke();continue}
+      const dx=look[0]-ex,dy=look[1]-279,dl=Math.hypot(dx,dy)||1;ctx.fillStyle='rgba(40,36,32,.95)';ctx.beginPath();ctx.arc(ex+dx/dl*2.8,279+dy/dl*2.8,2.7,0,Math.PI*2);ctx.fill()}}
+
+  // desk
+  if(E>0){fillPoly([[420,437],[870,437],[852,437-18*E],[438,437-18*E]],'#c9ae86',.9*E);fillPoly([[420,437],[870,437],[870,446],[420,446]],'#8d7252',E);
+    ink([Lp(420,437,438,437-18*E,2),Lp(870,437,852,437-18*E,2),Lp(438,437-18*E,852,437-18*E,10)],E*.8,1.3,false);
+    ink([Lp(428,446,428,446+108*E,6),Lp(862,446,862,446+108*E,6),Lp(446,430,446,430+100*E,6),Lp(846,430,846,430+100*E,6)],E,1.5)}
+  drawD('deskExt',t,1,{depth:true});
+  // microphone, radio, telephone
+  fillPoly(RR(711,330,28,44,13),'#7f8589',E*.9);drawD('mic',t,1,{depth:true});drawD('switch',t,1,{depth:true});
+  fillPoly(RR(790,377,86,60,6),'#9a7550',E*.9);fillPoly(Ci(812,406,12,18),'#e6c58e',E*.9);drawD('radio',t,1,{depth:true});
+  const phoneSolid=smooth(89.0,89.6,t);fillPoly(RR(440,412,62,25,6),'#3a342e',phoneSolid*.95);if(t<90.2)fillPoly(RR(442,401,58,10,5),'#3a342e',phoneSolid*.95);
+  drawD('phoneBody',t,1);drawD('phoneHandset',t,1);
+  if(t>=90.2){ // picked up
+    fillPoly(RR(541,268,12,46,6),'#3a342e',.95);ink([RR(541,268,12,46,6),Lp(568,346,556,312,4),Qb([440,428],[500,380],[547,314],12)],1,1.6);
+    ink([Ci(553,312,5,10)],1,1.4)}
+  // lamp
+  fillPoly([[580,124],[620,124],[642,156],[558,156]],'#c47744',smooth(61.4,61.8,t)*.9);drawD('lamp',t);
+  // edge line (graphite crossing the boundary)
+  drawD('edge',t);
+  if(t>41&&t<42.6){glow(700,579,14,'rgba(231,162,60,A)',.5+.4*Math.sin(t*40))}
+
+  // right arm + pencil (posed by solver, never redrawn)
+  {const tip=leoTip(t).p;const hp=handPos(t,tip);const a=smooth(7.6,8.4,t);
+    if(a>0){const S=[638,346];let pts;const d=Math.hypot(hp[0]-S[0],hp[1]-S[1]);
+      if(d<88){const base=Math.atan2(hp[1]-S[1],hp[0]-S[0]),k=Math.acos(clamp(d/88,-1,1));const e1=[S[0]+Math.cos(base+k)*44,S[1]+Math.sin(base+k)*44],e2=[S[0]+Math.cos(base-k)*44,S[1]+Math.sin(base-k)*44];pts=[S,e1[1]>e2[1]?e1:e2,hp]}
+      else pts=[S,hp];
+      const arm=[Poly(pts,4)];if(E>0)ink(arm.map(s=>s.map(p=>[p[0]+5*E,p[1]-4*E])),.28*E,1.4,false);ink(arm,a,2);
+      if(d>=88){ctx.globalAlpha=a;ctx.strokeStyle=GRAPH;ctx.lineWidth=1;for(let k=1;k<4;k++){const m=lp(S,hp,k/4),n=[-(hp[1]-S[1])/d*4,(hp[0]-S[0])/d*4];ctx.beginPath();ctx.moveTo(m[0]-n[0],m[1]-n[1]);ctx.lineTo(m[0]+n[0],m[1]+n[1]);ctx.stroke()}ctx.globalAlpha=1}
+      ctx.globalAlpha=a;ctx.fillStyle=E>0?tin:PAPER;ctx.beginPath();ctx.arc(hp[0],hp[1],4.5,0,Math.PI*2);ctx.fill();ctx.strokeStyle=GRAPH;ctx.lineWidth=1.4;ctx.stroke();
+      // pencil: shortens with the graphite it has spent
+      ctx.lineCap='round';ctx.strokeStyle='#2c2824';ctx.lineWidth=6.4;ctx.beginPath();ctx.moveTo(hp[0],hp[1]);ctx.lineTo(tip[0]+(hp[0]-tip[0])*.16,tip[1]+(hp[1]-tip[1])*.16);ctx.stroke();
+      ctx.strokeStyle='#c47744';ctx.lineWidth=4.2;ctx.stroke();
+      ctx.strokeStyle='#2c2824';ctx.lineWidth=1.8;ctx.beginPath();ctx.moveTo(tip[0],tip[1]);ctx.lineTo(tip[0]+(hp[0]-tip[0])*.16,tip[1]+(hp[1]-tip[1])*.16);ctx.stroke();ctx.globalAlpha=1}}
+
+  // behaviors: waveform, receiver glow, ringing
+  if(t>=28.6&&t<103){const s=subAt(RT);const amp=1+(s&&s[2]==='LEONARDO'?5*(.6+.4*Math.sin(t*23)):0)+(t<29?3:0);
+    ctx.strokeStyle='#e7a23c';ctx.globalAlpha=.9;ctx.lineWidth=1.6;ctx.beginPath();for(let i=0;i<=40;i++){const x=703+i,ph=i/40;ctx.lineTo(x,318+Math.sin(ph*Math.PI*4+t*14)*amp*Math.sin(ph*Math.PI))}ctx.stroke();ctx.globalAlpha=1}
+  ctx.save();ctx.globalCompositeOperation='lighter';
+  if(t>=34){const s=subAt(RT);const v=s&&/BORGES|AGNOLO/.test(s[2])?.55+.25*Math.sin(t*19):0;glow(812,406,34,'rgba(231,162,60,A)',.28+.1*Math.sin(t*11)+v)}
+  if(lampOn>0){glow(600,160,70,'rgba(255,214,140,A)',.7*lampOn);glow(600,260,420,'rgba(255,170,80,A)',.10*lampOn)}
+  if(t>=85.8&&t<90.2){const vol=.4+.6*progress(DR.phoneBody,t);const on=((t-85.8)%2.4)<1.2;
+    ctx.strokeStyle='#e7a23c';ctx.lineWidth=1.5;for(let k=0;k<3;k++){const ph=((t-85.8)*1.5+k/3)%1;ctx.globalAlpha=(1-ph)*vol*(on?.9:.25);
+      for(const sgn of[-1,1]){ctx.beginPath();ctx.arc(471,420,10+ph*44,sgn<0?Math.PI*.75:-Math.PI*.25,sgn<0?Math.PI*1.25:Math.PI*.25);ctx.stroke()}}ctx.globalAlpha=1}
+  ctx.restore();
+
+  // light: dim before the lamp, lamp-shaped after
+  if(E>0){const pre=.42*E*(1-lampOn);if(pre>0){ctx.fillStyle=`rgba(16,12,9,${pre})`;ctx.fillRect(-800,-600,2900,2000)}
+    if(lampOn>0){const gr=ctx.createRadialGradient(600,190,40,600,260,820);gr.addColorStop(0,'rgba(16,12,9,0)');gr.addColorStop(1,`rgba(16,12,9,${.55*lampOn})`);ctx.fillStyle=gr;ctx.fillRect(-800,-600,2900,2000)}}
+
+  // screen space: ledger, black, title
+  ctx.setTransform(SC,0,0,SC,0,0);
+  const la=smooth(77.2,77.8,t)*(1-smooth(85.6,86.4,t));
+  if(la>0){const gA=graphiteAt(t);const left=Math.max(0,Math.round(100*(PENCIL0-gA.mm*.05)/PENCIL0));
+    const rows=[[77.4,'room','1 pencil'],[77.9,'graphite drawn',gA.mm+' mm'],[78.3,'strokes',String(gA.strokes)],[78.7,'pencil left',left+'%'],[80.2,'pencil cost','?'],[81.0,'pencil source','unrecorded']];
+    ctx.globalAlpha=la;ctx.fillStyle='rgba(16,13,10,.82)';ctx.fillRect(908,34,330,40+rows.length*26);ctx.strokeStyle='rgba(124,198,193,.7)';ctx.lineWidth=1;ctx.strokeRect(908.5,34.5,330,40+rows.length*26);
+    ctx.font='600 13px "IBM Plex Mono", monospace';ctx.fillStyle='#7cc6c1';ctx.fillText('AGNOLO · ACCOUNT',926,60);
+    ctx.font='14px "IBM Plex Mono", monospace';rows.forEach((r,i)=>{if(t<r[0])return;const y=90+i*26;ctx.fillStyle='#a0978a';ctx.fillText(r[1],926,y);
+      ctx.fillStyle=r[2]==='?'||r[2]==='unrecorded'?'#e7a23c':'#ece5d6';const w=ctx.measureText(r[2]).width;ctx.fillText(r[2],1220-w,y);
+      ctx.fillStyle='#4a433b';ctx.fillText('.'.repeat(Math.max(0,Math.floor((1220-w-936-ctx.measureText(r[1]).width)/8.6))),930+ctx.measureText(r[1]).width,y)});ctx.globalAlpha=1}
+  const blk=Math.max(1-smooth(2.4,3.2,t),smooth(103,103.4,t));
+  if(blk>0){ctx.fillStyle=`rgba(0,0,0,${blk})`;ctx.fillRect(0,0,W,H)}
+  if(t>104.4){const k=ease(clamp((t-104.4)/1.8));ctx.save();ctx.font='600 72px "Shantell Sans", ui-rounded, sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';
+    const tw=ctx.measureText('FUTURE RADIO').width;ctx.beginPath();ctx.rect(W/2-tw/2-10,0,(tw+20)*k,H);ctx.clip();ctx.fillStyle=PAPER;ctx.fillText('FUTURE RADIO',W/2,H/2);ctx.restore();
+    if(k<1){glow(W/2-tw/2+tw*k,H/2+18,10,'rgba(231,162,60,A)',.7)}}
+}
+function handPos(t,tip){const len=Math.max(14,PENCIL0-graphiteAt(t).mm*.05);return[tip[0]+.459*len,tip[1]-.888*len]}
+
+/* ---------- scene log ---------- */
+const EV=[
+ {t:2.6,t1:3.2,op:'FRAME',actor:'—',target:'page-0',out:'An ivory sheet establishes the first frame.',scope:'world',prov:'given',cost:'1 sheet'},
+ {t:2.6,t1:8.2,op:'INSCRIBE',actor:'— (unattributed)',target:'leonardo',draw:['leoBody','leoArmL'],out:'A tin robot at a half-finished desk. One hand is only an outline.',scope:'page-0',prov:'unknown hand'},
+ {t:9.0,t1:9.4,op:'ANIMATE',actor:'leonardo',target:'leonardo.pencil',out:'The pencil twitches. The character moves without being redrawn.',scope:'page-0',prov:'self'},
+ {t:9.6,t1:10.0,op:'INSCRIBE',actor:'leonardo',target:'mark-1',draw:['mark1'],out:'The first mark made from inside the frame.',scope:'page-0'},
+ {t:11.6,t1:12.0,op:'INSCRIBE',actor:'leonardo',target:'mark-2',draw:['mark2'],out:'A second mark. The cause is confirmed.',scope:'page-0'},
+ {t:13.0,t1:17.0,op:'ALTER',actor:'leonardo',target:'leonardo.left-hand',draw:['fingers'],out:'The outline hand becomes a palm, four fingers and a thumb.',scope:'leonardo'},
+ {t:18.0,t1:19.4,op:'ANIMATE',actor:'leonardo',target:'leonardo.left-hand',out:'He flexes the new fingers.',scope:'leonardo'},
+ {t:21.0,t1:23.0,op:'INSCRIBE',actor:'leonardo',target:'desk',draw:['deskExt'],out:'The desk is finished across the page.',scope:'page-0'},
+ {t:23.2,t1:27.0,op:'INSCRIBE',actor:'leonardo',target:'mic',draw:['mic'],out:'Microphone: stand, body, grille, cable, in that order.',scope:'page-0'},
+ {t:27.3,t1:27.8,op:'ANIMATE',actor:'leonardo',target:'mic',out:'Tap. Nothing happens. A drawn microphone has no behavior yet.',scope:'mic',fail:true},
+ {t:28.0,t1:28.5,op:'INSCRIBE',actor:'leonardo',target:'mic.switch',draw:['switch'],out:'He adds a switch.',scope:'mic'},
+ {t:28.6,t1:29.0,op:'ANIMATE',actor:'leonardo',target:'mic',out:'Click. A waveform leaves the grille.',scope:'mic'},
+ {t:30.5,t1:33.8,op:'INSCRIBE',actor:'leonardo',target:'radio',draw:['radio'],out:'A radio receiver, cabled to the microphone.',scope:'page-0'},
+ {t:33.8,t1:34.0,op:'COMPOSE',actor:'leonardo',target:'mic + radio',out:'Microphone and receiver become one transmission chain.',scope:'page-0'},
+ {t:34.0,t1:37.0,op:'ANIMATE',actor:'radio',target:'all strokes',out:'Strokes vibrate. Pencil friction becomes static. Amber glow in the dial.',scope:'page-0'},
+ {t:36.5,t1:39.5,op:'PROPAGATE',actor:'radio',target:'page-0 edge',out:'The receiver casts a real shadow. It crosses the page edge into the dark.',scope:'page-0 → world',bnd:'Evidence'},
+ {t:40.0,t1:41.0,op:'INSCRIBE',actor:'leonardo',target:'line',draw:['edge'],out:'A line drawn toward the bottom edge.',scope:'page-0',bnd:'Contact'},
+ {t:41.0,t1:42.4,op:'ALTER',actor:'leonardo',target:'page-0 edge',out:'The line stops at the edge. He presses harder.',scope:'page-0',bnd:'Contact'},
+ {t:42.4,t1:43.0,op:'PROMOTE',actor:'leonardo',target:'line',out:'The graphite crosses into the darkness.',scope:'page-0 → world',bnd:'Transition'},
+ {t:43.0,t1:45.0,op:'INSCRIBE',actor:'leonardo',target:'floorboard-1',draw:['board0'],out:'A floorboard, drawn outside any frame.',scope:'world'},
+ {t:48.0,t1:51.8,op:'INSCRIBE',actor:'leonardo',target:'floorboards 2–4',draw:['board1','board2','board3'],out:'More floor. The dark acquires a surface.',scope:'world'},
+ {t:52.0,t1:60.0,op:'PROMOTE',actor:'(emergence)',target:'leonardo, desk, mic, radio',out:'Objects hold their positions and gain depth. The desk becomes solid.',scope:'page-0 → room',bnd:'Reparenting'},
+ {t:52.0,t1:60.0,op:'FRAME',actor:'(emergence)',target:'page-0',out:'The page tilts back and becomes the wall. It does not disappear.',scope:'world',bnd:'Reparenting'},
+ {t:58.0,t1:60.0,op:'FRAME',actor:'(emergence)',target:'record',out:'The original unfinished drawing stays on the page-wall as a record.',scope:'page-wall'},
+ {t:59.5,t1:61.8,op:'INSCRIBE',actor:'leonardo',target:'lamp',draw:['lamp'],out:'A lamp, drawn in the room overhead.',scope:'room'},
+ {t:60.0,t1:60.5,op:'COMPOSE',actor:'—',target:'room',out:'Wall, floor, desk, microphone and radio compose a room still being drawn.',scope:'room'},
+ {t:62.2,t1:62.6,op:'PROPAGATE',actor:'lamp',target:'room',out:'Light reaches every object. Shadows fall on the floor.',scope:'room',bnd:'Consequence'},
+ {t:62.8,t1:68.3,op:'ANIMATE',actor:'borges',target:'radio',out:'A voice arrives through the receiver. The station has been misplaced.',scope:'radio'},
+ {t:69.8,t1:71.6,op:'FRAME',actor:'leonardo',target:'window',draw:['window'],out:'A window drawn on the wall. Outside it: blank paper.',scope:'page-wall'},
+ {t:72.0,t1:73.4,op:'INSCRIBE',actor:'leonardo',target:'cloud',draw:['cloud'],out:'A small cloud.',scope:'window'},
+ {t:73.4,t1:76.0,op:'ANIMATE',actor:'cloud',target:'cloud',out:'The cloud drifts. It stays inside its frame.',scope:'window'},
+ {t:77.4,t1:79.0,op:'ACCOUNT',actor:'agnolo',target:'room',out:'Room cost reconciled against graphite drawn.',scope:'room'},
+ {t:80.0,t1:81.8,op:'ACCOUNT',actor:'agnolo',target:'pencil',out:'Pencil source: unrecorded. Cost: unknown.',scope:'room'},
+ {t:85.8,t1:90.2,op:'PROPAGATE',actor:'—',target:'telephone (not yet drawn)',out:'Ringing arrives before the object exists.',scope:'room',bnd:'Evidence'},
+ {t:87.0,t1:89.6,op:'INSCRIBE',actor:'leonardo',target:'telephone',draw:['phoneBody','phoneHandset'],out:'Each stroke makes the ringing louder.',scope:'room'},
+ {t:89.6,t1:90.0,op:'PROMOTE',actor:'leonardo',target:'telephone',out:'The telephone becomes solid.',scope:'room'},
+ {t:90.2,t1:90.6,op:'ANIMATE',actor:'leonardo',target:'telephone',out:'He picks up. Future Radio is on the air.',scope:'room'},
+ {t:98.6,t1:103,op:'FRAME',actor:'leonardo',target:'blank wall',out:'The next canvas. Not yet drawn.',scope:'page-wall',pending:true}];
+for(const e of EV){if(e.draw){const L=e.draw.reduce((s,id)=>s+DR[id].total,0);e.cost=Math.round(L/12)+' mm graphite'}
+  if(!e.cost)e.cost='—';if(!e.prov)e.prov=e.actor.startsWith('leonardo')?'leonardo · pencil-0':e.actor}
+const OBJS=[
+ {id:'page-0',name:'Page → wall',st:[[2.6,1],[52,4],[60,5]],note:'becomes architecture'},
+ {id:'leonardo',name:'Leonardo',st:[[2.6,2],[8.2,1],[9.0,3],[52,4],[60,5]]},
+ {id:'desk',name:'Desk',st:[[2.6,2],[8.2,1],[21,2],[23,1],[52,4],[60,5]]},
+ {id:'mic',name:'Microphone',st:[[23.2,2],[27,1],[28.6,3],[52,4],[60,5]]},
+ {id:'radio',name:'Radio',st:[[30.5,2],[33.8,1],[34,3],[36.5,4],[60,5]]},
+ {id:'floor',name:'Floor',st:[[43,2],[51.8,5]],note:'drawn straight into the parent world'},
+ {id:'lamp',name:'Lamp',st:[[59.5,2],[61.8,5]]},
+ {id:'record',name:'Original drawing',st:[[58,1]],note:'kept as a record'},
+ {id:'window',name:'Window',st:[[69.8,2],[71.6,1]],note:'stays a drawing'},
+ {id:'cloud',name:'Cloud',st:[[72,2],[73.4,3]],note:'never leaves its frame'},
+ {id:'phone',name:'Telephone',st:[[85.8,4],[87,2],[89.6,5]],note:'heard before it is drawn'}];
+const TESTS=[
+ {at:9.0,nm:'Self-animation',q:'A static character starts moving without being regenerated.',how:'Leonardo is one set of strokes. His arm and pencil are posed by a solver from the log; nothing is redrawn.'},
+ {at:23.2,nm:'Construction',q:'Pencil strokes create persistent objects.',how:'Every object is the strokes recorded for it. Nothing drawn is lost unless an event removes it.'},
+ {at:36.5,nm:'Emergence',q:'A flat drawing gains depth and leaves its subframe.',how:'The shadow crosses the edge at 0:36. From 0:52 the page tilts into the wall while objects keep their positions.'},
+ {at:62.2,nm:'Propagation',q:'A drawn lamp lights other objects, and a radio emits sound.',how:'The switch starts sound at 0:28. The lamp at 1:02 relights every object and casts floor shadows.'},
+ {at:58,nm:'Recursion',q:'The completed scene retains the drawing it emerged from.',how:'The original unfinished drawing stays on the wall and moves with it. Leonardo looks back at it at 1:22.'}];
+const OPS=[['INSCRIBE','Create new information.'],['ALTER','Modify existing information.'],['ANIMATE','Give something behavior through time.'],['FRAME','Establish a world within another.'],['PROMOTE','Move an object into its containing world.'],['PROPAGATE','Let a change affect surrounding objects.'],['COMPOSE','Combine constructions into something larger.'],['ACCOUNT','Agnolo: make costs visible.']];
+const fmt=t=>{t=Math.max(0,t);return Math.floor(t/60)+':'+String(Math.floor(t%60)).padStart(2,'0')};
+const fmt1=t=>Math.floor(t/60)+':'+(t%60).toFixed(1).padStart(4,'0');
+const ROMAN=['—','I','II','III','IV','V'];
+
+const logEl=document.getElementById('log');
+const evEls=EV.map((e,i)=>{const b=document.createElement('button');b.type='button';b.className='ev'+(e.fail?' fail':'');
+  b.innerHTML=`<span class="t">${fmt1(unwarp(e.t))}</span><span class="chip" style="background:var(--op-${e.op})">${e.op}</span><span class="who">${e.actor} <em>→</em> ${e.target}</span><span class="out">${e.out}${e.pending?' <em>(pending)</em>':''}</span>
+  <dl><dt>scope</dt><dd>${e.scope}</dd><dt>timeline</dt><dd>${fmt1(unwarp(e.t))} – ${fmt1(unwarp(e.t1))}</dd><dt>provenance</dt><dd>${e.prov}</dd><dt>cost</dt><dd>${e.cost}</dd>${e.bnd?`<dt>boundary</dt><dd>${e.bnd}</dd>`:''}${e.draw?`<dt>strokes</dt><dd>${e.draw.join(', ')}</dd>`:''}</dl>`;
+  b.addEventListener('click',()=>seek(unwarp(e.t)-.4));logEl.appendChild(b);return b});
+const objEl=document.getElementById('objs');
+const objRows=OBJS.map(o=>{const r=document.createElement('div');r.className='obj';r.innerHTML=`<span class="nm">${o.name}</span><span class="pips">${[1,2,3,4,5].map(k=>`<span>${ROMAN[k]}</span>`).join('')}</span>${o.note?`<span class="nt">${o.note}</span>`:''}`;objEl.appendChild(r);return r});
+const testEl=document.getElementById('tests');
+const testRows=TESTS.map(x=>{const r=document.createElement('div');r.className='test';r.innerHTML=`<span class="nm">${x.nm}</span><span class="st">not yet</span><p>${x.q}</p><p>${x.how}</p><button class="seek" type="button">Watch at ${fmt(unwarp(x.at))}</button>`;r.querySelector('.seek').addEventListener('click',()=>{seek(unwarp(x.at)-1.5);setPlaying(true)});testEl.appendChild(r);return r});
+document.getElementById('ops').innerHTML=OPS.map(o=>`<div class="op"><span class="chip" style="background:var(--op-${o[0]})">${o[0]}</span><p>${o[1]}</p></div>`).join('');
+document.getElementById('ticks').innerHTML=EV.map(e=>`<b style="left:${(unwarp(e.t)/T_END*100).toFixed(2)}%;background:var(--op-${e.op})"></b>`).join('');
+
+let lastUI='';
+function updateUI(real){
+  const t=warp(real);
+  const key=Math.floor(real*10);if(key===lastUI)return;lastUI=key;
+  let firstOn=null;
+  EV.forEach((e,i)=>{const on=t>=e.t-.05&&t<=Math.max(e.t1,e.t+1.2);const past=t>e.t1;const el=evEls[i];
+    el.classList.toggle('on',on);el.classList.toggle('past',past&&!on);if(on&&firstOn===null)firstOn=el});
+  if(firstOn&&playing){const top=firstOn.offsetTop-logEl.offsetTop;if(top<logEl.scrollTop||top>logEl.scrollTop+logEl.clientHeight-140)logEl.scrollTop=Math.max(0,top-80)}
+  OBJS.forEach((o,i)=>{let s=0;for(const [tt,v] of o.st)if(t>=tt)s=v;const r=objRows[i];r.classList.toggle('none',!s);r.querySelectorAll('.pips span').forEach((p,k)=>p.classList.toggle('cur',k+1===s))});
+  TESTS.forEach((x,i)=>{const ok=t>=x.at;testRows[i].classList.toggle('ok',ok);testRows[i].querySelector('.st').textContent=ok?'shown':'not yet'});
+  const s=subAt(real);document.getElementById('sub').innerHTML=s?`<i>${s[2]}</i>${s[3]}`:'';
+  document.getElementById('time').textContent=fmt(real)+' / '+fmt(T_END);
+  scrub.value=real}
+
+/* ---------- sound (synthesized) ---------- */
+let AC=null,G={},soundOn=true;
+function initAudio(){if(AC)return;try{AC=new (window.AudioContext||window.webkitAudioContext)()}catch(e){return}
+  const buf=AC.createBuffer(1,AC.sampleRate*2,AC.sampleRate);const d=buf.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;
+  const master=AC.createGain();master.gain.value=.9;master.connect(AC.destination);G.master=master;
+  const mk=(type,f,q)=>{const s=AC.createBufferSource();s.buffer=buf;s.loop=true;const b=AC.createBiquadFilter();b.type=type;b.frequency.value=f;b.Q.value=q;const g=AC.createGain();g.gain.value=0;s.connect(b);b.connect(g);g.connect(master);s.start();return g};
+  G.scratch=mk('bandpass',3400,1.4);G.static=mk('bandpass',1500,.6);
+  const ring=AC.createGain();ring.gain.value=0;const trem=AC.createGain();trem.gain.value=.5;
+  for(const f of[440,480]){const o=AC.createOscillator();o.frequency.value=f;o.connect(trem);o.start()}
+  const lfo=AC.createOscillator();lfo.type='square';lfo.frequency.value=20;const lg=AC.createGain();lg.gain.value=.5;lfo.connect(lg);lg.connect(trem.gain);lfo.start();
+  trem.connect(ring);ring.connect(master);G.ring=ring;
+  const hum=AC.createOscillator();hum.frequency.value=120;const hg=AC.createGain();hg.gain.value=0;hum.connect(hg);hg.connect(master);hum.start();G.hum=hg}
+function click(){if(!AC||!soundOn)return;const o=AC.createOscillator(),g=AC.createGain();o.type='square';o.frequency.value=1800;g.gain.setValueAtTime(.18,AC.currentTime);g.gain.exponentialRampToValueAtTime(.001,AC.currentTime+.05);o.connect(g);g.connect(G.master);o.start();o.stop(AC.currentTime+.06)}
+function audio(real,prevReal){voices(real);if(!AC)return;const t=warp(real),prevT=warp(prevReal);const now=AC.currentTime,on=playing&&soundOn;
+  const drawing=ORDER.some(d=>d.by!=='x'&&!d.isGhost&&t>=d.t0&&t<=d.t1&&d.t1>d.t0)||(t>103.4&&t<106.2);
+  const press=t>41&&t<42.4;
+  G.scratch.gain.setTargetAtTime(on&&drawing?(press?.35:.16+.08*Math.random()):0,now,.03);
+  const stat=t<34?0:t<37.5?.13:t<52?.035:.018;const s=subAt(real);const vo=s&&/BORGES|AGNOLO/.test(s[2])?.02:0;
+  G.static.gain.setTargetAtTime(on&&t<103?stat+vo:0,now,.08);
+  const ringing=t>=85.8&&t<90.2&&((t-85.8)%2.4)<1.2;G.ring.gain.setTargetAtTime(on&&ringing?.03+.1*progress(DR.phoneBody,t):0,now,.02);
+  G.hum.gain.setTargetAtTime(on&&t>62.2&&t<103?.012:0,now,.2);
+  if(on&&prevT<28.6&&t>=28.6)click();if(on&&prevT<62.2&&t>=62.2)click();if(on&&prevT<90.2&&t>=90.2)click()}
+
+/* ---------- recorded dialogue ---------- */
+const VO=SUBS.map(c=>{const a=new Audio();a.preload='auto';a.src=c[4];return{c,a,started:false}});
+function stopVoices(){VO.forEach(v=>{try{v.a.pause()}catch(_){}v.started=false})}
+function voices(real){if(!playing||!soundOn){VO.forEach(v=>{if(!v.a.paused)v.a.pause()});return}
+  for(const v of VO){const [t0,t1]=v.c;const inside=real>=t0&&real<t1+.6;
+    if(inside&&!v.started){v.started=true;try{v.a.currentTime=Math.max(0,real-t0);v.a.playbackRate=speed;v.a.play().catch(()=>{})}catch(_){}}
+    if(!inside&&v.started&&real<t0)v.started=false}}
+/* ---------- transport ---------- */
+let T=64,playing=false,speed=1,dirty=true,lastNow=0;
+const scrub=document.getElementById('scrub'),playBtn=document.getElementById('play'),poster=document.getElementById('poster');
+function setPlaying(p){playing=p;if(!p)stopVoices();playBtn.textContent=p?'Pause':'Play';if(p){poster.hidden=true;initAudio();if(AC&&AC.state==='suspended')AC.resume();if(T>=T_END-.05)T=0}dirty=true}
+function seek(t){stopVoices();T=clamp(t,0,T_END);poster.hidden=true;dirty=true}
+playBtn.addEventListener('click',()=>setPlaying(!playing));
+poster.addEventListener('click',()=>{T=0;setPlaying(true)});
+scrub.addEventListener('input',()=>{seek(parseFloat(scrub.value))});
+document.getElementById('speed').addEventListener('click',e=>{speed=speed===1?.5:speed===.5?2:1;stopVoices();e.target.textContent=speed+'×'});
+document.getElementById('sound').addEventListener('click',e=>{soundOn=!soundOn;stopVoices();e.target.setAttribute('aria-pressed',soundOn);e.target.textContent=soundOn?'Sound on':'Sound off'});
+document.getElementById('copy').addEventListener('click',async e=>{const json=JSON.stringify({scene:'Future Radio — The First Line',grammar:'v0.1',events:EV.map(x=>({start:x.t,end:x.t1,actor:x.actor,operation:x.op,target:x.target,output:x.out,scope:x.scope,provenance:x.prov,cost:x.cost,boundary:x.bnd||null,inputs:x.draw||[]}))},null,2);
+  try{await navigator.clipboard.writeText(json);e.target.textContent='Copied'}catch(_){const ta=document.createElement('textarea');ta.value=json;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');e.target.textContent='Copied'}catch(__){e.target.textContent='Copy failed'}ta.remove()}
+  setTimeout(()=>e.target.textContent='Copy as JSON',1600)});
+document.addEventListener('keydown',e=>{if(e.code==='Space'&&!/INPUT|BUTTON|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();setPlaying(!playing)}});
+new ResizeObserver(resize).observe(cv);resize();
+if(document.fonts&&document.fonts.load){document.fonts.load('600 72px "Shantell Sans"').then(()=>dirty=true).catch(()=>{})}
+function frame(now){const dt=Math.min(.1,(now-lastNow)/1000||0);lastNow=now;const prev=T;
+  if(playing){T+=dt*speed;if(T>=T_END){T=T_END;setPlaying(false)}dirty=true}
+  if(dirty){render(T);updateUI(T);dirty=false}
+  audio(T,prev);requestAnimationFrame(frame)}
+requestAnimationFrame(frame);
+if(location.hash==='#export'){document.body.classList.add('export');poster.hidden=true;
+  window.__exportFrame=r=>{T=r;render(r);updateUI(r);dirty=false};
+  window.__audioEnv=r=>{const t=warp(r);const drawing=ORDER.some(d=>!d.isGhost&&t>=d.t0&&t<=d.t1&&d.t1>d.t0)||(t>103.4&&t<106.2);
+    const press=t>41&&t<42.4;const stat=t>=103?0:(t<34?0:t<37.5?.13:t<52?.035:.018);const s=subAt(r);
+    return{scratch:drawing?(press?.35:.2):0,stat:stat+(s&&/BORGES|AGNOLO/.test(s[2])?.02:0),ring:(t>=85.8&&t<90.2&&((t-85.8)%2.4)<1.2)?.03+.1*progress(DR.phoneBody,t):0,hum:(t>62.2&&t<103)?.012:0}};
+  window.__clicks=[28.6,62.2,90.2].map(unwarp);window.__subs=SUBS;window.__T_END=T_END;}
+})();
+</script>

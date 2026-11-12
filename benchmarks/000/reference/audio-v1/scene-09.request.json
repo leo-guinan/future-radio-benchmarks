@@ -1,0 +1,72 @@
+{
+  "body": {
+    "inputs": [
+      {
+        "text": "Leonardo?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Yes?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "I have the first measurement.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "What is it?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "This episode wasn't free.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "I know.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Do you?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "That's why we're measuring it.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "How much did it cost?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "That depends.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "On what?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Whether we're counting the time spent arguing about the benchmark.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "We should.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "We absolutely should.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Oh, we're going to need a bigger ledger.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      }
+    ],
+    "model_id": "eleven_v4",
+    "seed": 4024994297,
+    "apply_text_normalization": "auto"
+  },
+  "requestSha256": "e370b729f4317b63f90b6814168c557dc933ec5246d54809ff10a554ee991a45",
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "submittedAt": "2026-11-12T18:07:14.418025+00:00"
+}

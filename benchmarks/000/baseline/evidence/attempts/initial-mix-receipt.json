@@ -1,0 +1,114 @@
+{
+  "title": "The Benchmark Episode",
+  "benchmarkId": "000",
+  "status": "complete_local_audio_and_video_review_cut",
+  "referenceScriptSha256": "88deb545eeb28fcc4844c4cc3e74a219d1595425ededf11cefab35f939f721da",
+  "referencePreserved": true,
+  "runtimeSeconds": 609.29,
+  "targetRuntimeSeconds": [
+    420,
+    540
+  ],
+  "runtimeWithinTarget": false,
+  "dialogueLines": 283,
+  "chapters": 9,
+  "soundCues": 25,
+  "musicAndEffects": "Original deterministic local synthesis; crowd is stylized approximation.",
+  "voices": "Established Future Radio voices, verified via ElevenLabs account.",
+  "model": "eleven_v4",
+  "providerCredits": 6689,
+  "providerRequestWallSeconds": 146.4,
+  "dollarEquivalent": null,
+  "dollarEquivalentReason": "Provider reports credits; grant account has no defensible marginal dollar conversion.",
+  "agentComputeCostUsd": null,
+  "humanLaborMinutes": null,
+  "humanLaborNote": "Not independently timed; review time remains pending.",
+  "energyKwh": null,
+  "energyNote": "No wall-plug or process power meter. Do not substitute a fabricated estimate.",
+  "hardwareDepreciationUsd": null,
+  "localMixWallSeconds": 57.583,
+  "localMixCpuSeconds": 0.682,
+  "integratedLufs": -16.26,
+  "truePeakDbtp": -1.67,
+  "decodeCheck": "Complete MP3 decode and loudness scan passed.",
+  "alignmentCheck": "All 283 requested lines match provider character alignment; not independent transcription.",
+  "humanListeningReview": "pending",
+  "publication": "pending release review and destination",
+  "independentSubmissions": 0,
+  "deadline": "2026-11-22",
+  "hashes": {
+    "premaster-loudness.json": "55deb5258f6216350e005015ec6d87538b3c0999bf43c8080e30516b6af436b1",
+    "loudness.json": "37f1730029777f0c8ad167d29a0dc95cc3ac5faa02731127091a65df65d06ac7",
+    "the-benchmark-episode.wav": "112b78fc5d5764c6cb7dccb02e44eae5c2ff3e6bb569f4223ece178a794b07ce",
+    "captions.srt": "e2827c3289a5471f42f2f44a18a76b56a1b91e3abf746e470676ca7f3323b630",
+    "script.md": "88deb545eeb28fcc4844c4cc3e74a219d1595425ededf11cefab35f939f721da",
+    "contact.png": "8a93d9dd839466a4244f9e6943dff7d0b2ee5d7803229a6782ce23636ecb6d36",
+    "timeline.json": "461e0a2664b811218bab361fa42ac7370f68aba1b8df58aeb068e8c8a8ec80e6",
+    "chapters.json": "9cf1d93ea6d2d4586ca22f856c6e134d90ba6099ddfc92984ca7a3273e055a7f",
+    "source-brief.txt": "817b80569b1871702226cf8dec52bcaffbbbc283a97191b37be1499359d8055b",
+    "sound-cues.json": "8a2cec79921f74968d34b53e92adf41bd220a151dbeb5e5accde4f94bdb3eaa6",
+    "the-benchmark-episode.mp3": "64554cb888a38977d07773656e37ce9cd5b89491ad33137dfbbb394867ddd5a6",
+    "the-benchmark-episode.mp4": "b54e51d67dfe56d298cf1cc620b46ce0430e19c12ba1ed6788df68f3982b93eb",
+    "video-loudness.json": "3e82f0c9109950b960d52f2ebf8a76d0a56e118dbd7f742179ab1177e3f7aaf1"
+  },
+  "localMixCpuScope": "Python process only; FFmpeg child process CPU excluded.",
+  "runtimeNote": "The unchanged reference with cues exceeds the approximate 7–9 minute target; no lines were cut or sped up.",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "codec": "h264",
+    "audioCodec": "aac",
+    "chapterCount": 9,
+    "streamDurationDifferenceSeconds": 0.009999999999990905,
+    "decodeCheck": "Full video/audio decode passed, no errors.",
+    "integratedLufs": -16.01,
+    "truePeakDbtp": -1.29,
+    "visualChecks": {
+      "deterministic": true,
+      "denied": [],
+      "mismatches": [],
+      "events": 200,
+      "fonts": [
+        true,
+        true
+      ],
+      "contactSheetReview": {
+        "reviewer": "Codex visual inspection",
+        "frames": 27,
+        "findings": [
+          "Nine scene boards legible with no overlapping labels.",
+          "Speaker and board camera cuts preserve the three-character studio layout.",
+          "Some opening shots intentionally show boards still being drawn."
+        ],
+        "majorIssues": [],
+        "scope": "Authored studio animation with limited character motion; not full character animation."
+      },
+      "styleSample": {
+        "sha256": "fd299db75e81614daf471b762916ddf420752527ce97fe9f8cb8011f918a4811",
+        "startSeconds": 3,
+        "endSeconds": 13.5,
+        "status": "approved_for_full_local_render",
+        "reviewer": "Codex visual inspection",
+        "timecodedFindings": [
+          {
+            "time": 4,
+            "finding": "Encoded 1280x720 frame: both visible characters, radio, board and dialogue caption clear; no caption overlap with faces."
+          }
+        ],
+        "majorIssues": [],
+        "humanListeningReview": "pending"
+      }
+    },
+    "renderMetrics": {
+      "frameCount": 18279,
+      "fps": 30,
+      "width": 1280,
+      "height": 720,
+      "wallSeconds": 245.5438037076965,
+      "method": "Existing deterministic studio renderer with direct canvas frame capture; timed caption overlay; no drawing Foley added to standalone radio master."
+    },
+    "regressionTestsPassed": 39,
+    "animation": "Authored studio scene-log drawings, limited character movement, camera cuts and timed captions."
+  }
+}

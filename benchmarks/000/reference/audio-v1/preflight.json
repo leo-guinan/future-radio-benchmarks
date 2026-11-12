@@ -1,0 +1,20 @@
+{
+  "tier": "grant_tier_2_2025_07_23",
+  "plannedTextCharacters": 6689,
+  "voices": [
+    {
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "name": "Borges \u2014 Infinite Overture"
+    },
+    {
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "name": "Old Italian Man angry and nostalgic"
+    },
+    {
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "name": "Leonardo \u2014 Infinite Overture"
+    }
+  ],
+  "modelAvailable": true,
+  "redactions": "Account-wide usage and quota omitted; voice/model readiness and planned workload retained."
+}

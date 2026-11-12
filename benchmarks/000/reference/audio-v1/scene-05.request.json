@@ -1,0 +1,192 @@
+{
+  "body": {
+    "inputs": [
+      {
+        "text": "There's still the matter of paying for it.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "What if we didn't?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "No.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "What if someone else generated it?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "That's not the same as free.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "I didn't say free. I said someone else.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Ah. Distributed authorship.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Distributed invoices.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "There's a system called Hashference. You can pay for inference with computational work.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "A machine thinking in exchange for another machine working.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Work has a cost.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Exactly! We measure it.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Better.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "And then we ask other people to run the same experiment.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "On their own machines?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Or different models. Different tools. Different approaches.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "And submit their results?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Yes!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "So the benchmark is open.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Completely.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "What prevents them from lying?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Receipts. Reproducible instructions. Public submissions.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "What prevents them from making terrible episodes?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Nothing.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Leonardo!",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "We can measure that too!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "An enormous quantity of terrible episodes.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Maybe. But think about what happens if somebody makes a good one for a tenth of what ours costs.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "We learn how.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "And somebody else makes one for a tenth of that.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Assuming the quality survives.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Then we measure quality too!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "A race toward zero.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "With a minimum acceptable result.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Yes!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "What is that noise?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "A Bitaxe.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "What's it doing?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Trying.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "At what?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Mining.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Is it succeeding?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Not much.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Then why is it running?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Because it's not nothing.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      }
+    ],
+    "model_id": "eleven_v4",
+    "seed": 3249152029,
+    "apply_text_normalization": "auto"
+  },
+  "requestSha256": "f63747d3fa560a3371f159c4b2a940a22cda1024dc9a501e8849ca5e468a8378",
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "submittedAt": "2026-11-12T18:05:54.337707+00:00"
+}

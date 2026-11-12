@@ -1,0 +1,214 @@
+<title>Leonardo Draws Leonardo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: same screening-room bay as The First Line. Stage, transport, then the instruction desk,
+   then the working panels: scene log beside the world tree and the recursion tests. Single dark theme by choice. */
+:root{
+  color-scheme:dark;
+  --bay:#14120f; --panel:#1b1814; --raise:#24201b; --line:#352f28;
+  --ink:#ece5d6; --mute:#a0978a; --faint:#6f685e;
+  --amber:#e7a23c; --copper:#c47744; --live:#7cc6c1;
+  --op-INSCRIBE:#d9d1c1; --op-ALTER:#9db4cc; --op-ANIMATE:#e7a23c; --op-FRAME:#8cc29e;
+  --op-PROMOTE:#d98a55; --op-PROPAGATE:#f0d36a; --op-COMPOSE:#c49ad6;
+  --f-display:"Shantell Sans","Comic Neue",ui-rounded,system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bay);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px;display:grid;gap:22px}
+header{display:grid;gap:6px;max-width:74ch}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+h1{font-family:var(--f-display);font-weight:600;font-size:clamp(30px,4.4vw,46px);line-height:1.05;margin:0;text-wrap:balance}
+header p{margin:0;color:var(--mute)}
+header p b{color:var(--ink);font-weight:500}
+
+.stage{position:relative;width:100%;aspect-ratio:16/9;max-width:100%;background:#000;border-radius:6px;overflow:hidden;box-shadow:0 0 0 1px var(--line),0 24px 60px -30px #000}
+.stage canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.sub{position:absolute;left:0;right:0;bottom:5.5%;display:flex;justify-content:center;pointer-events:none;padding-inline:8%}
+.sub span{font-family:var(--f-display);font-size:clamp(14px,2.1vw,24px);line-height:1.3;color:#f6efe0;background:rgba(14,12,10,.72);padding:.25em .7em;border-radius:4px;text-align:center}
+.sub span:empty{display:none}
+.sub i{font-style:normal;font-family:var(--f-mono);font-size:.62em;letter-spacing:.1em;color:var(--amber);margin-right:.6em;vertical-align:.15em}
+.poster{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(transparent 40%,rgba(10,8,6,.55));border:0;cursor:pointer;color:var(--ink);font:inherit}
+.poster span{font-family:var(--f-display);font-size:clamp(16px,2.2vw,22px);background:var(--amber);color:#1a1307;padding:.55em 1.1em;border-radius:999px;font-weight:600;box-shadow:0 10px 30px -10px #000}
+.poster:focus-visible span{outline:3px solid var(--ink);outline-offset:3px}
+
+.transport{display:grid;grid-template-columns:auto auto 1fr auto auto auto auto;align-items:center;gap:12px}
+.btn{font:500 13px var(--f-mono);color:var(--ink);background:var(--raise);border:1px solid var(--line);border-radius:5px;padding:7px 11px;cursor:pointer;white-space:nowrap}
+.btn:hover{border-color:var(--faint)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn:focus-visible,.ev:focus-visible,.chipbtn:focus-visible,.seek:focus-visible,input:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.btn[aria-pressed="true"]{border-color:var(--amber);color:var(--amber)}
+.time{font:500 13px var(--f-mono);color:var(--mute);font-variant-numeric:tabular-nums;min-width:92px}
+.scrub{position:relative;height:34px;min-width:0}
+.ticks{position:absolute;left:0;right:0;top:2px;height:12px;pointer-events:none}
+.ticks b{position:absolute;top:0;width:2px;height:12px;border-radius:1px;opacity:.85}
+.ticks b.live{height:16px;top:-2px;outline:1px solid var(--live)}
+.scrub input{position:absolute;left:0;right:0;bottom:0;width:100%;margin:0;accent-color:var(--amber)}
+@media (max-width:640px){.transport{grid-template-columns:auto auto 1fr}.transport .opt{display:none}}
+
+.desk{background:var(--panel);border:1px solid var(--live);border-radius:8px;padding:14px;display:grid;gap:10px}
+.desk h2{margin:0;font:600 12px var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--live)}
+.desk p{margin:0;color:var(--mute);font-size:13.5px;max-width:80ch}
+.who{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.who label{font:12px var(--f-mono);color:var(--faint);margin-right:4px}
+.chipbtn{font:500 12.5px var(--f-body);color:var(--ink);background:var(--raise);border:1px solid var(--line);border-radius:999px;padding:5px 11px;cursor:pointer}
+.chipbtn[aria-pressed="true"]{background:var(--live);border-color:var(--live);color:#0f1716}
+.ask{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px}
+.ask input{font:15px var(--f-body);color:var(--ink);background:var(--bay);border:1px solid var(--line);border-radius:6px;padding:9px 12px;min-width:0}
+.ask .btn{background:var(--live);color:#0f1716;border-color:var(--live);font-weight:600}
+.status{font:12.5px var(--f-mono);color:var(--mute);min-height:1.5em}
+.status.err{color:#e0907a}
+
+.panels{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:900px){.panels{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;min-width:0}
+.panel h2{font:600 12px var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--mute);margin:0;padding:12px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:center}
+.panel h2 .btn{padding:4px 8px;font-size:11px;letter-spacing:0;text-transform:none}
+.side{display:grid;gap:18px;min-width:0}
+.log{max-height:560px;overflow:auto;padding:6px}
+.ev{display:grid;grid-template-columns:44px 92px minmax(0,1fr);gap:4px 10px;width:100%;text-align:left;background:none;border:0;border-radius:5px;padding:8px;color:var(--ink);font:inherit;cursor:pointer;opacity:.5}
+.ev.past{opacity:.82}.ev.on{opacity:1;background:var(--raise)}.ev:hover{opacity:1}
+.ev .t{font:12px var(--f-mono);color:var(--mute);font-variant-numeric:tabular-nums;padding-top:2px}
+.chip{font:500 11px var(--f-mono);letter-spacing:.05em;align-self:start;justify-self:start;padding:2px 6px;border-radius:3px;color:#17130e;margin-top:1px}
+.ev .whoT{font-size:13.5px}.ev .whoT em{font-style:normal;color:var(--mute)}
+.ev .path{grid-column:3;font:11.5px var(--f-mono);color:var(--faint)}
+.ev .tag{font:500 10.5px var(--f-mono);color:var(--live);border:1px solid var(--live);border-radius:3px;padding:0 5px;margin-left:6px}
+.ev .tag.cons{color:var(--op-PROPAGATE);border-color:var(--op-PROPAGATE)}
+.tree{padding:10px 14px 14px;font:12.5px var(--f-mono);color:var(--mute);display:grid;gap:3px;overflow-x:auto}
+.tree div{white-space:nowrap}
+.tree b{color:var(--ink);font-weight:500}
+.tree .st{color:var(--amber)}
+.tests{padding:6px 10px 10px;display:grid}
+.test{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;padding:9px 4px;border-bottom:1px solid var(--line)}
+.test:last-child{border-bottom:0}
+.test .nm{font-weight:600;font-size:14px}
+.test .st{font:500 11px var(--f-mono);letter-spacing:.05em;padding:2px 7px;border-radius:3px;border:1px solid var(--line);color:var(--faint);align-self:start;white-space:nowrap}
+.test.ok .st{border-color:var(--op-FRAME);color:var(--op-FRAME)}
+.test.you .st{border-color:var(--live);color:var(--live)}
+.test p{grid-column:1/3;margin:0;font-size:13px;color:var(--mute)}
+.seek{grid-column:1/3;justify-self:start;font:12px var(--f-mono);color:var(--amber);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.ev.denied .whoT{color:#e0a894}
+.ev .tag.den{color:#e0907a;border-color:#e0907a}
+.ev .out{color:var(--mute)}
+.ticks b.den{height:16px;top:-2px}
+.tree .caps{color:var(--faint);font-size:11.5px}
+.chipbtn small{font:11px var(--f-mono);color:inherit;opacity:.75;margin-left:4px}
+.test.fail .st{border-color:#e0907a;color:#e0907a}
+.tsec{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--live);padding:12px 4px 4px}
+.note{font-size:13px;color:var(--faint);max-width:82ch;margin:0}
+select.btn{appearance:auto;padding-right:6px}
+.letter{background:var(--panel);border:1px solid var(--line);border-top:2px solid var(--amber);border-radius:8px;padding:14px;display:grid;gap:12px;min-width:0}
+.lhead{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
+.lhead h2{margin:0;font:600 12px var(--f-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--amber)}
+.lstate{font:12px var(--f-mono);color:var(--mute)}
+.lvers{display:flex;gap:6px;margin-left:auto}
+.lgrid{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:760px){.lgrid{grid-template-columns:minmax(0,1fr)}.lpage{max-width:320px}}
+.lpage{margin:0;display:grid;gap:6px}
+.lpage canvas{width:100%;height:auto;aspect-ratio:400/560;border-radius:3px;box-shadow:0 0 0 1px var(--line),0 18px 40px -24px #000;background:#f3ecdc}
+.lpage figcaption{font:12px var(--f-mono);color:var(--faint)}
+.lmeta{display:grid;gap:14px;min-width:0}
+.facts{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;margin:0;font-size:13.5px}
+.facts dt{font:12px var(--f-mono);color:var(--faint);padding-top:1px}
+.facts dd{margin:0;color:var(--ink);min-width:0}
+.lbl{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+.ladder{display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;font:500 11.5px var(--f-mono)}
+.ladder span{padding:2px 7px;border:1px solid var(--line);border-radius:3px;color:var(--faint)}
+.ladder span.on{border-color:var(--amber);color:var(--amber)}
+.ladder i{font-style:normal;color:var(--faint)}
+.extern{margin:8px 0 0;font-size:13.5px;color:var(--mute);max-width:70ch}
+.extern b{color:var(--ink);font-weight:600}
+.ltext{margin:0;font:13px/1.55 var(--f-mono);color:var(--ink);background:var(--bay);border:1px solid var(--line);border-radius:5px;padding:10px 12px;white-space:pre-wrap;overflow-wrap:anywhere;max-height:260px;overflow:auto}
+.lrev summary{cursor:pointer;font:500 13px var(--f-mono);color:var(--amber)}
+.lform{display:grid;gap:10px;margin-top:10px}
+.lform label{display:grid;gap:4px;font:12px var(--f-mono);color:var(--mute)}
+.lform input,.lform textarea{font:14px/1.5 var(--f-body);color:var(--ink);background:var(--bay);border:1px solid var(--line);border-radius:6px;padding:8px 10px;min-width:0;width:100%;resize:vertical}
+.lform input:focus-visible,.lform textarea:focus-visible,select.btn:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.btn.go{background:var(--amber);border-color:var(--amber);color:#1a1307;font-weight:600}
+.lbtns{display:flex;flex-wrap:wrap;gap:8px}
+.lhist{margin:0;padding:0 0 0 18px;display:grid;gap:3px;font-size:13px;color:var(--mute)}
+.lhist span{font:11px var(--f-mono);color:var(--faint);margin-left:4px}
+.lhist .seek,.facts .seek{font-size:12px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="eyebrow">Future Radio · Object Grammar v0.1 · correspondence</div>
+    <h1 id="h1">The Letter to DHH</h1>
+    <p id="lede">Leonardo frames a corner of his wall and draws a smaller Leonardo who rings a bell the studio can hear. Then he puts a picture frame on his desk and draws Little Leonardo 2 inside it, who can do nothing until he puts on the Animator outfit. <b>Identity, role and capability are separate</b>: the outfit is a drawing that grants a role only while it is worn. Every action, scripted or yours, goes through the same engine call and the same capability check. Each stroke is planned before it starts: the pencil approaches, touches down, follows the path, lifts and travels, and the sound is played from that same plan.</p>
+  </header>
+
+  <div class="stage" id="stage">
+    <canvas id="cv" aria-label="Animated scene: Leonardo draws a smaller Leonardo inside a frame on his wall"></canvas>
+    <div class="sub" aria-live="polite"><span id="sub"></span></div>
+    <button class="poster" id="poster" type="button"><span>▶ Play the scene</span></button>
+  </div>
+
+  <div class="transport">
+    <button class="btn" id="play" type="button">Play</button>
+    <span class="time" id="time">0:00 / 1:20</span>
+    <div class="scrub"><div class="ticks" id="ticks"></div><input id="scrub" type="range" min="0" max="80" step="0.01" value="0" aria-label="Scene time"></div>
+    <button class="btn opt" id="view" type="button" aria-pressed="false">Wide view</button>
+    <select class="btn opt" id="scene" aria-label="Scene"><option value="letter">The Letter</option><option value="main">Leonardo Draws Leonardo</option><option value="diag">Diagnostic</option><option value="episode">Pilot Program opening scene</option></select>
+    <button class="btn opt" id="debug" type="button" aria-pressed="false">Debug</button>
+    <button class="btn" id="sound" type="button" aria-pressed="true">Sound on</button>
+  </div>
+
+  <section class="desk" id="deskSec" aria-labelledby="deskh" hidden>
+    <h2 id="deskh">Give a Leonardo an instruction</h2>
+    <p>Pick a character, then ask. Your instruction is appended to the scene log and carried out live by the same engine call the script uses, with the same capability checks, so a character without the right role is refused. Free text asks Claude for a construction plan, which uses your own Claude usage and asks once for permission. The suggestions use the built-in planner and cost nothing.</p>
+    <div class="who" id="who"><label>Instruct</label></div>
+    <form class="ask" id="ask" autocomplete="off">
+      <input id="instr" type="text" placeholder="Draw a frame on your desk with a Leonardo inside of it" aria-label="Instruction">
+      <button class="btn" id="go" type="submit">Send</button>
+    </form>
+    <div class="who" id="sugg"><label>Try</label></div>
+    <div class="status" id="status" role="status"></div>
+  </section>
+
+  <section class="letter" id="letterPanel" aria-labelledby="lh">
+    <div class="lhead"><h2 id="lh">The letter · letter-1</h2><span class="lstate" id="lstate"></span><div class="lvers" id="lvers" aria-label="Versions"></div></div>
+    <div class="lgrid">
+      <figure class="lpage"><canvas id="lcv" width="800" height="1120" aria-label="The letter as written so far"></canvas><figcaption id="lcap"></figcaption></figure>
+      <div class="lmeta">
+        <dl class="facts" id="lfacts"></dl>
+        <div><div class="lbl">Correspondence</div><div class="ladder" id="ladder"></div><p class="extern" id="lext"></p></div>
+        <div><div class="lbl">Text, read back from the scene log</div><pre class="ltext" id="ltext"></pre></div>
+        <details class="lrev"><summary>Revise and rewrite with the quill</summary>
+          <div class="lform"><label>Recipient <input id="lrec" type="text" maxlength="40" autocomplete="off"></label>
+          <label>Text <textarea id="ledit" rows="10" maxlength="600"></textarea></label>
+          <p class="note">The quill writes your text on a fresh sheet as a new version, addresses a new envelope and folds it. Earlier versions stay in the log. Nothing is sent.</p>
+          <div><button class="btn go" id="lrewrite" type="button">Rewrite with the quill</button></div></div>
+        </details>
+        <div class="lbtns"><button class="btn" id="lsave" type="button">Save draft (.json)</button><button class="btn" id="lpng" type="button">Download image</button><button class="btn" id="lcopy" type="button">Copy text</button></div>
+        <div class="status" id="lstat" role="status"></div>
+        <div><div class="lbl">History</div><ol class="lhist" id="lhist"></ol></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="panels">
+    <section class="panel">
+      <h2><span>Scene log · every invocation</span><button class="btn" id="copy" type="button">Copy as JSON</button></h2>
+      <div class="log" id="log"></div>
+    </section>
+    <div class="side">
+      <section class="panel">
+        <h2><span>World state · frames, actors, roles</span></h2>
+        <div class="tree" id="tree"></div>
+      </section>
+      <section class="panel">
+        <h2><span>Acceptance tests · <span id="accsum"></span></span><button class="btn" id="runtests" type="button">Run again</button></h2>
+        <div class="tests" id="acc"></div>
+      </section>
+    </div>
+  </div>
+  <p class="note">Voices and the quill’s sounds are AI-generated (ElevenLabs): the nib loop and contact ticks are shaped live by each stroke’s speed and direction. The calligraphy is the public-domain Hershey script, drawn as a pointed-nib ribbon. The walls and lamp are carried over from The First Line as a backdrop. The desk is now a surface frame, so whatever stands on it moves with it. Everything else is world state folded from the log, and the fold re-checks every capability, so replaying the log reproduces the same permissions and denials. Acceptance tests, renderer tests and an offline audio analysis run in your browser on copies of the log. Pencil sounds are AI-generated Foley (ElevenLabs sound effects), shaped live by the stroke geometry. Debug shows frame timing, the pencil tip, stroke boundaries and the audio clock. Viewer instructions last only for this visit.</p>
+</div>
+
+<style>.sub{bottom:5%;padding-inline:12%}.sub span{font-size:25px;line-height:1.4;max-width:980px}</style>

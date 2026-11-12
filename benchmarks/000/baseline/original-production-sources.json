@@ -1,0 +1,9 @@
+{
+  "build_episode.py": "adb3aa0d5b11d699b92e51ebec941153b28707f16f960669d6923c61b963a81e",
+  "produce_audio.py": "eb4a64b6c2e12b716c799725c98e8523c1e6eaeee35efab09f1748b153652148",
+  "prepare_visuals.py": "4282ebe5caa031b03c417ed8d5bbf3e03e12056a63816d2215d339541c3415a8",
+  "render_video.py": "1d1d45c966f659261b4170b111ce0ed06d3e6521dce01450862396ae8ca8aa85",
+  "verify_release.py": "65e2aabdf6c060073947a62e53f9ce1397ff73d10e6fbd1852d8d87b54a0e826",
+  "check_visuals.py": "8dd7e08c3b95fdefba83dc1cb3aa68552479eed93f69f3abba8410a627aa6a83",
+  "benchmark-scene.js": "286f3bb12856dd0df5384a2a3840fbbd49a039fde9c8f8ff3338faa0fa83456c"
+}

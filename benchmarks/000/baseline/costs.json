@@ -1,0 +1,97 @@
+{
+  "benchmark": "000",
+  "measurementStatus": "partial_cost_baseline",
+  "currency": "USD",
+  "measured": {
+    "providerCredits": 6689,
+    "providerRequests": 9,
+    "providerRequestWallSeconds": 146.4,
+    "mixAttempts": 2,
+    "mixWallSeconds": 114.77,
+    "styleSampleWallSeconds": 4.606,
+    "videoCaptureAndInitialMuxWallSeconds": 245.544,
+    "recordedLocalStageWallSeconds": 364.92,
+    "orchestrationElapsedSeconds": 991.9,
+    "episodeSeconds": 609.29
+  },
+  "unknown": {
+    "providerCashUsd": null,
+    "creditValueUsd": null,
+    "agentTokens": null,
+    "agentComputeUsd": null,
+    "humanActiveMinutes": null,
+    "humanLaborUsd": null,
+    "electricityKwh": null,
+    "electricityUsd": null,
+    "hardwareDepreciationUsd": null,
+    "setupAndAuthoringTimeSeconds": null,
+    "verificationTimeSeconds": null,
+    "finalAudioRemuxSeconds": null,
+    "uploadTimeSeconds": null
+  },
+  "accounting": {
+    "account": "Grant-backed ElevenLabs account. Credit expenditure is measured; no cash-equivalent rate is inferred.",
+    "timing": "Provider request timers include network and provider waits. Local stage timers exclude uninstrumented preparation, tests, QA and final remux. Stage sum is not total active time.",
+    "orchestration": "991.9 s is elapsed since script preparation through original packaging; includes approval wait and agent work, not independently measured human active effort.",
+    "reusedAssets": "Renderer, canonical voices, Foley and prior production tooling existed before this run. Their historical creation cost is unmeasured and excluded from incremental totals, not assumed free.",
+    "mixes": "Both mixing attempts included; printer revision reused all paid takes and video frames.",
+    "cashTotal": "Cannot calculate a complete total from the retained evidence. Unknown is never zero."
+  },
+  "scenes": [
+    {
+      "scene": "scene-01",
+      "synthesisCredits": 427,
+      "requestWallSeconds": 11.556,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-01.json"
+    },
+    {
+      "scene": "scene-02",
+      "synthesisCredits": 636,
+      "requestWallSeconds": 14.167,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-02.json"
+    },
+    {
+      "scene": "scene-03",
+      "synthesisCredits": 750,
+      "requestWallSeconds": 16.248,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-03.json"
+    },
+    {
+      "scene": "scene-04",
+      "synthesisCredits": 775,
+      "requestWallSeconds": 17.076,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-04.json"
+    },
+    {
+      "scene": "scene-05",
+      "synthesisCredits": 1235,
+      "requestWallSeconds": 26.782,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-05.json"
+    },
+    {
+      "scene": "scene-06",
+      "synthesisCredits": 768,
+      "requestWallSeconds": 17.64,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-06.json"
+    },
+    {
+      "scene": "scene-07",
+      "synthesisCredits": 974,
+      "requestWallSeconds": 18.991,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-07.json"
+    },
+    {
+      "scene": "scene-08",
+      "synthesisCredits": 823,
+      "requestWallSeconds": 16.652,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-08.json"
+    },
+    {
+      "scene": "scene-09",
+      "synthesisCredits": 301,
+      "requestWallSeconds": 7.288,
+      "evidence": "benchmarks/000/reference/audio-v1/scene-09.json"
+    }
+  ],
+  "evidence": "benchmarks/000/baseline/evidence/receipt.json"
+}

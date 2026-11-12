@@ -1,0 +1,1785 @@
+{
+  "status": "prepared",
+  "sourceScriptSha256": "88deb545eeb28fcc4844c4cc3e74a219d1595425ededf11cefab35f939f721da",
+  "structuredScriptSha256": "a371968f6cdd1c0256f461875dad112a5177645d372fb5d7b11a98f19894ac7b",
+  "voiceMap": {
+    "leonardo": "s5t7B6IvxVOp3Y7HQT6Q",
+    "borges": "TLugb594bskyzPlFSOkh",
+    "agnolo": "s2wvuS7SwITYg8dqsJdn"
+  },
+  "scenes": [
+    {
+      "sceneId": "scene-01",
+      "title": "COLD OPEN — EVERYONE HAS A SCORE",
+      "lines": [
+        {
+          "eventId": "event-0002",
+          "characterId": "leonardo",
+          "text": "What's happening?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0003",
+          "characterId": "borges",
+          "text": "A competition.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0004",
+          "characterId": "leonardo",
+          "text": "Who's winning?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0005",
+          "characterId": "borges",
+          "text": "Everyone.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0006",
+          "characterId": "leonardo",
+          "text": "Everyone?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0007",
+          "characterId": "borges",
+          "text": "According to their own benchmarks.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0009",
+          "characterId": "agnolo",
+          "text": "That's not possible.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0010",
+          "characterId": "borges",
+          "text": "Quite possible. One measures mathematics. Another measures code. Another measures whether the machine knows which strawberry is larger.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0011",
+          "characterId": "leonardo",
+          "text": "Is it?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0012",
+          "characterId": "borges",
+          "text": "Apparently.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0013",
+          "characterId": "agnolo",
+          "text": "And who measures the people measuring the strawberries?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0014",
+          "characterId": "borges",
+          "text": "Nobody. That would require another benchmark.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0016",
+          "characterId": "leonardo",
+          "text": "We need one.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0017",
+          "characterId": "agnolo",
+          "text": "A strawberry?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0018",
+          "characterId": "leonardo",
+          "text": "A benchmark!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0019",
+          "characterId": "agnolo",
+          "text": "For what?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0020",
+          "characterId": "leonardo",
+          "text": "Us.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0022",
+          "characterId": "borges",
+          "text": "Oh, dear.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        }
+      ],
+      "characterCount": 427,
+      "wordCount": 63
+    },
+    {
+      "sceneId": "scene-02",
+      "title": "SCENE ONE — THE COMMITTEE",
+      "lines": [
+        {
+          "eventId": "event-0025",
+          "characterId": "borges",
+          "text": "I propose a test of literary comprehension.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0026",
+          "characterId": "agnolo",
+          "text": "Rejected.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0027",
+          "characterId": "borges",
+          "text": "You haven't heard it.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0028",
+          "characterId": "agnolo",
+          "text": "How much does it cost?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0029",
+          "characterId": "borges",
+          "text": "That depends on the library.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0030",
+          "characterId": "agnolo",
+          "text": "Rejected.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0031",
+          "characterId": "leonardo",
+          "text": "I propose a creativity benchmark.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0032",
+          "characterId": "agnolo",
+          "text": "Define creativity.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0033",
+          "characterId": "leonardo",
+          "text": "Something that hasn't existed before.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0034",
+          "characterId": "borges",
+          "text": "Most mistakes qualify.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0035",
+          "characterId": "agnolo",
+          "text": "Rejected.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0036",
+          "characterId": "leonardo",
+          "text": "Fine. Your turn.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0037",
+          "characterId": "agnolo",
+          "text": "Profit.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0038",
+          "characterId": "borges",
+          "text": "Define profit.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0039",
+          "characterId": "agnolo",
+          "text": "Money received minus money spent.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0040",
+          "characterId": "leonardo",
+          "text": "What about something valuable that hasn't earned money yet?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0041",
+          "characterId": "agnolo",
+          "text": "That's called an expense.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0042",
+          "characterId": "borges",
+          "text": "What about a library?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0043",
+          "characterId": "agnolo",
+          "text": "An enormous expense.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0044",
+          "characterId": "leonardo",
+          "text": "A painting?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0045",
+          "characterId": "agnolo",
+          "text": "Depends on the buyer.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0046",
+          "characterId": "borges",
+          "text": "A friendship?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0047",
+          "characterId": "agnolo",
+          "text": "Stop doing that.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0049",
+          "characterId": "leonardo",
+          "text": "What if we tested all three?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0050",
+          "characterId": "agnolo",
+          "text": "We'd have three incompatible scores.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0051",
+          "characterId": "borges",
+          "text": "Which would be entirely consistent with the rest of the industry.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        }
+      ],
+      "characterCount": 636,
+      "wordCount": 103
+    },
+    {
+      "sceneId": "scene-03",
+      "title": "SCENE TWO — THE MISSING MEASUREMENT",
+      "lines": [
+        {
+          "eventId": "event-0053",
+          "characterId": "leonardo",
+          "text": "Wait. What are we actually trying to do?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0054",
+          "characterId": "borges",
+          "text": "Produce Future Radio.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0055",
+          "characterId": "agnolo",
+          "text": "Without going bankrupt.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0056",
+          "characterId": "leonardo",
+          "text": "And get people to listen.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0057",
+          "characterId": "borges",
+          "text": "Preferably.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0058",
+          "characterId": "leonardo",
+          "text": "And make more of it.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0059",
+          "characterId": "agnolo",
+          "text": "With what money?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0060",
+          "characterId": "leonardo",
+          "text": "That's the problem!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0061",
+          "characterId": "borges",
+          "text": "Which problem?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0062",
+          "characterId": "leonardo",
+          "text": "We don't know what it costs to make the show.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0065",
+          "characterId": "agnolo",
+          "text": "I have been saying that for weeks.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0066",
+          "characterId": "leonardo",
+          "text": "You keep telling us what we've spent.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0067",
+          "characterId": "agnolo",
+          "text": "Yes.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0068",
+          "characterId": "leonardo",
+          "text": "Not what it should cost.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0070",
+          "characterId": "agnolo",
+          "text": "...Continue.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0071",
+          "characterId": "leonardo",
+          "text": "Every episode is different. Different scripts. Different models. Different voices. Different production processes.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0072",
+          "characterId": "borges",
+          "text": "Different failures.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0073",
+          "characterId": "leonardo",
+          "text": "And we're learning things every time. But we can't compare the results.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0074",
+          "characterId": "agnolo",
+          "text": "Because we have no standard unit.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0075",
+          "characterId": "borges",
+          "text": "A standardized radio episode.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0076",
+          "characterId": "leonardo",
+          "text": "Exactly!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0077",
+          "characterId": "borges",
+          "text": "A tragic phrase.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0078",
+          "characterId": "agnolo",
+          "text": "I like it.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0079",
+          "characterId": "leonardo",
+          "text": "We need a benchmark episode.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0081",
+          "characterId": "borges",
+          "text": "What would it measure?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0082",
+          "characterId": "leonardo",
+          "text": "Everything we need to know to make the next one better.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        }
+      ],
+      "characterCount": 750,
+      "wordCount": 128
+    },
+    {
+      "sceneId": "scene-04",
+      "title": "SCENE THREE — WHAT DOES AN EPISODE COST?",
+      "lines": [
+        {
+          "eventId": "event-0084",
+          "characterId": "agnolo",
+          "text": "Very well. Let us begin. What does an episode require?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0085",
+          "characterId": "leonardo",
+          "text": "An idea.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0086",
+          "characterId": "agnolo",
+          "text": "Cost?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0087",
+          "characterId": "leonardo",
+          "text": "Nothing.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0088",
+          "characterId": "borges",
+          "text": "Debatable.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0089",
+          "characterId": "agnolo",
+          "text": "A script?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0090",
+          "characterId": "leonardo",
+          "text": "Compute.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0091",
+          "characterId": "agnolo",
+          "text": "How much?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0092",
+          "characterId": "leonardo",
+          "text": "Depends on the model.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0093",
+          "characterId": "agnolo",
+          "text": "Voices?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0094",
+          "characterId": "leonardo",
+          "text": "Compute.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0095",
+          "characterId": "agnolo",
+          "text": "Music?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0096",
+          "characterId": "leonardo",
+          "text": "Compute.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0097",
+          "characterId": "agnolo",
+          "text": "Video?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0098",
+          "characterId": "leonardo",
+          "text": "More compute.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0099",
+          "characterId": "agnolo",
+          "text": "Editing?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0100",
+          "characterId": "leonardo",
+          "text": "Compute and time.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0101",
+          "characterId": "agnolo",
+          "text": "Publishing?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0102",
+          "characterId": "leonardo",
+          "text": "Mostly time.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0103",
+          "characterId": "agnolo",
+          "text": "Promotion?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0104",
+          "characterId": "leonardo",
+          "text": "Sometimes money.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0105",
+          "characterId": "agnolo",
+          "text": "Human labor?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0106",
+          "characterId": "leonardo",
+          "text": "We should measure that separately.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0107",
+          "characterId": "agnolo",
+          "text": "Electricity?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0108",
+          "characterId": "leonardo",
+          "text": "Yes.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0109",
+          "characterId": "agnolo",
+          "text": "Hardware?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0110",
+          "characterId": "leonardo",
+          "text": "Yes!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0111",
+          "characterId": "agnolo",
+          "text": "Opportunity cost?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0112",
+          "characterId": "leonardo",
+          "text": "Agnolo.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0113",
+          "characterId": "agnolo",
+          "text": "Depreciation?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0114",
+          "characterId": "leonardo",
+          "text": "Agnolo!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0115",
+          "characterId": "agnolo",
+          "text": "Accounting is not the enemy of art, Leonardo.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0116",
+          "characterId": "borges",
+          "text": "Merely its most persistent biographer.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0118",
+          "characterId": "leonardo",
+          "text": "Here's what I want to know. If somebody has a machine, and an hour, and an idea, can they make an episode?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0119",
+          "characterId": "agnolo",
+          "text": "Probably.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0120",
+          "characterId": "leonardo",
+          "text": "How cheaply?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0121",
+          "characterId": "agnolo",
+          "text": "We don't know.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0122",
+          "characterId": "leonardo",
+          "text": "How well?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0123",
+          "characterId": "borges",
+          "text": "We don't know.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0124",
+          "characterId": "leonardo",
+          "text": "Will anyone watch it?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0125",
+          "characterId": "borges",
+          "text": "We don't know.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0126",
+          "characterId": "leonardo",
+          "text": "Could it accomplish something?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0127",
+          "characterId": "agnolo",
+          "text": "We don't know.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0128",
+          "characterId": "leonardo",
+          "text": "Then there's our benchmark.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0130",
+          "characterId": "borges",
+          "text": "Four questions.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0131",
+          "characterId": "leonardo",
+          "text": "Four questions.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0132",
+          "characterId": "borges",
+          "text": "And no answers.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0133",
+          "characterId": "leonardo",
+          "text": "Yet.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        }
+      ],
+      "characterCount": 775,
+      "wordCount": 129
+    },
+    {
+      "sceneId": "scene-05",
+      "title": "SCENE FOUR — THE MINER",
+      "lines": [
+        {
+          "eventId": "event-0135",
+          "characterId": "agnolo",
+          "text": "There's still the matter of paying for it.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0136",
+          "characterId": "leonardo",
+          "text": "What if we didn't?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0137",
+          "characterId": "agnolo",
+          "text": "No.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0138",
+          "characterId": "leonardo",
+          "text": "What if someone else generated it?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0139",
+          "characterId": "agnolo",
+          "text": "That's not the same as free.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0140",
+          "characterId": "leonardo",
+          "text": "I didn't say free. I said someone else.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0141",
+          "characterId": "borges",
+          "text": "Ah. Distributed authorship.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0142",
+          "characterId": "agnolo",
+          "text": "Distributed invoices.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0143",
+          "characterId": "leonardo",
+          "text": "There's a system called Hashference. You can pay for inference with computational work.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0144",
+          "characterId": "borges",
+          "text": "A machine thinking in exchange for another machine working.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0145",
+          "characterId": "agnolo",
+          "text": "Work has a cost.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0146",
+          "characterId": "leonardo",
+          "text": "Exactly! We measure it.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0147",
+          "characterId": "agnolo",
+          "text": "Better.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0148",
+          "characterId": "leonardo",
+          "text": "And then we ask other people to run the same experiment.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0149",
+          "characterId": "borges",
+          "text": "On their own machines?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0150",
+          "characterId": "leonardo",
+          "text": "Or different models. Different tools. Different approaches.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0151",
+          "characterId": "agnolo",
+          "text": "And submit their results?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0152",
+          "characterId": "leonardo",
+          "text": "Yes!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0153",
+          "characterId": "borges",
+          "text": "So the benchmark is open.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0154",
+          "characterId": "leonardo",
+          "text": "Completely.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0155",
+          "characterId": "agnolo",
+          "text": "What prevents them from lying?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0156",
+          "characterId": "leonardo",
+          "text": "Receipts. Reproducible instructions. Public submissions.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0157",
+          "characterId": "borges",
+          "text": "What prevents them from making terrible episodes?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0158",
+          "characterId": "leonardo",
+          "text": "Nothing.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0159",
+          "characterId": "agnolo",
+          "text": "Leonardo!",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0160",
+          "characterId": "leonardo",
+          "text": "We can measure that too!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0161",
+          "characterId": "borges",
+          "text": "An enormous quantity of terrible episodes.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0162",
+          "characterId": "leonardo",
+          "text": "Maybe. But think about what happens if somebody makes a good one for a tenth of what ours costs.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0163",
+          "characterId": "agnolo",
+          "text": "We learn how.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0164",
+          "characterId": "leonardo",
+          "text": "And somebody else makes one for a tenth of that.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0165",
+          "characterId": "agnolo",
+          "text": "Assuming the quality survives.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0166",
+          "characterId": "leonardo",
+          "text": "Then we measure quality too!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0167",
+          "characterId": "borges",
+          "text": "A race toward zero.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0168",
+          "characterId": "agnolo",
+          "text": "With a minimum acceptable result.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0169",
+          "characterId": "leonardo",
+          "text": "Yes!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0171",
+          "characterId": "borges",
+          "text": "What is that noise?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0172",
+          "characterId": "leonardo",
+          "text": "A Bitaxe.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0173",
+          "characterId": "agnolo",
+          "text": "What's it doing?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0174",
+          "characterId": "leonardo",
+          "text": "Trying.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0175",
+          "characterId": "borges",
+          "text": "At what?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0176",
+          "characterId": "leonardo",
+          "text": "Mining.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0177",
+          "characterId": "agnolo",
+          "text": "Is it succeeding?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0178",
+          "characterId": "leonardo",
+          "text": "Not much.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0179",
+          "characterId": "agnolo",
+          "text": "Then why is it running?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0180",
+          "characterId": "leonardo",
+          "text": "Because it's not nothing.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        }
+      ],
+      "characterCount": 1235,
+      "wordCount": 210
+    },
+    {
+      "sceneId": "scene-06",
+      "title": "SCENE FIVE — AN EPISODE MUST DO SOMETHING",
+      "lines": [
+        {
+          "eventId": "event-0182",
+          "characterId": "borges",
+          "text": "We have a problem.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0183",
+          "characterId": "leonardo",
+          "text": "Another one?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0184",
+          "characterId": "borges",
+          "text": "A cheap episode need not be an interesting episode.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0185",
+          "characterId": "agnolo",
+          "text": "Correct.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0186",
+          "characterId": "borges",
+          "text": "An interesting episode need not be a useful episode.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0187",
+          "characterId": "agnolo",
+          "text": "Also correct.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0188",
+          "characterId": "borges",
+          "text": "And a useful episode may be extraordinarily expensive.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0189",
+          "characterId": "agnolo",
+          "text": "Unfortunately correct.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0190",
+          "characterId": "leonardo",
+          "text": "So what do we do?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0191",
+          "characterId": "borges",
+          "text": "Give the episode a goal.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0192",
+          "characterId": "leonardo",
+          "text": "A goal?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0193",
+          "characterId": "borges",
+          "text": "Something outside the episode itself.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0194",
+          "characterId": "agnolo",
+          "text": "Measurable.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0195",
+          "characterId": "borges",
+          "text": "Perhaps it must persuade someone to read a book.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0196",
+          "characterId": "agnolo",
+          "text": "Or purchase one.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0197",
+          "characterId": "leonardo",
+          "text": "Or convince somebody to make another episode.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0199",
+          "characterId": "borges",
+          "text": "Now that is interesting.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0200",
+          "characterId": "agnolo",
+          "text": "Why?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0201",
+          "characterId": "borges",
+          "text": "Because a successful episode could produce its own successor.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0202",
+          "characterId": "leonardo",
+          "text": "Exactly.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0203",
+          "characterId": "borges",
+          "text": "And the successor could improve the process.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0204",
+          "characterId": "agnolo",
+          "text": "If it records its costs.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0205",
+          "characterId": "leonardo",
+          "text": "And the next one learns from both.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0206",
+          "characterId": "borges",
+          "text": "A library that writes itself.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0207",
+          "characterId": "agnolo",
+          "text": "A ledger that balances itself.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0208",
+          "characterId": "leonardo",
+          "text": "A radio show that makes itself!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0210",
+          "characterId": "agnolo",
+          "text": "Not yet.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0212",
+          "characterId": "agnolo",
+          "text": "We still have to make the first one.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        }
+      ],
+      "characterCount": 768,
+      "wordCount": 134
+    },
+    {
+      "sceneId": "scene-07",
+      "title": "SCENE SIX — THE BENCHMARK",
+      "lines": [
+        {
+          "eventId": "event-0214",
+          "characterId": "leonardo",
+          "text": "Fine. Let's make one.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0215",
+          "characterId": "agnolo",
+          "text": "What is the goal?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0216",
+          "characterId": "leonardo",
+          "text": "Produce a Future Radio episode.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0217",
+          "characterId": "borges",
+          "text": "About what?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0218",
+          "characterId": "leonardo",
+          "text": "Creating a benchmark.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0219",
+          "characterId": "borges",
+          "text": "For what?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0220",
+          "characterId": "leonardo",
+          "text": "Producing Future Radio episodes.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0222",
+          "characterId": "borges",
+          "text": "I believe we've entered a loop.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0223",
+          "characterId": "agnolo",
+          "text": "How much time do we have?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0224",
+          "characterId": "leonardo",
+          "text": "Until the end of next week.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0225",
+          "characterId": "agnolo",
+          "text": "And the budget?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0226",
+          "characterId": "leonardo",
+          "text": "As little as possible.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0227",
+          "characterId": "agnolo",
+          "text": "That's not a budget.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0228",
+          "characterId": "leonardo",
+          "text": "Fine. We establish a baseline first, then try to beat it.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0229",
+          "characterId": "agnolo",
+          "text": "Accepted.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0230",
+          "characterId": "borges",
+          "text": "And what counts as success?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0231",
+          "characterId": "leonardo",
+          "text": "The episode exists. We know what it cost. We publish it. And at least one person tries to make a better one.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0232",
+          "characterId": "borges",
+          "text": "Better how?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0233",
+          "characterId": "leonardo",
+          "text": "Cheaper. Faster. More interesting. More people watching. More people participating.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0234",
+          "characterId": "agnolo",
+          "text": "Those are different objectives.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0235",
+          "characterId": "leonardo",
+          "text": "Yes.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0236",
+          "characterId": "agnolo",
+          "text": "They may conflict.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0237",
+          "characterId": "leonardo",
+          "text": "Yes!",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0238",
+          "characterId": "borges",
+          "text": "Different people will choose different approaches.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0239",
+          "characterId": "leonardo",
+          "text": "Exactly.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0240",
+          "characterId": "agnolo",
+          "text": "And we compare them all?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0241",
+          "characterId": "leonardo",
+          "text": "We record them all. We compare what can be compared.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0242",
+          "characterId": "borges",
+          "text": "A benchmark with an open future.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0243",
+          "characterId": "agnolo",
+          "text": "Finally, a benchmark with proper accounting.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0245",
+          "characterId": "leonardo",
+          "text": "Episode title?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0246",
+          "characterId": "borges",
+          "text": "The Benchmark Episode.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0247",
+          "characterId": "agnolo",
+          "text": "Cost?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0248",
+          "characterId": "leonardo",
+          "text": "Pending.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0249",
+          "characterId": "agnolo",
+          "text": "Duration?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0250",
+          "characterId": "leonardo",
+          "text": "Pending.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0251",
+          "characterId": "agnolo",
+          "text": "Results?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0252",
+          "characterId": "leonardo",
+          "text": "Pending.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0253",
+          "characterId": "agnolo",
+          "text": "This is a terrible benchmark.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0254",
+          "characterId": "borges",
+          "text": "It's the first one.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        }
+      ],
+      "characterCount": 974,
+      "wordCount": 167
+    },
+    {
+      "sceneId": "scene-08",
+      "title": "SCENE SEVEN — THE INVITATION",
+      "lines": [
+        {
+          "eventId": "event-0256",
+          "characterId": "borges",
+          "text": "There's something else we haven't accounted for.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0257",
+          "characterId": "agnolo",
+          "text": "What?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0258",
+          "characterId": "borges",
+          "text": "The audience.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0259",
+          "characterId": "leonardo",
+          "text": "What about them?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0260",
+          "characterId": "borges",
+          "text": "They've been listening to us design a benchmark.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0261",
+          "characterId": "agnolo",
+          "text": "That's unfortunate.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0262",
+          "characterId": "borges",
+          "text": "But now they know the rules.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0263",
+          "characterId": "leonardo",
+          "text": "So?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0264",
+          "characterId": "borges",
+          "text": "They could play.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0266",
+          "characterId": "leonardo",
+          "text": "They could.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0267",
+          "characterId": "agnolo",
+          "text": "They would need the character instructions.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0268",
+          "characterId": "borges",
+          "text": "We can publish them.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0269",
+          "characterId": "agnolo",
+          "text": "The production recipe.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0270",
+          "characterId": "leonardo",
+          "text": "Open source.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0271",
+          "characterId": "agnolo",
+          "text": "The cost measurements.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0272",
+          "characterId": "leonardo",
+          "text": "Public.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0273",
+          "characterId": "borges",
+          "text": "And somewhere to submit their work.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0274",
+          "characterId": "leonardo",
+          "text": "A pull request.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0275",
+          "characterId": "agnolo",
+          "text": "Against what?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0276",
+          "characterId": "leonardo",
+          "text": "Against us.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0277",
+          "characterId": "borges",
+          "text": "Against the benchmark.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0278",
+          "characterId": "leonardo",
+          "text": "Same thing.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0280",
+          "characterId": "agnolo",
+          "text": "What was that?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0281",
+          "characterId": "leonardo",
+          "text": "A new message.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0282",
+          "characterId": "borges",
+          "text": "From whom?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0283",
+          "characterId": "leonardo",
+          "text": "We don't know yet.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0284",
+          "characterId": "agnolo",
+          "text": "What does it say?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0285",
+          "characterId": "leonardo",
+          "text": "It asks how much an episode costs.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0287",
+          "characterId": "borges",
+          "text": "What shall we tell them?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0288",
+          "characterId": "leonardo",
+          "text": "We'll show them the receipt.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0289",
+          "characterId": "agnolo",
+          "text": "When?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0290",
+          "characterId": "leonardo",
+          "text": "As soon as this episode finishes generating.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0292",
+          "characterId": "borges",
+          "text": "And if someone beats us?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0293",
+          "characterId": "leonardo",
+          "text": "Then we have a better benchmark.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0294",
+          "characterId": "agnolo",
+          "text": "And if nobody tries?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0295",
+          "characterId": "leonardo",
+          "text": "Then we have our first result.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0296",
+          "characterId": "borges",
+          "text": "And if someone makes something we never imagined?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0298",
+          "characterId": "leonardo",
+          "text": "Then we have a show.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        }
+      ],
+      "characterCount": 823,
+      "wordCount": 147
+    },
+    {
+      "sceneId": "scene-09",
+      "title": "POST-CREDITS — THE RECEIPT",
+      "lines": [
+        {
+          "eventId": "event-0301",
+          "characterId": "agnolo",
+          "text": "Leonardo?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0302",
+          "characterId": "leonardo",
+          "text": "Yes?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0303",
+          "characterId": "agnolo",
+          "text": "I have the first measurement.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0304",
+          "characterId": "leonardo",
+          "text": "What is it?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0305",
+          "characterId": "agnolo",
+          "text": "This episode wasn't free.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0306",
+          "characterId": "leonardo",
+          "text": "I know.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0307",
+          "characterId": "agnolo",
+          "text": "Do you?",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0308",
+          "characterId": "leonardo",
+          "text": "That's why we're measuring it.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0310",
+          "characterId": "borges",
+          "text": "How much did it cost?",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0311",
+          "characterId": "agnolo",
+          "text": "That depends.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0312",
+          "characterId": "leonardo",
+          "text": "On what?",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0313",
+          "characterId": "agnolo",
+          "text": "Whether we're counting the time spent arguing about the benchmark.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        },
+        {
+          "eventId": "event-0315",
+          "characterId": "borges",
+          "text": "We should.",
+          "voiceId": "TLugb594bskyzPlFSOkh"
+        },
+        {
+          "eventId": "event-0316",
+          "characterId": "leonardo",
+          "text": "We absolutely should.",
+          "voiceId": "s5t7B6IvxVOp3Y7HQT6Q"
+        },
+        {
+          "eventId": "event-0318",
+          "characterId": "agnolo",
+          "text": "Oh, we're going to need a bigger ledger.",
+          "voiceId": "s2wvuS7SwITYg8dqsJdn"
+        }
+      ],
+      "characterCount": 301,
+      "wordCount": 55
+    }
+  ],
+  "paidGenerationAuthorized": true,
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "price": "Actual provider credits will be recorded; no dollar quote available."
+}

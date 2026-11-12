@@ -1,0 +1,164 @@
+{
+  "body": {
+    "inputs": [
+      {
+        "text": "There's something else we haven't accounted for.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "What?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "The audience.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "What about them?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "They've been listening to us design a benchmark.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "That's unfortunate.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "But now they know the rules.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "So?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "They could play.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "They could.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "They would need the character instructions.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "We can publish them.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "The production recipe.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Open source.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "The cost measurements.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Public.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "And somewhere to submit their work.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "A pull request.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Against what?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Against us.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Against the benchmark.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Same thing.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "What was that?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "A new message.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "From whom?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "We don't know yet.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "What does it say?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "It asks how much an episode costs.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "What shall we tell them?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "We'll show them the receipt.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "When?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "As soon as this episode finishes generating.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "And if someone beats us?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Then we have a better benchmark.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "And if nobody tries?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Then we have our first result.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "And if someone makes something we never imagined?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Then we have a show.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      }
+    ],
+    "model_id": "eleven_v4",
+    "seed": 3472878429,
+    "apply_text_normalization": "auto"
+  },
+  "requestSha256": "75efb3b27d20987126c626eec89519e957011f9b35309fe146b0fa4de59fe0d1",
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "submittedAt": "2026-11-12T18:06:57.762806+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "body": {
+    "inputs": [
+      {
+        "text": "Wait. What are we actually trying to do?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Produce Future Radio.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Without going bankrupt.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "And get people to listen.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Preferably.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "And make more of it.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "With what money?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "That's the problem!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Which problem?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "We don't know what it costs to make the show.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "I have been saying that for weeks.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "You keep telling us what we've spent.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Yes.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Not what it should cost.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "...Continue.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Every episode is different. Different scripts. Different models. Different voices. Different production processes.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Different failures.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "And we're learning things every time. But we can't compare the results.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Because we have no standard unit.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "A standardized radio episode.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Exactly!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "A tragic phrase.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "I like it.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "We need a benchmark episode.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "What would it measure?",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Everything we need to know to make the next one better.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      }
+    ],
+    "model_id": "eleven_v4",
+    "seed": 2873930241,
+    "apply_text_normalization": "auto"
+  },
+  "requestSha256": "f169589bcc78f884fab3c631818ab7571abebe1689a14cec6f613d31de91c440",
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "submittedAt": "2026-11-12T18:05:21.005849+00:00"
+}

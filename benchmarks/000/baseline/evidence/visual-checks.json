@@ -1,0 +1,46 @@
+{
+  "deterministic": true,
+  "denied": [],
+  "mismatches": [],
+  "events": 200,
+  "fonts": [
+    true,
+    true
+  ],
+  "contactSheetReview": {
+    "reviewer": "Codex visual inspection",
+    "frames": 27,
+    "findings": [
+      "Nine scene boards legible with no overlapping labels.",
+      "Speaker and board camera cuts preserve the three-character studio layout.",
+      "Some opening shots intentionally show boards still being drawn."
+    ],
+    "majorIssues": [],
+    "scope": "Authored studio animation with limited character motion; not full character animation."
+  },
+  "styleSample": {
+    "sha256": "fd299db75e81614daf471b762916ddf420752527ce97fe9f8cb8011f918a4811",
+    "startSeconds": 3,
+    "endSeconds": 13.5,
+    "status": "approved_for_full_local_render",
+    "reviewer": "Codex visual inspection",
+    "timecodedFindings": [
+      {
+        "time": 4,
+        "finding": "Encoded 1280x720 frame: both visible characters, radio, board and dialogue caption clear; no caption overlap with faces."
+      }
+    ],
+    "majorIssues": [],
+    "humanListeningReview": "pending"
+  },
+  "encodedFrameReview": {
+    "frames": 12,
+    "reviewer": "Codex visual inspection",
+    "majorIssues": [],
+    "findings": [
+      "All nine scene boards and final receipt legible in encoded frames.",
+      "Captions remain within the video canvas; opening, middle and ending inspected."
+    ],
+    "audioRevision": "Final revision changes printer cadence only; visual frames are reused."
+  }
+}

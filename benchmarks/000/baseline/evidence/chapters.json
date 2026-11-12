@@ -1,0 +1,56 @@
+[
+  {
+    "sceneId": "scene-01",
+    "title": "COLD OPEN — EVERYONE HAS A SCORE",
+    "start": 0.0,
+    "end": 47.88
+  },
+  {
+    "sceneId": "scene-02",
+    "title": "SCENE ONE — THE COMMITTEE",
+    "start": 47.88,
+    "end": 106.68
+  },
+  {
+    "sceneId": "scene-03",
+    "title": "SCENE TWO — THE MISSING MEASUREMENT",
+    "start": 106.68,
+    "end": 168.42
+  },
+  {
+    "sceneId": "scene-04",
+    "title": "SCENE THREE — WHAT DOES AN EPISODE COST?",
+    "start": 168.42,
+    "end": 244.83999999999997
+  },
+  {
+    "sceneId": "scene-05",
+    "title": "SCENE FOUR — THE MINER",
+    "start": 244.83999999999997,
+    "end": 349.59999999999997
+  },
+  {
+    "sceneId": "scene-06",
+    "title": "SCENE FIVE — AN EPISODE MUST DO SOMETHING",
+    "start": 349.59999999999997,
+    "end": 415.99999999999994
+  },
+  {
+    "sceneId": "scene-07",
+    "title": "SCENE SIX — THE BENCHMARK",
+    "start": 415.99999999999994,
+    "end": 498.8999999999999
+  },
+  {
+    "sceneId": "scene-08",
+    "title": "SCENE SEVEN — THE INVITATION",
+    "start": 498.8999999999999,
+    "end": 576.17
+  },
+  {
+    "sceneId": "scene-09",
+    "title": "POST-CREDITS — THE RECEIPT",
+    "start": 576.17,
+    "end": 609.29
+  }
+]

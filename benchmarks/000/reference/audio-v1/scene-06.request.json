@@ -1,0 +1,124 @@
+{
+  "body": {
+    "inputs": [
+      {
+        "text": "We have a problem.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Another one?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "A cheap episode need not be an interesting episode.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Correct.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "An interesting episode need not be a useful episode.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Also correct.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "And a useful episode may be extraordinarily expensive.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Unfortunately correct.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "So what do we do?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Give the episode a goal.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "A goal?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Something outside the episode itself.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Measurable.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Perhaps it must persuade someone to read a book.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Or purchase one.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Or convince somebody to make another episode.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Now that is interesting.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Why?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Because a successful episode could produce its own successor.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Exactly.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "And the successor could improve the process.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "If it records its costs.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "And the next one learns from both.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "A library that writes itself.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "A ledger that balances itself.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "A radio show that makes itself!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Not yet.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "We still have to make the first one.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      }
+    ],
+    "model_id": "eleven_v4",
+    "seed": 2403975652,
+    "apply_text_normalization": "auto"
+  },
+  "requestSha256": "4834c5c0e490f445dd352e490b88998bb4b7ffe8a5a2ce1d508c8fa2fae08964",
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "submittedAt": "2026-11-12T18:06:21.124460+00:00"
+}

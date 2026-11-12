@@ -1,0 +1,84 @@
+{
+  "body": {
+    "inputs": [
+      {
+        "text": "What's happening?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "A competition.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Who's winning?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Everyone.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Everyone?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "According to their own benchmarks.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "That's not possible.",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Quite possible. One measures mathematics. Another measures code. Another measures whether the machine knows which strawberry is larger.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "Is it?",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Apparently.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "And who measures the people measuring the strawberries?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Nobody. That would require another benchmark.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      },
+      {
+        "text": "We need one.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "A strawberry?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "A benchmark!",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "For what?",
+        "voice_id": "s2wvuS7SwITYg8dqsJdn"
+      },
+      {
+        "text": "Us.",
+        "voice_id": "s5t7B6IvxVOp3Y7HQT6Q"
+      },
+      {
+        "text": "Oh, dear.",
+        "voice_id": "TLugb594bskyzPlFSOkh"
+      }
+    ],
+    "model_id": "eleven_v4",
+    "seed": 2306582454,
+    "apply_text_normalization": "auto"
+  },
+  "requestSha256": "538a6f031c76b638818911b7fc66bea53d01ec7f03b3d01b3add86fb4b43b418",
+  "authorization": "User explicitly approved sending all nine scenes to ElevenLabs and spending associated synthesis credits: Approve ElevenLabs generation",
+  "submittedAt": "2026-11-12T18:03:37.656581+00:00"
+}

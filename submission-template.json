@@ -1,0 +1,33 @@
+{
+  "benchmarkId": "000",
+  "track": "fixed-script",
+  "title": "",
+  "artifactUrl": "",
+  "artifactSha256": "",
+  "referenceScriptSha256": "88deb545eeb28fcc4844c4cc3e74a219d1595425ededf11cefab35f939f721da",
+  "recipeUrl": "",
+  "modelAndVoices": [],
+  "cost": {
+    "directUsd": null,
+    "providerCredits": null,
+    "subscriptionOrGrant": "",
+    "humanActiveMinutes": null,
+    "machineWallSeconds": null,
+    "energyKwh": null,
+    "energyMethod": "",
+    "reusedAssets": []
+  },
+  "quality": {
+    "dialogueComplete": null,
+    "integratedLufs": null,
+    "truePeakDbtp": null,
+    "independentListeningReview": ""
+  },
+  "outcomes": {
+    "publicationUrl": "",
+    "audience": null,
+    "independentReproductions": null
+  },
+  "evidence": [],
+  "limitations": []
+}
