@@ -1,0 +1,23 @@
+{
+  "url": "https://future-radio.leo-guinan.workers.dev",
+  "worker": "future-radio",
+  "workerVersionId": "9b576a2a-40ca-46b4-8bd7-fcab5bfcea94",
+  "database": "future-radio-ledger",
+  "d1DatabaseId": "a8b25931-b759-4272-854c-49937de8e477",
+  "sourceBaseCommit": "70dcaaf07550e16ba94bc98e762bdf89abdc7fe9",
+  "wallet": "0x005a3560c44e506626a26352466429cc963f9fb7",
+  "recordedAt": "2026-11-12T23:48:58.599968+00:00",
+  "archive": "future-radio-cloudflare-v1-source.tar.gz",
+  "sha256": "1bc4863da8dda04ffc29093e451f7f26d6c5d6273c9650b23339ee5ac73d0845",
+  "bytes": 10646013,
+  "repository": "leo-guinan/future-radio-benchmarks",
+  "releaseTag": "benchmark-001-v1",
+  "workerDeploymentVersions": 3,
+  "newSynthesisCredits": 0,
+  "newImageVideoCalls": 0,
+  "newMiningPerformed": false,
+  "cloudflareCostUsd": null,
+  "agentCostUsd": null,
+  "energyKwh": null,
+  "costNote": "Deployed to existing account. No independently allocated bill, full agent metering or power measurement; no zero-dollar total asserted."
+}

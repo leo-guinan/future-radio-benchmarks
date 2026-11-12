@@ -16,3 +16,7 @@ jobs:
       - run: python tools/benchmark.py verify-replay-evidence
       - run: python tools/benchmark.py costs
       - run: python benchmarks/001/pipeline.py verify
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node benchmarks/001/updates/cloudflare-v1/tests/audio-range.mjs

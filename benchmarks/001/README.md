@@ -45,3 +45,7 @@ The live Site now uses the user-designated Future Radio wallet. [Show-wallet upd
 ## Scene interface preview
 
 [Scene UI, source and checks](updates/scene-v1/README.md) records the room, central animated episode, treadmill robot and single Turn On / Turn Off control. It preserves the current wallet routing and original audio assets.
+
+## Native Cloudflare deployment
+
+The scene is also deployed at [future-radio.leo-guinan.workers.dev](https://future-radio.leo-guinan.workers.dev). [Deployment source and verification](updates/cloudflare-v1/README.md) cover the native Worker, audio byte ranges, dedicated D1 ledger, canonical wallet routing and timestamped prior-hosting history snapshot.
