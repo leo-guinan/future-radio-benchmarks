@@ -87,6 +87,15 @@ quality improvement. Automated checks do not replace listening or editorial revi
 Large original outputs (including the WAV, which exceeds GitHub's normal Git file
 limit) live in the release and are checked against `artifacts.json` when downloaded.
 
+## Verified cached replay
+
+The complete nine-stage pipeline was replayed on the original machine in **334.856
+seconds**, with **zero new synthesis credits**. The MP3, WAV and MP4 match the
+baseline SHA-256 hashes exactly. The event journal, step timings, child-process CPU
+usage and output comparison are preserved in [replications/cached-replay-001](replications/cached-replay-001/summary.json).
+This is a same-machine reproduction, not an independent community submission.
+A second invocation reused all nine verified checkpoints without rerunning them.
+
 ## Modify or replicate
 
 **Reproduction:** same cached raw takes and recipe. Compare artifacts/hashes and

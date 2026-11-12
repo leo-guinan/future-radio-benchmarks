@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "benchmark": "000",
+  "reference": "benchmarks/000/reference",
+  "recipe": "recipes/reference-v1",
+  "steps": [
+    {
+      "id": "validate-inputs",
+      "dependsOn": [],
+      "command": [
+        "{python}",
+        "validate_inputs.py"
+      ],
+      "inputs": [
+        "validate_inputs.py",
+        "script-v1.md",
+        "source-brief.txt",
+        "episode-script-v1.json",
+        "dialogue-plan-v1.json"
+      ],
+      "outputs": [
+        "input-validation.json"
+      ],
+      "paid": false
+    },
+    {
+      "id": "synthesize",
+      "dependsOn": [
+        "validate-inputs"
+      ],
+      "command": [
+        "{python}",
+        "produce_audio.py"
+      ],
+      "inputs": [
+        "produce_audio.py",
+        "script-v1.md",
+        "episode-script-v1.json",
+        "dialogue-plan-v1.json"
+      ],
+      "outputs": [
+        "audio-v1/scene-??.mp3",
+        "audio-v1/scene-??.json"
+      ],
+      "paid": true
+    },
+    {
+      "id": "mix",
+      "dependsOn": [
+        "synthesize"
+      ],
+      "command": [
+        "{python}",
+        "build_episode.py"
+      ],
+      "inputs": [
+        "build_episode.py",
+        "script-v1.md",
+        "episode-script-v1.json",
+        "dialogue-plan-v1.json",
+        "audio-v1/scene-??.mp3",
+        "audio-v1/scene-??.json"
+      ],
+      "outputs": [
+        "release-v1/*.wav",
+        "release-v1/*.mp3",
+        "release-v1/captions.srt",
+        "timeline-v1.json",
+        "sound-cues-v1.json",
+        "chapters.ffmetadata"
+      ],
+      "paid": false
+    },
+    {
+      "id": "plan-visuals",
+      "dependsOn": [
+        "mix"
+      ],
+      "command": [
+        "{python}",
+        "prepare_visuals.py"
+      ],
+      "inputs": [
+        "prepare_visuals.py",
+        "timeline-v1.json",
+        "episode-script-v1.json",
+        "dialogue-plan-v1.json"
+      ],
+      "outputs": [
+        "render-spec-v1.json"
+      ],
+      "paid": false
+    },
+    {
+      "id": "test-renderer",
+      "dependsOn": [
+        "validate-inputs"
+      ],
+      "command": [
+        "{python}",
+        "render-studio/tools/run_tests.py",
+        "--build",
+        "--json",
+        "regression-tests.json"
+      ],
+      "inputs": [
+        "render-studio/studio/src/*.js",
+        "render-studio/tools/run_tests.py",
+        "render-studio/studio/shell.html",
+        "render-studio/studio/build.py",
+        "render-studio/studio/data/*",
+        "render-studio/studio/public/**/*",
+        "render-studio/tools/*.py"
+      ],
+      "outputs": [
+        "regression-tests.json"
+      ],
+      "paid": false
+    },
+    {
+      "id": "check-visuals",
+      "dependsOn": [
+        "plan-visuals",
+        "test-renderer"
+      ],
+      "command": [
+        "{python}",
+        "check_visuals.py"
+      ],
+      "inputs": [
+        "check_visuals.py",
+        "render-spec-v1.json",
+        "render-studio/studio/src/*.js",
+        "render-studio/studio/shell.html",
+        "render-studio/studio/build.py",
+        "render-studio/studio/data/*",
+        "render-studio/studio/public/**/*",
+        "render-studio/tools/*.py"
+      ],
+      "outputs": [
+        "visual-checks.json",
+        "renderer-operation-log.json",
+        "review-stills/contact.png"
+      ],
+      "paid": false
+    },
+    {
+      "id": "style-sample",
+      "dependsOn": [
+        "check-visuals"
+      ],
+      "command": [
+        "{python}",
+        "render_video.py",
+        "--sample"
+      ],
+      "inputs": [
+        "render_video.py",
+        "render-spec-v1.json",
+        "render-studio/studio/src/*.js",
+        "release-v1/the-benchmark-episode.wav",
+        "render-studio/studio/shell.html",
+        "render-studio/studio/build.py",
+        "render-studio/studio/data/*",
+        "render-studio/studio/public/**/*",
+        "render-studio/tools/*.py"
+      ],
+      "outputs": [
+        "style-sample-with-audio.mp4",
+        "sample-render-metrics.json"
+      ],
+      "paid": false
+    },
+    {
+      "id": "render",
+      "dependsOn": [
+        "style-sample"
+      ],
+      "command": [
+        "{python}",
+        "render_video.py"
+      ],
+      "inputs": [
+        "render_video.py",
+        "render-spec-v1.json",
+        "render-studio/studio/src/*.js",
+        "release-v1/the-benchmark-episode.wav",
+        "chapters.ffmetadata",
+        "render-studio/studio/shell.html",
+        "render-studio/studio/build.py",
+        "render-studio/studio/data/*",
+        "render-studio/studio/public/**/*",
+        "render-studio/tools/*.py"
+      ],
+      "outputs": [
+        "release-v1/the-benchmark-episode.mp4",
+        "video-render-metrics.json"
+      ],
+      "paid": false
+    },
+    {
+      "id": "verify-media",
+      "dependsOn": [
+        "render"
+      ],
+      "command": [
+        "{python}",
+        "verify_release.py"
+      ],
+      "inputs": [
+        "verify_release.py",
+        "release-v1/the-benchmark-episode.mp4",
+        "timeline-v1.json",
+        "visual-checks.json",
+        "regression-tests.json",
+        "video-render-metrics.json"
+      ],
+      "outputs": [
+        "release-v1/contact.png",
+        "release-v1/video-loudness.json"
+      ],
+      "paid": false
+    }
+  ]
+}

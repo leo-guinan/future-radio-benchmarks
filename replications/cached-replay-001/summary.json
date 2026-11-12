@@ -1,0 +1,31 @@
+{
+  "run": "cached-replay-001",
+  "eventChain": "verified",
+  "unfinishedStages": [],
+  "stageAttempts": 9,
+  "incrementalTotals": {
+    "wallSeconds": 334.856238,
+    "childCpuSeconds": 463.599292,
+    "newSynthesisCredits": 0
+  },
+  "inheritedSynthesisCredits": 6689,
+  "unmeasuredCashUsd": null,
+  "unmeasuredEnergyKwh": null,
+  "mediaComparison": {
+    "the-benchmark-episode.mp3": {
+      "sha256": "0cf49db88fa25bff846de3a29a50d454a15b620a7c701393087b97fb93f7cf30",
+      "matchesBaseline": true
+    },
+    "the-benchmark-episode.mp4": {
+      "sha256": "218c1f0317a75cdd2afe16635ad071c8b8ea50136838d91ba0a230d6a094be38",
+      "matchesBaseline": true
+    },
+    "the-benchmark-episode.wav": {
+      "sha256": "705af54a42e8f395ead95a7bf2828adc346430ea2e9960292b805963c6c28ca0",
+      "matchesBaseline": true
+    }
+  },
+  "scope": "Same-machine cached reproduction by the original producer, not independent community participation.",
+  "complete": true,
+  "sourceJournalSha256": "75681f59459faed20a6b76f841fdf526bce07fc5c1dedcac9e4229798b5eed1e"
+}
