@@ -1,0 +1,19 @@
+{
+  "configuredAt": "2026-11-12T22:10:23.795487+00:00",
+  "designatedBy": "User instruction in this chat",
+  "providedAddress": "0x005A3560C44e506626A26352466429cC963F9fB7",
+  "canonicalAddress": "0x005a3560c44e506626a26352466429cc963f9fb7",
+  "network": "quai:9",
+  "profile": "quai/sha256d-v1",
+  "requirementsStatus": 201,
+  "requirementsRecipientMatched": true,
+  "newWalletProofSettledDuringConfiguration": false,
+  "miningRewards": "unreconciled",
+  "historicalDemoReceiptsReassigned": false,
+  "audioChanged": false,
+  "bounds": {
+    "maxHashes": 100000,
+    "maxMilliseconds": 3000,
+    "maxExpectedGuesses": 40000
+  }
+}

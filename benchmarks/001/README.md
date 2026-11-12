@@ -37,3 +37,7 @@ The configured recipient is the official demonstration recipient, not a Future R
 The approved trial recorded one accepted live-source receipt, with one worker and one completion request, while audio advanced during a 1.915-second observation. Work stopped before the next job. The first UI trial failed before a worker started because the edge runtime disallowed `redirect: error`; the deployed fix uses manual redirects and exact status checks. Both trials are preserved. No hour-long or independent attention experiment was performed. Actual mining rewards remain unreconciled.
 
 Production used 5,849 provider credits across seven requests (91.731 seconds combined request wall time). The 462.96-second MP3 decoded completely, measured −16.27 LUFS / −1.72 dBTP, and retained all 91 aligned lines and seven chapters. A same-machine cached replay spent zero new synthesis credits and matched all ten baseline asset hashes. Human listening review remains pending.
+
+## Configuration after publication
+
+The live Site now uses the user-designated Future Radio wallet. [Show-wallet update and source](updates/wallet-v1/README.md) records the routing change and its checks. Original audio, costs and demo rehearsal evidence above remain unchanged historical records.

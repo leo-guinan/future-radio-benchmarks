@@ -1,0 +1,14 @@
+{
+  "sourceCommit": "2fdba07b624d38a838c4b47da1bd85f31b449805",
+  "projectId": "appgprj_6af62b6ab2fc8191b850218cfa2316d1",
+  "siteVersion": 4,
+  "versionId": "appgprj_6af62b6ab2fc8191b850218cfa2316d1~appgver_85d6b517e6848191b3d02c323c5d844f",
+  "deploymentId": "appgdep_6af63a1ea5b081918f5cde9953eaad7f",
+  "status": "succeeded",
+  "archive": "site-source-show-wallet-v1.tar.gz",
+  "sha256": "f737e6ba4f65cd3ba4cf7ebc7741b3d371df442cc40ecbb7932cffa8b0b132c8",
+  "bytes": 10529086,
+  "repository": "leo-guinan/future-radio-benchmarks",
+  "releaseTag": "benchmark-001-v1",
+  "originalAssetHashesChanged": false
+}

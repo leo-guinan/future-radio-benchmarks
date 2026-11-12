@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-12T22:16:19.333375+00:00",
+  "site": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site",
+  "challengeStatus": 200,
+  "offeredPayTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+  "resource": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+  "expectedGuesses": "40000",
+  "maxHashes": 100000,
+  "maxMilliseconds": 3000,
+  "showPayoutConfigured": true,
+  "showWorkReceipts": 0,
+  "historicalDemoReceipts": 1,
+  "pageErrors": [],
+  "realMiningPerformed": false,
+  "newProofSettled": false,
+  "workersCreated": 0,
+  "newSynthesisRequests": 0,
+  "newSynthesisCredits": 0,
+  "miningRewards": "unreconciled",
+  "tests": {
+    "offlineHashVerifier": true,
+    "walletResourceBinding": true,
+    "http200FailureRejected": true,
+    "typescript": true,
+    "productionBuild": true
+  },
+  "initialHttpClientCheck": "Python user agent received edge error 1010; browser same-origin check used instead."
+}
