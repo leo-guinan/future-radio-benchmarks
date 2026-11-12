@@ -1,0 +1,17 @@
+{
+  "realMiningPerformed": false,
+  "workMode": "offline browser-control fixture; no upstream proof submitted",
+  "ordinaryPlaybackCreatesZeroWorkers": true,
+  "explicitConsentRequired": true,
+  "stopTerminatesWorker": true,
+  "audioPauseStopsWork": true,
+  "syntheticHiddenPageStopsWork": true,
+  "crossOriginWriteRejected": true,
+  "nonconsensualRequestRejected": true,
+  "durableLedgerInitiallyEmpty": true,
+  "pageErrors": [],
+  "viewport": [
+    1440,
+    1100
+  ]
+}

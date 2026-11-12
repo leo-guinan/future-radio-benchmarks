@@ -1,0 +1,55 @@
+{
+  "benchmark": "001",
+  "status": "measured_production_with_unpriced_categories",
+  "synthesis": {
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "requests": 7,
+    "dialogueCharacters": 5849,
+    "reportedCredits": 5849,
+    "requestWallSeconds": 91.731,
+    "usd": null,
+    "usdReason": "Grant credits; no defensible marginal dollar conversion. Credits do not establish cash charged."
+  },
+  "mix": {
+    "wallSeconds": 44.548,
+    "pythonProcessCpuSeconds": 0.362,
+    "cpuScope": "Python process only; excludes ffmpeg subprocess CPU",
+    "musicAndEffects": "local procedural synthesis; no external music API request"
+  },
+  "agentCompute": {
+    "tokens": null,
+    "usd": null,
+    "reason": "Complete episode preparation and current turn metering not available as one bounded accounting record"
+  },
+  "infrastructure": {
+    "hostingUsd": null,
+    "storageUsd": null,
+    "networkUsd": null,
+    "reason": "No episode-specific provider invoice or usage allocation"
+  },
+  "humanLabor": {
+    "minutes": null,
+    "usd": null,
+    "reason": "Not independently timed; listening review pending"
+  },
+  "energy": {
+    "kwh": null,
+    "usd": null,
+    "reason": "No power meter"
+  },
+  "hardwareDepreciationUsd": null,
+  "experiment": {
+    "rehearsal": "One pre-work compatibility failure, repaired; then one worker, one challenge and one accepted live-source completion",
+    "actualMiningRewards": "unreconciled",
+    "showPayoutConfigured": false,
+    "observedIntervalSeconds": 1.915,
+    "receiptSource": "live",
+    "acceptedReceipts": 1,
+    "expectedGuesses": 40000,
+    "actualHashCount": "Worker progress is retained; the 40,000 price is expected work, not observed guesses",
+    "usd": null
+  },
+  "totalUsd": null,
+  "totalReason": "Missing priced categories prevent an honest complete dollar total."
+}

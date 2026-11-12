@@ -1,0 +1,35 @@
+{
+  "action": "replay",
+  "paidRequestsSubmitted": false,
+  "cachedReplayCreditsSpent": 0,
+  "historicalSourceTakeCredits": 5849,
+  "inputFilesVerified": 20,
+  "outputHashes": {
+    "premaster-loudness.json": "1a8603b7f40e1740592f0faef2173124a1cd1472b0d6e7a25d350151e5916a30",
+    "loudness.json": "98a84eaf963ca0bd022e381196a27d9e5c5acab964e1c6075068417eb28e4b89",
+    "captions.srt": "1f9d49bb65023bbafe5b3e1cb4f7fa991de896f466a1a7a861a7b9baf30b8518",
+    "script.md": "f161f5a4e14dd600b1bf486d81428f8af8d126ee2a8c8ac01bb47d9c893ce97f",
+    "the-computational-treadmill.wav": "487b180c488176ef95ee8825bf8ca1a113734d27a00b191b5b7ae0673ae6848f",
+    "timeline.json": "82544ded6182d9be4909bf1dbb18738d11a90216c838445b96e492625e733444",
+    "chapters.json": "5fa85bee53a2645a14c88727270ef0ab3e2b200b180ac86ddc5ea09a44e6a025",
+    "source-brief.txt": "76546bc9f3eeda45769f20aab3b2ae85ee0b1a45a0d5db1c94ccaa6e789f2692",
+    "sound-cues.json": "f3fd78f08edb8ea76090e8cf27ea1b306411f71b41bde83fc3f44af4905e725d",
+    "the-computational-treadmill.mp3": "dbf480fa7a85befcdd11bb1148bec38fb99c4693a80518f3c6d5ed59e64622aa"
+  },
+  "runtimeSeconds": 462.96,
+  "loudnessLufs": -16.27,
+  "truePeakDbtp": -1.72,
+  "note": "A replay proves execution on this environment. Cross-platform byte identity and independent reproduction are not claimed.",
+  "baselineHashMatches": {
+    "premaster-loudness.json": true,
+    "loudness.json": true,
+    "captions.srt": true,
+    "script.md": true,
+    "the-computational-treadmill.wav": true,
+    "timeline.json": true,
+    "chapters.json": true,
+    "source-brief.txt": true,
+    "sound-cues.json": true,
+    "the-computational-treadmill.mp3": true
+  }
+}

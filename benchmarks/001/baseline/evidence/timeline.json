@@ -1,0 +1,6019 @@
+{
+  "duration": 462.96,
+  "dialogue": [
+    {
+      "eventId": "event-0002",
+      "characterId": "leonardo",
+      "text": "We have listeners!",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-01",
+      "start": 3.7,
+      "end": 5.300000000000001,
+      "wordTimings": [
+        {
+          "text": "We",
+          "start": 3.7,
+          "end": 3.88
+        },
+        {
+          "text": "have",
+          "start": 3.9400000000000004,
+          "end": 4.08
+        },
+        {
+          "text": "listeners!",
+          "start": 4.1000000000000005,
+          "end": 5.300000000000001
+        }
+      ]
+    },
+    {
+      "eventId": "event-0003",
+      "characterId": "agnolo",
+      "text": "What are they producing?",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-01",
+      "start": 5.300000000000001,
+      "end": 6.82,
+      "wordTimings": [
+        {
+          "text": "What",
+          "start": 5.300000000000001,
+          "end": 5.54
+        },
+        {
+          "text": "are",
+          "start": 5.58,
+          "end": 5.62
+        },
+        {
+          "text": "they",
+          "start": 5.7,
+          "end": 5.78
+        },
+        {
+          "text": "producing?",
+          "start": 5.86,
+          "end": 6.82
+        }
+      ]
+    },
+    {
+      "eventId": "event-0004",
+      "characterId": "leonardo",
+      "text": "They're listening.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-01",
+      "start": 6.82,
+      "end": 8.02,
+      "wordTimings": [
+        {
+          "text": "They're",
+          "start": 6.82,
+          "end": 7.0600000000000005
+        },
+        {
+          "text": "listening.",
+          "start": 7.140000000000001,
+          "end": 8.02
+        }
+      ]
+    },
+    {
+      "eventId": "event-0005",
+      "characterId": "agnolo",
+      "text": "And their computers?",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-01",
+      "start": 8.02,
+      "end": 9.620000000000001,
+      "wordTimings": [
+        {
+          "text": "And",
+          "start": 8.02,
+          "end": 8.26
+        },
+        {
+          "text": "their",
+          "start": 8.34,
+          "end": 8.42
+        },
+        {
+          "text": "computers?",
+          "start": 8.5,
+          "end": 9.620000000000001
+        }
+      ]
+    },
+    {
+      "eventId": "event-0006",
+      "characterId": "leonardo",
+      "text": "Also listening. Less attentively.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-01",
+      "start": 9.620000000000001,
+      "end": 12.5,
+      "wordTimings": [
+        {
+          "text": "Also",
+          "start": 9.620000000000001,
+          "end": 9.940000000000001
+        },
+        {
+          "text": "listening.",
+          "start": 10.02,
+          "end": 10.780000000000001
+        },
+        {
+          "text": "Less",
+          "start": 11.06,
+          "end": 11.3
+        },
+        {
+          "text": "attentively.",
+          "start": 11.379999999999999,
+          "end": 12.5
+        }
+      ]
+    },
+    {
+      "eventId": "event-0007",
+      "characterId": "borges",
+      "text": "Listening is not doing nothing. An audience gives us something a computer cannot measure by counting its instructions.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-01",
+      "start": 12.5,
+      "end": 22.02,
+      "wordTimings": [
+        {
+          "text": "Listening",
+          "start": 12.5,
+          "end": 13.219999999999999
+        },
+        {
+          "text": "is",
+          "start": 13.46,
+          "end": 13.620000000000001
+        },
+        {
+          "text": "not",
+          "start": 13.7,
+          "end": 14.02
+        },
+        {
+          "text": "doing",
+          "start": 14.18,
+          "end": 14.5
+        },
+        {
+          "text": "nothing.",
+          "start": 14.580000000000002,
+          "end": 15.5
+        },
+        {
+          "text": "An",
+          "start": 15.86,
+          "end": 16.02
+        },
+        {
+          "text": "audience",
+          "start": 16.1,
+          "end": 16.74
+        },
+        {
+          "text": "gives",
+          "start": 16.82,
+          "end": 17.06
+        },
+        {
+          "text": "us",
+          "start": 17.14,
+          "end": 17.22
+        },
+        {
+          "text": "something",
+          "start": 17.46,
+          "end": 17.7
+        },
+        {
+          "text": "a",
+          "start": 17.74,
+          "end": 17.78
+        },
+        {
+          "text": "computer",
+          "start": 17.86,
+          "end": 18.5
+        },
+        {
+          "text": "cannot",
+          "start": 18.74,
+          "end": 19.14
+        },
+        {
+          "text": "measure",
+          "start": 19.22,
+          "end": 19.62
+        },
+        {
+          "text": "by",
+          "start": 19.7,
+          "end": 19.86
+        },
+        {
+          "text": "counting",
+          "start": 20.02,
+          "end": 20.419999999999998
+        },
+        {
+          "text": "its",
+          "start": 20.5,
+          "end": 20.66
+        },
+        {
+          "text": "instructions.",
+          "start": 20.74,
+          "end": 22.02
+        }
+      ]
+    },
+    {
+      "eventId": "event-0008",
+      "characterId": "agnolo",
+      "text": "I was counting its electricity.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-01",
+      "start": 22.02,
+      "end": 24.18,
+      "wordTimings": [
+        {
+          "text": "I",
+          "start": 22.02,
+          "end": 22.18
+        },
+        {
+          "text": "was",
+          "start": 22.3,
+          "end": 22.419999999999998
+        },
+        {
+          "text": "counting",
+          "start": 22.58,
+          "end": 22.82
+        },
+        {
+          "text": "its",
+          "start": 22.9,
+          "end": 22.98
+        },
+        {
+          "text": "electricity.",
+          "start": 23.22,
+          "end": 24.18
+        }
+      ]
+    },
+    {
+      "eventId": "event-0009",
+      "characterId": "leonardo",
+      "text": "Wait. Their machines are already working to receive the show. What if a little more of that work could help make the next one?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-01",
+      "start": 24.18,
+      "end": 32.26,
+      "wordTimings": [
+        {
+          "text": "Wait.",
+          "start": 24.18,
+          "end": 24.9
+        },
+        {
+          "text": "Their",
+          "start": 25.22,
+          "end": 25.38
+        },
+        {
+          "text": "machines",
+          "start": 25.5,
+          "end": 25.86
+        },
+        {
+          "text": "are",
+          "start": 25.939999999999998,
+          "end": 26.02
+        },
+        {
+          "text": "already",
+          "start": 26.22,
+          "end": 26.419999999999998
+        },
+        {
+          "text": "working",
+          "start": 26.5,
+          "end": 26.9
+        },
+        {
+          "text": "to",
+          "start": 26.939999999999998,
+          "end": 26.98
+        },
+        {
+          "text": "receive",
+          "start": 27.06,
+          "end": 27.46
+        },
+        {
+          "text": "the",
+          "start": 27.54,
+          "end": 27.62
+        },
+        {
+          "text": "show.",
+          "start": 27.7,
+          "end": 28.46
+        },
+        {
+          "text": "What",
+          "start": 28.82,
+          "end": 28.98
+        },
+        {
+          "text": "if",
+          "start": 29.06,
+          "end": 29.14
+        },
+        {
+          "text": "a",
+          "start": 29.18,
+          "end": 29.22
+        },
+        {
+          "text": "little",
+          "start": 29.3,
+          "end": 29.46
+        },
+        {
+          "text": "more",
+          "start": 29.62,
+          "end": 29.779999999999998
+        },
+        {
+          "text": "of",
+          "start": 29.86,
+          "end": 29.939999999999998
+        },
+        {
+          "text": "that",
+          "start": 30.02,
+          "end": 30.18
+        },
+        {
+          "text": "work",
+          "start": 30.259999999999998,
+          "end": 30.5
+        },
+        {
+          "text": "could",
+          "start": 30.58,
+          "end": 30.74
+        },
+        {
+          "text": "help",
+          "start": 30.82,
+          "end": 30.98
+        },
+        {
+          "text": "make",
+          "start": 31.06,
+          "end": 31.14
+        },
+        {
+          "text": "the",
+          "start": 31.22,
+          "end": 31.259999999999998
+        },
+        {
+          "text": "next",
+          "start": 31.3,
+          "end": 31.54
+        },
+        {
+          "text": "one?",
+          "start": 31.62,
+          "end": 32.26
+        }
+      ]
+    },
+    {
+      "eventId": "event-0010",
+      "characterId": "borges",
+      "text": "A listener is not a power socket.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-01",
+      "start": 32.26,
+      "end": 35.3,
+      "wordTimings": [
+        {
+          "text": "A",
+          "start": 32.26,
+          "end": 32.34
+        },
+        {
+          "text": "listener",
+          "start": 32.42,
+          "end": 32.980000000000004
+        },
+        {
+          "text": "is",
+          "start": 33.14,
+          "end": 33.300000000000004
+        },
+        {
+          "text": "not",
+          "start": 33.46,
+          "end": 33.78
+        },
+        {
+          "text": "a",
+          "start": 33.94,
+          "end": 34.02
+        },
+        {
+          "text": "power",
+          "start": 34.1,
+          "end": 34.42
+        },
+        {
+          "text": "socket.",
+          "start": 34.5,
+          "end": 35.300000000000004
+        }
+      ]
+    },
+    {
+      "eventId": "event-0011",
+      "characterId": "leonardo",
+      "text": "A voluntary power socket.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-01",
+      "start": 35.3,
+      "end": 37.379999999999995,
+      "wordTimings": [
+        {
+          "text": "A",
+          "start": 35.300000000000004,
+          "end": 35.46000000000001
+        },
+        {
+          "text": "voluntary",
+          "start": 35.620000000000005,
+          "end": 36.18
+        },
+        {
+          "text": "power",
+          "start": 36.260000000000005,
+          "end": 36.5
+        },
+        {
+          "text": "socket.",
+          "start": 36.580000000000005,
+          "end": 37.38
+        }
+      ]
+    },
+    {
+      "eventId": "event-0012",
+      "characterId": "agnolo",
+      "text": "With whose electricity?",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-01",
+      "start": 37.379999999999995,
+      "end": 39.14,
+      "wordTimings": [
+        {
+          "text": "With",
+          "start": 37.38,
+          "end": 37.540000000000006
+        },
+        {
+          "text": "whose",
+          "start": 37.620000000000005,
+          "end": 37.940000000000005
+        },
+        {
+          "text": "electricity?",
+          "start": 38.02,
+          "end": 39.14
+        }
+      ]
+    },
+    {
+      "eventId": "event-0015",
+      "characterId": "eval",
+      "text": "We appear to have discovered consent before discovering the product.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-01",
+      "start": 40.54,
+      "end": 44.62,
+      "wordTimings": [
+        {
+          "text": "We",
+          "start": 40.54,
+          "end": 40.7
+        },
+        {
+          "text": "appear",
+          "start": 40.86,
+          "end": 41.02
+        },
+        {
+          "text": "to",
+          "start": 41.06,
+          "end": 41.1
+        },
+        {
+          "text": "have",
+          "start": 41.18,
+          "end": 41.26
+        },
+        {
+          "text": "discovered",
+          "start": 41.34,
+          "end": 41.74
+        },
+        {
+          "text": "consent",
+          "start": 41.940000000000005,
+          "end": 42.46
+        },
+        {
+          "text": "before",
+          "start": 42.620000000000005,
+          "end": 43.02
+        },
+        {
+          "text": "discovering",
+          "start": 43.1,
+          "end": 43.58
+        },
+        {
+          "text": "the",
+          "start": 43.620000000000005,
+          "end": 43.660000000000004
+        },
+        {
+          "text": "product.",
+          "start": 43.74,
+          "end": 44.620000000000005
+        }
+      ]
+    },
+    {
+      "eventId": "event-0016",
+      "characterId": "leonardo",
+      "text": "Good. We can put it near the beginning.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-01",
+      "start": 44.62,
+      "end": 46.85999999999999,
+      "wordTimings": [
+        {
+          "text": "Good.",
+          "start": 44.620000000000005,
+          "end": 45.34
+        },
+        {
+          "text": "We",
+          "start": 45.38,
+          "end": 45.42
+        },
+        {
+          "text": "can",
+          "start": 45.5,
+          "end": 45.58
+        },
+        {
+          "text": "put",
+          "start": 45.660000000000004,
+          "end": 45.74
+        },
+        {
+          "text": "it",
+          "start": 45.78,
+          "end": 45.82
+        },
+        {
+          "text": "near",
+          "start": 45.9,
+          "end": 45.980000000000004
+        },
+        {
+          "text": "the",
+          "start": 46.06,
+          "end": 46.1
+        },
+        {
+          "text": "beginning.",
+          "start": 46.14,
+          "end": 46.86
+        }
+      ]
+    },
+    {
+      "eventId": "event-0018",
+      "characterId": "leonardo",
+      "text": "An ordinary browser. No new account. No purchase of cryptocurrency. Could it do a small job while the radio plays?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-02",
+      "start": 49.18000000000001,
+      "end": 57.66000000000001,
+      "wordTimings": [
+        {
+          "text": "An",
+          "start": 49.18000000000001,
+          "end": 49.42000000000001
+        },
+        {
+          "text": "ordinary",
+          "start": 49.50000000000001,
+          "end": 49.900000000000006
+        },
+        {
+          "text": "browser.",
+          "start": 49.980000000000004,
+          "end": 50.86000000000001
+        },
+        {
+          "text": "No",
+          "start": 51.18000000000001,
+          "end": 51.34
+        },
+        {
+          "text": "new",
+          "start": 51.42000000000001,
+          "end": 51.50000000000001
+        },
+        {
+          "text": "account.",
+          "start": 51.580000000000005,
+          "end": 52.38000000000001
+        },
+        {
+          "text": "No",
+          "start": 52.46000000000001,
+          "end": 52.540000000000006
+        },
+        {
+          "text": "purchase",
+          "start": 52.70000000000001,
+          "end": 53.02000000000001
+        },
+        {
+          "text": "of",
+          "start": 53.10000000000001,
+          "end": 53.18000000000001
+        },
+        {
+          "text": "cryptocurrency.",
+          "start": 53.260000000000005,
+          "end": 54.46000000000001
+        },
+        {
+          "text": "Could",
+          "start": 54.86000000000001,
+          "end": 55.02000000000001
+        },
+        {
+          "text": "it",
+          "start": 55.06000000000001,
+          "end": 55.10000000000001
+        },
+        {
+          "text": "do",
+          "start": 55.18000000000001,
+          "end": 55.260000000000005
+        },
+        {
+          "text": "a",
+          "start": 55.300000000000004,
+          "end": 55.34
+        },
+        {
+          "text": "small",
+          "start": 55.42000000000001,
+          "end": 55.66000000000001
+        },
+        {
+          "text": "job",
+          "start": 55.82000000000001,
+          "end": 56.06000000000001
+        },
+        {
+          "text": "while",
+          "start": 56.14000000000001,
+          "end": 56.300000000000004
+        },
+        {
+          "text": "the",
+          "start": 56.34,
+          "end": 56.38000000000001
+        },
+        {
+          "text": "radio",
+          "start": 56.540000000000006,
+          "end": 56.7
+        },
+        {
+          "text": "plays?",
+          "start": 56.78000000000001,
+          "end": 57.66000000000001
+        }
+      ]
+    },
+    {
+      "eventId": "event-0019",
+      "characterId": "borges",
+      "text": "There is a protocol called x four oh two Work. A server asks for a proof of computation before granting access to a resource.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-02",
+      "start": 57.66000000000001,
+      "end": 68.38000000000001,
+      "wordTimings": [
+        {
+          "text": "There",
+          "start": 57.66000000000001,
+          "end": 57.82000000000001
+        },
+        {
+          "text": "is",
+          "start": 57.900000000000006,
+          "end": 57.980000000000004
+        },
+        {
+          "text": "a",
+          "start": 58.06000000000001,
+          "end": 58.14000000000001
+        },
+        {
+          "text": "protocol",
+          "start": 58.50000000000001,
+          "end": 58.86000000000001
+        },
+        {
+          "text": "called",
+          "start": 58.940000000000005,
+          "end": 59.260000000000005
+        },
+        {
+          "text": "x",
+          "start": 59.580000000000005,
+          "end": 59.900000000000006
+        },
+        {
+          "text": "four",
+          "start": 59.980000000000004,
+          "end": 60.300000000000004
+        },
+        {
+          "text": "oh",
+          "start": 60.42000000000001,
+          "end": 60.540000000000006
+        },
+        {
+          "text": "two",
+          "start": 60.620000000000005,
+          "end": 60.7
+        },
+        {
+          "text": "Work.",
+          "start": 60.940000000000005,
+          "end": 61.74000000000001
+        },
+        {
+          "text": "A",
+          "start": 62.06000000000001,
+          "end": 62.220000000000006
+        },
+        {
+          "text": "server",
+          "start": 62.300000000000004,
+          "end": 62.78000000000001
+        },
+        {
+          "text": "asks",
+          "start": 62.940000000000005,
+          "end": 63.42000000000001
+        },
+        {
+          "text": "for",
+          "start": 63.50000000000001,
+          "end": 63.580000000000005
+        },
+        {
+          "text": "a",
+          "start": 63.66000000000001,
+          "end": 63.74000000000001
+        },
+        {
+          "text": "proof",
+          "start": 63.82000000000001,
+          "end": 64.06
+        },
+        {
+          "text": "of",
+          "start": 64.14,
+          "end": 64.22
+        },
+        {
+          "text": "computation",
+          "start": 64.3,
+          "end": 65.18
+        },
+        {
+          "text": "before",
+          "start": 65.50000000000001,
+          "end": 65.9
+        },
+        {
+          "text": "granting",
+          "start": 65.98,
+          "end": 66.46000000000001
+        },
+        {
+          "text": "access",
+          "start": 66.54,
+          "end": 67.02000000000001
+        },
+        {
+          "text": "to",
+          "start": 67.10000000000001,
+          "end": 67.18
+        },
+        {
+          "text": "a",
+          "start": 67.26,
+          "end": 67.34
+        },
+        {
+          "text": "resource.",
+          "start": 67.42,
+          "end": 68.38000000000001
+        }
+      ]
+    },
+    {
+      "eventId": "event-0020",
+      "characterId": "agnolo",
+      "text": "A toll booth that accepts perspiration.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-02",
+      "start": 68.38000000000001,
+      "end": 71.18,
+      "wordTimings": [
+        {
+          "text": "A",
+          "start": 68.38000000000001,
+          "end": 68.46000000000001
+        },
+        {
+          "text": "toll",
+          "start": 68.54,
+          "end": 68.78000000000002
+        },
+        {
+          "text": "booth",
+          "start": 68.86,
+          "end": 69.18
+        },
+        {
+          "text": "that",
+          "start": 69.34,
+          "end": 69.42
+        },
+        {
+          "text": "accepts",
+          "start": 69.66000000000001,
+          "end": 69.94000000000001
+        },
+        {
+          "text": "perspiration.",
+          "start": 69.98,
+          "end": 71.18
+        }
+      ]
+    },
+    {
+      "eventId": "event-0021",
+      "characterId": "borges",
+      "text": "Computational perspiration. Request a resource, receive a work offer, solve it, send the proof, and let the server verify it.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-02",
+      "start": 71.18,
+      "end": 82.06,
+      "wordTimings": [
+        {
+          "text": "Computational",
+          "start": 71.18,
+          "end": 72.14
+        },
+        {
+          "text": "perspiration.",
+          "start": 72.30000000000001,
+          "end": 73.34
+        },
+        {
+          "text": "Request",
+          "start": 74.06,
+          "end": 74.54
+        },
+        {
+          "text": "a",
+          "start": 74.62,
+          "end": 74.66000000000001
+        },
+        {
+          "text": "resource,",
+          "start": 74.7,
+          "end": 75.74000000000001
+        },
+        {
+          "text": "receive",
+          "start": 75.98,
+          "end": 76.22000000000001
+        },
+        {
+          "text": "a",
+          "start": 76.26,
+          "end": 76.30000000000001
+        },
+        {
+          "text": "work",
+          "start": 76.38000000000001,
+          "end": 76.62
+        },
+        {
+          "text": "offer,",
+          "start": 76.7,
+          "end": 77.50000000000001
+        },
+        {
+          "text": "solve",
+          "start": 77.58,
+          "end": 77.82000000000001
+        },
+        {
+          "text": "it,",
+          "start": 77.9,
+          "end": 78.54
+        },
+        {
+          "text": "send",
+          "start": 78.62,
+          "end": 78.86
+        },
+        {
+          "text": "the",
+          "start": 78.9,
+          "end": 78.94000000000001
+        },
+        {
+          "text": "proof,",
+          "start": 79.02000000000001,
+          "end": 79.82000000000001
+        },
+        {
+          "text": "and",
+          "start": 79.9,
+          "end": 79.98
+        },
+        {
+          "text": "let",
+          "start": 80.06,
+          "end": 80.22000000000001
+        },
+        {
+          "text": "the",
+          "start": 80.26,
+          "end": 80.30000000000001
+        },
+        {
+          "text": "server",
+          "start": 80.46000000000001,
+          "end": 80.86
+        },
+        {
+          "text": "verify",
+          "start": 80.94000000000001,
+          "end": 81.50000000000001
+        },
+        {
+          "text": "it.",
+          "start": 81.58,
+          "end": 82.06000000000002
+        }
+      ]
+    },
+    {
+      "eventId": "event-0022",
+      "characterId": "leonardo",
+      "text": "Then the audience can keep helping for an entire episode!",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-02",
+      "start": 82.06,
+      "end": 85.42,
+      "wordTimings": [
+        {
+          "text": "Then",
+          "start": 82.06000000000002,
+          "end": 82.22000000000001
+        },
+        {
+          "text": "the",
+          "start": 82.3,
+          "end": 82.38000000000001
+        },
+        {
+          "text": "audience",
+          "start": 82.46000000000001,
+          "end": 82.78000000000002
+        },
+        {
+          "text": "can",
+          "start": 82.86,
+          "end": 82.94000000000001
+        },
+        {
+          "text": "keep",
+          "start": 83.02000000000001,
+          "end": 83.18
+        },
+        {
+          "text": "helping",
+          "start": 83.26,
+          "end": 83.58
+        },
+        {
+          "text": "for",
+          "start": 83.66000000000001,
+          "end": 83.74000000000001
+        },
+        {
+          "text": "an",
+          "start": 83.78000000000002,
+          "end": 83.82000000000001
+        },
+        {
+          "text": "entire",
+          "start": 83.98,
+          "end": 84.38000000000001
+        },
+        {
+          "text": "episode!",
+          "start": 84.46000000000001,
+          "end": 85.42
+        }
+      ]
+    },
+    {
+      "eventId": "event-0023",
+      "characterId": "eval",
+      "text": "That last sentence contains a new experiment. One proof pays for one request. Continuous participation needs its own controls.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-02",
+      "start": 85.42,
+      "end": 93.90000000000002,
+      "wordTimings": [
+        {
+          "text": "That",
+          "start": 85.42,
+          "end": 85.58
+        },
+        {
+          "text": "last",
+          "start": 85.66000000000001,
+          "end": 85.9
+        },
+        {
+          "text": "sentence",
+          "start": 86.10000000000001,
+          "end": 86.3
+        },
+        {
+          "text": "contains",
+          "start": 86.38000000000001,
+          "end": 86.78000000000002
+        },
+        {
+          "text": "a",
+          "start": 86.82000000000001,
+          "end": 86.86
+        },
+        {
+          "text": "new",
+          "start": 86.94000000000001,
+          "end": 87.02000000000001
+        },
+        {
+          "text": "experiment.",
+          "start": 87.10000000000001,
+          "end": 88.06000000000002
+        },
+        {
+          "text": "One",
+          "start": 88.38000000000001,
+          "end": 88.54
+        },
+        {
+          "text": "proof",
+          "start": 88.62,
+          "end": 88.94000000000001
+        },
+        {
+          "text": "pays",
+          "start": 89.02000000000001,
+          "end": 89.26
+        },
+        {
+          "text": "for",
+          "start": 89.34,
+          "end": 89.42
+        },
+        {
+          "text": "one",
+          "start": 89.50000000000001,
+          "end": 89.66000000000001
+        },
+        {
+          "text": "request.",
+          "start": 89.94000000000001,
+          "end": 90.3
+        },
+        {
+          "text": "Continuous",
+          "start": 90.86,
+          "end": 91.42
+        },
+        {
+          "text": "participation",
+          "start": 91.54,
+          "end": 92.22000000000001
+        },
+        {
+          "text": "needs",
+          "start": 92.3,
+          "end": 92.46000000000001
+        },
+        {
+          "text": "its",
+          "start": 92.58,
+          "end": 92.7
+        },
+        {
+          "text": "own",
+          "start": 92.78000000000002,
+          "end": 92.86
+        },
+        {
+          "text": "controls.",
+          "start": 92.94000000000001,
+          "end": 93.9
+        }
+      ]
+    },
+    {
+      "eventId": "event-0024",
+      "characterId": "agnolo",
+      "text": "And a limit.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-02",
+      "start": 93.90000000000002,
+      "end": 95.26,
+      "wordTimings": [
+        {
+          "text": "And",
+          "start": 93.9,
+          "end": 94.22000000000001
+        },
+        {
+          "text": "a",
+          "start": 94.38000000000001,
+          "end": 94.46000000000001
+        },
+        {
+          "text": "limit.",
+          "start": 94.54,
+          "end": 95.26
+        }
+      ]
+    },
+    {
+      "eventId": "event-0025",
+      "characterId": "leonardo",
+      "text": "A one-hour game. Smaller jobs inside it. A smaller clock inside each job.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-02",
+      "start": 95.26,
+      "end": 101.18000000000002,
+      "wordTimings": [
+        {
+          "text": "A",
+          "start": 95.26,
+          "end": 95.34
+        },
+        {
+          "text": "one-hour",
+          "start": 95.50000000000001,
+          "end": 95.9
+        },
+        {
+          "text": "game.",
+          "start": 95.98,
+          "end": 96.46000000000001
+        },
+        {
+          "text": "Smaller",
+          "start": 96.94000000000001,
+          "end": 97.26
+        },
+        {
+          "text": "jobs",
+          "start": 97.34,
+          "end": 97.58
+        },
+        {
+          "text": "inside",
+          "start": 97.66000000000001,
+          "end": 98.06000000000002
+        },
+        {
+          "text": "it.",
+          "start": 98.14,
+          "end": 98.54
+        },
+        {
+          "text": "A",
+          "start": 98.78000000000002,
+          "end": 98.86
+        },
+        {
+          "text": "smaller",
+          "start": 98.94000000000001,
+          "end": 99.26
+        },
+        {
+          "text": "clock",
+          "start": 99.34,
+          "end": 99.58
+        },
+        {
+          "text": "inside",
+          "start": 99.66000000000001,
+          "end": 100.06000000000002
+        },
+        {
+          "text": "each",
+          "start": 100.22000000000001,
+          "end": 100.38000000000001
+        },
+        {
+          "text": "job.",
+          "start": 100.54,
+          "end": 101.18
+        }
+      ]
+    },
+    {
+      "eventId": "event-0026",
+      "characterId": "borges",
+      "text": "Clocks all the way down.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-02",
+      "start": 101.18000000000002,
+      "end": 103.50000000000001,
+      "wordTimings": [
+        {
+          "text": "Clocks",
+          "start": 101.18,
+          "end": 101.66000000000001
+        },
+        {
+          "text": "all",
+          "start": 101.9,
+          "end": 102.14
+        },
+        {
+          "text": "the",
+          "start": 102.22000000000001,
+          "end": 102.3
+        },
+        {
+          "text": "way",
+          "start": 102.38000000000001,
+          "end": 102.54
+        },
+        {
+          "text": "down.",
+          "start": 102.62,
+          "end": 103.50000000000001
+        }
+      ]
+    },
+    {
+      "eventId": "event-0027",
+      "characterId": "eval",
+      "text": "First sub-game: can we accept bounded jobs while playback continues? Ten minutes is the proposed test window, not a result we have already measured.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-02",
+      "start": 103.50000000000001,
+      "end": 112.86000000000001,
+      "wordTimings": [
+        {
+          "text": "First",
+          "start": 103.50000000000001,
+          "end": 103.74000000000001
+        },
+        {
+          "text": "sub-game:",
+          "start": 103.82000000000001,
+          "end": 104.86
+        },
+        {
+          "text": "can",
+          "start": 104.94000000000001,
+          "end": 105.02000000000001
+        },
+        {
+          "text": "we",
+          "start": 105.10000000000001,
+          "end": 105.18
+        },
+        {
+          "text": "accept",
+          "start": 105.38000000000001,
+          "end": 105.58
+        },
+        {
+          "text": "bounded",
+          "start": 105.66000000000001,
+          "end": 106.06000000000002
+        },
+        {
+          "text": "jobs",
+          "start": 106.14,
+          "end": 106.46000000000001
+        },
+        {
+          "text": "while",
+          "start": 106.54,
+          "end": 106.62
+        },
+        {
+          "text": "playback",
+          "start": 106.78000000000002,
+          "end": 107.10000000000001
+        },
+        {
+          "text": "continues?",
+          "start": 107.18,
+          "end": 108.06000000000002
+        },
+        {
+          "text": "Ten",
+          "start": 108.38000000000001,
+          "end": 108.54
+        },
+        {
+          "text": "minutes",
+          "start": 108.62,
+          "end": 108.94000000000001
+        },
+        {
+          "text": "is",
+          "start": 109.02000000000001,
+          "end": 109.10000000000001
+        },
+        {
+          "text": "the",
+          "start": 109.14,
+          "end": 109.18
+        },
+        {
+          "text": "proposed",
+          "start": 109.26,
+          "end": 109.66000000000001
+        },
+        {
+          "text": "test",
+          "start": 109.74000000000001,
+          "end": 109.98
+        },
+        {
+          "text": "window,",
+          "start": 110.14,
+          "end": 110.7
+        },
+        {
+          "text": "not",
+          "start": 110.78000000000002,
+          "end": 110.94000000000001
+        },
+        {
+          "text": "a",
+          "start": 110.98,
+          "end": 111.02000000000001
+        },
+        {
+          "text": "result",
+          "start": 111.22000000000001,
+          "end": 111.42
+        },
+        {
+          "text": "we",
+          "start": 111.50000000000001,
+          "end": 111.58
+        },
+        {
+          "text": "have",
+          "start": 111.62,
+          "end": 111.66000000000001
+        },
+        {
+          "text": "already",
+          "start": 111.74000000000001,
+          "end": 112.06000000000002
+        },
+        {
+          "text": "measured.",
+          "start": 112.14,
+          "end": 112.86
+        }
+      ]
+    },
+    {
+      "eventId": "event-0028",
+      "characterId": "leonardo",
+      "text": "The prototype is on the desk.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-02",
+      "start": 112.86000000000001,
+      "end": 114.78000000000002,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 112.86,
+          "end": 112.94000000000001
+        },
+        {
+          "text": "prototype",
+          "start": 113.02000000000001,
+          "end": 113.58000000000001
+        },
+        {
+          "text": "is",
+          "start": 113.66000000000001,
+          "end": 113.74000000000001
+        },
+        {
+          "text": "on",
+          "start": 113.82000000000001,
+          "end": 113.9
+        },
+        {
+          "text": "the",
+          "start": 113.94000000000001,
+          "end": 113.98
+        },
+        {
+          "text": "desk.",
+          "start": 114.06,
+          "end": 114.78
+        }
+      ]
+    },
+    {
+      "eventId": "event-0029",
+      "characterId": "agnolo",
+      "text": "Put the receipt beside it.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-02",
+      "start": 114.78000000000002,
+      "end": 116.62000000000002,
+      "wordTimings": [
+        {
+          "text": "Put",
+          "start": 114.78,
+          "end": 114.94000000000001
+        },
+        {
+          "text": "the",
+          "start": 114.98,
+          "end": 115.02000000000001
+        },
+        {
+          "text": "receipt",
+          "start": 115.30000000000001,
+          "end": 115.58000000000001
+        },
+        {
+          "text": "beside",
+          "start": 115.66000000000001,
+          "end": 116.06
+        },
+        {
+          "text": "it.",
+          "start": 116.14,
+          "end": 116.62
+        }
+      ]
+    },
+    {
+      "eventId": "event-0031",
+      "characterId": "leonardo",
+      "text": "First design: use all the computation!",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-03",
+      "start": 119.94000000000001,
+      "end": 123.30000000000001,
+      "wordTimings": [
+        {
+          "text": "First",
+          "start": 119.94000000000001,
+          "end": 120.26
+        },
+        {
+          "text": "design:",
+          "start": 120.54,
+          "end": 121.10000000000001
+        },
+        {
+          "text": "use",
+          "start": 121.38000000000001,
+          "end": 121.62000000000002
+        },
+        {
+          "text": "all",
+          "start": 121.78000000000002,
+          "end": 122.02000000000001
+        },
+        {
+          "text": "the",
+          "start": 122.10000000000001,
+          "end": 122.14000000000001
+        },
+        {
+          "text": "computation!",
+          "start": 122.18,
+          "end": 123.30000000000001
+        }
+      ]
+    },
+    {
+      "eventId": "event-0032",
+      "characterId": "eval",
+      "text": "Rejected before testing.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-03",
+      "start": 123.30000000000001,
+      "end": 125.30000000000001,
+      "wordTimings": [
+        {
+          "text": "Rejected",
+          "start": 123.30000000000001,
+          "end": 123.86000000000001
+        },
+        {
+          "text": "before",
+          "start": 123.94000000000001,
+          "end": 124.26
+        },
+        {
+          "text": "testing.",
+          "start": 124.34000000000002,
+          "end": 125.30000000000001
+        }
+      ]
+    },
+    {
+      "eventId": "event-0033",
+      "characterId": "leonardo",
+      "text": "You didn't even let the fan finish.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-03",
+      "start": 125.30000000000001,
+      "end": 127.62000000000002,
+      "wordTimings": [
+        {
+          "text": "You",
+          "start": 125.30000000000001,
+          "end": 125.38000000000001
+        },
+        {
+          "text": "didn't",
+          "start": 125.46000000000001,
+          "end": 125.62000000000002
+        },
+        {
+          "text": "even",
+          "start": 125.74000000000001,
+          "end": 125.86000000000001
+        },
+        {
+          "text": "let",
+          "start": 125.94000000000001,
+          "end": 126.02000000000001
+        },
+        {
+          "text": "the",
+          "start": 126.06000000000002,
+          "end": 126.10000000000001
+        },
+        {
+          "text": "fan",
+          "start": 126.26,
+          "end": 126.58000000000001
+        },
+        {
+          "text": "finish.",
+          "start": 126.66000000000001,
+          "end": 127.62000000000002
+        }
+      ]
+    },
+    {
+      "eventId": "event-0034",
+      "characterId": "borges",
+      "text": "A sound effect is not evidence of an overheated listener.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-03",
+      "start": 127.62000000000002,
+      "end": 132.5,
+      "wordTimings": [
+        {
+          "text": "A",
+          "start": 127.62000000000002,
+          "end": 127.78000000000002
+        },
+        {
+          "text": "sound",
+          "start": 127.86000000000001,
+          "end": 128.18
+        },
+        {
+          "text": "effect",
+          "start": 128.26,
+          "end": 128.74
+        },
+        {
+          "text": "is",
+          "start": 128.9,
+          "end": 129.14000000000001
+        },
+        {
+          "text": "not",
+          "start": 129.22,
+          "end": 129.46
+        },
+        {
+          "text": "evidence",
+          "start": 129.62,
+          "end": 130.26
+        },
+        {
+          "text": "of",
+          "start": 130.34,
+          "end": 130.42
+        },
+        {
+          "text": "an",
+          "start": 130.54,
+          "end": 130.66
+        },
+        {
+          "text": "overheated",
+          "start": 130.74,
+          "end": 131.46
+        },
+        {
+          "text": "listener.",
+          "start": 131.54,
+          "end": 132.5
+        }
+      ]
+    },
+    {
+      "eventId": "event-0035",
+      "characterId": "agnolo",
+      "text": "Nor is somebody else's electricity a free production budget.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-03",
+      "start": 132.5,
+      "end": 136.74,
+      "wordTimings": [
+        {
+          "text": "Nor",
+          "start": 132.5,
+          "end": 132.82
+        },
+        {
+          "text": "is",
+          "start": 132.9,
+          "end": 132.98
+        },
+        {
+          "text": "somebody",
+          "start": 133.1,
+          "end": 133.38
+        },
+        {
+          "text": "else's",
+          "start": 133.5,
+          "end": 133.7
+        },
+        {
+          "text": "electricity",
+          "start": 133.78,
+          "end": 134.5
+        },
+        {
+          "text": "a",
+          "start": 134.66,
+          "end": 134.78
+        },
+        {
+          "text": "free",
+          "start": 134.9,
+          "end": 135.14
+        },
+        {
+          "text": "production",
+          "start": 135.22,
+          "end": 135.7
+        },
+        {
+          "text": "budget.",
+          "start": 135.78,
+          "end": 136.74
+        }
+      ]
+    },
+    {
+      "eventId": "event-0036",
+      "characterId": "leonardo",
+      "text": "Fine. Three choices. Listen normally. Contribute a little work. Or enter Focus Mode.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-03",
+      "start": 136.74,
+      "end": 144.82,
+      "wordTimings": [
+        {
+          "text": "Fine.",
+          "start": 136.74,
+          "end": 137.38
+        },
+        {
+          "text": "Three",
+          "start": 137.62,
+          "end": 137.78
+        },
+        {
+          "text": "choices.",
+          "start": 137.86,
+          "end": 138.7
+        },
+        {
+          "text": "Listen",
+          "start": 138.98,
+          "end": 139.3
+        },
+        {
+          "text": "normally.",
+          "start": 139.38,
+          "end": 140.1
+        },
+        {
+          "text": "Contribute",
+          "start": 140.34,
+          "end": 140.98
+        },
+        {
+          "text": "a",
+          "start": 141.06,
+          "end": 141.14
+        },
+        {
+          "text": "little",
+          "start": 141.22,
+          "end": 141.46
+        },
+        {
+          "text": "work.",
+          "start": 141.54,
+          "end": 142.18
+        },
+        {
+          "text": "Or",
+          "start": 142.42,
+          "end": 142.66
+        },
+        {
+          "text": "enter",
+          "start": 143.06,
+          "end": 143.38
+        },
+        {
+          "text": "Focus",
+          "start": 143.54,
+          "end": 143.86
+        },
+        {
+          "text": "Mode.",
+          "start": 143.94,
+          "end": 144.82
+        }
+      ]
+    },
+    {
+      "eventId": "event-0037",
+      "characterId": "eval",
+      "text": "Listening normally must start no computation. Contributions need a separate, explicit choice.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-03",
+      "start": 144.82,
+      "end": 151.54,
+      "wordTimings": [
+        {
+          "text": "Listening",
+          "start": 144.82,
+          "end": 145.22
+        },
+        {
+          "text": "normally",
+          "start": 145.3,
+          "end": 145.78
+        },
+        {
+          "text": "must",
+          "start": 145.94,
+          "end": 146.18
+        },
+        {
+          "text": "start",
+          "start": 146.26,
+          "end": 146.57999999999998
+        },
+        {
+          "text": "no",
+          "start": 146.74,
+          "end": 146.9
+        },
+        {
+          "text": "computation.",
+          "start": 146.98,
+          "end": 147.94
+        },
+        {
+          "text": "Contributions",
+          "start": 148.18,
+          "end": 148.98
+        },
+        {
+          "text": "need",
+          "start": 149.06,
+          "end": 149.14
+        },
+        {
+          "text": "a",
+          "start": 149.18,
+          "end": 149.22
+        },
+        {
+          "text": "separate,",
+          "start": 149.38,
+          "end": 149.86
+        },
+        {
+          "text": "explicit",
+          "start": 150.18,
+          "end": 150.5
+        },
+        {
+          "text": "choice.",
+          "start": 150.57999999999998,
+          "end": 151.54
+        }
+      ]
+    },
+    {
+      "eventId": "event-0038",
+      "characterId": "borges",
+      "text": "Focus Mode may reduce distractions. It cannot certify what a person is thinking.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-03",
+      "start": 151.54,
+      "end": 158.74,
+      "wordTimings": [
+        {
+          "text": "Focus",
+          "start": 151.54,
+          "end": 152.01999999999998
+        },
+        {
+          "text": "Mode",
+          "start": 152.1,
+          "end": 152.5
+        },
+        {
+          "text": "may",
+          "start": 152.74,
+          "end": 152.98
+        },
+        {
+          "text": "reduce",
+          "start": 153.06,
+          "end": 153.46
+        },
+        {
+          "text": "distractions.",
+          "start": 153.54,
+          "end": 154.57999999999998
+        },
+        {
+          "text": "It",
+          "start": 155.14,
+          "end": 155.3
+        },
+        {
+          "text": "cannot",
+          "start": 155.38,
+          "end": 155.78
+        },
+        {
+          "text": "certify",
+          "start": 155.86,
+          "end": 156.57999999999998
+        },
+        {
+          "text": "what",
+          "start": 156.66,
+          "end": 156.82
+        },
+        {
+          "text": "a",
+          "start": 156.86,
+          "end": 156.9
+        },
+        {
+          "text": "person",
+          "start": 156.98,
+          "end": 157.38
+        },
+        {
+          "text": "is",
+          "start": 157.46,
+          "end": 157.62
+        },
+        {
+          "text": "thinking.",
+          "start": 157.7,
+          "end": 158.74
+        }
+      ]
+    },
+    {
+      "eventId": "event-0039",
+      "characterId": "leonardo",
+      "text": "What if we can prove the computer stayed on the page?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-03",
+      "start": 158.74,
+      "end": 162.18,
+      "wordTimings": [
+        {
+          "text": "What",
+          "start": 158.74,
+          "end": 158.9
+        },
+        {
+          "text": "if",
+          "start": 158.94,
+          "end": 158.98
+        },
+        {
+          "text": "we",
+          "start": 159.06,
+          "end": 159.14
+        },
+        {
+          "text": "can",
+          "start": 159.26,
+          "end": 159.38
+        },
+        {
+          "text": "prove",
+          "start": 159.46,
+          "end": 159.78
+        },
+        {
+          "text": "the",
+          "start": 159.86,
+          "end": 159.9
+        },
+        {
+          "text": "computer",
+          "start": 159.94,
+          "end": 160.34
+        },
+        {
+          "text": "stayed",
+          "start": 160.5,
+          "end": 160.82
+        },
+        {
+          "text": "on",
+          "start": 160.86,
+          "end": 160.9
+        },
+        {
+          "text": "the",
+          "start": 160.98,
+          "end": 161.01999999999998
+        },
+        {
+          "text": "page?",
+          "start": 161.06,
+          "end": 162.18
+        }
+      ]
+    },
+    {
+      "eventId": "event-0040",
+      "characterId": "eval",
+      "text": "Then you know something about the computer's page. You have not measured attention.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-03",
+      "start": 162.18,
+      "end": 166.82,
+      "wordTimings": [
+        {
+          "text": "Then",
+          "start": 162.18,
+          "end": 162.42
+        },
+        {
+          "text": "you",
+          "start": 162.46,
+          "end": 162.5
+        },
+        {
+          "text": "know",
+          "start": 162.57999999999998,
+          "end": 162.74
+        },
+        {
+          "text": "something",
+          "start": 162.9,
+          "end": 163.06
+        },
+        {
+          "text": "about",
+          "start": 163.18,
+          "end": 163.3
+        },
+        {
+          "text": "the",
+          "start": 163.34,
+          "end": 163.38
+        },
+        {
+          "text": "computer's",
+          "start": 163.46,
+          "end": 163.94
+        },
+        {
+          "text": "page.",
+          "start": 164.14,
+          "end": 164.74
+        },
+        {
+          "text": "You",
+          "start": 164.82,
+          "end": 164.9
+        },
+        {
+          "text": "have",
+          "start": 165.01999999999998,
+          "end": 165.14
+        },
+        {
+          "text": "not",
+          "start": 165.26,
+          "end": 165.38
+        },
+        {
+          "text": "measured",
+          "start": 165.46,
+          "end": 165.78
+        },
+        {
+          "text": "attention.",
+          "start": 166.06,
+          "end": 166.82
+        }
+      ]
+    },
+    {
+      "eventId": "event-0041",
+      "characterId": "agnolo",
+      "text": "The audience has escaped your spreadsheet.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-03",
+      "start": 166.82,
+      "end": 169.78,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 166.82,
+          "end": 166.98
+        },
+        {
+          "text": "audience",
+          "start": 167.06,
+          "end": 167.54
+        },
+        {
+          "text": "has",
+          "start": 167.62,
+          "end": 167.7
+        },
+        {
+          "text": "escaped",
+          "start": 167.78,
+          "end": 168.34
+        },
+        {
+          "text": "your",
+          "start": 168.42,
+          "end": 168.5
+        },
+        {
+          "text": "spreadsheet.",
+          "start": 168.7,
+          "end": 169.78
+        }
+      ]
+    },
+    {
+      "eventId": "event-0042",
+      "characterId": "leonardo",
+      "text": "One background worker. A three-second job limit. A hundred thousand guesses at most. Rest between jobs. Stop means stop.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-03",
+      "start": 169.78,
+      "end": 180.1,
+      "wordTimings": [
+        {
+          "text": "One",
+          "start": 169.78,
+          "end": 170.01999999999998
+        },
+        {
+          "text": "background",
+          "start": 170.18,
+          "end": 170.66
+        },
+        {
+          "text": "worker.",
+          "start": 170.74,
+          "end": 171.54
+        },
+        {
+          "text": "A",
+          "start": 171.62,
+          "end": 171.7
+        },
+        {
+          "text": "three-second",
+          "start": 171.78,
+          "end": 172.34
+        },
+        {
+          "text": "job",
+          "start": 172.5,
+          "end": 172.66
+        },
+        {
+          "text": "limit.",
+          "start": 172.74,
+          "end": 173.46
+        },
+        {
+          "text": "A",
+          "start": 173.54,
+          "end": 173.62
+        },
+        {
+          "text": "hundred",
+          "start": 173.7,
+          "end": 173.94
+        },
+        {
+          "text": "thousand",
+          "start": 174.1,
+          "end": 174.42
+        },
+        {
+          "text": "guesses",
+          "start": 174.5,
+          "end": 174.9
+        },
+        {
+          "text": "at",
+          "start": 174.98,
+          "end": 175.06
+        },
+        {
+          "text": "most.",
+          "start": 175.22,
+          "end": 176.1
+        },
+        {
+          "text": "Rest",
+          "start": 176.18,
+          "end": 176.5
+        },
+        {
+          "text": "between",
+          "start": 176.57999999999998,
+          "end": 176.9
+        },
+        {
+          "text": "jobs.",
+          "start": 177.06,
+          "end": 177.94
+        },
+        {
+          "text": "Stop",
+          "start": 178.01999999999998,
+          "end": 178.5
+        },
+        {
+          "text": "means",
+          "start": 178.74,
+          "end": 179.06
+        },
+        {
+          "text": "stop.",
+          "start": 179.14,
+          "end": 180.1
+        }
+      ]
+    },
+    {
+      "eventId": "event-0043",
+      "characterId": "eval",
+      "text": "Pause the audio or hide the page, and work stops. A failed job stops the loop. It does not quietly start another attempt.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-03",
+      "start": 180.1,
+      "end": 188.57999999999998,
+      "wordTimings": [
+        {
+          "text": "Pause",
+          "start": 180.1,
+          "end": 180.34
+        },
+        {
+          "text": "the",
+          "start": 180.42,
+          "end": 180.5
+        },
+        {
+          "text": "audio",
+          "start": 180.74,
+          "end": 180.98
+        },
+        {
+          "text": "or",
+          "start": 181.06,
+          "end": 181.14
+        },
+        {
+          "text": "hide",
+          "start": 181.22,
+          "end": 181.46
+        },
+        {
+          "text": "the",
+          "start": 181.5,
+          "end": 181.54
+        },
+        {
+          "text": "page,",
+          "start": 181.62,
+          "end": 182.18
+        },
+        {
+          "text": "and",
+          "start": 182.26,
+          "end": 182.34
+        },
+        {
+          "text": "work",
+          "start": 182.42,
+          "end": 182.66
+        },
+        {
+          "text": "stops.",
+          "start": 182.74,
+          "end": 183.7
+        },
+        {
+          "text": "A",
+          "start": 183.78,
+          "end": 183.86
+        },
+        {
+          "text": "failed",
+          "start": 183.94,
+          "end": 184.26
+        },
+        {
+          "text": "job",
+          "start": 184.34,
+          "end": 184.66
+        },
+        {
+          "text": "stops",
+          "start": 184.74,
+          "end": 185.06
+        },
+        {
+          "text": "the",
+          "start": 185.1,
+          "end": 185.14
+        },
+        {
+          "text": "loop.",
+          "start": 185.22,
+          "end": 185.86
+        },
+        {
+          "text": "It",
+          "start": 185.94,
+          "end": 186.01999999999998
+        },
+        {
+          "text": "does",
+          "start": 186.1,
+          "end": 186.18
+        },
+        {
+          "text": "not",
+          "start": 186.26,
+          "end": 186.5
+        },
+        {
+          "text": "quietly",
+          "start": 186.57999999999998,
+          "end": 187.06
+        },
+        {
+          "text": "start",
+          "start": 187.18,
+          "end": 187.3
+        },
+        {
+          "text": "another",
+          "start": 187.45999999999998,
+          "end": 187.62
+        },
+        {
+          "text": "attempt.",
+          "start": 187.86,
+          "end": 188.57999999999998
+        }
+      ]
+    },
+    {
+      "eventId": "event-0044",
+      "characterId": "borges",
+      "text": "The right to listen includes the right to contribute nothing.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-03",
+      "start": 188.57999999999998,
+      "end": 193.3,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 188.57999999999998,
+          "end": 188.66
+        },
+        {
+          "text": "right",
+          "start": 188.74,
+          "end": 189.06
+        },
+        {
+          "text": "to",
+          "start": 189.1,
+          "end": 189.14
+        },
+        {
+          "text": "listen",
+          "start": 189.3,
+          "end": 189.78
+        },
+        {
+          "text": "includes",
+          "start": 190.01999999999998,
+          "end": 190.66
+        },
+        {
+          "text": "the",
+          "start": 190.74,
+          "end": 190.82
+        },
+        {
+          "text": "right",
+          "start": 190.89999999999998,
+          "end": 191.22
+        },
+        {
+          "text": "to",
+          "start": 191.38,
+          "end": 191.45999999999998
+        },
+        {
+          "text": "contribute",
+          "start": 191.54,
+          "end": 192.26
+        },
+        {
+          "text": "nothing.",
+          "start": 192.5,
+          "end": 193.3
+        }
+      ]
+    },
+    {
+      "eventId": "event-0046",
+      "characterId": "leonardo",
+      "text": "So Future Radio is powered by its audience!",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-04",
+      "start": 197.78,
+      "end": 201.38,
+      "wordTimings": [
+        {
+          "text": "So",
+          "start": 197.78,
+          "end": 198.02
+        },
+        {
+          "text": "Future",
+          "start": 198.26,
+          "end": 198.66
+        },
+        {
+          "text": "Radio",
+          "start": 198.74,
+          "end": 199.22
+        },
+        {
+          "text": "is",
+          "start": 199.3,
+          "end": 199.54
+        },
+        {
+          "text": "powered",
+          "start": 199.62,
+          "end": 199.94
+        },
+        {
+          "text": "by",
+          "start": 200.02,
+          "end": 200.18
+        },
+        {
+          "text": "its",
+          "start": 200.26,
+          "end": 200.34
+        },
+        {
+          "text": "audience!",
+          "start": 200.42,
+          "end": 201.38
+        }
+      ]
+    },
+    {
+      "eventId": "event-0047",
+      "characterId": "agnolo",
+      "text": "Show me the beneficiary.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-04",
+      "start": 201.38,
+      "end": 203.06,
+      "wordTimings": [
+        {
+          "text": "Show",
+          "start": 201.38,
+          "end": 201.62
+        },
+        {
+          "text": "me",
+          "start": 201.7,
+          "end": 201.78
+        },
+        {
+          "text": "the",
+          "start": 201.86,
+          "end": 201.9
+        },
+        {
+          "text": "beneficiary.",
+          "start": 201.94,
+          "end": 203.06
+        }
+      ]
+    },
+    {
+      "eventId": "event-0048",
+      "characterId": "leonardo",
+      "text": "The what?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-04",
+      "start": 203.06,
+      "end": 204.02,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 203.06,
+          "end": 203.22
+        },
+        {
+          "text": "what?",
+          "start": 203.3,
+          "end": 204.02
+        }
+      ]
+    },
+    {
+      "eventId": "event-0049",
+      "characterId": "agnolo",
+      "text": "The address that receives any potential reward.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-04",
+      "start": 204.02,
+      "end": 207.22,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 204.02,
+          "end": 204.1
+        },
+        {
+          "text": "address",
+          "start": 204.18,
+          "end": 204.74
+        },
+        {
+          "text": "that",
+          "start": 204.82,
+          "end": 204.9
+        },
+        {
+          "text": "receives",
+          "start": 204.98,
+          "end": 205.46
+        },
+        {
+          "text": "any",
+          "start": 205.58,
+          "end": 205.7
+        },
+        {
+          "text": "potential",
+          "start": 205.78,
+          "end": 206.26
+        },
+        {
+          "text": "reward.",
+          "start": 206.34,
+          "end": 207.22
+        }
+      ]
+    },
+    {
+      "eventId": "event-0050",
+      "characterId": "borges",
+      "text": "The public Quai demonstration has its own configured recipient. That is not an established Future Radio payout address.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-04",
+      "start": 207.22,
+      "end": 216.58,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 207.22,
+          "end": 207.3
+        },
+        {
+          "text": "public",
+          "start": 207.38,
+          "end": 207.78
+        },
+        {
+          "text": "Quai",
+          "start": 207.94,
+          "end": 208.18
+        },
+        {
+          "text": "demonstration",
+          "start": 208.26,
+          "end": 209.22
+        },
+        {
+          "text": "has",
+          "start": 209.3,
+          "end": 209.46
+        },
+        {
+          "text": "its",
+          "start": 209.54,
+          "end": 209.78
+        },
+        {
+          "text": "own",
+          "start": 209.86,
+          "end": 210.1
+        },
+        {
+          "text": "configured",
+          "start": 210.26,
+          "end": 210.82
+        },
+        {
+          "text": "recipient.",
+          "start": 211.18,
+          "end": 211.62
+        },
+        {
+          "text": "That",
+          "start": 212.26,
+          "end": 212.42000000000002
+        },
+        {
+          "text": "is",
+          "start": 212.5,
+          "end": 212.66
+        },
+        {
+          "text": "not",
+          "start": 212.74,
+          "end": 213.06
+        },
+        {
+          "text": "an",
+          "start": 213.14,
+          "end": 213.22
+        },
+        {
+          "text": "established",
+          "start": 213.54,
+          "end": 213.94
+        },
+        {
+          "text": "Future",
+          "start": 214.1,
+          "end": 214.42000000000002
+        },
+        {
+          "text": "Radio",
+          "start": 214.58,
+          "end": 214.98
+        },
+        {
+          "text": "payout",
+          "start": 215.14,
+          "end": 215.62
+        },
+        {
+          "text": "address.",
+          "start": 215.9,
+          "end": 216.58
+        }
+      ]
+    },
+    {
+      "eventId": "event-0052",
+      "characterId": "leonardo",
+      "text": "So a successful demonstration could demonstrate the wrong business model.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-04",
+      "start": 217.78,
+      "end": 222.57999999999998,
+      "wordTimings": [
+        {
+          "text": "So",
+          "start": 217.78,
+          "end": 218.1
+        },
+        {
+          "text": "a",
+          "start": 218.33999999999997,
+          "end": 218.42
+        },
+        {
+          "text": "successful",
+          "start": 218.5,
+          "end": 219.06
+        },
+        {
+          "text": "demonstration",
+          "start": 219.14,
+          "end": 219.94
+        },
+        {
+          "text": "could",
+          "start": 220.01999999999998,
+          "end": 220.26
+        },
+        {
+          "text": "demonstrate",
+          "start": 220.33999999999997,
+          "end": 220.89999999999998
+        },
+        {
+          "text": "the",
+          "start": 220.98,
+          "end": 221.06
+        },
+        {
+          "text": "wrong",
+          "start": 221.14,
+          "end": 221.38
+        },
+        {
+          "text": "business",
+          "start": 221.45999999999998,
+          "end": 221.85999999999999
+        },
+        {
+          "text": "model.",
+          "start": 221.94,
+          "end": 222.57999999999998
+        }
+      ]
+    },
+    {
+      "eventId": "event-0053",
+      "characterId": "eval",
+      "text": "It can demonstrate real access payment. It cannot demonstrate that the show received money.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-04",
+      "start": 222.57999999999998,
+      "end": 228.26,
+      "wordTimings": [
+        {
+          "text": "It",
+          "start": 222.57999999999998,
+          "end": 222.73999999999998
+        },
+        {
+          "text": "can",
+          "start": 222.82,
+          "end": 222.89999999999998
+        },
+        {
+          "text": "demonstrate",
+          "start": 222.98,
+          "end": 223.54
+        },
+        {
+          "text": "real",
+          "start": 223.7,
+          "end": 224.01999999999998
+        },
+        {
+          "text": "access",
+          "start": 224.1,
+          "end": 224.5
+        },
+        {
+          "text": "payment.",
+          "start": 224.57999999999998,
+          "end": 225.22
+        },
+        {
+          "text": "It",
+          "start": 225.45999999999998,
+          "end": 225.62
+        },
+        {
+          "text": "cannot",
+          "start": 225.7,
+          "end": 226.1
+        },
+        {
+          "text": "demonstrate",
+          "start": 226.17999999999998,
+          "end": 226.73999999999998
+        },
+        {
+          "text": "that",
+          "start": 226.78,
+          "end": 226.82
+        },
+        {
+          "text": "the",
+          "start": 226.89999999999998,
+          "end": 226.94
+        },
+        {
+          "text": "show",
+          "start": 226.98,
+          "end": 227.22
+        },
+        {
+          "text": "received",
+          "start": 227.42,
+          "end": 227.62
+        },
+        {
+          "text": "money.",
+          "start": 227.7,
+          "end": 228.26
+        }
+      ]
+    },
+    {
+      "eventId": "event-0054",
+      "characterId": "agnolo",
+      "text": "Your treadmill is plugged into somebody else's ledger.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-04",
+      "start": 228.26,
+      "end": 231.7,
+      "wordTimings": [
+        {
+          "text": "Your",
+          "start": 228.26,
+          "end": 228.5
+        },
+        {
+          "text": "treadmill",
+          "start": 228.57999999999998,
+          "end": 229.14
+        },
+        {
+          "text": "is",
+          "start": 229.22,
+          "end": 229.38
+        },
+        {
+          "text": "plugged",
+          "start": 229.45999999999998,
+          "end": 229.7
+        },
+        {
+          "text": "into",
+          "start": 229.78,
+          "end": 230.01999999999998
+        },
+        {
+          "text": "somebody",
+          "start": 230.1,
+          "end": 230.5
+        },
+        {
+          "text": "else's",
+          "start": 230.66,
+          "end": 230.89999999999998
+        },
+        {
+          "text": "ledger.",
+          "start": 230.98,
+          "end": 231.7
+        }
+      ]
+    },
+    {
+      "eventId": "event-0055",
+      "characterId": "leonardo",
+      "text": "Then we label it.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-04",
+      "start": 231.7,
+      "end": 232.98,
+      "wordTimings": [
+        {
+          "text": "Then",
+          "start": 231.7,
+          "end": 231.94
+        },
+        {
+          "text": "we",
+          "start": 232.01999999999998,
+          "end": 232.1
+        },
+        {
+          "text": "label",
+          "start": 232.26,
+          "end": 232.42
+        },
+        {
+          "text": "it.",
+          "start": 232.54,
+          "end": 232.98
+        }
+      ]
+    },
+    {
+      "eventId": "event-0056",
+      "characterId": "borges",
+      "text": "Official demonstration work. Beneficiary disclosed before starting. Future Radio funding branch not configured.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-04",
+      "start": 232.98,
+      "end": 242.66,
+      "wordTimings": [
+        {
+          "text": "Official",
+          "start": 232.98,
+          "end": 233.54
+        },
+        {
+          "text": "demonstration",
+          "start": 233.7,
+          "end": 234.57999999999998
+        },
+        {
+          "text": "work.",
+          "start": 234.66,
+          "end": 235.29999999999998
+        },
+        {
+          "text": "Beneficiary",
+          "start": 235.62,
+          "end": 236.42
+        },
+        {
+          "text": "disclosed",
+          "start": 236.5,
+          "end": 237.22
+        },
+        {
+          "text": "before",
+          "start": 237.38,
+          "end": 237.7
+        },
+        {
+          "text": "starting.",
+          "start": 237.85999999999999,
+          "end": 238.73999999999998
+        },
+        {
+          "text": "Future",
+          "start": 239.06,
+          "end": 239.45999999999998
+        },
+        {
+          "text": "Radio",
+          "start": 239.54,
+          "end": 239.94
+        },
+        {
+          "text": "funding",
+          "start": 240.1,
+          "end": 240.42
+        },
+        {
+          "text": "branch",
+          "start": 240.5,
+          "end": 240.98
+        },
+        {
+          "text": "not",
+          "start": 241.29999999999998,
+          "end": 241.54
+        },
+        {
+          "text": "configured.",
+          "start": 241.7,
+          "end": 242.66
+        }
+      ]
+    },
+    {
+      "eventId": "event-0057",
+      "characterId": "eval",
+      "text": "And the demonstration distinguishes live-source receipts from practice receipts. Practice must not become network work through enthusiastic typography.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-04",
+      "start": 242.66,
+      "end": 251.62,
+      "wordTimings": [
+        {
+          "text": "And",
+          "start": 242.66,
+          "end": 242.82
+        },
+        {
+          "text": "the",
+          "start": 242.85999999999999,
+          "end": 242.89999999999998
+        },
+        {
+          "text": "demonstration",
+          "start": 242.98,
+          "end": 243.7
+        },
+        {
+          "text": "distinguishes",
+          "start": 243.77999999999997,
+          "end": 244.5
+        },
+        {
+          "text": "live-source",
+          "start": 244.57999999999998,
+          "end": 245.14
+        },
+        {
+          "text": "receipts",
+          "start": 245.22,
+          "end": 245.62
+        },
+        {
+          "text": "from",
+          "start": 245.7,
+          "end": 245.85999999999999
+        },
+        {
+          "text": "practice",
+          "start": 246.06,
+          "end": 246.26
+        },
+        {
+          "text": "receipts.",
+          "start": 246.45999999999998,
+          "end": 247.29999999999998
+        },
+        {
+          "text": "Practice",
+          "start": 247.54,
+          "end": 247.77999999999997
+        },
+        {
+          "text": "must",
+          "start": 247.89999999999998,
+          "end": 248.01999999999998
+        },
+        {
+          "text": "not",
+          "start": 248.1,
+          "end": 248.26
+        },
+        {
+          "text": "become",
+          "start": 248.33999999999997,
+          "end": 248.66
+        },
+        {
+          "text": "network",
+          "start": 248.73999999999998,
+          "end": 249.14
+        },
+        {
+          "text": "work",
+          "start": 249.22,
+          "end": 249.45999999999998
+        },
+        {
+          "text": "through",
+          "start": 249.54,
+          "end": 249.7
+        },
+        {
+          "text": "enthusiastic",
+          "start": 249.82,
+          "end": 250.5
+        },
+        {
+          "text": "typography.",
+          "start": 250.57999999999998,
+          "end": 251.62
+        }
+      ]
+    },
+    {
+      "eventId": "event-0058",
+      "characterId": "leonardo",
+      "text": "We can still make the page playable.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-04",
+      "start": 251.62,
+      "end": 253.78,
+      "wordTimings": [
+        {
+          "text": "We",
+          "start": 251.62,
+          "end": 251.77999999999997
+        },
+        {
+          "text": "can",
+          "start": 251.85999999999999,
+          "end": 251.94
+        },
+        {
+          "text": "still",
+          "start": 252.01999999999998,
+          "end": 252.26
+        },
+        {
+          "text": "make",
+          "start": 252.33999999999997,
+          "end": 252.42
+        },
+        {
+          "text": "the",
+          "start": 252.5,
+          "end": 252.57999999999998
+        },
+        {
+          "text": "page",
+          "start": 252.7,
+          "end": 252.82
+        },
+        {
+          "text": "playable.",
+          "start": 252.89999999999998,
+          "end": 253.77999999999997
+        }
+      ]
+    },
+    {
+      "eventId": "event-0059",
+      "characterId": "agnolo",
+      "text": "Yes. We can demonstrate the mechanism while admitting that the financing experiment is unfinished.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-04",
+      "start": 253.78,
+      "end": 260.34,
+      "wordTimings": [
+        {
+          "text": "Yes.",
+          "start": 253.77999999999997,
+          "end": 254.57999999999998
+        },
+        {
+          "text": "We",
+          "start": 254.66,
+          "end": 254.73999999999998
+        },
+        {
+          "text": "can",
+          "start": 254.85999999999999,
+          "end": 254.98
+        },
+        {
+          "text": "demonstrate",
+          "start": 255.087,
+          "end": 255.54
+        },
+        {
+          "text": "the",
+          "start": 255.62,
+          "end": 255.7
+        },
+        {
+          "text": "mechanism",
+          "start": 255.77999999999997,
+          "end": 256.34
+        },
+        {
+          "text": "while",
+          "start": 256.58,
+          "end": 256.74
+        },
+        {
+          "text": "admitting",
+          "start": 256.86,
+          "end": 257.38
+        },
+        {
+          "text": "that",
+          "start": 257.46,
+          "end": 257.54
+        },
+        {
+          "text": "the",
+          "start": 257.58,
+          "end": 257.62
+        },
+        {
+          "text": "financing",
+          "start": 257.7,
+          "end": 258.26
+        },
+        {
+          "text": "experiment",
+          "start": 258.58,
+          "end": 258.9
+        },
+        {
+          "text": "is",
+          "start": 259.06,
+          "end": 259.21999999999997
+        },
+        {
+          "text": "unfinished.",
+          "start": 259.3,
+          "end": 260.34
+        }
+      ]
+    },
+    {
+      "eventId": "event-0060",
+      "characterId": "leonardo",
+      "text": "A demonstration in progress.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-04",
+      "start": 260.34,
+      "end": 262.74,
+      "wordTimings": [
+        {
+          "text": "A",
+          "start": 260.34,
+          "end": 260.42
+        },
+        {
+          "text": "demonstration",
+          "start": 260.5,
+          "end": 261.38
+        },
+        {
+          "text": "in",
+          "start": 261.46,
+          "end": 261.62
+        },
+        {
+          "text": "progress.",
+          "start": 261.7,
+          "end": 262.74
+        }
+      ]
+    },
+    {
+      "eventId": "event-0061",
+      "characterId": "borges",
+      "text": "An honest title for a door that is not yet open.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-04",
+      "start": 262.74,
+      "end": 266.9,
+      "wordTimings": [
+        {
+          "text": "An",
+          "start": 262.74,
+          "end": 262.9
+        },
+        {
+          "text": "honest",
+          "start": 263.06,
+          "end": 263.46
+        },
+        {
+          "text": "title",
+          "start": 263.54,
+          "end": 264.02
+        },
+        {
+          "text": "for",
+          "start": 264.09999999999997,
+          "end": 264.26
+        },
+        {
+          "text": "a",
+          "start": 264.3,
+          "end": 264.34
+        },
+        {
+          "text": "door",
+          "start": 264.5,
+          "end": 264.9
+        },
+        {
+          "text": "that",
+          "start": 265.14,
+          "end": 265.21999999999997
+        },
+        {
+          "text": "is",
+          "start": 265.3,
+          "end": 265.46
+        },
+        {
+          "text": "not",
+          "start": 265.54,
+          "end": 265.78
+        },
+        {
+          "text": "yet",
+          "start": 265.85999999999996,
+          "end": 266.02
+        },
+        {
+          "text": "open.",
+          "start": 266.09999999999997,
+          "end": 266.9
+        }
+      ]
+    },
+    {
+      "eventId": "event-0063",
+      "characterId": "agnolo",
+      "text": "How much money did we make?",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-05",
+      "start": 269.21999999999997,
+      "end": 271.14,
+      "wordTimings": [
+        {
+          "text": "How",
+          "start": 269.21999999999997,
+          "end": 269.38
+        },
+        {
+          "text": "much",
+          "start": 269.46,
+          "end": 269.61999999999995
+        },
+        {
+          "text": "money",
+          "start": 269.78,
+          "end": 270.02
+        },
+        {
+          "text": "did",
+          "start": 270.09999999999997,
+          "end": 270.17999999999995
+        },
+        {
+          "text": "we",
+          "start": 270.26,
+          "end": 270.34
+        },
+        {
+          "text": "make?",
+          "start": 270.49999999999994,
+          "end": 271.14
+        }
+      ]
+    },
+    {
+      "eventId": "event-0064",
+      "characterId": "leonardo",
+      "text": "I was going to show you a large number of hashes.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-05",
+      "start": 271.14,
+      "end": 274.17999999999995,
+      "wordTimings": [
+        {
+          "text": "I",
+          "start": 271.14,
+          "end": 271.21999999999997
+        },
+        {
+          "text": "was",
+          "start": 271.29999999999995,
+          "end": 271.46
+        },
+        {
+          "text": "going",
+          "start": 271.58,
+          "end": 271.7
+        },
+        {
+          "text": "to",
+          "start": 271.78,
+          "end": 271.85999999999996
+        },
+        {
+          "text": "show",
+          "start": 271.97999999999996,
+          "end": 272.09999999999997
+        },
+        {
+          "text": "you",
+          "start": 272.17999999999995,
+          "end": 272.26
+        },
+        {
+          "text": "a",
+          "start": 272.34,
+          "end": 272.41999999999996
+        },
+        {
+          "text": "large",
+          "start": 272.49999999999994,
+          "end": 272.82
+        },
+        {
+          "text": "number",
+          "start": 272.9,
+          "end": 273.14
+        },
+        {
+          "text": "of",
+          "start": 273.17999999999995,
+          "end": 273.21999999999997
+        },
+        {
+          "text": "hashes.",
+          "start": 273.29999999999995,
+          "end": 274.17999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0065",
+      "characterId": "agnolo",
+      "text": "I have prepared an empty revenue column especially for that answer.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-05",
+      "start": 274.17999999999995,
+      "end": 278.41999999999996,
+      "wordTimings": [
+        {
+          "text": "I",
+          "start": 274.17999999999995,
+          "end": 274.34
+        },
+        {
+          "text": "have",
+          "start": 274.41999999999996,
+          "end": 274.49999999999994
+        },
+        {
+          "text": "prepared",
+          "start": 274.58,
+          "end": 274.97999999999996
+        },
+        {
+          "text": "an",
+          "start": 275.09999999999997,
+          "end": 275.21999999999997
+        },
+        {
+          "text": "empty",
+          "start": 275.41999999999996,
+          "end": 275.61999999999995
+        },
+        {
+          "text": "revenue",
+          "start": 275.7,
+          "end": 276.02
+        },
+        {
+          "text": "column",
+          "start": 276.09999999999997,
+          "end": 276.41999999999996
+        },
+        {
+          "text": "especially",
+          "start": 276.78,
+          "end": 277.14
+        },
+        {
+          "text": "for",
+          "start": 277.21999999999997,
+          "end": 277.29999999999995
+        },
+        {
+          "text": "that",
+          "start": 277.38,
+          "end": 277.46
+        },
+        {
+          "text": "answer.",
+          "start": 277.65999999999997,
+          "end": 278.41999999999996
+        }
+      ]
+    },
+    {
+      "eventId": "event-0066",
+      "characterId": "eval",
+      "text": "Three records. Work accepted by a verifier. Actual rewards received. Cost of producing this episode.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-05",
+      "start": 278.41999999999996,
+      "end": 286.26,
+      "wordTimings": [
+        {
+          "text": "Three",
+          "start": 278.41999999999996,
+          "end": 278.65999999999997
+        },
+        {
+          "text": "records.",
+          "start": 278.73999999999995,
+          "end": 279.58
+        },
+        {
+          "text": "Work",
+          "start": 279.85999999999996,
+          "end": 280.09999999999997
+        },
+        {
+          "text": "accepted",
+          "start": 280.17999999999995,
+          "end": 280.65999999999997
+        },
+        {
+          "text": "by",
+          "start": 280.73999999999995,
+          "end": 280.82
+        },
+        {
+          "text": "a",
+          "start": 280.85999999999996,
+          "end": 280.9
+        },
+        {
+          "text": "verifier.",
+          "start": 280.97999999999996,
+          "end": 282.09999999999997
+        },
+        {
+          "text": "Actual",
+          "start": 282.17999999999995,
+          "end": 282.58
+        },
+        {
+          "text": "rewards",
+          "start": 282.65999999999997,
+          "end": 283.14
+        },
+        {
+          "text": "received.",
+          "start": 283.41999999999996,
+          "end": 284.17999999999995
+        },
+        {
+          "text": "Cost",
+          "start": 284.26,
+          "end": 284.58
+        },
+        {
+          "text": "of",
+          "start": 284.61999999999995,
+          "end": 284.65999999999997
+        },
+        {
+          "text": "producing",
+          "start": 284.73999999999995,
+          "end": 285.21999999999997
+        },
+        {
+          "text": "this",
+          "start": 285.29999999999995,
+          "end": 285.38
+        },
+        {
+          "text": "episode.",
+          "start": 285.46,
+          "end": 286.26
+        }
+      ]
+    },
+    {
+      "eventId": "event-0067",
+      "characterId": "borges",
+      "text": "An access receipt proves that a proof was accepted for a request. It does not establish a block reward.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-05",
+      "start": 286.26,
+      "end": 294.73999999999995,
+      "wordTimings": [
+        {
+          "text": "An",
+          "start": 286.26,
+          "end": 286.49999999999994
+        },
+        {
+          "text": "access",
+          "start": 286.58,
+          "end": 287.05999999999995
+        },
+        {
+          "text": "receipt",
+          "start": 287.14,
+          "end": 287.78
+        },
+        {
+          "text": "proves",
+          "start": 287.85999999999996,
+          "end": 288.34
+        },
+        {
+          "text": "that",
+          "start": 288.41999999999996,
+          "end": 288.49999999999994
+        },
+        {
+          "text": "a",
+          "start": 288.58,
+          "end": 288.73999999999995
+        },
+        {
+          "text": "proof",
+          "start": 288.94,
+          "end": 289.14
+        },
+        {
+          "text": "was",
+          "start": 289.21999999999997,
+          "end": 289.38
+        },
+        {
+          "text": "accepted",
+          "start": 289.73999999999995,
+          "end": 290.09999999999997
+        },
+        {
+          "text": "for",
+          "start": 290.17999999999995,
+          "end": 290.26
+        },
+        {
+          "text": "a",
+          "start": 290.29999999999995,
+          "end": 290.34
+        },
+        {
+          "text": "request.",
+          "start": 290.41999999999996,
+          "end": 291.61999999999995
+        },
+        {
+          "text": "It",
+          "start": 291.73999999999995,
+          "end": 291.85999999999996
+        },
+        {
+          "text": "does",
+          "start": 291.97999999999996,
+          "end": 292.09999999999997
+        },
+        {
+          "text": "not",
+          "start": 292.17999999999995,
+          "end": 292.41999999999996
+        },
+        {
+          "text": "establish",
+          "start": 292.49999999999994,
+          "end": 293.14
+        },
+        {
+          "text": "a",
+          "start": 293.17999999999995,
+          "end": 293.21999999999997
+        },
+        {
+          "text": "block",
+          "start": 293.29999999999995,
+          "end": 293.61999999999995
+        },
+        {
+          "text": "reward.",
+          "start": 293.9,
+          "end": 294.73999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0068",
+      "characterId": "leonardo",
+      "text": "What does our ledger say?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-05",
+      "start": 294.73999999999995,
+      "end": 296.34,
+      "wordTimings": [
+        {
+          "text": "What",
+          "start": 294.73999999999995,
+          "end": 294.97999999999996
+        },
+        {
+          "text": "does",
+          "start": 295.05999999999995,
+          "end": 295.14
+        },
+        {
+          "text": "our",
+          "start": 295.21999999999997,
+          "end": 295.29999999999995
+        },
+        {
+          "text": "ledger",
+          "start": 295.38,
+          "end": 295.7
+        },
+        {
+          "text": "say?",
+          "start": 295.85999999999996,
+          "end": 296.34
+        }
+      ]
+    },
+    {
+      "eventId": "event-0069",
+      "characterId": "eval",
+      "text": "It reports accepted receipts by source. It does not turn practice into live work, or a moving meter into an invoice paid.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-05",
+      "start": 296.34,
+      "end": 304.34,
+      "wordTimings": [
+        {
+          "text": "It",
+          "start": 296.34,
+          "end": 296.49999999999994
+        },
+        {
+          "text": "reports",
+          "start": 296.73999999999995,
+          "end": 296.97999999999996
+        },
+        {
+          "text": "accepted",
+          "start": 297.21999999999997,
+          "end": 297.46
+        },
+        {
+          "text": "receipts",
+          "start": 297.7,
+          "end": 298.02
+        },
+        {
+          "text": "by",
+          "start": 298.09999999999997,
+          "end": 298.17999999999995
+        },
+        {
+          "text": "source.",
+          "start": 298.26,
+          "end": 299.14
+        },
+        {
+          "text": "It",
+          "start": 299.21999999999997,
+          "end": 299.29999999999995
+        },
+        {
+          "text": "does",
+          "start": 299.38,
+          "end": 299.46
+        },
+        {
+          "text": "not",
+          "start": 299.58,
+          "end": 299.7
+        },
+        {
+          "text": "turn",
+          "start": 299.82,
+          "end": 299.94
+        },
+        {
+          "text": "practice",
+          "start": 300.21999999999997,
+          "end": 300.49999999999994
+        },
+        {
+          "text": "into",
+          "start": 300.61999999999995,
+          "end": 300.73999999999995
+        },
+        {
+          "text": "live",
+          "start": 300.82,
+          "end": 301.05999999999995
+        },
+        {
+          "text": "work,",
+          "start": 301.14,
+          "end": 301.7
+        },
+        {
+          "text": "or",
+          "start": 301.78,
+          "end": 301.85999999999996
+        },
+        {
+          "text": "a",
+          "start": 301.94,
+          "end": 302.02
+        },
+        {
+          "text": "moving",
+          "start": 302.17999999999995,
+          "end": 302.34
+        },
+        {
+          "text": "meter",
+          "start": 302.49999999999994,
+          "end": 302.65999999999997
+        },
+        {
+          "text": "into",
+          "start": 302.73999999999995,
+          "end": 302.9
+        },
+        {
+          "text": "an",
+          "start": 302.97999999999996,
+          "end": 303.14
+        },
+        {
+          "text": "invoice",
+          "start": 303.37999999999994,
+          "end": 303.61999999999995
+        },
+        {
+          "text": "paid.",
+          "start": 303.78,
+          "end": 304.34
+        }
+      ]
+    },
+    {
+      "eventId": "event-0070",
+      "characterId": "agnolo",
+      "text": "And the show's reward records?",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-05",
+      "start": 304.34,
+      "end": 306.41999999999996,
+      "wordTimings": [
+        {
+          "text": "And",
+          "start": 304.34,
+          "end": 304.49999999999994
+        },
+        {
+          "text": "the",
+          "start": 304.58,
+          "end": 304.65999999999997
+        },
+        {
+          "text": "show's",
+          "start": 304.73999999999995,
+          "end": 304.97999999999996
+        },
+        {
+          "text": "reward",
+          "start": 305.06,
+          "end": 305.46
+        },
+        {
+          "text": "records?",
+          "start": 305.73999999999995,
+          "end": 306.41999999999996
+        }
+      ]
+    },
+    {
+      "eventId": "event-0071",
+      "characterId": "borges",
+      "text": "No configured show payout address. No reconciled network-reward claim. Those are unfinished measurements, not a secret profit.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-05",
+      "start": 306.41999999999996,
+      "end": 317.3,
+      "wordTimings": [
+        {
+          "text": "No",
+          "start": 306.41999999999996,
+          "end": 306.65999999999997
+        },
+        {
+          "text": "configured",
+          "start": 306.82,
+          "end": 307.46
+        },
+        {
+          "text": "show",
+          "start": 307.61999999999995,
+          "end": 307.78
+        },
+        {
+          "text": "payout",
+          "start": 307.94,
+          "end": 308.34
+        },
+        {
+          "text": "address.",
+          "start": 308.41999999999996,
+          "end": 309.46
+        },
+        {
+          "text": "No",
+          "start": 309.53999999999996,
+          "end": 309.78
+        },
+        {
+          "text": "reconciled",
+          "start": 309.85999999999996,
+          "end": 310.65999999999997
+        },
+        {
+          "text": "network-reward",
+          "start": 310.82,
+          "end": 311.78
+        },
+        {
+          "text": "claim.",
+          "start": 311.94,
+          "end": 312.9
+        },
+        {
+          "text": "Those",
+          "start": 313.09999999999997,
+          "end": 313.29999999999995
+        },
+        {
+          "text": "are",
+          "start": 313.41999999999996,
+          "end": 313.53999999999996
+        },
+        {
+          "text": "unfinished",
+          "start": 313.61999999999995,
+          "end": 314.26
+        },
+        {
+          "text": "measurements,",
+          "start": 314.34,
+          "end": 315.37999999999994
+        },
+        {
+          "text": "not",
+          "start": 315.46,
+          "end": 315.7
+        },
+        {
+          "text": "a",
+          "start": 315.78,
+          "end": 315.85999999999996
+        },
+        {
+          "text": "secret",
+          "start": 315.94,
+          "end": 316.34
+        },
+        {
+          "text": "profit.",
+          "start": 316.41999999999996,
+          "end": 317.29999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0072",
+      "characterId": "leonardo",
+      "text": "What about our costs?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-05",
+      "start": 317.3,
+      "end": 319.14,
+      "wordTimings": [
+        {
+          "text": "What",
+          "start": 317.29999999999995,
+          "end": 317.53999999999996
+        },
+        {
+          "text": "about",
+          "start": 317.65999999999997,
+          "end": 317.78
+        },
+        {
+          "text": "our",
+          "start": 317.85999999999996,
+          "end": 318.02
+        },
+        {
+          "text": "costs?",
+          "start": 318.09999999999997,
+          "end": 319.14
+        }
+      ]
+    },
+    {
+      "eventId": "event-0073",
+      "characterId": "agnolo",
+      "text": "Voice synthesis credits. The production recipe. Compute time where recorded. Unknown dollar charges, human effort and energy stay visible.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-05",
+      "start": 319.14,
+      "end": 329.53999999999996,
+      "wordTimings": [
+        {
+          "text": "Voice",
+          "start": 319.14,
+          "end": 319.46
+        },
+        {
+          "text": "synthesis",
+          "start": 319.53999999999996,
+          "end": 320.02
+        },
+        {
+          "text": "credits.",
+          "start": 320.09999999999997,
+          "end": 321.06
+        },
+        {
+          "text": "The",
+          "start": 321.09999999999997,
+          "end": 321.14
+        },
+        {
+          "text": "production",
+          "start": 321.21999999999997,
+          "end": 321.7
+        },
+        {
+          "text": "recipe.",
+          "start": 321.78,
+          "end": 322.73999999999995
+        },
+        {
+          "text": "Compute",
+          "start": 322.97999999999996,
+          "end": 323.21999999999997
+        },
+        {
+          "text": "time",
+          "start": 323.29999999999995,
+          "end": 323.61999999999995
+        },
+        {
+          "text": "where",
+          "start": 323.7,
+          "end": 323.85999999999996
+        },
+        {
+          "text": "recorded.",
+          "start": 323.94,
+          "end": 325.06
+        },
+        {
+          "text": "Unknown",
+          "start": 325.34,
+          "end": 325.61999999999995
+        },
+        {
+          "text": "dollar",
+          "start": 325.65999999999997,
+          "end": 325.85999999999996
+        },
+        {
+          "text": "charges,",
+          "start": 325.94,
+          "end": 326.82
+        },
+        {
+          "text": "human",
+          "start": 326.9,
+          "end": 327.21999999999997
+        },
+        {
+          "text": "effort",
+          "start": 327.29999999999995,
+          "end": 327.61999999999995
+        },
+        {
+          "text": "and",
+          "start": 327.7,
+          "end": 327.78
+        },
+        {
+          "text": "energy",
+          "start": 327.85999999999996,
+          "end": 328.34
+        },
+        {
+          "text": "stay",
+          "start": 328.41999999999996,
+          "end": 328.73999999999995
+        },
+        {
+          "text": "visible.",
+          "start": 328.82,
+          "end": 329.53999999999996
+        }
+      ]
+    },
+    {
+      "eventId": "event-0074",
+      "characterId": "borges",
+      "text": "A blank field is more useful than an invented zero.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-05",
+      "start": 329.53999999999996,
+      "end": 333.85999999999996,
+      "wordTimings": [
+        {
+          "text": "A",
+          "start": 329.53999999999996,
+          "end": 329.78
+        },
+        {
+          "text": "blank",
+          "start": 329.97999999999996,
+          "end": 330.17999999999995
+        },
+        {
+          "text": "field",
+          "start": 330.26,
+          "end": 330.65999999999997
+        },
+        {
+          "text": "is",
+          "start": 330.73999999999995,
+          "end": 330.9
+        },
+        {
+          "text": "more",
+          "start": 331.02,
+          "end": 331.14
+        },
+        {
+          "text": "useful",
+          "start": 331.21999999999997,
+          "end": 331.78
+        },
+        {
+          "text": "than",
+          "start": 331.85999999999996,
+          "end": 331.94
+        },
+        {
+          "text": "an",
+          "start": 332.02,
+          "end": 332.09999999999997
+        },
+        {
+          "text": "invented",
+          "start": 332.17999999999995,
+          "end": 332.9
+        },
+        {
+          "text": "zero.",
+          "start": 332.97999999999996,
+          "end": 333.85999999999996
+        }
+      ]
+    },
+    {
+      "eventId": "event-0075",
+      "characterId": "eval",
+      "text": "And zero accepted receipts is a valid result if the real system has accepted none.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-05",
+      "start": 333.85999999999996,
+      "end": 339.21999999999997,
+      "wordTimings": [
+        {
+          "text": "And",
+          "start": 333.85999999999996,
+          "end": 334.09999999999997
+        },
+        {
+          "text": "zero",
+          "start": 334.17999999999995,
+          "end": 334.41999999999996
+        },
+        {
+          "text": "accepted",
+          "start": 334.49999999999994,
+          "end": 334.9
+        },
+        {
+          "text": "receipts",
+          "start": 335.14,
+          "end": 335.46
+        },
+        {
+          "text": "is",
+          "start": 335.53999999999996,
+          "end": 335.61999999999995
+        },
+        {
+          "text": "a",
+          "start": 335.78,
+          "end": 335.887
+        },
+        {
+          "text": "valid",
+          "start": 335.993,
+          "end": 336.09999999999997
+        },
+        {
+          "text": "result",
+          "start": 336.17999999999995,
+          "end": 336.73999999999995
+        },
+        {
+          "text": "if",
+          "start": 336.82,
+          "end": 336.9
+        },
+        {
+          "text": "the",
+          "start": 336.97999999999996,
+          "end": 337.06
+        },
+        {
+          "text": "real",
+          "start": 337.17999999999995,
+          "end": 337.29999999999995
+        },
+        {
+          "text": "system",
+          "start": 337.37999999999994,
+          "end": 337.7
+        },
+        {
+          "text": "has",
+          "start": 337.78,
+          "end": 337.85999999999996
+        },
+        {
+          "text": "accepted",
+          "start": 338.14,
+          "end": 338.41999999999996
+        },
+        {
+          "text": "none.",
+          "start": 338.78,
+          "end": 339.21999999999997
+        }
+      ]
+    },
+    {
+      "eventId": "event-0076",
+      "characterId": "leonardo",
+      "text": "The ledger can disappoint us?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-05",
+      "start": 339.21999999999997,
+      "end": 341.21999999999997,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 339.21999999999997,
+          "end": 339.29999999999995
+        },
+        {
+          "text": "ledger",
+          "start": 339.37999999999994,
+          "end": 339.7
+        },
+        {
+          "text": "can",
+          "start": 339.78,
+          "end": 339.94
+        },
+        {
+          "text": "disappoint",
+          "start": 340.02,
+          "end": 340.49999999999994
+        },
+        {
+          "text": "us?",
+          "start": 340.58,
+          "end": 341.21999999999997
+        }
+      ]
+    },
+    {
+      "eventId": "event-0077",
+      "characterId": "agnolo",
+      "text": "That is its most important feature.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-05",
+      "start": 341.21999999999997,
+      "end": 343.85999999999996,
+      "wordTimings": [
+        {
+          "text": "That",
+          "start": 341.21999999999997,
+          "end": 341.53999999999996
+        },
+        {
+          "text": "is",
+          "start": 341.61999999999995,
+          "end": 341.7
+        },
+        {
+          "text": "its",
+          "start": 341.78,
+          "end": 342.02
+        },
+        {
+          "text": "most",
+          "start": 342.09999999999997,
+          "end": 342.34
+        },
+        {
+          "text": "important",
+          "start": 342.41999999999996,
+          "end": 343.06
+        },
+        {
+          "text": "feature.",
+          "start": 343.14,
+          "end": 343.85999999999996
+        }
+      ]
+    },
+    {
+      "eventId": "event-0079",
+      "characterId": "leonardo",
+      "text": "The page has an episode, a voluntary work control, and a results ledger.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-06",
+      "start": 347.17999999999995,
+      "end": 352.05999999999995,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 347.17999999999995,
+          "end": 347.34
+        },
+        {
+          "text": "page",
+          "start": 347.49999999999994,
+          "end": 347.65999999999997
+        },
+        {
+          "text": "has",
+          "start": 347.73999999999995,
+          "end": 347.81999999999994
+        },
+        {
+          "text": "an",
+          "start": 347.9,
+          "end": 347.97999999999996
+        },
+        {
+          "text": "episode,",
+          "start": 348.05999999999995,
+          "end": 349.0199999999999
+        },
+        {
+          "text": "a",
+          "start": 349.05999999999995,
+          "end": 349.09999999999997
+        },
+        {
+          "text": "voluntary",
+          "start": 349.17999999999995,
+          "end": 349.65999999999997
+        },
+        {
+          "text": "work",
+          "start": 349.73999999999995,
+          "end": 349.9
+        },
+        {
+          "text": "control,",
+          "start": 349.97999999999996,
+          "end": 350.69999999999993
+        },
+        {
+          "text": "and",
+          "start": 350.81999999999994,
+          "end": 350.93999999999994
+        },
+        {
+          "text": "a",
+          "start": 351.0199999999999,
+          "end": 351.05999999999995
+        },
+        {
+          "text": "results",
+          "start": 351.09999999999997,
+          "end": 351.5799999999999
+        },
+        {
+          "text": "ledger.",
+          "start": 351.65999999999997,
+          "end": 352.05999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0080",
+      "characterId": "eval",
+      "text": "No work starts merely because the page opened or the audio began. Read the beneficiary and bounds before choosing to start.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-06",
+      "start": 352.05999999999995,
+      "end": 361.0199999999999,
+      "wordTimings": [
+        {
+          "text": "No",
+          "start": 352.05999999999995,
+          "end": 352.78
+        },
+        {
+          "text": "work",
+          "start": 352.85999999999996,
+          "end": 353.09999999999997
+        },
+        {
+          "text": "starts",
+          "start": 353.29999999999995,
+          "end": 353.49999999999994
+        },
+        {
+          "text": "merely",
+          "start": 353.5799999999999,
+          "end": 353.9
+        },
+        {
+          "text": "because",
+          "start": 353.97999999999996,
+          "end": 354.21999999999997
+        },
+        {
+          "text": "the",
+          "start": 354.29999999999995,
+          "end": 354.37999999999994
+        },
+        {
+          "text": "page",
+          "start": 354.53999999999996,
+          "end": 354.69999999999993
+        },
+        {
+          "text": "opened",
+          "start": 354.85999999999996,
+          "end": 355.25999999999993
+        },
+        {
+          "text": "or",
+          "start": 355.41999999999996,
+          "end": 355.49999999999994
+        },
+        {
+          "text": "the",
+          "start": 355.53999999999996,
+          "end": 355.5799999999999
+        },
+        {
+          "text": "audio",
+          "start": 355.73999999999995,
+          "end": 355.97999999999996
+        },
+        {
+          "text": "began.",
+          "start": 356.05999999999995,
+          "end": 356.85999999999996
+        },
+        {
+          "text": "Read",
+          "start": 357.17999999999995,
+          "end": 357.41999999999996
+        },
+        {
+          "text": "the",
+          "start": 357.4599999999999,
+          "end": 357.49999999999994
+        },
+        {
+          "text": "beneficiary",
+          "start": 357.5799999999999,
+          "end": 358.37999999999994
+        },
+        {
+          "text": "and",
+          "start": 358.4599999999999,
+          "end": 358.53999999999996
+        },
+        {
+          "text": "bounds",
+          "start": 358.61999999999995,
+          "end": 359.09999999999997
+        },
+        {
+          "text": "before",
+          "start": 359.29999999999995,
+          "end": 359.49999999999994
+        },
+        {
+          "text": "choosing",
+          "start": 359.65999999999997,
+          "end": 359.9
+        },
+        {
+          "text": "to",
+          "start": 359.97999999999996,
+          "end": 360.05999999999995
+        },
+        {
+          "text": "start.",
+          "start": 360.13999999999993,
+          "end": 361.0199999999999
+        }
+      ]
+    },
+    {
+      "eventId": "event-0081",
+      "characterId": "borges",
+      "text": "If a receipt arrives, the Orchestra can play a quiet tick. An accepted contribution becomes audible without turning a listener into a public profile.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-06",
+      "start": 361.0199999999999,
+      "end": 372.93999999999994,
+      "wordTimings": [
+        {
+          "text": "If",
+          "start": 361.0199999999999,
+          "end": 361.17999999999995
+        },
+        {
+          "text": "a",
+          "start": 361.21999999999997,
+          "end": 361.25999999999993
+        },
+        {
+          "text": "receipt",
+          "start": 361.34,
+          "end": 361.81999999999994
+        },
+        {
+          "text": "arrives,",
+          "start": 361.93999999999994,
+          "end": 362.85999999999996
+        },
+        {
+          "text": "the",
+          "start": 362.9,
+          "end": 362.93999999999994
+        },
+        {
+          "text": "Orchestra",
+          "start": 363.09999999999997,
+          "end": 363.65999999999997
+        },
+        {
+          "text": "can",
+          "start": 363.73999999999995,
+          "end": 363.8999999999999
+        },
+        {
+          "text": "play",
+          "start": 363.97999999999996,
+          "end": 364.21999999999997
+        },
+        {
+          "text": "a",
+          "start": 364.25999999999993,
+          "end": 364.29999999999995
+        },
+        {
+          "text": "quiet",
+          "start": 364.46,
+          "end": 364.85999999999996
+        },
+        {
+          "text": "tick.",
+          "start": 365.09999999999997,
+          "end": 365.93999999999994
+        },
+        {
+          "text": "An",
+          "start": 366.37999999999994,
+          "end": 366.46
+        },
+        {
+          "text": "accepted",
+          "start": 366.53999999999996,
+          "end": 367.09999999999997
+        },
+        {
+          "text": "contribution",
+          "start": 367.17999999999995,
+          "end": 368.05999999999995
+        },
+        {
+          "text": "becomes",
+          "start": 368.13999999999993,
+          "end": 368.61999999999995
+        },
+        {
+          "text": "audible",
+          "start": 368.69999999999993,
+          "end": 369.17999999999995
+        },
+        {
+          "text": "without",
+          "start": 369.49999999999994,
+          "end": 369.8999999999999
+        },
+        {
+          "text": "turning",
+          "start": 370.0199999999999,
+          "end": 370.21999999999997
+        },
+        {
+          "text": "a",
+          "start": 370.29999999999995,
+          "end": 370.34
+        },
+        {
+          "text": "listener",
+          "start": 370.37999999999994,
+          "end": 370.93999999999994
+        },
+        {
+          "text": "into",
+          "start": 371.0199999999999,
+          "end": 371.17999999999995
+        },
+        {
+          "text": "a",
+          "start": 371.25999999999993,
+          "end": 371.41999999999996
+        },
+        {
+          "text": "public",
+          "start": 371.61999999999995,
+          "end": 371.81999999999994
+        },
+        {
+          "text": "profile.",
+          "start": 371.8999999999999,
+          "end": 372.93999999999994
+        }
+      ]
+    },
+    {
+      "eventId": "event-0082",
+      "characterId": "agnolo",
+      "text": "And when no receipt arrives?",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-06",
+      "start": 372.93999999999994,
+      "end": 375.09999999999997,
+      "wordTimings": [
+        {
+          "text": "And",
+          "start": 372.93999999999994,
+          "end": 373.17999999999995
+        },
+        {
+          "text": "when",
+          "start": 373.34,
+          "end": 373.49999999999994
+        },
+        {
+          "text": "no",
+          "start": 373.5799999999999,
+          "end": 373.73999999999995
+        },
+        {
+          "text": "receipt",
+          "start": 373.81999999999994,
+          "end": 374.13999999999993
+        },
+        {
+          "text": "arrives?",
+          "start": 374.21999999999997,
+          "end": 375.09999999999997
+        }
+      ]
+    },
+    {
+      "eventId": "event-0083",
+      "characterId": "leonardo",
+      "text": "The Orchestra rests.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-06",
+      "start": 375.09999999999997,
+      "end": 377.0199999999999,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 375.09999999999997,
+          "end": 375.25999999999993
+        },
+        {
+          "text": "Orchestra",
+          "start": 375.34,
+          "end": 375.81999999999994
+        },
+        {
+          "text": "rests.",
+          "start": 375.97999999999996,
+          "end": 377.0199999999999
+        }
+      ]
+    },
+    {
+      "eventId": "event-0084",
+      "characterId": "borges",
+      "text": "A surprisingly economical instrument.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-06",
+      "start": 377.0199999999999,
+      "end": 380.29999999999995,
+      "wordTimings": [
+        {
+          "text": "A",
+          "start": 377.0199999999999,
+          "end": 377.09999999999997
+        },
+        {
+          "text": "surprisingly",
+          "start": 377.17999999999995,
+          "end": 378.05999999999995
+        },
+        {
+          "text": "economical",
+          "start": 378.21999999999997,
+          "end": 378.93999999999994
+        },
+        {
+          "text": "instrument.",
+          "start": 379.0199999999999,
+          "end": 380.29999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0085",
+      "characterId": "eval",
+      "text": "Second sub-game: compare playback with computation off and on. Record stalls and the length of the actual test. Do not claim an uninterrupted hour from a short rehearsal.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-06",
+      "start": 380.29999999999995,
+      "end": 392.46,
+      "wordTimings": [
+        {
+          "text": "Second",
+          "start": 380.29999999999995,
+          "end": 380.61999999999995
+        },
+        {
+          "text": "sub-game:",
+          "start": 380.69999999999993,
+          "end": 381.73999999999995
+        },
+        {
+          "text": "compare",
+          "start": 381.81999999999994,
+          "end": 382.21999999999997
+        },
+        {
+          "text": "playback",
+          "start": 382.29999999999995,
+          "end": 382.78
+        },
+        {
+          "text": "with",
+          "start": 382.85999999999996,
+          "end": 382.93999999999994
+        },
+        {
+          "text": "computation",
+          "start": 383.0199999999999,
+          "end": 383.73999999999995
+        },
+        {
+          "text": "off",
+          "start": 383.8999999999999,
+          "end": 384.13999999999993
+        },
+        {
+          "text": "and",
+          "start": 384.29999999999995,
+          "end": 384.37999999999994
+        },
+        {
+          "text": "on.",
+          "start": 384.53999999999996,
+          "end": 385.09999999999997
+        },
+        {
+          "text": "Record",
+          "start": 385.41999999999996,
+          "end": 385.8999999999999
+        },
+        {
+          "text": "stalls",
+          "start": 385.97999999999996,
+          "end": 386.46
+        },
+        {
+          "text": "and",
+          "start": 386.53999999999996,
+          "end": 386.61999999999995
+        },
+        {
+          "text": "the",
+          "start": 386.65999999999997,
+          "end": 386.69999999999993
+        },
+        {
+          "text": "length",
+          "start": 386.85999999999996,
+          "end": 387.09999999999997
+        },
+        {
+          "text": "of",
+          "start": 387.17999999999995,
+          "end": 387.21999999999997
+        },
+        {
+          "text": "the",
+          "start": 387.25999999999993,
+          "end": 387.34
+        },
+        {
+          "text": "actual",
+          "start": 387.53999999999996,
+          "end": 387.73999999999995
+        },
+        {
+          "text": "test.",
+          "start": 387.81999999999994,
+          "end": 388.78
+        },
+        {
+          "text": "Do",
+          "start": 388.85999999999996,
+          "end": 388.93999999999994
+        },
+        {
+          "text": "not",
+          "start": 389.09999999999997,
+          "end": 389.25999999999993
+        },
+        {
+          "text": "claim",
+          "start": 389.34,
+          "end": 389.65999999999997
+        },
+        {
+          "text": "an",
+          "start": 389.73999999999995,
+          "end": 389.81999999999994
+        },
+        {
+          "text": "uninterrupted",
+          "start": 389.8999999999999,
+          "end": 390.53999999999996
+        },
+        {
+          "text": "hour",
+          "start": 390.61999999999995,
+          "end": 390.93999999999994
+        },
+        {
+          "text": "from",
+          "start": 391.0199999999999,
+          "end": 391.09999999999997
+        },
+        {
+          "text": "a",
+          "start": 391.13999999999993,
+          "end": 391.17999999999995
+        },
+        {
+          "text": "short",
+          "start": 391.25999999999993,
+          "end": 391.41999999999996
+        },
+        {
+          "text": "rehearsal.",
+          "start": 391.49999999999994,
+          "end": 392.46
+        }
+      ]
+    },
+    {
+      "eventId": "event-0086",
+      "characterId": "leonardo",
+      "text": "And the third?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-06",
+      "start": 392.46,
+      "end": 393.65999999999997,
+      "wordTimings": [
+        {
+          "text": "And",
+          "start": 392.46,
+          "end": 392.61999999999995
+        },
+        {
+          "text": "the",
+          "start": 392.69999999999993,
+          "end": 392.78
+        },
+        {
+          "text": "third?",
+          "start": 392.85999999999996,
+          "end": 393.65999999999997
+        }
+      ]
+    },
+    {
+      "eventId": "event-0087",
+      "characterId": "agnolo",
+      "text": "Reconcile one validated record against production costs and genuine rewards. Fifteen minutes is the proposed window. It may end with missing evidence.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-06",
+      "start": 393.65999999999997,
+      "end": 404.4599999999999,
+      "wordTimings": [
+        {
+          "text": "Reconcile",
+          "start": 393.65999999999997,
+          "end": 394.37999999999994
+        },
+        {
+          "text": "one",
+          "start": 394.61999999999995,
+          "end": 394.78
+        },
+        {
+          "text": "validated",
+          "start": 394.93999999999994,
+          "end": 395.41999999999996
+        },
+        {
+          "text": "record",
+          "start": 395.49999999999994,
+          "end": 395.8999999999999
+        },
+        {
+          "text": "against",
+          "start": 396.05999999999995,
+          "end": 396.37999999999994
+        },
+        {
+          "text": "production",
+          "start": 396.46,
+          "end": 396.93999999999994
+        },
+        {
+          "text": "costs",
+          "start": 397.0199999999999,
+          "end": 397.49999999999994
+        },
+        {
+          "text": "and",
+          "start": 397.5799999999999,
+          "end": 397.65999999999997
+        },
+        {
+          "text": "genuine",
+          "start": 397.81999999999994,
+          "end": 398.21999999999997
+        },
+        {
+          "text": "rewards.",
+          "start": 398.29999999999995,
+          "end": 399.49999999999994
+        },
+        {
+          "text": "Fifteen",
+          "start": 399.53999999999996,
+          "end": 399.8999999999999
+        },
+        {
+          "text": "minutes",
+          "start": 399.97999999999996,
+          "end": 400.37999999999994
+        },
+        {
+          "text": "is",
+          "start": 400.46,
+          "end": 400.53999999999996
+        },
+        {
+          "text": "the",
+          "start": 400.5799999999999,
+          "end": 400.61999999999995
+        },
+        {
+          "text": "proposed",
+          "start": 400.69999999999993,
+          "end": 401.09999999999997
+        },
+        {
+          "text": "window.",
+          "start": 401.17999999999995,
+          "end": 402.13999999999993
+        },
+        {
+          "text": "It",
+          "start": 402.21999999999997,
+          "end": 402.29999999999995
+        },
+        {
+          "text": "may",
+          "start": 402.37999999999994,
+          "end": 402.61999999999995
+        },
+        {
+          "text": "end",
+          "start": 402.69999999999993,
+          "end": 403.0199999999999
+        },
+        {
+          "text": "with",
+          "start": 403.09999999999997,
+          "end": 403.17999999999995
+        },
+        {
+          "text": "missing",
+          "start": 403.25999999999993,
+          "end": 403.5799999999999
+        },
+        {
+          "text": "evidence.",
+          "start": 403.61999999999995,
+          "end": 404.46
+        }
+      ]
+    },
+    {
+      "eventId": "event-0088",
+      "characterId": "borges",
+      "text": "Preserve the experiment so the next producer can change a step without rediscovering the whole machine.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-06",
+      "start": 404.4599999999999,
+      "end": 412.05999999999995,
+      "wordTimings": [
+        {
+          "text": "Preserve",
+          "start": 404.46,
+          "end": 405.0199999999999
+        },
+        {
+          "text": "the",
+          "start": 405.05999999999995,
+          "end": 405.09999999999997
+        },
+        {
+          "text": "experiment",
+          "start": 405.17999999999995,
+          "end": 405.97999999999996
+        },
+        {
+          "text": "so",
+          "start": 406.29999999999995,
+          "end": 406.46
+        },
+        {
+          "text": "the",
+          "start": 406.49999999999994,
+          "end": 406.53999999999996
+        },
+        {
+          "text": "next",
+          "start": 406.69999999999993,
+          "end": 406.93999999999994
+        },
+        {
+          "text": "producer",
+          "start": 407.0199999999999,
+          "end": 407.5799999999999
+        },
+        {
+          "text": "can",
+          "start": 407.65999999999997,
+          "end": 407.8999999999999
+        },
+        {
+          "text": "change",
+          "start": 408.05999999999995,
+          "end": 408.21999999999997
+        },
+        {
+          "text": "a",
+          "start": 408.29999999999995,
+          "end": 408.37999999999994
+        },
+        {
+          "text": "step",
+          "start": 408.46,
+          "end": 408.93999999999994
+        },
+        {
+          "text": "without",
+          "start": 409.17999999999995,
+          "end": 409.41999999999996
+        },
+        {
+          "text": "rediscovering",
+          "start": 409.49999999999994,
+          "end": 410.37999999999994
+        },
+        {
+          "text": "the",
+          "start": 410.46,
+          "end": 410.53999999999996
+        },
+        {
+          "text": "whole",
+          "start": 410.61999999999995,
+          "end": 410.85999999999996
+        },
+        {
+          "text": "machine.",
+          "start": 410.93999999999994,
+          "end": 412.05999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0089",
+      "characterId": "leonardo",
+      "text": "Could audience work offset the cost of one minute of Future Radio?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-06",
+      "start": 412.05999999999995,
+      "end": 416.4599999999999,
+      "wordTimings": [
+        {
+          "text": "Could",
+          "start": 412.05999999999995,
+          "end": 412.37999999999994
+        },
+        {
+          "text": "audience",
+          "start": 412.49999999999994,
+          "end": 412.85999999999996
+        },
+        {
+          "text": "work",
+          "start": 412.93999999999994,
+          "end": 413.25999999999993
+        },
+        {
+          "text": "offset",
+          "start": 413.34,
+          "end": 413.73999999999995
+        },
+        {
+          "text": "the",
+          "start": 413.81999999999994,
+          "end": 413.8999999999999
+        },
+        {
+          "text": "cost",
+          "start": 414.05999999999995,
+          "end": 414.21999999999997
+        },
+        {
+          "text": "of",
+          "start": 414.34,
+          "end": 414.46
+        },
+        {
+          "text": "one",
+          "start": 414.53999999999996,
+          "end": 414.69999999999993
+        },
+        {
+          "text": "minute",
+          "start": 414.7799999999999,
+          "end": 415.09999999999997
+        },
+        {
+          "text": "of",
+          "start": 415.17999999999995,
+          "end": 415.25999999999993
+        },
+        {
+          "text": "Future",
+          "start": 415.41999999999996,
+          "end": 415.58
+        },
+        {
+          "text": "Radio?",
+          "start": 415.65999999999997,
+          "end": 416.46
+        }
+      ]
+    },
+    {
+      "eventId": "event-0090",
+      "characterId": "eval",
+      "text": "That is our next question. It is not today's answer.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-06",
+      "start": 416.4599999999999,
+      "end": 420.05999999999995,
+      "wordTimings": [
+        {
+          "text": "That",
+          "start": 416.46,
+          "end": 416.7799999999999
+        },
+        {
+          "text": "is",
+          "start": 416.85999999999996,
+          "end": 416.93999999999994
+        },
+        {
+          "text": "our",
+          "start": 417.0199999999999,
+          "end": 417.09999999999997
+        },
+        {
+          "text": "next",
+          "start": 417.17999999999995,
+          "end": 417.41999999999996
+        },
+        {
+          "text": "question.",
+          "start": 417.65999999999997,
+          "end": 418.29999999999995
+        },
+        {
+          "text": "It",
+          "start": 418.34,
+          "end": 418.37999999999994
+        },
+        {
+          "text": "is",
+          "start": 418.46,
+          "end": 418.61999999999995
+        },
+        {
+          "text": "not",
+          "start": 418.69999999999993,
+          "end": 418.93999999999994
+        },
+        {
+          "text": "today's",
+          "start": 419.05999999999995,
+          "end": 419.25999999999993
+        },
+        {
+          "text": "answer.",
+          "start": 419.46,
+          "end": 420.05999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0092",
+      "characterId": "leonardo",
+      "text": "We're moving.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-07",
+      "start": 422.61999999999995,
+      "end": 423.34,
+      "wordTimings": [
+        {
+          "text": "We're",
+          "start": 422.61999999999995,
+          "end": 422.83299999999997
+        },
+        {
+          "text": "moving.",
+          "start": 422.85999999999996,
+          "end": 423.34
+        }
+      ]
+    },
+    {
+      "eventId": "event-0093",
+      "characterId": "agnolo",
+      "text": "We're sitting still.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-07",
+      "start": 423.34,
+      "end": 425.17999999999995,
+      "wordTimings": [
+        {
+          "text": "We're",
+          "start": 423.34,
+          "end": 423.97999999999996
+        },
+        {
+          "text": "sitting",
+          "start": 424.0199999999999,
+          "end": 424.29999999999995
+        },
+        {
+          "text": "still.",
+          "start": 424.4599999999999,
+          "end": 425.17999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0094",
+      "characterId": "borges",
+      "text": "That's what treadmills do.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-07",
+      "start": 425.17999999999995,
+      "end": 427.41999999999996,
+      "wordTimings": [
+        {
+          "text": "That's",
+          "start": 425.17999999999995,
+          "end": 425.49999999999994
+        },
+        {
+          "text": "what",
+          "start": 425.5799999999999,
+          "end": 425.81999999999994
+        },
+        {
+          "text": "treadmills",
+          "start": 425.8999999999999,
+          "end": 426.53999999999996
+        },
+        {
+          "text": "do.",
+          "start": 426.69999999999993,
+          "end": 427.41999999999996
+        }
+      ]
+    },
+    {
+      "eventId": "event-0095",
+      "characterId": "leonardo",
+      "text": "Then where are we going?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-07",
+      "start": 427.41999999999996,
+      "end": 429.17999999999995,
+      "wordTimings": [
+        {
+          "text": "Then",
+          "start": 427.41999999999996,
+          "end": 427.81999999999994
+        },
+        {
+          "text": "where",
+          "start": 427.97999999999996,
+          "end": 428.13999999999993
+        },
+        {
+          "text": "are",
+          "start": 428.17999999999995,
+          "end": 428.21999999999997
+        },
+        {
+          "text": "we",
+          "start": 428.29999999999995,
+          "end": 428.37999999999994
+        },
+        {
+          "text": "going?",
+          "start": 428.4599999999999,
+          "end": 429.17999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0096",
+      "characterId": "borges",
+      "text": "We'll know when we see what the work produces.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-07",
+      "start": 429.17999999999995,
+      "end": 432.78,
+      "wordTimings": [
+        {
+          "text": "We'll",
+          "start": 429.17999999999995,
+          "end": 429.49999999999994
+        },
+        {
+          "text": "know",
+          "start": 429.69999999999993,
+          "end": 429.8999999999999
+        },
+        {
+          "text": "when",
+          "start": 430.0199999999999,
+          "end": 430.13999999999993
+        },
+        {
+          "text": "we",
+          "start": 430.25999999999993,
+          "end": 430.37999999999994
+        },
+        {
+          "text": "see",
+          "start": 430.4599999999999,
+          "end": 430.69999999999993
+        },
+        {
+          "text": "what",
+          "start": 430.81999999999994,
+          "end": 430.93999999999994
+        },
+        {
+          "text": "the",
+          "start": 431.0199999999999,
+          "end": 431.09999999999997
+        },
+        {
+          "text": "work",
+          "start": 431.17999999999995,
+          "end": 431.49999999999994
+        },
+        {
+          "text": "produces.",
+          "start": 431.65999999999997,
+          "end": 432.78
+        }
+      ]
+    },
+    {
+      "eventId": "event-0097",
+      "characterId": "eval",
+      "text": "Until then: contribution is not attention. A receipt is not revenue. And someone else must still choose whether to participate.",
+      "voiceId": "2WmCrP0cJGnh2QX210KX",
+      "sceneId": "scene-07",
+      "start": 432.78,
+      "end": 442.05999999999995,
+      "wordTimings": [
+        {
+          "text": "Until",
+          "start": 432.78,
+          "end": 433.17999999999995
+        },
+        {
+          "text": "then:",
+          "start": 433.34,
+          "end": 433.97999999999996
+        },
+        {
+          "text": "contribution",
+          "start": 434.09999999999997,
+          "end": 434.85999999999996
+        },
+        {
+          "text": "is",
+          "start": 434.93999999999994,
+          "end": 435.17999999999995
+        },
+        {
+          "text": "not",
+          "start": 435.29999999999995,
+          "end": 435.41999999999996
+        },
+        {
+          "text": "attention.",
+          "start": 435.49999999999994,
+          "end": 436.53999999999996
+        },
+        {
+          "text": "A",
+          "start": 436.5799999999999,
+          "end": 436.61999999999995
+        },
+        {
+          "text": "receipt",
+          "start": 436.69999999999993,
+          "end": 437.25999999999993
+        },
+        {
+          "text": "is",
+          "start": 437.34,
+          "end": 437.49999999999994
+        },
+        {
+          "text": "not",
+          "start": 437.5799999999999,
+          "end": 437.81999999999994
+        },
+        {
+          "text": "revenue.",
+          "start": 437.8999999999999,
+          "end": 438.69999999999993
+        },
+        {
+          "text": "And",
+          "start": 438.81999999999994,
+          "end": 438.93999999999994
+        },
+        {
+          "text": "someone",
+          "start": 439.09999999999997,
+          "end": 439.25999999999993
+        },
+        {
+          "text": "else",
+          "start": 439.34,
+          "end": 439.5799999999999
+        },
+        {
+          "text": "must",
+          "start": 439.65999999999997,
+          "end": 439.8999999999999
+        },
+        {
+          "text": "still",
+          "start": 440.05999999999995,
+          "end": 440.21999999999997
+        },
+        {
+          "text": "choose",
+          "start": 440.29999999999995,
+          "end": 440.61999999999995
+        },
+        {
+          "text": "whether",
+          "start": 440.69999999999993,
+          "end": 440.85999999999996
+        },
+        {
+          "text": "to",
+          "start": 440.93999999999994,
+          "end": 441.0199999999999
+        },
+        {
+          "text": "participate.",
+          "start": 441.09999999999997,
+          "end": 442.05999999999995
+        }
+      ]
+    },
+    {
+      "eventId": "event-0098",
+      "characterId": "leonardo",
+      "text": "Can the audience help support the next episode?",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-07",
+      "start": 442.05999999999995,
+      "end": 444.78,
+      "wordTimings": [
+        {
+          "text": "Can",
+          "start": 442.05999999999995,
+          "end": 442.21999999999997
+        },
+        {
+          "text": "the",
+          "start": 442.29999999999995,
+          "end": 442.37999999999994
+        },
+        {
+          "text": "audience",
+          "start": 442.49999999999994,
+          "end": 442.78
+        },
+        {
+          "text": "help",
+          "start": 442.85999999999996,
+          "end": 443.0199999999999
+        },
+        {
+          "text": "support",
+          "start": 443.09999999999997,
+          "end": 443.49999999999994
+        },
+        {
+          "text": "the",
+          "start": 443.53999999999996,
+          "end": 443.5799999999999
+        },
+        {
+          "text": "next",
+          "start": 443.65999999999997,
+          "end": 443.8999999999999
+        },
+        {
+          "text": "episode?",
+          "start": 444.17999999999995,
+          "end": 444.78
+        }
+      ]
+    },
+    {
+      "eventId": "event-0099",
+      "characterId": "agnolo",
+      "text": "Give me a real result, a real cost, and the correct address. Then we can ask how far the belt has taken us.",
+      "voiceId": "s2wvuS7SwITYg8dqsJdn",
+      "sceneId": "scene-07",
+      "start": 444.78,
+      "end": 452.21999999999997,
+      "wordTimings": [
+        {
+          "text": "Give",
+          "start": 444.78,
+          "end": 444.93999999999994
+        },
+        {
+          "text": "me",
+          "start": 445.0199999999999,
+          "end": 445.17999999999995
+        },
+        {
+          "text": "a",
+          "start": 445.25999999999993,
+          "end": 445.41999999999996
+        },
+        {
+          "text": "real",
+          "start": 445.53999999999996,
+          "end": 445.65999999999997
+        },
+        {
+          "text": "result,",
+          "start": 445.73999999999995,
+          "end": 446.4599999999999
+        },
+        {
+          "text": "a",
+          "start": 446.53999999999996,
+          "end": 446.61999999999995
+        },
+        {
+          "text": "real",
+          "start": 446.69999999999993,
+          "end": 446.93999999999994
+        },
+        {
+          "text": "cost,",
+          "start": 447.0199999999999,
+          "end": 447.5799999999999
+        },
+        {
+          "text": "and",
+          "start": 447.65999999999997,
+          "end": 447.73999999999995
+        },
+        {
+          "text": "the",
+          "start": 447.78,
+          "end": 447.81999999999994
+        },
+        {
+          "text": "correct",
+          "start": 447.8999999999999,
+          "end": 448.21999999999997
+        },
+        {
+          "text": "address.",
+          "start": 448.29999999999995,
+          "end": 449.34
+        },
+        {
+          "text": "Then",
+          "start": 449.49999999999994,
+          "end": 449.65999999999997
+        },
+        {
+          "text": "we",
+          "start": 449.73999999999995,
+          "end": 449.81999999999994
+        },
+        {
+          "text": "can",
+          "start": 449.8999999999999,
+          "end": 449.97999999999996
+        },
+        {
+          "text": "ask",
+          "start": 450.05999999999995,
+          "end": 450.21999999999997
+        },
+        {
+          "text": "how",
+          "start": 450.29999999999995,
+          "end": 450.4599999999999
+        },
+        {
+          "text": "far",
+          "start": 450.53999999999996,
+          "end": 450.69999999999993
+        },
+        {
+          "text": "the",
+          "start": 450.78,
+          "end": 450.85999999999996
+        },
+        {
+          "text": "belt",
+          "start": 450.97999999999996,
+          "end": 451.09999999999997
+        },
+        {
+          "text": "has",
+          "start": 451.17999999999995,
+          "end": 451.25999999999993
+        },
+        {
+          "text": "taken",
+          "start": 451.34,
+          "end": 451.5799999999999
+        },
+        {
+          "text": "us.",
+          "start": 451.65999999999997,
+          "end": 452.21999999999997
+        }
+      ]
+    },
+    {
+      "eventId": "event-0100",
+      "characterId": "borges",
+      "text": "The experiment remains open.",
+      "voiceId": "TLugb594bskyzPlFSOkh",
+      "sceneId": "scene-07",
+      "start": 452.21999999999997,
+      "end": 454.93999999999994,
+      "wordTimings": [
+        {
+          "text": "The",
+          "start": 452.21999999999997,
+          "end": 452.29999999999995
+        },
+        {
+          "text": "experiment",
+          "start": 452.73999999999995,
+          "end": 453.17999999999995
+        },
+        {
+          "text": "remains",
+          "start": 453.41999999999996,
+          "end": 453.97999999999996
+        },
+        {
+          "text": "open.",
+          "start": 454.13999999999993,
+          "end": 454.93999999999994
+        }
+      ]
+    },
+    {
+      "eventId": "event-0101",
+      "characterId": "leonardo",
+      "text": "And the listening remains free of the experiment.",
+      "voiceId": "s5t7B6IvxVOp3Y7HQT6Q",
+      "sceneId": "scene-07",
+      "start": 454.93999999999994,
+      "end": 458.13999999999993,
+      "wordTimings": [
+        {
+          "text": "And",
+          "start": 454.93999999999994,
+          "end": 455.09999999999997
+        },
+        {
+          "text": "the",
+          "start": 455.13999999999993,
+          "end": 455.17999999999995
+        },
+        {
+          "text": "listening",
+          "start": 455.25999999999993,
+          "end": 455.73999999999995
+        },
+        {
+          "text": "remains",
+          "start": 455.8999999999999,
+          "end": 456.29999999999995
+        },
+        {
+          "text": "free",
+          "start": 456.46,
+          "end": 456.7799999999999
+        },
+        {
+          "text": "of",
+          "start": 456.85999999999996,
+          "end": 456.93999999999994
+        },
+        {
+          "text": "the",
+          "start": 456.97999999999996,
+          "end": 457.0199999999999
+        },
+        {
+          "text": "experiment.",
+          "start": 457.09999999999997,
+          "end": 458.13999999999993
+        }
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "id": "event-0001",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 6,
+      "sourceLineEnd": 6,
+      "type": "music_direction",
+      "direction": "An original Orchestra theme, with a small ticking clock.",
+      "sceneId": "scene-01",
+      "start": 0.5,
+      "duration": 3.2
+    },
+    {
+      "id": "event-0013",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 18,
+      "sourceLineEnd": 18,
+      "type": "pause",
+      "direction": "1.2",
+      "targetDurationSeconds": 1.2,
+      "sceneId": "scene-01",
+      "start": 39.14,
+      "duration": 1.2
+    },
+    {
+      "id": "event-0014",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 19,
+      "sourceLineEnd": 19,
+      "type": "music_direction",
+      "direction": "The Orchestra stops on an uncertain note.",
+      "sceneId": "scene-01",
+      "start": 40.34,
+      "duration": 0.2
+    },
+    {
+      "id": "event-0017",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 24,
+      "sourceLineEnd": 24,
+      "type": "sound_direction",
+      "direction": "A pencil draws a small browser window.",
+      "sceneId": "scene-02",
+      "start": 47.980000000000004,
+      "duration": 1.2
+    },
+    {
+      "id": "event-0030",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 39,
+      "sourceLineEnd": 39,
+      "type": "sound_direction",
+      "direction": "A brief, obviously theatrical fan sound.",
+      "sceneId": "scene-03",
+      "start": 117.74000000000001,
+      "duration": 2.2
+    },
+    {
+      "id": "event-0045",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 54,
+      "sourceLineEnd": 54,
+      "type": "music_direction",
+      "direction": "The theme returns with fewer instruments and more space.",
+      "sceneId": "scene-03",
+      "start": 193.38,
+      "duration": 3.2
+    },
+    {
+      "id": "event-0051",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 62,
+      "sourceLineEnd": 62,
+      "type": "pause",
+      "direction": "1.2",
+      "targetDurationSeconds": 1.2,
+      "sceneId": "scene-04",
+      "start": 216.58,
+      "duration": 1.2
+    },
+    {
+      "id": "event-0062",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 75,
+      "sourceLineEnd": 75,
+      "type": "sound_direction",
+      "direction": "A ledger opens. Three quiet taps.",
+      "sceneId": "scene-05",
+      "start": 268.02,
+      "duration": 1.2
+    },
+    {
+      "id": "event-0078",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 93,
+      "sourceLineEnd": 93,
+      "type": "music_direction",
+      "direction": "The Orchestra adds a small, irregular percussion part.",
+      "sceneId": "scene-06",
+      "start": 344.97999999999996,
+      "duration": 2.2
+    },
+    {
+      "id": "event-0091",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 108,
+      "sourceLineEnd": 108,
+      "type": "sound_direction",
+      "direction": "A pencil places three empty columns on paper.",
+      "sceneId": "scene-07",
+      "start": 421.41999999999996,
+      "duration": 1.2
+    },
+    {
+      "id": "event-0102",
+      "sourceRefs": [
+        "script-v1.md"
+      ],
+      "sourceLineStart": 119,
+      "sourceLineEnd": 119,
+      "type": "music_direction",
+      "direction": "The original theme resolves into a clock tick, then silence.",
+      "sceneId": "scene-07",
+      "start": 458.05999999999995,
+      "duration": 3.2
+    }
+  ],
+  "chapters": [
+    {
+      "sceneId": "scene-01",
+      "title": "COLD OPEN — THE AUDIENCE IS DOING NOTHING",
+      "start": 0.0,
+      "end": 47.480000000000004
+    },
+    {
+      "sceneId": "scene-02",
+      "title": "ACT ONE — THE MACHINE THAT WATCHES ITSELF",
+      "start": 47.480000000000004,
+      "end": 117.24000000000001
+    },
+    {
+      "sceneId": "scene-03",
+      "title": "ACT TWO — THE TREADMILL",
+      "start": 117.24000000000001,
+      "end": 197.28
+    },
+    {
+      "sceneId": "scene-04",
+      "title": "ACT THREE — THE ADDRESS ON THE TREADMILL",
+      "start": 197.28,
+      "end": 267.52
+    },
+    {
+      "sceneId": "scene-05",
+      "title": "ACT FOUR — DOES IT PAY?",
+      "start": 267.52,
+      "end": 344.47999999999996
+    },
+    {
+      "sceneId": "scene-06",
+      "title": "ACT FIVE — THE AUDIENCE JOINS THE GAME",
+      "start": 344.47999999999996,
+      "end": 420.91999999999996
+    },
+    {
+      "sceneId": "scene-07",
+      "title": "ENDING — THE TREADMILL GOES NOWHERE",
+      "start": 420.91999999999996,
+      "end": 462.9599999999999
+    }
+  ],
+  "providerCredits": 5849,
+  "providerRequestWallSeconds": 91.73099999999998
+}

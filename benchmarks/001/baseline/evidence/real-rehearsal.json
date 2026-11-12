@@ -1,0 +1,627 @@
+{
+  "startedAt": "2026-11-12T21:59:11.136703+00:00",
+  "site": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site",
+  "maxAttempts": 1,
+  "maxHashes": 100000,
+  "maxWorkerMilliseconds": 3000,
+  "showFundingConfigured": false,
+  "humanAttentionMeasured": false,
+  "powerMeasured": false,
+  "audioEdition": "The Computational Treadmill \u2014 Season Zero \u00b7 7:43 \u00b7 Experimental review cut",
+  "ledgerBefore": {
+    "version": 1,
+    "experiment": "The Computational Treadmill",
+    "beneficiary": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+    "beneficiaryRole": "Official Quai demo recipient; not a configured Future Radio payout address",
+    "totals": [],
+    "records": [],
+    "showRewardRecords": 0,
+    "showPayoutConfigured": false,
+    "actualMiningRewards": "unreconciled; a receipt is not a reward",
+    "humanAttention": "not measured or inferred",
+    "productionCostsUrl": "https://github.com/leo-guinan/future-radio-benchmarks/tree/main/benchmarks/001",
+    "episodeCostRecordStatus": "7 synthesis requests; 5,849 provider credits. Full production cost ledger linked; unknown dollar/power/labor values remain unknown.",
+    "asOf": "2026-11-12T21:59:14.579Z"
+  },
+  "ordinaryPlaybackWorkRequests": 0,
+  "audioStartSeconds": 1.014675,
+  "outcome": "Receipt recorded. Resting at least six seconds before the next voluntary job.",
+  "observedWorkIntervalSeconds": 1.915,
+  "audioEndSeconds": 2.941159,
+  "audioPausedDuringOutcome": false,
+  "workActions": [
+    "challenge",
+    "complete"
+  ],
+  "workerMessages": [
+    {
+      "at": 4138.900000095367,
+      "data": {
+        "progress": 1
+      }
+    },
+    {
+      "at": 4140.400000095367,
+      "data": {
+        "progress": 129
+      }
+    },
+    {
+      "at": 4141.800000190735,
+      "data": {
+        "progress": 257
+      }
+    },
+    {
+      "at": 4143.800000190735,
+      "data": {
+        "progress": 385
+      }
+    },
+    {
+      "at": 4176.5,
+      "data": {
+        "progress": 513
+      }
+    },
+    {
+      "at": 4177.300000190735,
+      "data": {
+        "progress": 641
+      }
+    },
+    {
+      "at": 4178.700000286102,
+      "data": {
+        "progress": 769
+      }
+    },
+    {
+      "at": 4180.099999904633,
+      "data": {
+        "progress": 897
+      }
+    },
+    {
+      "at": 4211.400000095367,
+      "data": {
+        "progress": 1025
+      }
+    },
+    {
+      "at": 4213.300000190735,
+      "data": {
+        "progress": 1153
+      }
+    },
+    {
+      "at": 4214.800000190735,
+      "data": {
+        "progress": 1281
+      }
+    },
+    {
+      "at": 4216.5,
+      "data": {
+        "progress": 1409
+      }
+    },
+    {
+      "at": 4247.400000095367,
+      "data": {
+        "progress": 1537
+      }
+    },
+    {
+      "at": 4249,
+      "data": {
+        "progress": 1665
+      }
+    },
+    {
+      "at": 4250.800000190735,
+      "data": {
+        "progress": 1793
+      }
+    },
+    {
+      "at": 4252.200000286102,
+      "data": {
+        "progress": 1921
+      }
+    },
+    {
+      "at": 4284.099999904633,
+      "data": {
+        "progress": 2049
+      }
+    },
+    {
+      "at": 4285.300000190735,
+      "data": {
+        "progress": 2177
+      }
+    },
+    {
+      "at": 4286.800000190735,
+      "data": {
+        "progress": 2305
+      }
+    },
+    {
+      "at": 4288,
+      "data": {
+        "progress": 2433
+      }
+    },
+    {
+      "at": 4319.5,
+      "data": {
+        "progress": 2561
+      }
+    },
+    {
+      "at": 4320.800000190735,
+      "data": {
+        "progress": 2689
+      }
+    },
+    {
+      "at": 4322.099999904633,
+      "data": {
+        "progress": 2817
+      }
+    },
+    {
+      "at": 4323.300000190735,
+      "data": {
+        "progress": 2945
+      }
+    },
+    {
+      "at": 4354.300000190735,
+      "data": {
+        "progress": 3073
+      }
+    },
+    {
+      "at": 4355.5,
+      "data": {
+        "progress": 3201
+      }
+    },
+    {
+      "at": 4356.5,
+      "data": {
+        "progress": 3329
+      }
+    },
+    {
+      "at": 4357.700000286102,
+      "data": {
+        "progress": 3457
+      }
+    },
+    {
+      "at": 4384.599999904633,
+      "data": {
+        "progress": 3585
+      }
+    },
+    {
+      "at": 4385.800000190735,
+      "data": {
+        "progress": 3713
+      }
+    },
+    {
+      "at": 4387.099999904633,
+      "data": {
+        "progress": 3841
+      }
+    },
+    {
+      "at": 4388.400000095367,
+      "data": {
+        "progress": 3969
+      }
+    },
+    {
+      "at": 4420.400000095367,
+      "data": {
+        "progress": 4097
+      }
+    },
+    {
+      "at": 4421.200000286102,
+      "data": {
+        "progress": 4225
+      }
+    },
+    {
+      "at": 4422.099999904633,
+      "data": {
+        "progress": 4353
+      }
+    },
+    {
+      "at": 4423,
+      "data": {
+        "progress": 4481
+      }
+    },
+    {
+      "at": 4451.400000095367,
+      "data": {
+        "progress": 4609
+      }
+    },
+    {
+      "at": 4452.599999904633,
+      "data": {
+        "progress": 4737
+      }
+    },
+    {
+      "at": 4453.700000286102,
+      "data": {
+        "progress": 4865
+      }
+    },
+    {
+      "at": 4455.200000286102,
+      "data": {
+        "progress": 4993
+      }
+    },
+    {
+      "at": 4485.200000286102,
+      "data": {
+        "progress": 5121
+      }
+    },
+    {
+      "at": 4486.5,
+      "data": {
+        "progress": 5249
+      }
+    },
+    {
+      "at": 4487.900000095367,
+      "data": {
+        "progress": 5377
+      }
+    },
+    {
+      "at": 4489.200000286102,
+      "data": {
+        "progress": 5505
+      }
+    },
+    {
+      "at": 4521,
+      "data": {
+        "progress": 5633
+      }
+    },
+    {
+      "at": 4522.400000095367,
+      "data": {
+        "progress": 5761
+      }
+    },
+    {
+      "at": 4523.800000190735,
+      "data": {
+        "progress": 5889
+      }
+    },
+    {
+      "at": 4525.099999904633,
+      "data": {
+        "progress": 6017
+      }
+    },
+    {
+      "at": 4557,
+      "data": {
+        "progress": 6145
+      }
+    },
+    {
+      "at": 4558.400000095367,
+      "data": {
+        "progress": 6273
+      }
+    },
+    {
+      "at": 4559.800000190735,
+      "data": {
+        "progress": 6401
+      }
+    },
+    {
+      "at": 4561.099999904633,
+      "data": {
+        "progress": 6529
+      }
+    },
+    {
+      "at": 4593.099999904633,
+      "data": {
+        "progress": 6657
+      }
+    },
+    {
+      "at": 4594.099999904633,
+      "data": {
+        "progress": 6785
+      }
+    },
+    {
+      "at": 4595,
+      "data": {
+        "progress": 6913
+      }
+    },
+    {
+      "at": 4596,
+      "data": {
+        "progress": 7041
+      }
+    },
+    {
+      "at": 4627.5,
+      "data": {
+        "progress": 7169
+      }
+    },
+    {
+      "at": 4628.400000095367,
+      "data": {
+        "progress": 7297
+      }
+    },
+    {
+      "at": 4629.200000286102,
+      "data": {
+        "progress": 7425
+      }
+    },
+    {
+      "at": 4630,
+      "data": {
+        "progress": 7553
+      }
+    },
+    {
+      "at": 4661,
+      "data": {
+        "progress": 7681
+      }
+    },
+    {
+      "at": 4661.700000286102,
+      "data": {
+        "progress": 7809
+      }
+    },
+    {
+      "at": 4662.5,
+      "data": {
+        "progress": 7937
+      }
+    },
+    {
+      "at": 4663.200000286102,
+      "data": {
+        "progress": 8065
+      }
+    },
+    {
+      "at": 4694.300000190735,
+      "data": {
+        "progress": 8193
+      }
+    },
+    {
+      "at": 4695,
+      "data": {
+        "progress": 8321
+      }
+    },
+    {
+      "at": 4695.700000286102,
+      "data": {
+        "progress": 8449
+      }
+    },
+    {
+      "at": 4696.5,
+      "data": {
+        "progress": 8577
+      }
+    },
+    {
+      "at": 4723.400000095367,
+      "data": {
+        "progress": 8705
+      }
+    },
+    {
+      "at": 4724.900000095367,
+      "data": {
+        "progress": 8833
+      }
+    },
+    {
+      "at": 4726.400000095367,
+      "data": {
+        "progress": 8961
+      }
+    },
+    {
+      "at": 4728,
+      "data": {
+        "progress": 9089
+      }
+    },
+    {
+      "at": 4760.300000190735,
+      "data": {
+        "progress": 9217
+      }
+    },
+    {
+      "at": 4762,
+      "data": {
+        "progress": 9345
+      }
+    },
+    {
+      "at": 4763.300000190735,
+      "data": {
+        "progress": 9473
+      }
+    },
+    {
+      "at": 4764.800000190735,
+      "data": {
+        "progress": 9601
+      }
+    },
+    {
+      "at": 4796.300000190735,
+      "data": {
+        "progress": 9729
+      }
+    },
+    {
+      "at": 4798.200000286102,
+      "data": {
+        "progress": 9857
+      }
+    },
+    {
+      "at": 4799.200000286102,
+      "data": {
+        "solution": {
+          "extraNonce2": "0xeaafcc27",
+          "time": "0x6af636aa",
+          "nonce": "0x000026d1"
+        }
+      }
+    }
+  ],
+  "audioEvents": [
+    {
+      "type": "playing",
+      "at": 2307,
+      "audioTime": 0
+    }
+  ],
+  "pageErrors": [],
+  "ledgerAfter": {
+    "version": 1,
+    "experiment": "The Computational Treadmill",
+    "beneficiary": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+    "beneficiaryRole": "Official Quai demo recipient; not a configured Future Radio payout address",
+    "totals": [
+      {
+        "source": "live",
+        "count": 1,
+        "expectedGuesses": 40000
+      }
+    ],
+    "records": [
+      {
+        "id": "29d81a7e83a83b6651a8a1b0c55645b25923c5c34c372ff02af5b86f4dfa3d65",
+        "createdAt": 1794520740000,
+        "source": "live",
+        "expectedGuesses": 40000,
+        "payTo": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+        "receipt": {
+          "success": true,
+          "transaction": "0x4077af595a57c194870f4ea4e55ec0a9866ad23c7b84f92b3b78215078e33b14",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00951e16",
+            "score": "0x00013b1a17e9de78b2709d8a48e43aceb3854b12db1c33529c77a9e264de9230",
+            "fingerprint": "0x4077af595a57c194870f4ea4e55ec0a9866ad23c7b84f92b3b78215078e33b14",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://x402.qu.ai/x402/v1/demo/image",
+            "description": "A hidden image, unlocked with x402 work",
+            "mimeType": "image/gif"
+          },
+          "accepted": {
+            "scheme": "work",
+            "network": "quai:9",
+            "amount": "40000",
+            "asset": "hash",
+            "payTo": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+            "maxTimeoutSeconds": 15,
+            "extra": {
+              "name": "x402-work",
+              "version": "1",
+              "profile": "quai/sha256d-v1",
+              "job": {
+                "id": "00951e16",
+                "expiresAt": 1794520771,
+                "refreshAfter": 1794520760,
+                "work": {
+                  "extraNonce1": "98cddbfe",
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "537f315bc3ffa9a41e9c6b7bf8a13e0375545a85006f9bdc0000000000000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d0e80e2cfabe6d6d378502aa6e3d6f19051e1eff28d7648db706b66b7a74772183e4e505ac5098e101000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004aa36f66affffffff01b376a312000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "merkleBranches": [
+                    "6702776f810995a157818a3e7449c6436905569a3ff8b193f4dfcbe5cc8cff00",
+                    "e781715bb6d2098841dcda6895ba256e53a246c290b6c30e4b8a7bc85349896c",
+                    "18cbf45640cb0bd6589b809902117f0afaae5429e707090e9e03500efaa363d5",
+                    "3e8c956beee358c49d0cd26f277c0c07091ce19f8b043e0524c6e7619357cd4a",
+                    "342dc4497b8dd3212174dab56c3f01da591b20ea01625823fa261bbe94b2df18",
+                    "0bb4310cca419e3c827a273ae99f1f9501514e6954e5f7b62e211dfaa5fe1ac2",
+                    "4166178882a0280cb7c70ff597e9f87e52036209f61646a90eb23b38c73bd6fa"
+                  ],
+                  "version": "20000000",
+                  "bits": "180228d8",
+                  "time": "6af636aa"
+                }
+              }
+            }
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xeaafcc27",
+              "time": "0x6af636aa",
+              "nonce": "0x000026d1"
+            }
+          }
+        },
+        "resourceSha256": "d78d4d21dbe032374775649696085630762447ccae53d35fb95b711ad7ebefe8"
+      }
+    ],
+    "showRewardRecords": 0,
+    "showPayoutConfigured": false,
+    "actualMiningRewards": "unreconciled; a receipt is not a reward",
+    "humanAttention": "not measured or inferred",
+    "productionCostsUrl": "https://github.com/leo-guinan/future-radio-benchmarks/tree/main/benchmarks/001",
+    "episodeCostRecordStatus": "7 synthesis requests; 5,849 provider credits. Full production cost ledger linked; unknown dollar/power/labor values remain unknown.",
+    "asOf": "2026-11-12T21:59:17.839Z"
+  },
+  "status": "one_attempt_completed",
+  "independentHourTrial": false,
+  "actualMiningRewards": "unreconciled",
+  "realMiningPerformed": true,
+  "workerAttempts": 1,
+  "additionalPreworkTrial": "rehearsal-prework-failure.json; no worker started",
+  "networkRewardClaimed": false
+}

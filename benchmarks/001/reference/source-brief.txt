@@ -1,0 +1,182 @@
+# Future Radio: The Computational Treadmill
+
+**Subtitle:** The audience becomes the power source.
+
+**Genre:** Comedy, technological discovery, economic experiment.
+
+**Characters:** Leonardo, Borges, Agnolo, Eval, the Unspoken Orchestra.
+
+**Premise:** Future Radio needs energy to produce more radio. Leonardo discovers that listeners own computers that can perform useful work while they listen. He decides to turn the audience into a distributed production-support system.
+
+**Episode goal:** Demonstrate a real browser session that lets a viewer voluntarily contribute verifiable computational work while listening.
+
+**Episode clock:** 60 minutes for the in-world demonstration, with smaller sub-games.
+
+## Cold open — The audience is doing nothing
+
+*Sound: The orchestra is playing beautifully. A ticking clock enters the arrangement.*
+
+Leonardo is celebrating. Future Radio has listeners.
+
+Agnolo asks what the listeners are producing.
+
+Leonardo says they're listening.
+
+Agnolo asks how much electricity is being consumed by all the computers playing the broadcast.
+
+Leonardo realizes something: the audience is already spending energy to receive the show, but very little of that computation contributes to making the next episode.
+
+Borges points out that listening is not doing nothing. The value of the audience's attention is distinct from the computational power of their devices.
+
+Leonardo has an idea.
+
+"What if they could help power the show while watching it?"
+
+Agnolo asks the obvious question.
+
+"With whose electricity?"
+
+*The orchestra stops.*
+
+## Act I — The machine that watches itself
+
+**Goal:** Find a way for an ordinary viewer to contribute computational work without opening an account or paying money.
+
+Leonardo proposes using the viewer's browser.
+
+Borges discovers Quai's x402 Work protocol: a website can request a small proof-of-work computation before granting access to a resource.
+
+The characters explain the mechanism:
+
+1. A browser requests a resource.
+2. The server requests proof of work.
+3. The browser performs a bounded mining computation.
+4. The server verifies the result.
+5. The resource becomes available.
+
+Agnolo is impressed that the mechanism doesn't require the viewer to purchase cryptocurrency.
+
+But he identifies a problem.
+
+"One computation unlocks one request. You want the computer to keep helping for an entire episode."
+
+Leonardo launches a sub-game.
+
+**Sub-game 1: Can a browser continuously accept and complete small mining jobs while an episode plays?**
+
+Clock: 10 minutes.
+
+## Act II — The treadmill
+
+**Goal:** Make computational participation compatible with a pleasant listening experience.
+
+The first experiment works, but Leonardo tries to run as much computation as possible.
+
+The audio stutters. The fan spins up. Agnolo starts measuring the electricity.
+
+Borges reminds him that computation isn't free just because Future Radio isn't paying for it.
+
+Eval asks whether the audience agreed to contribute.
+
+Leonardo redesigns the experience.
+
+Three choices:
+
+- Listen normally, with no mining.
+- Contribute a small, adjustable amount of computation.
+- Enter Focus Mode: a timed, distraction-minimized session where computation pauses when the viewer leaves.
+
+Mining must always be optional and interruptible.
+
+The characters discover something interesting: they can measure computational participation, but they cannot infer mental attention from it.
+
+**Sub-game 2: Can we maintain uninterrupted playback while running voluntary, bounded computation?**
+
+Clock: 10 minutes.
+
+The Unspoken Orchestra begins using the rhythm of verified work as percussion, so the contribution becomes audible without revealing private listener information.
+
+## Act III — Does it pay?
+
+**Goal:** Determine whether the work has economic value.
+
+Leonardo announces that Future Radio is now powered by its audience.
+
+Agnolo interrupts.
+
+"How much money did we make?"
+
+Leonardo points to a large number of hashes.
+
+Agnolo points to an empty revenue column.
+
+Borges explains that the x402 jobs represent real mining work, but a verified payment receipt does not guarantee that a block reward was earned.
+
+Eval distinguishes three measurements:
+
+- Verified work performed.
+- Actual rewards received.
+- Cost of producing the episode.
+
+The characters realize that contribution, attention, and revenue are three different things.
+
+**Sub-game 3: Produce one validated contribution record and reconcile it against actual production costs and any mining rewards.**
+
+Clock: 15 minutes.
+
+The result must come from the real system. If the experiment earns nothing, the characters report zero.
+
+## Act IV — The audience joins the game
+
+The viewer interface comes online.
+
+Leonardo invites the audience to participate.
+
+The screen shows an episode, a voluntary mining control, and a public aggregate contribution meter.
+
+Each viewer can choose how much computational effort to contribute.
+
+The characters introduce their next experiment: can audience-supported work offset the cost of generating one minute of Future Radio?
+
+Borges proposes preserving every experiment so the next producer doesn't have to rediscover the same techniques.
+
+Agnolo starts the ledger.
+
+Eval insists on a control group that watches without mining.
+
+## Ending — The treadmill goes nowhere
+
+Leonardo watches the meter move.
+
+He says, "We're moving."
+
+Agnolo replies, "We're sitting still."
+
+Borges says, "That's what treadmills do."
+
+Leonardo asks, "Then where are we going?"
+
+Borges answers, "We'll know when we see what the work produces."
+
+The orchestra begins its next composition.
+
+A new game appears:
+
+**Can the audience generate enough useful work to support the production of the next episode?**
+
+The clock starts.
+
+*End of episode. The real experiment continues.*
+
+---
+
+## Production requirements
+
+- Use the existing Future Radio character identities, voices, and sound conventions.
+- The comedic tension comes from Leonardo's ambition, Agnolo's accounting, Borges's evidence, and Eval's skepticism.
+- No character promises mining revenue or claims that computation verifies human attention.
+- Any presented technical results must be taken from real experiment logs.
+- The episode can be released with a demonstration-in-progress ending if the prototype is not yet complete.
+- Use the Unspoken Orchestra to communicate the relationship between energy, time, and uncertainty.
+
+**Desired final artifact:** A publishable audio episode with an accompanying playable experiment page and a link to the public results ledger.

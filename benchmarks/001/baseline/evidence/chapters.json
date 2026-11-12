@@ -1,0 +1,44 @@
+[
+  {
+    "sceneId": "scene-01",
+    "title": "COLD OPEN — THE AUDIENCE IS DOING NOTHING",
+    "start": 0.0,
+    "end": 47.480000000000004
+  },
+  {
+    "sceneId": "scene-02",
+    "title": "ACT ONE — THE MACHINE THAT WATCHES ITSELF",
+    "start": 47.480000000000004,
+    "end": 117.24000000000001
+  },
+  {
+    "sceneId": "scene-03",
+    "title": "ACT TWO — THE TREADMILL",
+    "start": 117.24000000000001,
+    "end": 197.28
+  },
+  {
+    "sceneId": "scene-04",
+    "title": "ACT THREE — THE ADDRESS ON THE TREADMILL",
+    "start": 197.28,
+    "end": 267.52
+  },
+  {
+    "sceneId": "scene-05",
+    "title": "ACT FOUR — DOES IT PAY?",
+    "start": 267.52,
+    "end": 344.47999999999996
+  },
+  {
+    "sceneId": "scene-06",
+    "title": "ACT FIVE — THE AUDIENCE JOINS THE GAME",
+    "start": 344.47999999999996,
+    "end": 420.91999999999996
+  },
+  {
+    "sceneId": "scene-07",
+    "title": "ENDING — THE TREADMILL GOES NOWHERE",
+    "start": 420.91999999999996,
+    "end": 462.9599999999999
+  }
+]

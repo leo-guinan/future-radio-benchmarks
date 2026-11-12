@@ -1,0 +1,66 @@
+{
+  "repository": "leo-guinan/future-radio-benchmarks",
+  "releaseTag": "benchmark-001-v1",
+  "assets": {
+    "premaster-loudness.json": {
+      "sha256": "1a8603b7f40e1740592f0faef2173124a1cd1472b0d6e7a25d350151e5916a30",
+      "bytes": 264,
+      "releaseAsset": "premaster-loudness.json"
+    },
+    "loudness.json": {
+      "sha256": "98a84eaf963ca0bd022e381196a27d9e5c5acab964e1c6075068417eb28e4b89",
+      "bytes": 263,
+      "releaseAsset": "loudness.json"
+    },
+    "captions.srt": {
+      "sha256": "1f9d49bb65023bbafe5b3e1cb4f7fa991de896f466a1a7a861a7b9baf30b8518",
+      "bytes": 11091,
+      "releaseAsset": "captions.srt"
+    },
+    "script.md": {
+      "sha256": "f161f5a4e14dd600b1bf486d81428f8af8d126ee2a8c8ac01bb47d9c893ce97f",
+      "bytes": 7650,
+      "releaseAsset": "script.md"
+    },
+    "the-computational-treadmill.wav": {
+      "sha256": "487b180c488176ef95ee8825bf8ca1a113734d27a00b191b5b7ae0673ae6848f",
+      "bytes": 88888494,
+      "releaseAsset": "the-computational-treadmill.wav"
+    },
+    "timeline.json": {
+      "sha256": "82544ded6182d9be4909bf1dbb18738d11a90216c838445b96e492625e733444",
+      "bytes": 139822,
+      "releaseAsset": "timeline.json"
+    },
+    "chapters.json": {
+      "sha256": "5fa85bee53a2645a14c88727270ef0ab3e2b200b180ac86ddc5ea09a44e6a025",
+      "bytes": 1006,
+      "releaseAsset": "chapters.json"
+    },
+    "source-brief.txt": {
+      "sha256": "76546bc9f3eeda45769f20aab3b2ae85ee0b1a45a0d5db1c94ccaa6e789f2692",
+      "bytes": 6539,
+      "releaseAsset": "source-brief.txt"
+    },
+    "sound-cues.json": {
+      "sha256": "f3fd78f08edb8ea76090e8cf27ea1b306411f71b41bde83fc3f44af4905e725d",
+      "bytes": 2408,
+      "releaseAsset": "sound-cues.json"
+    },
+    "the-computational-treadmill.mp3": {
+      "sha256": "dbf480fa7a85befcdd11bb1148bec38fb99c4693a80518f3c6d5ed59e64622aa",
+      "bytes": 11112933,
+      "releaseAsset": "the-computational-treadmill.mp3"
+    },
+    "receipt.json": {
+      "sha256": "35438fc0cdfa4b9319f0c464c1f9cbd7538904cf9b8802d622e494b77ee81313",
+      "bytes": 2772,
+      "releaseAsset": "receipt.json"
+    },
+    "site-source.tar.gz": {
+      "sha256": "c19056c6efc04009994a53f24cc3a9102388fc8b7f8b712c6a1aed99f0e05e8a",
+      "bytes": 10528053,
+      "releaseAsset": "site-source.tar.gz"
+    }
+  }
+}

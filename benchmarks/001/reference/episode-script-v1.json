@@ -1,0 +1,1205 @@
+{
+  "kind": "episode_script",
+  "schemaVersion": 1,
+  "episodeId": "the-computational-treadmill",
+  "revision": 1,
+  "title": "The Computational Treadmill",
+  "characters": [
+    {
+      "id": "leonardo",
+      "name": "LEONARDO",
+      "description": "Ambitious maker; converts uncertainty into experiments."
+    },
+    {
+      "id": "borges",
+      "name": "BORGES",
+      "description": "Evidence-minded librarian; distinguishes claims and records."
+    },
+    {
+      "id": "agnolo",
+      "name": "AGNOLO",
+      "description": "Accountant speaking through the radio; tracks who pays and receives."
+    },
+    {
+      "id": "eval",
+      "name": "EVAL",
+      "description": "Skeptical evaluator; tests consent, validity and measurement limits."
+    },
+    {
+      "id": "the-unspoken-orchestra",
+      "name": "THE-UNSPOKEN-ORCHESTRA",
+      "description": "Original non-speaking musical ensemble."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "COLD OPEN — THE AUDIENCE IS DOING NOTHING",
+      "setting": "Future Radio studio and the disclosed browser prototype.",
+      "purpose": "Adapt the supplied treatment without inventing technical results.",
+      "events": [
+        {
+          "id": "event-0001",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 6,
+          "sourceLineEnd": 6,
+          "type": "music_direction",
+          "direction": "An original Orchestra theme, with a small ticking clock."
+        },
+        {
+          "id": "event-0002",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 7,
+          "sourceLineEnd": 7,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We have listeners!"
+        },
+        {
+          "id": "event-0003",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 8,
+          "sourceLineEnd": 8,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "What are they producing?"
+        },
+        {
+          "id": "event-0004",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 9,
+          "sourceLineEnd": 9,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "They're listening."
+        },
+        {
+          "id": "event-0005",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 10,
+          "sourceLineEnd": 10,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And their computers?"
+        },
+        {
+          "id": "event-0006",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 11,
+          "sourceLineEnd": 11,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Also listening. Less attentively."
+        },
+        {
+          "id": "event-0007",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 12,
+          "sourceLineEnd": 12,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Listening is not doing nothing. An audience gives us something a computer cannot measure by counting its instructions."
+        },
+        {
+          "id": "event-0008",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 13,
+          "sourceLineEnd": 13,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "I was counting its electricity."
+        },
+        {
+          "id": "event-0009",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 14,
+          "sourceLineEnd": 14,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Wait. Their machines are already working to receive the show. What if a little more of that work could help make the next one?"
+        },
+        {
+          "id": "event-0010",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 15,
+          "sourceLineEnd": 15,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A listener is not a power socket."
+        },
+        {
+          "id": "event-0011",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 16,
+          "sourceLineEnd": 16,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A voluntary power socket."
+        },
+        {
+          "id": "event-0012",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 17,
+          "sourceLineEnd": 17,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "With whose electricity?"
+        },
+        {
+          "id": "event-0013",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 18,
+          "sourceLineEnd": 18,
+          "type": "pause",
+          "direction": "1.2",
+          "targetDurationSeconds": 1.2
+        },
+        {
+          "id": "event-0014",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 19,
+          "sourceLineEnd": 19,
+          "type": "music_direction",
+          "direction": "The Orchestra stops on an uncertain note."
+        },
+        {
+          "id": "event-0015",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 20,
+          "sourceLineEnd": 20,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "We appear to have discovered consent before discovering the product."
+        },
+        {
+          "id": "event-0016",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 21,
+          "sourceLineEnd": 21,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Good. We can put it near the beginning."
+        }
+      ]
+    },
+    {
+      "id": "scene-02",
+      "title": "ACT ONE — THE MACHINE THAT WATCHES ITSELF",
+      "setting": "Future Radio studio and the disclosed browser prototype.",
+      "purpose": "Adapt the supplied treatment without inventing technical results.",
+      "events": [
+        {
+          "id": "event-0017",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 24,
+          "sourceLineEnd": 24,
+          "type": "sound_direction",
+          "direction": "A pencil draws a small browser window."
+        },
+        {
+          "id": "event-0018",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 25,
+          "sourceLineEnd": 25,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "An ordinary browser. No new account. No purchase of cryptocurrency. Could it do a small job while the radio plays?"
+        },
+        {
+          "id": "event-0019",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 26,
+          "sourceLineEnd": 26,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "There is a protocol called x four oh two Work. A server asks for a proof of computation before granting access to a resource."
+        },
+        {
+          "id": "event-0020",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 27,
+          "sourceLineEnd": 27,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "A toll booth that accepts perspiration."
+        },
+        {
+          "id": "event-0021",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 28,
+          "sourceLineEnd": 28,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Computational perspiration. Request a resource, receive a work offer, solve it, send the proof, and let the server verify it."
+        },
+        {
+          "id": "event-0022",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 29,
+          "sourceLineEnd": 29,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Then the audience can keep helping for an entire episode!"
+        },
+        {
+          "id": "event-0023",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 30,
+          "sourceLineEnd": 30,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "That last sentence contains a new experiment. One proof pays for one request. Continuous participation needs its own controls."
+        },
+        {
+          "id": "event-0024",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 31,
+          "sourceLineEnd": 31,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And a limit."
+        },
+        {
+          "id": "event-0025",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 32,
+          "sourceLineEnd": 32,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A one-hour game. Smaller jobs inside it. A smaller clock inside each job."
+        },
+        {
+          "id": "event-0026",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 33,
+          "sourceLineEnd": 33,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Clocks all the way down."
+        },
+        {
+          "id": "event-0027",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 34,
+          "sourceLineEnd": 34,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "First sub-game: can we accept bounded jobs while playback continues? Ten minutes is the proposed test window, not a result we have already measured."
+        },
+        {
+          "id": "event-0028",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 35,
+          "sourceLineEnd": 35,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "The prototype is on the desk."
+        },
+        {
+          "id": "event-0029",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 36,
+          "sourceLineEnd": 36,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Put the receipt beside it."
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "title": "ACT TWO — THE TREADMILL",
+      "setting": "Future Radio studio and the disclosed browser prototype.",
+      "purpose": "Adapt the supplied treatment without inventing technical results.",
+      "events": [
+        {
+          "id": "event-0030",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 39,
+          "sourceLineEnd": 39,
+          "type": "sound_direction",
+          "direction": "A brief, obviously theatrical fan sound."
+        },
+        {
+          "id": "event-0031",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 40,
+          "sourceLineEnd": 40,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "First design: use all the computation!"
+        },
+        {
+          "id": "event-0032",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 41,
+          "sourceLineEnd": 41,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "Rejected before testing."
+        },
+        {
+          "id": "event-0033",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 42,
+          "sourceLineEnd": 42,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "You didn't even let the fan finish."
+        },
+        {
+          "id": "event-0034",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 43,
+          "sourceLineEnd": 43,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A sound effect is not evidence of an overheated listener."
+        },
+        {
+          "id": "event-0035",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 44,
+          "sourceLineEnd": 44,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Nor is somebody else's electricity a free production budget."
+        },
+        {
+          "id": "event-0036",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 45,
+          "sourceLineEnd": 45,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Fine. Three choices. Listen normally. Contribute a little work. Or enter Focus Mode."
+        },
+        {
+          "id": "event-0037",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 46,
+          "sourceLineEnd": 46,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "Listening normally must start no computation. Contributions need a separate, explicit choice."
+        },
+        {
+          "id": "event-0038",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 47,
+          "sourceLineEnd": 47,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Focus Mode may reduce distractions. It cannot certify what a person is thinking."
+        },
+        {
+          "id": "event-0039",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 48,
+          "sourceLineEnd": 48,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What if we can prove the computer stayed on the page?"
+        },
+        {
+          "id": "event-0040",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 49,
+          "sourceLineEnd": 49,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "Then you know something about the computer's page. You have not measured attention."
+        },
+        {
+          "id": "event-0041",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 50,
+          "sourceLineEnd": 50,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "The audience has escaped your spreadsheet."
+        },
+        {
+          "id": "event-0042",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 51,
+          "sourceLineEnd": 51,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "One background worker. A three-second job limit. A hundred thousand guesses at most. Rest between jobs. Stop means stop."
+        },
+        {
+          "id": "event-0043",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 52,
+          "sourceLineEnd": 52,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "Pause the audio or hide the page, and work stops. A failed job stops the loop. It does not quietly start another attempt."
+        },
+        {
+          "id": "event-0044",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 53,
+          "sourceLineEnd": 53,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "The right to listen includes the right to contribute nothing."
+        },
+        {
+          "id": "event-0045",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 54,
+          "sourceLineEnd": 54,
+          "type": "music_direction",
+          "direction": "The theme returns with fewer instruments and more space."
+        }
+      ]
+    },
+    {
+      "id": "scene-04",
+      "title": "ACT THREE — THE ADDRESS ON THE TREADMILL",
+      "setting": "Future Radio studio and the disclosed browser prototype.",
+      "purpose": "Adapt the supplied treatment without inventing technical results.",
+      "events": [
+        {
+          "id": "event-0046",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 57,
+          "sourceLineEnd": 57,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "So Future Radio is powered by its audience!"
+        },
+        {
+          "id": "event-0047",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 58,
+          "sourceLineEnd": 58,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Show me the beneficiary."
+        },
+        {
+          "id": "event-0048",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 59,
+          "sourceLineEnd": 59,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "The what?"
+        },
+        {
+          "id": "event-0049",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 60,
+          "sourceLineEnd": 60,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "The address that receives any potential reward."
+        },
+        {
+          "id": "event-0050",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 61,
+          "sourceLineEnd": 61,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "The public Quai demonstration has its own configured recipient. That is not an established Future Radio payout address."
+        },
+        {
+          "id": "event-0051",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 62,
+          "sourceLineEnd": 62,
+          "type": "pause",
+          "direction": "1.2",
+          "targetDurationSeconds": 1.2
+        },
+        {
+          "id": "event-0052",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 63,
+          "sourceLineEnd": 63,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "So a successful demonstration could demonstrate the wrong business model."
+        },
+        {
+          "id": "event-0053",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 64,
+          "sourceLineEnd": 64,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "It can demonstrate real access payment. It cannot demonstrate that the show received money."
+        },
+        {
+          "id": "event-0054",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 65,
+          "sourceLineEnd": 65,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Your treadmill is plugged into somebody else's ledger."
+        },
+        {
+          "id": "event-0055",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 66,
+          "sourceLineEnd": 66,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Then we label it."
+        },
+        {
+          "id": "event-0056",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 67,
+          "sourceLineEnd": 67,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Official demonstration work. Beneficiary disclosed before starting. Future Radio funding branch not configured."
+        },
+        {
+          "id": "event-0057",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 68,
+          "sourceLineEnd": 68,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "And the demonstration distinguishes live-source receipts from practice receipts. Practice must not become network work through enthusiastic typography."
+        },
+        {
+          "id": "event-0058",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 69,
+          "sourceLineEnd": 69,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We can still make the page playable."
+        },
+        {
+          "id": "event-0059",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 70,
+          "sourceLineEnd": 70,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Yes. We can demonstrate the mechanism while admitting that the financing experiment is unfinished."
+        },
+        {
+          "id": "event-0060",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 71,
+          "sourceLineEnd": 71,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "A demonstration in progress."
+        },
+        {
+          "id": "event-0061",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 72,
+          "sourceLineEnd": 72,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "An honest title for a door that is not yet open."
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "title": "ACT FOUR — DOES IT PAY?",
+      "setting": "Future Radio studio and the disclosed browser prototype.",
+      "purpose": "Adapt the supplied treatment without inventing technical results.",
+      "events": [
+        {
+          "id": "event-0062",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 75,
+          "sourceLineEnd": 75,
+          "type": "sound_direction",
+          "direction": "A ledger opens. Three quiet taps."
+        },
+        {
+          "id": "event-0063",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 76,
+          "sourceLineEnd": 76,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "How much money did we make?"
+        },
+        {
+          "id": "event-0064",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 77,
+          "sourceLineEnd": 77,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "I was going to show you a large number of hashes."
+        },
+        {
+          "id": "event-0065",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 78,
+          "sourceLineEnd": 78,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "I have prepared an empty revenue column especially for that answer."
+        },
+        {
+          "id": "event-0066",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 79,
+          "sourceLineEnd": 79,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "Three records. Work accepted by a verifier. Actual rewards received. Cost of producing this episode."
+        },
+        {
+          "id": "event-0067",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 80,
+          "sourceLineEnd": 80,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "An access receipt proves that a proof was accepted for a request. It does not establish a block reward."
+        },
+        {
+          "id": "event-0068",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 81,
+          "sourceLineEnd": 81,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What does our ledger say?"
+        },
+        {
+          "id": "event-0069",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 82,
+          "sourceLineEnd": 82,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "It reports accepted receipts by source. It does not turn practice into live work, or a moving meter into an invoice paid."
+        },
+        {
+          "id": "event-0070",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 83,
+          "sourceLineEnd": 83,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And the show's reward records?"
+        },
+        {
+          "id": "event-0071",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 84,
+          "sourceLineEnd": 84,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "No configured show payout address. No reconciled network-reward claim. Those are unfinished measurements, not a secret profit."
+        },
+        {
+          "id": "event-0072",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 85,
+          "sourceLineEnd": 85,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "What about our costs?"
+        },
+        {
+          "id": "event-0073",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 86,
+          "sourceLineEnd": 86,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Voice synthesis credits. The production recipe. Compute time where recorded. Unknown dollar charges, human effort and energy stay visible."
+        },
+        {
+          "id": "event-0074",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 87,
+          "sourceLineEnd": 87,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A blank field is more useful than an invented zero."
+        },
+        {
+          "id": "event-0075",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 88,
+          "sourceLineEnd": 88,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "And zero accepted receipts is a valid result if the real system has accepted none."
+        },
+        {
+          "id": "event-0076",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 89,
+          "sourceLineEnd": 89,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "The ledger can disappoint us?"
+        },
+        {
+          "id": "event-0077",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 90,
+          "sourceLineEnd": 90,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "That is its most important feature."
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "title": "ACT FIVE — THE AUDIENCE JOINS THE GAME",
+      "setting": "Future Radio studio and the disclosed browser prototype.",
+      "purpose": "Adapt the supplied treatment without inventing technical results.",
+      "events": [
+        {
+          "id": "event-0078",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 93,
+          "sourceLineEnd": 93,
+          "type": "music_direction",
+          "direction": "The Orchestra adds a small, irregular percussion part."
+        },
+        {
+          "id": "event-0079",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 94,
+          "sourceLineEnd": 94,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "The page has an episode, a voluntary work control, and a results ledger."
+        },
+        {
+          "id": "event-0080",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 95,
+          "sourceLineEnd": 95,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "No work starts merely because the page opened or the audio began. Read the beneficiary and bounds before choosing to start."
+        },
+        {
+          "id": "event-0081",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 96,
+          "sourceLineEnd": 96,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "If a receipt arrives, the Orchestra can play a quiet tick. An accepted contribution becomes audible without turning a listener into a public profile."
+        },
+        {
+          "id": "event-0082",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 97,
+          "sourceLineEnd": 97,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "And when no receipt arrives?"
+        },
+        {
+          "id": "event-0083",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 98,
+          "sourceLineEnd": 98,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "The Orchestra rests."
+        },
+        {
+          "id": "event-0084",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 99,
+          "sourceLineEnd": 99,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "A surprisingly economical instrument."
+        },
+        {
+          "id": "event-0085",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 100,
+          "sourceLineEnd": 100,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "Second sub-game: compare playback with computation off and on. Record stalls and the length of the actual test. Do not claim an uninterrupted hour from a short rehearsal."
+        },
+        {
+          "id": "event-0086",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 101,
+          "sourceLineEnd": 101,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "And the third?"
+        },
+        {
+          "id": "event-0087",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 102,
+          "sourceLineEnd": 102,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Reconcile one validated record against production costs and genuine rewards. Fifteen minutes is the proposed window. It may end with missing evidence."
+        },
+        {
+          "id": "event-0088",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 103,
+          "sourceLineEnd": 103,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "Preserve the experiment so the next producer can change a step without rediscovering the whole machine."
+        },
+        {
+          "id": "event-0089",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 104,
+          "sourceLineEnd": 104,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Could audience work offset the cost of one minute of Future Radio?"
+        },
+        {
+          "id": "event-0090",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 105,
+          "sourceLineEnd": 105,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "That is our next question. It is not today's answer."
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "title": "ENDING — THE TREADMILL GOES NOWHERE",
+      "setting": "Future Radio studio and the disclosed browser prototype.",
+      "purpose": "Adapt the supplied treatment without inventing technical results.",
+      "events": [
+        {
+          "id": "event-0091",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 108,
+          "sourceLineEnd": 108,
+          "type": "sound_direction",
+          "direction": "A pencil places three empty columns on paper."
+        },
+        {
+          "id": "event-0092",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 109,
+          "sourceLineEnd": 109,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "We're moving."
+        },
+        {
+          "id": "event-0093",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 110,
+          "sourceLineEnd": 110,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "We're sitting still."
+        },
+        {
+          "id": "event-0094",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 111,
+          "sourceLineEnd": 111,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "That's what treadmills do."
+        },
+        {
+          "id": "event-0095",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 112,
+          "sourceLineEnd": 112,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Then where are we going?"
+        },
+        {
+          "id": "event-0096",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 113,
+          "sourceLineEnd": 113,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "We'll know when we see what the work produces."
+        },
+        {
+          "id": "event-0097",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 114,
+          "sourceLineEnd": 114,
+          "type": "dialogue",
+          "characterId": "eval",
+          "text": "Until then: contribution is not attention. A receipt is not revenue. And someone else must still choose whether to participate."
+        },
+        {
+          "id": "event-0098",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 115,
+          "sourceLineEnd": 115,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "Can the audience help support the next episode?"
+        },
+        {
+          "id": "event-0099",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 116,
+          "sourceLineEnd": 116,
+          "type": "dialogue",
+          "characterId": "agnolo",
+          "text": "Give me a real result, a real cost, and the correct address. Then we can ask how far the belt has taken us."
+        },
+        {
+          "id": "event-0100",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 117,
+          "sourceLineEnd": 117,
+          "type": "dialogue",
+          "characterId": "borges",
+          "text": "The experiment remains open."
+        },
+        {
+          "id": "event-0101",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 118,
+          "sourceLineEnd": 118,
+          "type": "dialogue",
+          "characterId": "leonardo",
+          "text": "And the listening remains free of the experiment."
+        },
+        {
+          "id": "event-0102",
+          "sourceRefs": [
+            "script-v1.md"
+          ],
+          "sourceLineStart": 119,
+          "sourceLineEnd": 119,
+          "type": "music_direction",
+          "direction": "The original theme resolves into a clock tick, then silence."
+        }
+      ]
+    }
+  ]
+}

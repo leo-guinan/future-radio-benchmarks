@@ -1,0 +1,7 @@
+{
+  "python": "3.12.1",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "ffmpeg": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers"
+}

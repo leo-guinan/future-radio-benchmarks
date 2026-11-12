@@ -1,0 +1,22 @@
+{
+  "reference/script-v1.md": "f161f5a4e14dd600b1bf486d81428f8af8d126ee2a8c8ac01bb47d9c893ce97f",
+  "reference/build_episode.py": "d544e373fb72f0b6706680a9787698c0202dcbcb2b0f0c4b6d61eb7f8757e300",
+  "reference/episode-script-v1.json": "03c9a0c405928f1abae5ef0e63efd034e9479a762409b09f32167c9bedaf9011",
+  "reference/dialogue-plan-v1.json": "fd17f5d810d7368acb77f3f90f6188892fcc6d5d4de6ff7bd408668672fc5db7",
+  "reference/source-brief.txt": "76546bc9f3eeda45769f20aab3b2ae85ee0b1a45a0d5db1c94ccaa6e789f2692",
+  "reference/produce_audio.py": "418eb4dd152f42d16c9d0717345dc2f3adead14bd29744968117035fe72d47a3",
+  "reference/audio-v1/scene-06.json": "b92e7e0090f053bb5e550b67c8c2b3404e9be2f9340d8e125d6bfb16cb6cff8b",
+  "reference/audio-v1/scene-07.json": "c94542a076efdba749e4711d367405750a81402475fcb416d29363ba8f94670b",
+  "reference/audio-v1/scene-01.json": "0b229c1debb99d421674e6d9fe0e4faaa0dc9292ded378b224dce758ca191761",
+  "reference/audio-v1/scene-02.json": "6e0cd312deb58e9f250375d66ca4fc83f38f7731a7f79c020698f67dc068fa45",
+  "reference/audio-v1/scene-03.json": "fa9114c07260aea2f07340dbc98f8f8f3ef1f496eb5365c60923b97c63968d61",
+  "reference/audio-v1/scene-07.mp3": "8334657517032d4aa1ad3bc03a84e4227ae401aeb9858d32c51a0ac572460a56",
+  "reference/audio-v1/scene-04.json": "87ef8d4d550c16e17f34b2d003c5e3261008201d93210f4430a438841988b827",
+  "reference/audio-v1/scene-06.mp3": "0bf25fff07df765a5065ddd5b3b41f6ab267c2bd2b7f082ee84e76930a6edd43",
+  "reference/audio-v1/scene-04.mp3": "bdf1e7c005b3df2475f63dd6d8d81ba18aaba9a6d4c0bcd789ca4c47b8f4f952",
+  "reference/audio-v1/scene-05.mp3": "5a91f8be98560c1bbbeb73561ce7824b8a0f31963b9e0462a54971bea4eb8097",
+  "reference/audio-v1/scene-01.mp3": "159478c7426a48fbd3722b55ab7be14afa98931b795dd75b09a099a929229c76",
+  "reference/audio-v1/scene-02.mp3": "bb8f0c14d99ae50d8ddae73ff06bd9434878b0e3a767ace33bbc25981a3c302b",
+  "reference/audio-v1/scene-05.json": "703d376cc4be0d54c05f5303f14d1908608216e03da574aec321c6d7c01b3f9e",
+  "reference/audio-v1/scene-03.mp3": "33813e235bf2f6f8283ecaf24e21ff15de3b8995ab4e4405dd8b5b9b33af73cf"
+}

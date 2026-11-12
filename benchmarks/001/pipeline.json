@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "benchmark": "001",
+  "steps": [
+    {
+      "id": "treatment",
+      "input": "reference/source-brief.txt",
+      "output": "reference/script-v1.md",
+      "method": "editorial adaptation, frozen input; not algorithmically reproducible"
+    },
+    {
+      "id": "dialogue",
+      "dependsOn": [
+        "treatment"
+      ],
+      "input": "reference/dialogue-plan-v1.json",
+      "tool": "ElevenLabs eleven_v4",
+      "output": "audio-v1/scene-*.mp3 + alignment JSON",
+      "replay": "cached takes; no API call",
+      "regenerate": "explicit paid opt-in; voice access required; stochastic output"
+    },
+    {
+      "id": "mix",
+      "dependsOn": [
+        "dialogue"
+      ],
+      "tool": "reference/build_episode.py + ffmpeg",
+      "output": "release-v1/MP3, WAV, captions, chapters, receipts",
+      "parameters": "48 kHz, deterministic effects seed 481700, -16 LUFS target"
+    },
+    {
+      "id": "verify",
+      "dependsOn": [
+        "mix"
+      ],
+      "checks": [
+        "input hashes",
+        "all 91 lines aligned",
+        "7 chapters",
+        "full decode",
+        "loudness/peak"
+      ]
+    },
+    {
+      "id": "experiment",
+      "dependsOn": [
+        "verify"
+      ],
+      "method": "voluntary browser run, one authorized capped attempt; network dependent",
+      "output": "baseline/evidence/real-rehearsal.json",
+      "automaticReplay": false
+    },
+    {
+      "id": "publication",
+      "dependsOn": [
+        "verify",
+        "experiment"
+      ],
+      "output": "public Site + GitHub release",
+      "automaticReplay": false
+    }
+  ]
+}

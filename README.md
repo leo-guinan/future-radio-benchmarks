@@ -1,5 +1,8 @@
 # Future Radio Benchmarks
 
+New: [Benchmark #001 — The Computational Treadmill](benchmarks/001/README.md), a 7:43 audio episode with a public voluntary browser-work experiment, frozen inputs, costs and a replayable audio pipeline. [Listen and inspect the ledger](https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/).
+
+
 **Make an episode. Keep the inputs. Show the receipt. Change one step and try again.**
 
 Benchmark #000 is *The Benchmark Episode*: a frozen reference script and complete

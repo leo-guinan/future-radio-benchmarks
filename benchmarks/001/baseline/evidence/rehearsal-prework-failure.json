@@ -1,0 +1,69 @@
+{
+  "startedAt": "2026-11-12T21:57:34.088263+00:00",
+  "site": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site",
+  "maxAttempts": 1,
+  "maxHashes": 100000,
+  "maxWorkerMilliseconds": 3000,
+  "showFundingConfigured": false,
+  "humanAttentionMeasured": false,
+  "powerMeasured": false,
+  "audioEdition": "The Computational Treadmill \u2014 Season Zero \u00b7 7:43 \u00b7 Experimental review cut",
+  "ledgerBefore": {
+    "version": 1,
+    "experiment": "The Computational Treadmill",
+    "beneficiary": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+    "beneficiaryRole": "Official Quai demo recipient; not a configured Future Radio payout address",
+    "totals": [],
+    "records": [],
+    "showRewardRecords": 0,
+    "showPayoutConfigured": false,
+    "actualMiningRewards": "unreconciled; a receipt is not a reward",
+    "humanAttention": "not measured or inferred",
+    "productionCostsUrl": "https://github.com/leo-guinan/future-radio-benchmarks/tree/main/benchmarks/001",
+    "episodeCostRecordStatus": "7 synthesis requests; 5,849 provider credits. Full production cost ledger linked; unknown dollar/power/labor values remain unknown.",
+    "asOf": "2026-11-12T21:57:37.789Z"
+  },
+  "ordinaryPlaybackWorkRequests": 0,
+  "audioStartSeconds": 1.05693,
+  "outcome": "Invalid redirect value, must be one of \"follow\" or \"manual\" (\"error\" won't be implemented since it does not make sense at the edge; use \"manual\" and check the response status code).",
+  "observedWorkIntervalSeconds": 0.446,
+  "audioEndSeconds": 1.510758,
+  "audioPausedDuringOutcome": false,
+  "workActions": [
+    "challenge"
+  ],
+  "workerMessages": [],
+  "audioEvents": [
+    {
+      "type": "playing",
+      "at": 2509.4000000953674,
+      "audioTime": 0
+    }
+  ],
+  "pageErrors": [
+    "Cannot read properties of null (reading 'addEventListener')",
+    "Cannot read properties of null (reading 'addEventListener')"
+  ],
+  "ledgerAfter": {
+    "version": 1,
+    "experiment": "The Computational Treadmill",
+    "beneficiary": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+    "beneficiaryRole": "Official Quai demo recipient; not a configured Future Radio payout address",
+    "totals": [],
+    "records": [],
+    "showRewardRecords": 0,
+    "showPayoutConfigured": false,
+    "actualMiningRewards": "unreconciled; a receipt is not a reward",
+    "humanAttention": "not measured or inferred",
+    "productionCostsUrl": "https://github.com/leo-guinan/future-radio-benchmarks/tree/main/benchmarks/001",
+    "episodeCostRecordStatus": "7 synthesis requests; 5,849 provider credits. Full production cost ledger linked; unknown dollar/power/labor values remain unknown.",
+    "asOf": "2026-11-12T21:57:39.589Z"
+  },
+  "status": "one_attempt_completed",
+  "independentHourTrial": false,
+  "actualMiningRewards": "unreconciled",
+  "realMiningPerformed": false,
+  "workerStarted": false,
+  "pageErrorsAttribution": "Test instrumentation attached an audio listener to null in non-player frames; no app error established by those two messages.",
+  "resolution": "Use edge-supported manual redirect mode; existing exact status checks reject redirects. No authorized hash budget consumed."
+}

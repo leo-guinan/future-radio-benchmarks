@@ -1,0 +1,83 @@
+[
+  {
+    "sourceEventId": "event-0001",
+    "sceneId": "scene-01",
+    "direction": "An original Orchestra theme, with a small ticking clock.",
+    "start": 0.5,
+    "duration": 3.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  },
+  {
+    "sourceEventId": "event-0014",
+    "sceneId": "scene-01",
+    "direction": "The Orchestra stops on an uncertain note.",
+    "start": 40.34,
+    "duration": 0.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  },
+  {
+    "sourceEventId": "event-0017",
+    "sceneId": "scene-02",
+    "direction": "A pencil draws a small browser window.",
+    "start": 47.980000000000004,
+    "duration": 1.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  },
+  {
+    "sourceEventId": "event-0030",
+    "sceneId": "scene-03",
+    "direction": "A brief, obviously theatrical fan sound.",
+    "start": 117.74000000000001,
+    "duration": 2.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  },
+  {
+    "sourceEventId": "event-0045",
+    "sceneId": "scene-03",
+    "direction": "The theme returns with fewer instruments and more space.",
+    "start": 193.38,
+    "duration": 3.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  },
+  {
+    "sourceEventId": "event-0062",
+    "sceneId": "scene-05",
+    "direction": "A ledger opens. Three quiet taps.",
+    "start": 268.02,
+    "duration": 1.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  },
+  {
+    "sourceEventId": "event-0078",
+    "sceneId": "scene-06",
+    "direction": "The Orchestra adds a small, irregular percussion part.",
+    "start": 344.97999999999996,
+    "duration": 2.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  },
+  {
+    "sourceEventId": "event-0091",
+    "sceneId": "scene-07",
+    "direction": "A pencil places three empty columns on paper.",
+    "start": 421.41999999999996,
+    "duration": 1.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  },
+  {
+    "sourceEventId": "event-0102",
+    "sceneId": "scene-07",
+    "direction": "The original theme resolves into a clock tick, then silence.",
+    "start": 458.05999999999995,
+    "duration": 3.2,
+    "method": "original deterministic procedural synthesis",
+    "seed": 481700
+  }
+]
