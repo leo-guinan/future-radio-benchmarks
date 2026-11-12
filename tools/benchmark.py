@@ -159,12 +159,33 @@ def verify_run(run_id):
     if pending:totals['newSynthesisCredits']=None
     return {'run':run_id,'eventChain':'verified','unfinishedStages':sorted(pending),'stageAttempts':stages,'incrementalTotals':totals,'inheritedSynthesisCredits':inherited,'unmeasuredCashUsd':None,'unmeasuredEnergyKwh':None}
 
+def verify_replay_evidence(directory):
+    directory=Path(directory);summary=read(directory/'summary.json');journal=directory/'events.jsonl'
+    assert sha(journal)==summary['sourceJournalSha256'],'Published journal changed'
+    previous=None;pending=set();wall=0;credits=0;last_outputs={}
+    for i,line in enumerate(journal.read_text().splitlines()):
+        event=json.loads(line);digest=event.pop('hash')
+        assert event['sequence']==i and event['previousHash']==previous
+        assert hashlib.sha256(json.dumps(event,sort_keys=True,separators=(',',':')).encode()).hexdigest()==digest
+        previous=digest
+        if event['status']=='started':pending.add(event['stage'])
+        else:
+            assert event['status']=='passed';pending.discard(event['stage']);wall+=event['wallSeconds'];credits+=event['newSynthesisCredits'];last_outputs.update(event['outputs'])
+    assert not pending and abs(wall-summary['incrementalTotals']['wallSeconds'])<.00001
+    assert credits==summary['incrementalTotals']['newSynthesisCredits']
+    baseline={a['name']:a for a in read(ROOT/'benchmarks/000/baseline/artifacts.json')['assets']}
+    for name,comparison in summary['mediaComparison'].items():
+        assert comparison['sha256']==last_outputs['release-v1/'+name]
+        assert comparison['matchesBaseline']==(comparison['sha256']==baseline[name]['sha256'])
+    return {'eventChain':'verified','newSynthesisCredits':credits,'wallSeconds':wall,'mediaComparison':summary['mediaComparison']}
+
 def main():
     p=argparse.ArgumentParser();p.add_argument('--config',default=str(ROOT/'pipeline/reference-v1.json'));sub=p.add_subparsers(dest='action',required=True)
     sub.add_parser('plan');sub.add_parser('verify-baseline')
     c=sub.add_parser('costs');c.add_argument('--rates');c.add_argument('--out')
     r=sub.add_parser('run');r.add_argument('--run-id',required=True);r.add_argument('--target',default='verify-media');r.add_argument('--allow-paid',action='store_true')
     sub.add_parser('fetch-outputs')
+    ve=sub.add_parser('verify-replay-evidence');ve.add_argument('--path',default=str(ROOT/'replications/cached-replay-001'))
     vr=sub.add_parser('verify-run');vr.add_argument('--run-id',required=True)
     args=p.parse_args();config=read(args.config)
     if args.action=='plan':
@@ -176,6 +197,7 @@ def main():
         if args.out:save(args.out,d)
         print(json.dumps(d,indent=2))
     elif args.action=='run':run_pipeline(args,config)
+    elif args.action=='verify-replay-evidence':print(json.dumps(verify_replay_evidence(args.path),indent=2))
     elif args.action=='verify-run':print(json.dumps(verify_run(args.run_id),indent=2))
     elif args.action=='fetch-outputs':
         d=read(ROOT/'benchmarks/000/baseline/artifacts.json');dest=ROOT/'artifacts/000';dest.mkdir(parents=True,exist_ok=True)

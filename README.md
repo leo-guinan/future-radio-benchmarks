@@ -95,6 +95,8 @@ baseline SHA-256 hashes exactly. The event journal, step timings, child-process 
 usage and output comparison are preserved in [replications/cached-replay-001](replications/cached-replay-001/summary.json).
 This is a same-machine reproduction, not an independent community submission.
 A second invocation reused all nine verified checkpoints without rerunning them.
+Verify the published journal and comparison without rerendering:
+`python tools/benchmark.py verify-replay-evidence`.
 
 ## Modify or replicate
 
