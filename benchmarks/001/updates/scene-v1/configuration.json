@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-11-12T23:00:15.552413+00:00",
+  "interface": "Future Radio room with episode screen, phase-driven robot, explicit Turn On / Turn Off switch and adjacent opt-in power disclosure",
+  "wallet": "0x005a3560c44e506626a26352466429cc963f9fb7",
+  "bounds": {
+    "workers": 1,
+    "maxHashesPerJob": 100000,
+    "maxMillisecondsPerJob": 3000,
+    "maxExpectedGuesses": 40000,
+    "minimumRestMilliseconds": 6000,
+    "sessionMilliseconds": 3600000,
+    "sessionReservedGuesses": 10000000
+  },
+  "pause": "park worker, retain switch, resume with visible playback",
+  "off": "terminate worker, abort requests, cancel jobs immediately",
+  "end": "turn Off",
+  "transientErrors": "fresh jobs after 6\u201330 seconds of rest",
+  "routingMismatch": "turn Off",
+  "interfaceRemoved": [
+    "mode picker",
+    "separate consent checkbox replaced by explicit On switch with disclosure",
+    "effort slider",
+    "separate Stop button replaced by explicit Turn Off switch",
+    "visible hour clock"
+  ],
+  "newSynthesisRequests": 0,
+  "newImageVideoProviderCalls": 0,
+  "revisionAfterAutomaticReview": "Restored original cumulative internal limits; made Turn On / Turn Off and power-use consent explicit"
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "Scene UI update and one real-work smoke test",
+  "voiceSynthesisRequests": 0,
+  "voiceSynthesisCredits": 0,
+  "imageVideoProviderRequests": 0,
+  "graphics": "Original SVG/CSS authored in source; existing episode audio reused",
+  "actualWorkerAttempts": 1,
+  "acceptedSessionReceipts": 1,
+  "observedWorkIntervalSeconds": 2.355,
+  "workerMaximumHashes": 100000,
+  "workerMaximumMilliseconds": 3000,
+  "miningRewards": "unreconciled",
+  "agentTokens": null,
+  "agentUsd": null,
+  "hostingAndNetworkUsd": null,
+  "humanLaborMinutes": null,
+  "energyKwh": null,
+  "totalUsd": null,
+  "unknownReason": "No independently allocated invoice, full task metering, labor timer or power meter. No complete dollar total claimed."
+}

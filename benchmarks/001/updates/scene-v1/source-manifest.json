@@ -1,0 +1,14 @@
+{
+  "siteSourceCommit": "70dcaaf07550e16ba94bc98e762bdf89abdc7fe9",
+  "siteVersion": 5,
+  "projectId": "appgprj_6af62b6ab2fc8191b850218cfa2316d1",
+  "versionId": "appgprj_6af62b6ab2fc8191b850218cfa2316d1~appgver_a49967d82a8c81918aae3923e8f3922d",
+  "deploymentId": "appgdep_6af645a5d5d48191bff3701bab25392c",
+  "status": "succeeded",
+  "archive": "site-source-scene-v1.tar.gz",
+  "sha256": "f34d814e55702356afe05a20318df3085dccfcd950fef1d25d6e207bb292edd1",
+  "bytes": 10542607,
+  "repository": "leo-guinan/future-radio-benchmarks",
+  "releaseTag": "benchmark-001-v1",
+  "originalEpisodeAssetsChanged": false
+}

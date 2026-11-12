@@ -1,0 +1,1730 @@
+{
+  "startedAt": "2026-11-12T23:04:36.407944+00:00",
+  "site": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site",
+  "maximumRealWorkAttempts": 1,
+  "maximumHashes": 100000,
+  "maximumWorkerMilliseconds": 3000,
+  "wallet": "0x005a3560c44e506626a26352466429cc963f9fb7",
+  "showPayoutClaimed": false,
+  "status": "one_capped_check_completed",
+  "ledgerBefore": {
+    "version": 2,
+    "experiment": "The Computational Treadmill",
+    "beneficiary": "0x005a3560c44e506626a26352466429cc963f9fb7",
+    "beneficiaryRole": "User-designated Future Radio payout address; configured after the original episode recording",
+    "totals": [
+      {
+        "source": "facilitator",
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "count": 9,
+        "expectedGuesses": 360000
+      },
+      {
+        "source": "live",
+        "payTo": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+        "count": 1,
+        "expectedGuesses": 40000
+      }
+    ],
+    "showWorkReceipts": 9,
+    "historicalDemoReceipts": 1,
+    "records": [
+      {
+        "id": "d09fcf125e5d5335656702bf0221adcf4e6578b30136305bb356c8726305d69d",
+        "createdAt": 1794522420000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xb2c7a9ed406a6bc86b33bf5ee0d13a6cdb45c1cc9560df5e21dea4fd38e3a1a5",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "009662f7",
+            "score": "0x0000be43f84cbc0c1a3916b78d5e47e8df3fcdc5a8f37aad45c99734c826aa43",
+            "fingerprint": "0xb2c7a9ed406a6bc86b33bf5ee0d13a6cdb45c1cc9560df5e21dea4fd38e3a1a5",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_a586429c1904140aca8ae994c538d8a1"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "009662f7",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d30",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6d4b61f0b4ba9fb92941f5eae082d81b85a9f605ea86446e996d1184c898d9587f01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004303df66affffffff01c6c0a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "313f17ae533476706d12ad1200b99fc183d774f26967ba65f890e1dfac50f4b0",
+                    "986f05a18b43da84bd8238a12931feead779088d6f7caa03abdcfd4e3bb858c5"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522440,
+                "refreshAfter": 1794522429
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x479d58f5",
+              "time": "0x6af63d30",
+              "nonce": "0x0000233f"
+            }
+          }
+        },
+        "resourceSha256": "f5f5c0bf43174466b153dac5f0335f0b11ea1ef2dc455d58151ef3d35d536aeb"
+      },
+      {
+        "id": "5c3e84ab56e7352697cd27bb5a8bd35d7eecdc0a7bcc16115feaff14df5b4001",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xa13044d60ab0b7425c15958de44c72a5cc25bd88531c051494da6e2027ca1c5f",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "0096609a",
+            "score": "0x000188f02f6f14048739ef4b9d3480c3ab8e06e160304654a61d73e913df3bb6",
+            "fingerprint": "0xa13044d60ab0b7425c15958de44c72a5cc25bd88531c051494da6e2027ca1c5f",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_e4d66c2d6a12a77fbf4cdae4f986c0f4"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "0096609a",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d26",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6d0f7379c7a0d26e38eaefb38576ee9620da4dcfb2e3db51af36d3beeb5293edcd01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004263df66affffffff01e4bfa912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "4ff9f9e49932770b604fa8fc0bcdeb3c2803161a22052b662b83ea94a798b8a2",
+                    "339647a2ca6d4fda69c1fd24a34619053e891064d726560939013cc69e539d1d"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522431,
+                "refreshAfter": 1794522420
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xce24124d",
+              "time": "0x6af63d26",
+              "nonce": "0x00005352"
+            }
+          }
+        },
+        "resourceSha256": "c678b36e447ee0aa756c8dd674612faf6a09aaacbde7caf13ac839ce33509f45"
+      },
+      {
+        "id": "195a4b776b12b00fc764434964da67dea662b190ae346708106ba4ebc3d2d804",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xa68ffc9d0c00070703dafeb6bb0f860f36cde805035f5b70cd9e793882bbb257",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "0096609a",
+            "score": "0x000039620a87728e035af2916a66450568af0f5f81a6ab62bf95f38418798dab",
+            "fingerprint": "0xa68ffc9d0c00070703dafeb6bb0f860f36cde805035f5b70cd9e793882bbb257",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_e5e914597f1370c93c306bdd0f1be215"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "0096609a",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d26",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6d0f7379c7a0d26e38eaefb38576ee9620da4dcfb2e3db51af36d3beeb5293edcd01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004263df66affffffff01e4bfa912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "4ff9f9e49932770b604fa8fc0bcdeb3c2803161a22052b662b83ea94a798b8a2",
+                    "339647a2ca6d4fda69c1fd24a34619053e891064d726560939013cc69e539d1d"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522423,
+                "refreshAfter": 1794522412
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xf404d7ce",
+              "time": "0x6af63d26",
+              "nonce": "0x00007c0d"
+            }
+          }
+        },
+        "resourceSha256": "fb10228c357171346b1c304aaa773e94bb6e1f002cf2bb3e30aa832682e685f4"
+      },
+      {
+        "id": "bf612b577924a3dcd840391e72dc454fb45c7660ee77a96dcbb8d7309535a348",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0x239646a67452d80b32e341455b8e685aa18838f5da101c69e27fce939c607c6d",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00965e4f",
+            "score": "0x000003066205537a7132936e56c74fd7663d1a860a4b199660bb15cb05f2aa8c",
+            "fingerprint": "0x239646a67452d80b32e341455b8e685aa18838f5da101c69e27fce939c607c6d",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_0d2876688f6cd97f8267b021e21c156f"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "00965e4f",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d1c",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6dff16de9298e02d9e6a762087aa863c32e02504f02b5a50b660ba9743f679199301000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f00000000000000000000000000000000041c3df66affffffff01e4bfa912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "4ff9f9e49932770b604fa8fc0bcdeb3c2803161a22052b662b83ea94a798b8a2",
+                    "339647a2ca6d4fda69c1fd24a34619053e891064d726560939013cc69e539d1d"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522416,
+                "refreshAfter": 1794522405
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x43b8342e",
+              "time": "0x6af63d1c",
+              "nonce": "0x0000061b"
+            }
+          }
+        },
+        "resourceSha256": "226b0b975aabc7b91c484cfebf06532c8818bc6e1fbf1f295c03d4ef91fe894a"
+      },
+      {
+        "id": "ed6382ea0680150bb6474a61d7af7e2abbc04e113a3b255056dbd87b7003604e",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0x646b205007af06461ccf3aa2d4e3bc542fba799d16e92095aa4030551f6ddd00",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00965d24",
+            "score": "0x000165fed29ef00df8e6e56df2bdedfc3c843316ccd05e90231b5d7b6b65da71",
+            "fingerprint": "0x646b205007af06461ccf3aa2d4e3bc542fba799d16e92095aa4030551f6ddd00",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_9a2f7d78ef776c4ca3879dc1e04cf1a1"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "00965d24",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d12",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6dd8dab10b9172b38a43fd2ae907d62a590423611d8cb457b5baf0533930a2636701000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004123df66affffffff018fb4a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "ad8b01425f6d2321358b57b7c6b9886e8db2bcc1c6a25e3409dd8e1246e6b962",
+                    "93e3ebb78c96e530bfdadbe402a5651c0b53f6ca1716da16b2d18873d8df0f01"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522408,
+                "refreshAfter": 1794522397
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x6ca1e84b",
+              "time": "0x6af63d12",
+              "nonce": "0x000064e2"
+            }
+          }
+        },
+        "resourceSha256": "574d8d4257403bff2b14203200637018b693d43f4bde541d0f1b8b0124c6a5e4"
+      },
+      {
+        "id": "1fd0896c6376803b110a050331fd25c81a0e7e4787e963ade8ae0dcff5141a5f",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xaba6ca379d72c56dc213b7e55ed425f3646b4d4c4b092c8123b2e9f97330d33d",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00965ad2",
+            "score": "0x0000a2df2cc34b910c4802b670538dcb6f11022b3ed7e6b85b58f0fbd809076c",
+            "fingerprint": "0xaba6ca379d72c56dc213b7e55ed425f3646b4d4c4b092c8123b2e9f97330d33d",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_595b405701268d454486de4d1c797416"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "00965ad2",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d08",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6ded16596655f69469b66df6f0d50fff496c60f3f3b4df445cb2319572e67b6dcc01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004083df66affffffff011da9a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "a3e4920860d7e9036cf1adc9cf6c02f4ad8794b4dd923ccf9fb0ed51548202f6",
+                    "5554d0f01222b79d57ffee60f911d44ac8fb8f3e5ce6d318584d96da25b2a34a",
+                    "4dded6a36e67250a8202e7d20d05f441a674c49a03f824df65eb5b70c4a486c4"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522399,
+                "refreshAfter": 1794522388
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xe8752d59",
+              "time": "0x6af63d08",
+              "nonce": "0x000094b3"
+            }
+          }
+        },
+        "resourceSha256": "d2a98b5d62e4e2278eb85617f58967e06650450fb1ee5bc8ac448490b1486d26"
+      },
+      {
+        "id": "1c373969a0dc758e7410825c619e53c4df3335c6ffcfd85275e7435d7bc17fc4",
+        "createdAt": 1794522300000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xe9dcb4fa69641587e0111ba26fbad7a24f101b77690b05adf28ab710789cdfa4",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00965708",
+            "score": "0x00014e3ad9b2eda2b77be4f0702d590f8447bd02afe9edf84b0e34269b54bf37",
+            "fingerprint": "0xe9dcb4fa69641587e0111ba26fbad7a24f101b77690b05adf28ab710789cdfa4",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_1f04cf04419b18224210cecb2824b4d6"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "00965708",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63cee",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6df0ba8a74274a6b10097c5dd25a7597e8c3f9495869304eb4d081f043a84e04d301000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004ee3cf66affffffff01f4a4a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "3e12e37a",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "a3e4920860d7e9036cf1adc9cf6c02f4ad8794b4dd923ccf9fb0ed51548202f6",
+                    "e6e21228e682053d570e8eea5bc36f5606a13b0b3787a7794dee6fe467de6a92",
+                    "ca687e6f3ebe2aa59ce4ce8d09c2f2e735f0baf66a71bb65560041256170acb8"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522373,
+                "refreshAfter": 1794522362
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x6c011a97",
+              "time": "0x6af63cee",
+              "nonce": "0x000029bf"
+            }
+          }
+        },
+        "resourceSha256": "c8cfcfda61f9c245f1bacbd974475896e91f646e40963753b8de7251789612e5"
+      },
+      {
+        "id": "085ed5b31b5caade23e546e25409c25ea53f5cba1205db7b3ad8ed44f02bbe46",
+        "createdAt": 1794522300000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xa7c20e37847c4921a1fac13693ee5a5f30c47d376a1fe7db553cb12ccc116dab",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "009654c6",
+            "score": "0x00009a78d62f79f86d80893985105a00291bd040725021204f16aa7204d107d6",
+            "fingerprint": "0xa7c20e37847c4921a1fac13693ee5a5f30c47d376a1fe7db553cb12ccc116dab",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_a3a6feeb8bfcbc016026a554db7f45c7"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "009654c6",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63ce4",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6da4807456b3e4964f2dfbb897677e3947be470ff7fe18b05b437d6835f516886e01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004e43cf66affffffff01eda2a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "3e12e37a",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "25fbaaab632bd3129cc4939bff59205dd4b533ff59d95d521bb4660aaffb2f22",
+                    "c2f20784c862e22669f27f7a8df6fed212ae8233c739c9567d86913759a41122",
+                    "755e44f7b1f33e96e02bb65eccee67f48ceb724cc2628113cb9ca787bb1bd1be"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522365,
+                "refreshAfter": 1794522354
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x6ae777af",
+              "time": "0x6af63ce4",
+              "nonce": "0x00000ea1"
+            }
+          }
+        },
+        "resourceSha256": "5371cebc90a0b9d83be7896e98cfa94162e20f9a5ace0247618ad82c845f5881"
+      },
+      {
+        "id": "329286a1a7f80cc2af845b62991d71f3690945fe40289c50fcdf3f8a03cbb599",
+        "createdAt": 1794522300000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0x24af5af794b1a244d26e70153129b3e5704dcb45421be6f747d96e7472a64426",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "0096514b",
+            "score": "0x00005ebe784ae18ddcacfe95761a3c92d21e518fb1c24de5dff61c03dbcb7da4",
+            "fingerprint": "0x24af5af794b1a244d26e70153129b3e5704dcb45421be6f747d96e7472a64426",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_6a08e6aaea3398c1b6e686dd9899c4fe"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "0096514b",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63cda",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6db14954920f5cc41e6048d41bfa933055aed095077b570f24275756b396b4d76601000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004da3cf66affffffff01eb2ca912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "3e12e37a",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "7ef0d490b5f68b0173d109cb3781fec463a7001c733571c007e2cdca0c4bba82",
+                    "adde74e18804d7787c30239cced18301d0952af097dbe6f2bddfe4766cb356b4",
+                    "120821824e2844ab84d16ff70d5dd45a31e99a409c8eb7757027df032cac0394",
+                    "cd10a7de6bb9060045cd38221e5006b9c71e2a346a27e13fcb795f996b8f93f1",
+                    "770ea50e65709f6d12be5b6b3c6c9db7f090dfd88ae7dee638aea2b6892433ef"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522351,
+                "refreshAfter": 1794522340
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x98fb9304",
+              "time": "0x6af63cda",
+              "nonce": "0x000075cc"
+            }
+          }
+        },
+        "resourceSha256": "cb35c03faa81be32dffbea346d2c6b2dd6d55654254b74c89bf5f90a7403a488"
+      },
+      {
+        "id": "29d81a7e83a83b6651a8a1b0c55645b25923c5c34c372ff02af5b86f4dfa3d65",
+        "createdAt": 1794520740000,
+        "source": "live",
+        "expectedGuesses": 40000,
+        "payTo": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+        "receipt": {
+          "success": true,
+          "transaction": "0x4077af595a57c194870f4ea4e55ec0a9866ad23c7b84f92b3b78215078e33b14",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00951e16",
+            "score": "0x00013b1a17e9de78b2709d8a48e43aceb3854b12db1c33529c77a9e264de9230",
+            "fingerprint": "0x4077af595a57c194870f4ea4e55ec0a9866ad23c7b84f92b3b78215078e33b14",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://x402.qu.ai/x402/v1/demo/image",
+            "description": "A hidden image, unlocked with x402 work",
+            "mimeType": "image/gif"
+          },
+          "accepted": {
+            "scheme": "work",
+            "network": "quai:9",
+            "amount": "40000",
+            "asset": "hash",
+            "payTo": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+            "maxTimeoutSeconds": 15,
+            "extra": {
+              "name": "x402-work",
+              "version": "1",
+              "profile": "quai/sha256d-v1",
+              "job": {
+                "id": "00951e16",
+                "expiresAt": 1794520771,
+                "refreshAfter": 1794520760,
+                "work": {
+                  "extraNonce1": "98cddbfe",
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "537f315bc3ffa9a41e9c6b7bf8a13e0375545a85006f9bdc0000000000000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d0e80e2cfabe6d6d378502aa6e3d6f19051e1eff28d7648db706b66b7a74772183e4e505ac5098e101000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004aa36f66affffffff01b376a312000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "merkleBranches": [
+                    "6702776f810995a157818a3e7449c6436905569a3ff8b193f4dfcbe5cc8cff00",
+                    "e781715bb6d2098841dcda6895ba256e53a246c290b6c30e4b8a7bc85349896c",
+                    "18cbf45640cb0bd6589b809902117f0afaae5429e707090e9e03500efaa363d5",
+                    "3e8c956beee358c49d0cd26f277c0c07091ce19f8b043e0524c6e7619357cd4a",
+                    "342dc4497b8dd3212174dab56c3f01da591b20ea01625823fa261bbe94b2df18",
+                    "0bb4310cca419e3c827a273ae99f1f9501514e6954e5f7b62e211dfaa5fe1ac2",
+                    "4166178882a0280cb7c70ff597e9f87e52036209f61646a90eb23b38c73bd6fa"
+                  ],
+                  "version": "20000000",
+                  "bits": "180228d8",
+                  "time": "6af636aa"
+                }
+              }
+            }
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xeaafcc27",
+              "time": "0x6af636aa",
+              "nonce": "0x000026d1"
+            }
+          }
+        },
+        "resourceSha256": "d78d4d21dbe032374775649696085630762447ccae53d35fb95b711ad7ebefe8"
+      }
+    ],
+    "showRewardRecords": 0,
+    "showPayoutConfigured": true,
+    "actualMiningRewards": "unreconciled; a receipt is not a reward",
+    "humanAttention": "not measured or inferred",
+    "productionCostsUrl": "https://github.com/leo-guinan/future-radio-benchmarks/tree/main/benchmarks/001",
+    "episodeCostRecordStatus": "7 synthesis requests; 5,849 provider credits. Full production cost ledger linked; unknown dollar/power/labor values remain unknown.",
+    "asOf": "2026-11-12T23:04:39.139Z"
+  },
+  "workersBeforeOn": 0,
+  "audioStartSeconds": 0.957462,
+  "observedWorkIntervalSeconds": 2.355,
+  "phaseSequenceObserved": [
+    "FINDING A JOB",
+    "MINING QUAI",
+    "HANDING IN WORK",
+    "TAKING A BREATHER"
+  ],
+  "outcome": "Work accepted. The robot is taking a breather.",
+  "sessionReceipts": 1,
+  "audioEndSeconds": 3.323612,
+  "audioStillPlaying": true,
+  "offStopsRobot": true,
+  "switchOff": true,
+  "workerInfo": [
+    {
+      "startedAt": 3614,
+      "terminated": true,
+      "lastProgress": 14721,
+      "solved": true,
+      "maxHashes": 100000,
+      "maxMilliseconds": 2926,
+      "solvedAt": 4690.800000190735,
+      "terminatedAt": 5114
+    }
+  ],
+  "workActions": [
+    "challenge",
+    "complete"
+  ],
+  "extraChallengeRequestsBlocked": 0,
+  "pageErrors": [],
+  "ledgerAfter": {
+    "version": 2,
+    "experiment": "The Computational Treadmill",
+    "beneficiary": "0x005a3560c44e506626a26352466429cc963f9fb7",
+    "beneficiaryRole": "User-designated Future Radio payout address; configured after the original episode recording",
+    "totals": [
+      {
+        "source": "facilitator",
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "count": 10,
+        "expectedGuesses": 400000
+      },
+      {
+        "source": "live",
+        "payTo": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+        "count": 1,
+        "expectedGuesses": 40000
+      }
+    ],
+    "showWorkReceipts": 10,
+    "historicalDemoReceipts": 1,
+    "records": [
+      {
+        "id": "109de29f4bb09f99cd18629251cafae6fb74e66bb9d01b7667d34505cbafe7b9",
+        "createdAt": 1794524640000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0x4b467e6079fba9dcd986734914960f9ef865d8a00c5b86162add98d0b97d4c27",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "009840da",
+            "score": "0x0000657c265aff1185375c6e710916911ebd3b4c255ae54ba3a1517c7853c8a7",
+            "fingerprint": "0x4b467e6079fba9dcd986734914960f9ef865d8a00c5b86162add98d0b97d4c27",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_b44d5fe0058fce9b78df24c9b13b4a9f"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "009840da",
+                "work": {
+                  "bits": "1802283e",
+                  "time": "6af64605",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d8e80e2cfabe6d6da0f8aafd735c268d05ccb96320537540bd2a9ae38a92d8962a373ac2f0fee13f01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f00000000000000000000000000000000040546f66affffffff018b63a012000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "f6aec8d2",
+                  "merkleBranches": [
+                    "ceae6fcb47d5cf855ed665f06128169075fde82e06aeb1a3e0ba57c374d4492e",
+                    "ddbf5168c3decdf5cc69ccc4f4b3cd5df251e00bf82a94b65fae01db393821d3",
+                    "f33da6f0bf0c0150b9878c8e6bb9dc8044ddb5c584ccc93343869389a73a99a3"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "595bf9f600c94ad984961e0e4b005ceded32dd87016822740000000000000000"
+                },
+                "expiresAt": 1794524695,
+                "refreshAfter": 1794524684
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xe4011791",
+              "time": "0x6af64605",
+              "nonce": "0x000039ab"
+            }
+          }
+        },
+        "resourceSha256": "d9e7c44ab07cef86e86a4a6e76b90093dba55aa95f43536fe3376d337c464e86"
+      },
+      {
+        "id": "d09fcf125e5d5335656702bf0221adcf4e6578b30136305bb356c8726305d69d",
+        "createdAt": 1794522420000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xb2c7a9ed406a6bc86b33bf5ee0d13a6cdb45c1cc9560df5e21dea4fd38e3a1a5",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "009662f7",
+            "score": "0x0000be43f84cbc0c1a3916b78d5e47e8df3fcdc5a8f37aad45c99734c826aa43",
+            "fingerprint": "0xb2c7a9ed406a6bc86b33bf5ee0d13a6cdb45c1cc9560df5e21dea4fd38e3a1a5",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_a586429c1904140aca8ae994c538d8a1"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "009662f7",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d30",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6d4b61f0b4ba9fb92941f5eae082d81b85a9f605ea86446e996d1184c898d9587f01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004303df66affffffff01c6c0a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "313f17ae533476706d12ad1200b99fc183d774f26967ba65f890e1dfac50f4b0",
+                    "986f05a18b43da84bd8238a12931feead779088d6f7caa03abdcfd4e3bb858c5"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522440,
+                "refreshAfter": 1794522429
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x479d58f5",
+              "time": "0x6af63d30",
+              "nonce": "0x0000233f"
+            }
+          }
+        },
+        "resourceSha256": "f5f5c0bf43174466b153dac5f0335f0b11ea1ef2dc455d58151ef3d35d536aeb"
+      },
+      {
+        "id": "5c3e84ab56e7352697cd27bb5a8bd35d7eecdc0a7bcc16115feaff14df5b4001",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xa13044d60ab0b7425c15958de44c72a5cc25bd88531c051494da6e2027ca1c5f",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "0096609a",
+            "score": "0x000188f02f6f14048739ef4b9d3480c3ab8e06e160304654a61d73e913df3bb6",
+            "fingerprint": "0xa13044d60ab0b7425c15958de44c72a5cc25bd88531c051494da6e2027ca1c5f",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_e4d66c2d6a12a77fbf4cdae4f986c0f4"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "0096609a",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d26",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6d0f7379c7a0d26e38eaefb38576ee9620da4dcfb2e3db51af36d3beeb5293edcd01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004263df66affffffff01e4bfa912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "4ff9f9e49932770b604fa8fc0bcdeb3c2803161a22052b662b83ea94a798b8a2",
+                    "339647a2ca6d4fda69c1fd24a34619053e891064d726560939013cc69e539d1d"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522431,
+                "refreshAfter": 1794522420
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xce24124d",
+              "time": "0x6af63d26",
+              "nonce": "0x00005352"
+            }
+          }
+        },
+        "resourceSha256": "c678b36e447ee0aa756c8dd674612faf6a09aaacbde7caf13ac839ce33509f45"
+      },
+      {
+        "id": "195a4b776b12b00fc764434964da67dea662b190ae346708106ba4ebc3d2d804",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xa68ffc9d0c00070703dafeb6bb0f860f36cde805035f5b70cd9e793882bbb257",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "0096609a",
+            "score": "0x000039620a87728e035af2916a66450568af0f5f81a6ab62bf95f38418798dab",
+            "fingerprint": "0xa68ffc9d0c00070703dafeb6bb0f860f36cde805035f5b70cd9e793882bbb257",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_e5e914597f1370c93c306bdd0f1be215"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "0096609a",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d26",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6d0f7379c7a0d26e38eaefb38576ee9620da4dcfb2e3db51af36d3beeb5293edcd01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004263df66affffffff01e4bfa912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "4ff9f9e49932770b604fa8fc0bcdeb3c2803161a22052b662b83ea94a798b8a2",
+                    "339647a2ca6d4fda69c1fd24a34619053e891064d726560939013cc69e539d1d"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522423,
+                "refreshAfter": 1794522412
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xf404d7ce",
+              "time": "0x6af63d26",
+              "nonce": "0x00007c0d"
+            }
+          }
+        },
+        "resourceSha256": "fb10228c357171346b1c304aaa773e94bb6e1f002cf2bb3e30aa832682e685f4"
+      },
+      {
+        "id": "bf612b577924a3dcd840391e72dc454fb45c7660ee77a96dcbb8d7309535a348",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0x239646a67452d80b32e341455b8e685aa18838f5da101c69e27fce939c607c6d",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00965e4f",
+            "score": "0x000003066205537a7132936e56c74fd7663d1a860a4b199660bb15cb05f2aa8c",
+            "fingerprint": "0x239646a67452d80b32e341455b8e685aa18838f5da101c69e27fce939c607c6d",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_0d2876688f6cd97f8267b021e21c156f"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "00965e4f",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d1c",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6dff16de9298e02d9e6a762087aa863c32e02504f02b5a50b660ba9743f679199301000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f00000000000000000000000000000000041c3df66affffffff01e4bfa912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "4ff9f9e49932770b604fa8fc0bcdeb3c2803161a22052b662b83ea94a798b8a2",
+                    "339647a2ca6d4fda69c1fd24a34619053e891064d726560939013cc69e539d1d"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522416,
+                "refreshAfter": 1794522405
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x43b8342e",
+              "time": "0x6af63d1c",
+              "nonce": "0x0000061b"
+            }
+          }
+        },
+        "resourceSha256": "226b0b975aabc7b91c484cfebf06532c8818bc6e1fbf1f295c03d4ef91fe894a"
+      },
+      {
+        "id": "ed6382ea0680150bb6474a61d7af7e2abbc04e113a3b255056dbd87b7003604e",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0x646b205007af06461ccf3aa2d4e3bc542fba799d16e92095aa4030551f6ddd00",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00965d24",
+            "score": "0x000165fed29ef00df8e6e56df2bdedfc3c843316ccd05e90231b5d7b6b65da71",
+            "fingerprint": "0x646b205007af06461ccf3aa2d4e3bc542fba799d16e92095aa4030551f6ddd00",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_9a2f7d78ef776c4ca3879dc1e04cf1a1"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "00965d24",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d12",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6dd8dab10b9172b38a43fd2ae907d62a590423611d8cb457b5baf0533930a2636701000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004123df66affffffff018fb4a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "fb0a140a9cc815cddd3b99676f3c4e63be10e6761006f3d66b3f2a154175adea",
+                    "ad8b01425f6d2321358b57b7c6b9886e8db2bcc1c6a25e3409dd8e1246e6b962",
+                    "93e3ebb78c96e530bfdadbe402a5651c0b53f6ca1716da16b2d18873d8df0f01"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522408,
+                "refreshAfter": 1794522397
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x6ca1e84b",
+              "time": "0x6af63d12",
+              "nonce": "0x000064e2"
+            }
+          }
+        },
+        "resourceSha256": "574d8d4257403bff2b14203200637018b693d43f4bde541d0f1b8b0124c6a5e4"
+      },
+      {
+        "id": "1fd0896c6376803b110a050331fd25c81a0e7e4787e963ade8ae0dcff5141a5f",
+        "createdAt": 1794522360000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xaba6ca379d72c56dc213b7e55ed425f3646b4d4c4b092c8123b2e9f97330d33d",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00965ad2",
+            "score": "0x0000a2df2cc34b910c4802b670538dcb6f11022b3ed7e6b85b58f0fbd809076c",
+            "fingerprint": "0xaba6ca379d72c56dc213b7e55ed425f3646b4d4c4b092c8123b2e9f97330d33d",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_595b405701268d454486de4d1c797416"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "00965ad2",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63d08",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6ded16596655f69469b66df6f0d50fff496c60f3f3b4df445cb2319572e67b6dcc01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004083df66affffffff011da9a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "0e425bac",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "a3e4920860d7e9036cf1adc9cf6c02f4ad8794b4dd923ccf9fb0ed51548202f6",
+                    "5554d0f01222b79d57ffee60f911d44ac8fb8f3e5ce6d318584d96da25b2a34a",
+                    "4dded6a36e67250a8202e7d20d05f441a674c49a03f824df65eb5b70c4a486c4"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522399,
+                "refreshAfter": 1794522388
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xe8752d59",
+              "time": "0x6af63d08",
+              "nonce": "0x000094b3"
+            }
+          }
+        },
+        "resourceSha256": "d2a98b5d62e4e2278eb85617f58967e06650450fb1ee5bc8ac448490b1486d26"
+      },
+      {
+        "id": "1c373969a0dc758e7410825c619e53c4df3335c6ffcfd85275e7435d7bc17fc4",
+        "createdAt": 1794522300000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xe9dcb4fa69641587e0111ba26fbad7a24f101b77690b05adf28ab710789cdfa4",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00965708",
+            "score": "0x00014e3ad9b2eda2b77be4f0702d590f8447bd02afe9edf84b0e34269b54bf37",
+            "fingerprint": "0xe9dcb4fa69641587e0111ba26fbad7a24f101b77690b05adf28ab710789cdfa4",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_1f04cf04419b18224210cecb2824b4d6"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "00965708",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63cee",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6df0ba8a74274a6b10097c5dd25a7597e8c3f9495869304eb4d081f043a84e04d301000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004ee3cf66affffffff01f4a4a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "3e12e37a",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "a3e4920860d7e9036cf1adc9cf6c02f4ad8794b4dd923ccf9fb0ed51548202f6",
+                    "e6e21228e682053d570e8eea5bc36f5606a13b0b3787a7794dee6fe467de6a92",
+                    "ca687e6f3ebe2aa59ce4ce8d09c2f2e735f0baf66a71bb65560041256170acb8"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522373,
+                "refreshAfter": 1794522362
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x6c011a97",
+              "time": "0x6af63cee",
+              "nonce": "0x000029bf"
+            }
+          }
+        },
+        "resourceSha256": "c8cfcfda61f9c245f1bacbd974475896e91f646e40963753b8de7251789612e5"
+      },
+      {
+        "id": "085ed5b31b5caade23e546e25409c25ea53f5cba1205db7b3ad8ed44f02bbe46",
+        "createdAt": 1794522300000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0xa7c20e37847c4921a1fac13693ee5a5f30c47d376a1fe7db553cb12ccc116dab",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "009654c6",
+            "score": "0x00009a78d62f79f86d80893985105a00291bd040725021204f16aa7204d107d6",
+            "fingerprint": "0xa7c20e37847c4921a1fac13693ee5a5f30c47d376a1fe7db553cb12ccc116dab",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_a3a6feeb8bfcbc016026a554db7f45c7"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "009654c6",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63ce4",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6da4807456b3e4964f2dfbb897677e3947be470ff7fe18b05b437d6835f516886e01000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004e43cf66affffffff01eda2a912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "3e12e37a",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "71fa0b9b05429b054611365a67ccb539e2f103b7b8571aafe2321153a3fe5c85",
+                    "2c6d7c93f5891f2fb97ffbb7bde3989d93d178b05682446fa7e67e1266853b17",
+                    "25fbaaab632bd3129cc4939bff59205dd4b533ff59d95d521bb4660aaffb2f22",
+                    "c2f20784c862e22669f27f7a8df6fed212ae8233c739c9567d86913759a41122",
+                    "755e44f7b1f33e96e02bb65eccee67f48ceb724cc2628113cb9ca787bb1bd1be"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522365,
+                "refreshAfter": 1794522354
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x6ae777af",
+              "time": "0x6af63ce4",
+              "nonce": "0x00000ea1"
+            }
+          }
+        },
+        "resourceSha256": "5371cebc90a0b9d83be7896e98cfa94162e20f9a5ace0247618ad82c845f5881"
+      },
+      {
+        "id": "329286a1a7f80cc2af845b62991d71f3690945fe40289c50fcdf3f8a03cbb599",
+        "createdAt": 1794522300000,
+        "source": "facilitator",
+        "expectedGuesses": 40000,
+        "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+        "receipt": {
+          "success": true,
+          "transaction": "0x24af5af794b1a244d26e70153129b3e5704dcb45421be6f747d96e7472a64426",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "0096514b",
+            "score": "0x00005ebe784ae18ddcacfe95761a3c92d21e518fb1c24de5dff61c03dbcb7da4",
+            "fingerprint": "0x24af5af794b1a244d26e70153129b3e5704dcb45421be6f747d96e7472a64426",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site/api/contribution",
+            "mimeType": "application/json",
+            "description": "Voluntary Future Radio work contribution receipt \u00b7 x402-work wch_6a08e6aaea3398c1b6e686dd9899c4fe"
+          },
+          "accepted": {
+            "asset": "hash",
+            "extra": {
+              "job": {
+                "id": "0096514b",
+                "work": {
+                  "bits": "180229d1",
+                  "time": "6af63cda",
+                  "version": "20000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d2e80e2cfabe6d6db14954920f5cc41e6048d41bfa933055aed095077b570f24275756b396b4d76601000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004da3cf66affffffff01eb2ca912000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "extraNonce1": "3e12e37a",
+                  "merkleBranches": [
+                    "afa572436a509f5c7b9ccde3abc5e4bdc49cb4ab46076d622fc3e2eb563f4c00",
+                    "a1a70b17bf189de872f20f09f78f0695fe80cea47a237c67a61be6c02bfe82e6",
+                    "db74566651bdf4356ba24af50b4a1828c5b9475392aae401f8dc34c1ba8b5cbb",
+                    "ecc2287633e7154e0d79f9f7030f406d87df4ec3c30bad460db8875ffcd81dd7",
+                    "612bd1d32fad2821a82e7c20d27417ac253dffa335906b151650cb0695e336df",
+                    "131dd9d9068b264a68791b8badf0a551591d3ba4288442fb0d4978a70137c1bc",
+                    "7ef0d490b5f68b0173d109cb3781fec463a7001c733571c007e2cdca0c4bba82",
+                    "adde74e18804d7787c30239cced18301d0952af097dbe6f2bddfe4766cb356b4",
+                    "120821824e2844ab84d16ff70d5dd45a31e99a409c8eb7757027df032cac0394",
+                    "cd10a7de6bb9060045cd38221e5006b9c71e2a346a27e13fcb795f996b8f93f1",
+                    "770ea50e65709f6d12be5b6b3c6c9db7f090dfd88ae7dee638aea2b6892433ef"
+                  ],
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "300e3c5ce08049d8e5d8c9d0517a69e22c7a996a012ee8190000000000000000"
+                },
+                "expiresAt": 1794522351,
+                "refreshAfter": 1794522340
+              },
+              "name": "x402-work",
+              "profile": "quai/sha256d-v1",
+              "version": "1"
+            },
+            "payTo": "0x005a3560c44e506626a26352466429cc963f9fb7",
+            "amount": "40000",
+            "scheme": "work",
+            "network": "quai:9",
+            "maxTimeoutSeconds": 15
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0x98fb9304",
+              "time": "0x6af63cda",
+              "nonce": "0x000075cc"
+            }
+          }
+        },
+        "resourceSha256": "cb35c03faa81be32dffbea346d2c6b2dd6d55654254b74c89bf5f90a7403a488"
+      },
+      {
+        "id": "29d81a7e83a83b6651a8a1b0c55645b25923c5c34c372ff02af5b86f4dfa3d65",
+        "createdAt": 1794520740000,
+        "source": "live",
+        "expectedGuesses": 40000,
+        "payTo": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+        "receipt": {
+          "success": true,
+          "transaction": "0x4077af595a57c194870f4ea4e55ec0a9866ad23c7b84f92b3b78215078e33b14",
+          "network": "quai:9",
+          "amount": "40000",
+          "extra": {
+            "algorithm": "sha256d",
+            "profile": "quai/sha256d-v1",
+            "jobId": "00951e16",
+            "score": "0x00013b1a17e9de78b2709d8a48e43aceb3854b12db1c33529c77a9e264de9230",
+            "fingerprint": "0x4077af595a57c194870f4ea4e55ec0a9866ad23c7b84f92b3b78215078e33b14",
+            "sourceAccepted": false
+          }
+        },
+        "proof": {
+          "x402Version": 2,
+          "resource": {
+            "url": "https://x402.qu.ai/x402/v1/demo/image",
+            "description": "A hidden image, unlocked with x402 work",
+            "mimeType": "image/gif"
+          },
+          "accepted": {
+            "scheme": "work",
+            "network": "quai:9",
+            "amount": "40000",
+            "asset": "hash",
+            "payTo": "0x007f5ac8d9d06a27565172cb75f8e5589074f8e4",
+            "maxTimeoutSeconds": 15,
+            "extra": {
+              "name": "x402-work",
+              "version": "1",
+              "profile": "quai/sha256d-v1",
+              "job": {
+                "id": "00951e16",
+                "expiresAt": 1794520771,
+                "refreshAfter": 1794520760,
+                "work": {
+                  "extraNonce1": "98cddbfe",
+                  "extraNonce2Size": 4,
+                  "previousBlockHash": "537f315bc3ffa9a41e9c6b7bf8a13e0375545a85006f9bdc0000000000000000",
+                  "coinbase1": "02000000010000000000000000000000000000000000000000000000000000000000000000ffffffff6103d0e80e2cfabe6d6d378502aa6e3d6f19051e1eff28d7648db706b66b7a74772183e4e505ac5098e101000000000000002a",
+                  "coinbase2": "000000002f5374726174756d582e6f72672f0000000000000000000000000000000004aa36f66affffffff01b376a312000000001976a914019ebfbe19264d1610b30c7a7ba12447a72f4e8d88ac00000000",
+                  "merkleBranches": [
+                    "6702776f810995a157818a3e7449c6436905569a3ff8b193f4dfcbe5cc8cff00",
+                    "e781715bb6d2098841dcda6895ba256e53a246c290b6c30e4b8a7bc85349896c",
+                    "18cbf45640cb0bd6589b809902117f0afaae5429e707090e9e03500efaa363d5",
+                    "3e8c956beee358c49d0cd26f277c0c07091ce19f8b043e0524c6e7619357cd4a",
+                    "342dc4497b8dd3212174dab56c3f01da591b20ea01625823fa261bbe94b2df18",
+                    "0bb4310cca419e3c827a273ae99f1f9501514e6954e5f7b62e211dfaa5fe1ac2",
+                    "4166178882a0280cb7c70ff597e9f87e52036209f61646a90eb23b38c73bd6fa"
+                  ],
+                  "version": "20000000",
+                  "bits": "180228d8",
+                  "time": "6af636aa"
+                }
+              }
+            }
+          },
+          "payload": {
+            "solution": {
+              "extraNonce2": "0xeaafcc27",
+              "time": "0x6af636aa",
+              "nonce": "0x000026d1"
+            }
+          }
+        },
+        "resourceSha256": "d78d4d21dbe032374775649696085630762447ccae53d35fb95b711ad7ebefe8"
+      }
+    ],
+    "showRewardRecords": 0,
+    "showPayoutConfigured": true,
+    "actualMiningRewards": "unreconciled; a receipt is not a reward",
+    "humanAttention": "not measured or inferred",
+    "productionCostsUrl": "https://github.com/leo-guinan/future-radio-benchmarks/tree/main/benchmarks/001",
+    "episodeCostRecordStatus": "7 synthesis requests; 5,849 provider credits. Full production cost ledger linked; unknown dollar/power/labor values remain unknown.",
+    "asOf": "2026-11-12T23:04:49.259Z"
+  },
+  "actualMiningPerformed": true,
+  "actualMiningRewards": "unreconciled",
+  "snapshotNormalization": "Redundant encoded paymentResponseHeader fields omitted; decoded receipt fields and consumed public proofs retained."
+}

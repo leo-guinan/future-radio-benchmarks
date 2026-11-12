@@ -41,3 +41,7 @@ Production used 5,849 provider credits across seven requests (91.731 seconds com
 ## Configuration after publication
 
 The live Site now uses the user-designated Future Radio wallet. [Show-wallet update and source](updates/wallet-v1/README.md) records the routing change and its checks. Original audio, costs and demo rehearsal evidence above remain unchanged historical records.
+
+## Scene interface preview
+
+[Scene UI, source and checks](updates/scene-v1/README.md) records the room, central animated episode, treadmill robot and single Turn On / Turn Off control. It preserves the current wallet routing and original audio assets.

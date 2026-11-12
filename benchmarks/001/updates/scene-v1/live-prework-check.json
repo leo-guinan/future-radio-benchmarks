@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-11-12T23:03:28.120532+00:00",
+  "site": "https://future-radio-computational-treadmill.hitchhiker2thefuture.chatgpt.site",
+  "maximumRealWorkAttempts": 1,
+  "maximumHashes": 100000,
+  "maximumWorkerMilliseconds": 3000,
+  "wallet": "0x005a3560c44e506626a26352466429cc963f9fb7",
+  "showPayoutClaimed": false,
+  "status": "prework_browser_wait_failed",
+  "actualMiningPerformed": false,
+  "workersCreated": 0,
+  "reason": "Test waited for network idle while episode media was loading. The failure occurred before playback or Turn On; no work request was submitted."
+}

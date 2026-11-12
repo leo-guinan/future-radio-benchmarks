@@ -1,0 +1,29 @@
+{
+  "realMiningPerformed": false,
+  "fixtureOnly": true,
+  "singleSwitchNoCheckbox": true,
+  "armedOnWaitsForPlayback": true,
+  "actualWorkerPhaseDrivesRobot": true,
+  "checkingAndRestDoNotAnimateRobot": true,
+  "offCancelsNextJob": true,
+  "pauseKeepsSwitchOnAndStopsWorker": true,
+  "playAutomaticallyResumes": true,
+  "hiddenPageParksAndReturnResumes": true,
+  "offDuringOfferPreventsWorker": true,
+  "transientFailureRetainsOnAndBacksOff": true,
+  "episodeEndTurnsOff": true,
+  "mobileNoHorizontalOverflow": true,
+  "smallPhone320NoHorizontalOverflow": true,
+  "originalSessionTimeLimitRetained": true,
+  "pageErrors": [],
+  "fixtureWorkActions": [
+    "challenge",
+    "complete",
+    "challenge",
+    "challenge",
+    "challenge",
+    "challenge",
+    "challenge",
+    "challenge"
+  ]
+}
