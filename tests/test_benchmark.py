@@ -3,13 +3,16 @@ from pathlib import Path
 spec=importlib.util.spec_from_file_location('benchmark',Path(__file__).resolve().parents[1]/'tools/benchmark.py');b=importlib.util.module_from_spec(spec);spec.loader.exec_module(b)
 class AccountingTests(unittest.TestCase):
     def test_actual_credits_and_both_attempts(self):
-        c=b.baseline_costs();self.assertEqual(c['measured']['providerCredits'],6689);self.assertEqual(c['measured']['mixAttempts'],2);self.assertEqual(c['measured']['recordedLocalStageWallSeconds'],364.92);self.assertIsNone(c['unknown']['providerCashUsd'])
+        c=b.baseline_costs();self.assertEqual(c['measured']['providerCredits'],6689);self.assertEqual(c['measured']['mixAttempts'],2);self.assertEqual(c['measured']['recordedLocalStageWallSeconds'],364.92);self.assertIsNone(c['unknown']['providerCashUsd']);self.assertEqual(c['measured']['agentUncachedInputTokens'],86413)
     def test_scenarios_do_not_invent_totals(self):
         c=b.baseline_costs();self.assertEqual(b.estimates(c,{})['results'],{})
         s=b.estimates(c,{'usdPerSynthesisCredit':.01,'averageLocalWatts':100})
         self.assertAlmostEqual(s['results']['synthesisScenarioUsd'],66.89)
         self.assertAlmostEqual(s['results']['recordedLocalEnergyScenarioKwh'],364.92*100/3600000)
         self.assertIsNone(c['unknown']['providerCashUsd'])
+        token_scenario=b.estimates(c,{'usdPerMillionUncachedInputTokens':1,'usdPerMillionCachedInputTokens':.1,'usdPerMillionOutputTokens':2})
+        self.assertAlmostEqual(token_scenario['results']['inputUncachedScenarioUsd'],.086413)
+        self.assertAlmostEqual(token_scenario['results']['outputScenarioUsd'],.076706)
         with self.assertRaises(ValueError):b.estimates(c,{'usdPerSynthesisCredit':-1})
 class PaidBoundaryTests(unittest.TestCase):
     def test_fresh_synthesis_requires_opt_in_before_network_or_marker(self):

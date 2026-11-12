@@ -12,12 +12,22 @@
     "videoCaptureAndInitialMuxWallSeconds": 245.544,
     "recordedLocalStageWallSeconds": 364.92,
     "orchestrationElapsedSeconds": 991.9,
-    "episodeSeconds": 609.29
+    "episodeSeconds": 609.29,
+    "agentTokenUsage": {
+      "input_tokens": 6990861,
+      "cached_input_tokens": 6904448,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38353,
+      "reasoning_output_tokens": 10971,
+      "total_tokens": 7029214
+    },
+    "agentUncachedInputTokens": 86413,
+    "agentModel": "gpt-6.1-sol",
+    "completeProductionTurnElapsedSeconds": 1103.259
   },
   "unknown": {
     "providerCashUsd": null,
     "creditValueUsd": null,
-    "agentTokens": null,
     "agentComputeUsd": null,
     "humanActiveMinutes": null,
     "humanLaborUsd": null,

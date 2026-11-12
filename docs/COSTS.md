@@ -8,7 +8,7 @@ A reported credit is a provider accounting unit, not a US dollar charge.
 | Cost boundary | Recorded evidence | Missing evidence |
 | --- | --- | --- |
 | Source/brief and character development | Frozen supplied text; no separate script-generation call | Prior authoring and character/voice creation effort |
-| Agent planning, coding and review | Overall original elapsed time, 991.9 s | Per-model tokens, charges and active authoring time |
+| Agent planning, coding and review | Completed turn telemetry: 6,990,861 input (6,904,448 cached), 38,353 output (10,971 reasoning), gpt-6.1-sol; 1,103.259 s turn elapsed | Actual agent cash charge, human active authoring time |
 | Voice/model readiness preflight | Voice IDs, model availability, planned characters | Preflight duration; account-wide quota intentionally omitted |
 | Nine synthesis calls | Exact request, response ID, alignment, raw take hash, credits, request wall seconds | Cash debit/invoice; provider compute and energy |
 | Alignment, procedural effects and mix | Two mix attempt receipts, 114.770 s total | Full child-process CPU, power, manual decisions |
@@ -54,6 +54,26 @@ New synthesis credits count only newly produced provider receipts. Cached takes
 carry the baseline's historical synthesis cost, with **zero new synthesis credits**.
 If a paid request is unresolved, new credit cost is unknown until reconciled.
 
-Missing agent usage, power, human time and cash charges stay null. Attach independent
+Missing agent usage for new runs, power, human time and cash charges stay null. Attach independent
 measurements or invoices with their own scope and hashes. Do not relabel the credits
 reported by a reused production receipt as fresh spending on the replay.
+
+## Recovered original agent usage
+
+The original local Codex session retains cumulative usage counters. A content-free
+extraction of the completed episode production turn recovers **6,990,861 input
+ tokens**, including **6,904,448 cached** (86,413 uncached), plus **38,353 output
+ tokens**, including **10,971 reasoning**. Total is 7,029,214 input-plus-output tokens.
+Repeated context processing is included; this is not a unique-text word count.
+Cached input and reasoning output are subsets, not additional token categories.
+
+`evidence/agent-usage.json` records the selected model/turn, start/end counters and
+derivation; `agent-token-events.json` contains only timestamped counters, with no
+conversation, instruction or tool payloads. `tools/extract_agent_usage.py` can
+repeat the extraction from a locally retained rollout. The extraction deliberately
+excludes the later repository-building turn and cached replay.
+
+Full original model-turn elapsed time is **1,103.259 seconds**. The older **991.9 s**
+clock stopped earlier during packaging. Both are retained with separate scopes;
+neither is measured human effort. No actual agent invoice is available. Optional
+per-million cached/uncached/output rates produce scenarios, not billed charges.

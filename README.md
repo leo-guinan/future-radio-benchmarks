@@ -46,7 +46,9 @@ resource evidence to a linked event log. Cached output reuse is checked by hash.
 | Final video audio | −16.01 LUFS, −1.29 dBTP |
 | Exact dialogue/source alignment | 283 of 283 lines |
 | Renderer regression tests | 39 passed |
-| Cash, agent tokens, human effort, energy | Unknown; not zero |
+| Agent input / cached subset | 6,990,861 / 6,904,448 tokens |
+| Agent output / reasoning subset | 38,353 / 10,971 tokens |
+| Cash, human effort, energy | Unknown; not zero |
 
 The synthesis account is grant-backed. Credits are measured; neither cash charges
 nor an exchange rate are established. The ledger includes both local mixes, not

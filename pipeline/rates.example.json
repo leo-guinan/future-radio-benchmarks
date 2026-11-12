@@ -3,5 +3,8 @@
   "humanActiveMinutes": null,
   "humanUsdPerHour": null,
   "averageLocalWatts": null,
-  "electricityUsdPerKwh": null
+  "electricityUsdPerKwh": null,
+  "usdPerMillionUncachedInputTokens": null,
+  "usdPerMillionCachedInputTokens": null,
+  "usdPerMillionOutputTokens": null
 }

@@ -1,0 +1,31 @@
+{
+  "turnId": "01a1d0e9-e871-7433-b16f-36981e407244",
+  "model": "gpt-6.1-sol",
+  "startedAt": "2026-11-12T17:59:13.120Z",
+  "completedAt": "2026-11-12T18:17:36.379Z",
+  "scope": "Original episode production turn only; repository creation and later replay excluded.",
+  "source": "Local Codex session usage telemetry; no chat/tool payloads published.",
+  "counterBeforeTurn": {},
+  "counterAtTurnEnd": {
+    "input_tokens": 6990861,
+    "cached_input_tokens": 6904448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38353,
+    "reasoning_output_tokens": 10971,
+    "total_tokens": 7029214
+  },
+  "turnUsage": {
+    "input_tokens": 6990861,
+    "cached_input_tokens": 6904448,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 38353,
+    "reasoning_output_tokens": 10971,
+    "total_tokens": 7029214
+  },
+  "uncachedInputTokens": 86413,
+  "elapsedTurnSeconds": 1103.259,
+  "eventCount": 66,
+  "cashChargeUsd": null,
+  "accounting": "Cached input is a subset of input; reasoning output is a subset of output. Do not add either subset again. Reported token counters are not an invoice.",
+  "eventsSha256": "af67e480f036609f08e3c79f4202a74c6c56710c8b96bd8c66aa99905445b379"
+}

@@ -22,8 +22,9 @@ def baseline_costs():
     scenes=[]
     for p in sorted((ROOT/'benchmarks/000/reference/audio-v1').glob('scene-??.json')):
         s=read(p);scenes.append({'scene':s['sceneId'],'synthesisCredits':int(s['characterCost']),'requestWallSeconds':s['requestWallSeconds'],'evidence':str(p.relative_to(ROOT))})
+    agent=read(evidence/'agent-usage.json')
     known_local=attempts['totalMixWallSeconds']+attempts['styleSampleWallSeconds']+attempts['fullVideoCaptureAndInitialMuxWallSeconds']
-    return {'benchmark':'000','measurementStatus':'partial_cost_baseline','currency':'USD','measured':{'providerCredits':sum(s['synthesisCredits'] for s in scenes),'providerRequests':len(scenes),'providerRequestWallSeconds':round(sum(s['requestWallSeconds'] for s in scenes),3),'mixAttempts':attempts['mixCount'],'mixWallSeconds':attempts['totalMixWallSeconds'],'styleSampleWallSeconds':attempts['styleSampleWallSeconds'],'videoCaptureAndInitialMuxWallSeconds':attempts['fullVideoCaptureAndInitialMuxWallSeconds'],'recordedLocalStageWallSeconds':round(known_local,3),'orchestrationElapsedSeconds':r['elapsedSinceProductionPreparationSeconds'],'episodeSeconds':r['runtimeSeconds']},'unknown':{'providerCashUsd':None,'creditValueUsd':None,'agentTokens':None,'agentComputeUsd':None,'humanActiveMinutes':None,'humanLaborUsd':None,'electricityKwh':None,'electricityUsd':None,'hardwareDepreciationUsd':None,'setupAndAuthoringTimeSeconds':None,'verificationTimeSeconds':None,'finalAudioRemuxSeconds':None,'uploadTimeSeconds':None},'accounting':{'account':'Grant-backed ElevenLabs account. Credit expenditure is measured; no cash-equivalent rate is inferred.','timing':'Provider request timers include network and provider waits. Local stage timers exclude uninstrumented preparation, tests, QA and final remux. Stage sum is not total active time.','orchestration':'991.9 s is elapsed since script preparation through original packaging; includes approval wait and agent work, not independently measured human active effort.','reusedAssets':'Renderer, canonical voices, Foley and prior production tooling existed before this run. Their historical creation cost is unmeasured and excluded from incremental totals, not assumed free.','mixes':'Both mixing attempts included; printer revision reused all paid takes and video frames.','cashTotal':'Cannot calculate a complete total from the retained evidence. Unknown is never zero.'},'scenes':scenes,'evidence':'benchmarks/000/baseline/evidence/receipt.json'}
+    return {'benchmark':'000','measurementStatus':'partial_cost_baseline','currency':'USD','measured':{'providerCredits':sum(s['synthesisCredits'] for s in scenes),'providerRequests':len(scenes),'providerRequestWallSeconds':round(sum(s['requestWallSeconds'] for s in scenes),3),'mixAttempts':attempts['mixCount'],'mixWallSeconds':attempts['totalMixWallSeconds'],'styleSampleWallSeconds':attempts['styleSampleWallSeconds'],'videoCaptureAndInitialMuxWallSeconds':attempts['fullVideoCaptureAndInitialMuxWallSeconds'],'recordedLocalStageWallSeconds':round(known_local,3),'orchestrationElapsedSeconds':r['elapsedSinceProductionPreparationSeconds'],'episodeSeconds':r['runtimeSeconds'],'agentTokenUsage':agent['turnUsage'],'agentUncachedInputTokens':agent['uncachedInputTokens'],'agentModel':agent['model'],'completeProductionTurnElapsedSeconds':agent['elapsedTurnSeconds']},'unknown':{'providerCashUsd':None,'creditValueUsd':None,'agentComputeUsd':None,'humanActiveMinutes':None,'humanLaborUsd':None,'electricityKwh':None,'electricityUsd':None,'hardwareDepreciationUsd':None,'setupAndAuthoringTimeSeconds':None,'verificationTimeSeconds':None,'finalAudioRemuxSeconds':None,'uploadTimeSeconds':None},'accounting':{'account':'Grant-backed ElevenLabs account. Credit expenditure is measured; no cash-equivalent rate is inferred.','timing':'Provider request timers include network and provider waits. Local stage timers exclude uninstrumented preparation, tests, QA and final remux. Stage sum is not total active time.','orchestration':'991.9 s is elapsed since script preparation through original packaging; includes approval wait and agent work, not independently measured human active effort.','reusedAssets':'Renderer, canonical voices, Foley and prior production tooling existed before this run. Their historical creation cost is unmeasured and excluded from incremental totals, not assumed free.','mixes':'Both mixing attempts included; printer revision reused all paid takes and video frames.','cashTotal':'Cannot calculate a complete total from the retained evidence. Unknown is never zero.'},'scenes':scenes,'evidence':'benchmarks/000/baseline/evidence/receipt.json'}
 
 def estimates(costs,rates):
     for name,value in rates.items():
@@ -33,6 +34,9 @@ def estimates(costs,rates):
     for name,key,quantity in mappings:
         if rates.get(key) is not None and (key!='humanUsdPerHour' or rates.get('humanActiveMinutes') is not None):out[name]=float(rates[key])*quantity
     if 'recordedLocalEnergyScenarioKwh' in out and rates.get('electricityUsdPerKwh') is not None:out['recordedLocalElectricityScenarioUsd']=out['recordedLocalEnergyScenarioKwh']*rates['electricityUsdPerKwh']
+    token_rates=[('inputUncachedScenarioUsd','usdPerMillionUncachedInputTokens',measured['agentUncachedInputTokens']),('inputCachedScenarioUsd','usdPerMillionCachedInputTokens',measured['agentTokenUsage']['cached_input_tokens']),('outputScenarioUsd','usdPerMillionOutputTokens',measured['agentTokenUsage']['output_tokens'])]
+    for name,key,tokens in token_rates:
+        if rates.get(key) is not None:out[name]=rates[key]*tokens/1000000
     return {'status':'user-supplied-rate scenario; not observed charges','assumptions':rates,'results':out,'scope':'Energy uses only recorded local stage seconds, excluding setup, QA, waiting, cloud power and other unrecorded work. No complete total is claimed.'}
 
 def verify_baseline():
@@ -46,6 +50,10 @@ def verify_baseline():
     expected=[(name.replace(' ','').lower(),text) for name,text in re.findall(r'^(LEONARDO|BORGES|AGN OLO):\s*(.+)$',source,re.M)]
     actual=[(e['characterId'],e['text']) for scene in script['scenes'] for e in scene['events'] if e['type']=='dialogue']
     assert expected==actual
+    agent=read(base/'baseline/evidence/agent-usage.json');events=read(base/'baseline/evidence/agent-token-events.json')
+    assert hashlib.sha256(json.dumps(events,sort_keys=True,separators=(',',':')).encode()).hexdigest()==agent['eventsSha256']
+    assert events[-1]['totalTokenUsage']==agent['counterAtTurnEnd']
+    for key,value in agent['turnUsage'].items():assert value==agent['counterAtTurnEnd'][key]-agent['counterBeforeTurn'].get(key,0)
     credits=0;lines=0
     for s in plan['scenes']:
         r=read(ref/'audio-v1'/(s['sceneId']+'.json'));req=read(ref/'audio-v1'/(s['sceneId']+'.request.json'))
@@ -76,6 +84,8 @@ def initialize(run_id,config):
         shutil.copytree(ROOT/config['reference'],work,dirs_exist_ok=True)
         shutil.copytree(ROOT/'benchmarks/000/baseline/evidence',work,dirs_exist_ok=True)
         save(run/'config.json',config);save(run/'input-snapshot.json',files(work,['**/*']))
+        inherited=sum(int(read(p)['characterCost']) for p in (work/'audio-v1').glob('scene-??.json'))
+        save(run/'inherited-costs.json',{'synthesisCredits':inherited,'scope':'Historical provider credits represented by cached input receipts; not new spending.'})
     elif read(run/'config.json')!=config:raise ValueError('Run config changed. Choose a new run ID to preserve the prior experiment.')
     return run,work
 
@@ -121,21 +131,33 @@ def run_pipeline(args,config):
     print('Run evidence: '+str(run/'events.jsonl'))
 
 def verify_run(run_id):
-    run=ROOT/'runs'/run_id;previous=None;totals={'wallSeconds':0,'childCpuSeconds':0,'newSynthesisCredits':0};stages=0
+    run=ROOT/'runs'/run_id;previous=None;pending=set();totals={'wallSeconds':0,'childCpuSeconds':0,'newSynthesisCredits':0};stages=0
     for sequence,line in enumerate((run/'events.jsonl').read_text().splitlines()):
         event=json.loads(line);digest=event.pop('hash')
         assert event['sequence']==sequence and event['previousHash']==previous,'Event chain broken'
         assert hashlib.sha256(json.dumps(event,sort_keys=True,separators=(',',':')).encode()).hexdigest()==digest,'Event changed'
         previous=digest
+        if event['status']=='started':pending.add(event['stage'])
+        else:pending.discard(event['stage'])
         if event['status']!='started':
             stages+=1;totals['wallSeconds']+=event['wallSeconds'];totals['childCpuSeconds']+=event['childUserCpuSeconds']+event['childSystemCpuSeconds']
             if event['newSynthesisCredits'] is None:totals['newSynthesisCredits']=None
             elif totals['newSynthesisCredits'] is not None:totals['newSynthesisCredits']+=event['newSynthesisCredits']
     for p in run.glob('*.json'):
-        if p.name in ['config.json','input-snapshot.json']:continue
+        if p.name in ['config.json','input-snapshot.json','inherited-costs.json']:continue
         checkpoint=read(p)
         for name,digest in checkpoint['outputs'].items():assert sha(run/'work'/name)==digest,'Output changed: '+name
-    return {'run':run_id,'eventChain':'verified','stageAttempts':stages,'incrementalTotals':totals,'inheritedSynthesisCredits':6689,'unmeasuredCashUsd':None,'unmeasuredEnergyKwh':None}
+    inherited_file=run/'inherited-costs.json'
+    if inherited_file.exists():inherited=read(inherited_file)['synthesisCredits']
+    else:
+        snapshot=read(run/'input-snapshot.json');inherited=0
+        for p in (run/'work/audio-v1').glob('scene-??.json'):
+            name=p.relative_to(run/'work').as_posix()
+            if name in snapshot:
+                if snapshot[name]!=sha(p):inherited=None;break
+                inherited+=int(read(p)['characterCost'])
+    if pending:totals['newSynthesisCredits']=None
+    return {'run':run_id,'eventChain':'verified','unfinishedStages':sorted(pending),'stageAttempts':stages,'incrementalTotals':totals,'inheritedSynthesisCredits':inherited,'unmeasuredCashUsd':None,'unmeasuredEnergyKwh':None}
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--config',default=str(ROOT/'pipeline/reference-v1.json'));sub=p.add_subparsers(dest='action',required=True)
